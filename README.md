@@ -1,10 +1,12 @@
 # Rhythm without recruitment
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22957834.svg)](https://doi.org/10.5281/zenodo.22957834)
+
 Code, derived data and verification outputs for the preprint
 
 > **Yupeng Ning.** *Rhythm without recruitment: a falsification-first audit of a connectome-constrained ventral nerve cord model as a controller for a simulated* Drosophila *body.* Preprint (2026). Beijing ZHYU Tech Corp. Correspondence: ningyp@gmail.com
 
-The manuscript source and PDF are in [`paper/`](paper/). Each GitHub release of this repository is archived on Zenodo with a DOI.
+The manuscript source and PDF are in [`paper/`](paper/). Each GitHub release is archived on Zenodo; the concept DOI [10.5281/zenodo.22957834](https://doi.org/10.5281/zenodo.22957834) always resolves to the latest version.
 
 ## What this repository is
 
@@ -79,4 +81,4 @@ This repository's own code is released under the MIT License (see [`LICENSE`](LI
 
 ## Citation
 
-Please cite the preprint; machine-readable metadata are in [`CITATION.cff`](CITATION.cff).
+Please cite the preprint. To cite the code and data, use the Zenodo concept DOI [10.5281/zenodo.22957834](https://doi.org/10.5281/zenodo.22957834), or the version-specific DOI shown on the Zenodo record. Machine-readable metadata are in [`CITATION.cff`](CITATION.cff).

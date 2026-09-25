@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-24",
+  "checks": {
+    "all_four_cases": true,
+    "official_source_neuron_identity": true,
+    "chunked_adaptive_matches_one_shot_rk45": true,
+    "body_forward_recomputed_from_saved_positions": true,
+    "sensory_cut_nearly_recovers_no_sensory_with_solver_roundoff": true,
+    "sensory_signal_really_present": true,
+    "physical_feedback_changes_source_network_above_cut_roundoff": true,
+    "sample_order_control_preserves_euler_five_E1": true,
+    "walking_not_claimed": true
+  },
+  "passed": true,
+  "chunked_vs_one_shot_source_mae_hz": 0.00011112262291135266,
+  "cut_vs_baseline_selected_mae_hz": 8.672684634802863e-05,
+  "feedback_vs_baseline_selected_mae_hz": 0.06660403311252594,
+  "sensory_cut_body_position_max_difference_mm": 1.289206187493619e-05,
+  "tolerance_note": "Cut-control tolerances are exploratory post-result numerical diagnostics, not a preregistered biological effect threshold.",
+  "goal_complete": false
+}

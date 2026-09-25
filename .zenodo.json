@@ -1,0 +1,35 @@
+{
+  "title": "Rhythm without recruitment: analysis code, derived data and verification",
+  "description": "Analysis and verification code, derived result files and figure scripts accompanying the preprint 'Rhythm without recruitment: a falsification-first audit of a connectome-constrained ventral nerve cord model as a controller for a simulated Drosophila body' (Yupeng Ning, 2026). The repository re-derives every number and figure of the paper from saved simulation results of the published MANC rate model (Pugliese et al.), including a re-analysis of all 128 author-saved parameter sets, a full-network integrator convergence test, and a 53-item check of the manuscript's quantitative claims.",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Ning, Yupeng",
+      "affiliation": "Beijing ZHYU Tech Corp"
+    }
+  ],
+  "keywords": [
+    "Drosophila",
+    "connectome",
+    "ventral nerve cord",
+    "central pattern generator",
+    "motor neuron recruitment",
+    "neuromechanical simulation",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1101/2025.09.12.675944",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://zenodo.org/records/22260924",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    }
+  ],
+  "version": "1.0.0"
+}

@@ -1,0 +1,145 @@
+{
+  "source": "https://zenodo.org/records/22260924",
+  "scope": "Independent RK45 replay of exact author checkpoint row10 discovery and row78 heldout, original published adaptive tolerances and 1ms max step",
+  "parameter_rows": [
+    10,
+    78
+  ],
+  "rows": [
+    {
+      "parameter_row": 10,
+      "split": "discovery",
+      "E1_left_sustained": false,
+      "E1_right_sustained": false,
+      "E1_left_frequency_hz": null,
+      "sides": {
+        "LHS": {
+          "pools": {
+            "coxa stance": {
+              "ever_over_1_hz": 5,
+              "mean_hz": 93.11221313476562,
+              "pool_range_hz": 123.70378875732422
+            },
+            "coxa swing": {
+              "ever_over_1_hz": 7,
+              "mean_hz": 94.2189712524414,
+              "pool_range_hz": 114.40058135986328
+            },
+            "tibia flex": {
+              "ever_over_1_hz": 11,
+              "mean_hz": 82.2000732421875,
+              "pool_range_hz": 28.51111602783203
+            },
+            "tibia extend": {
+              "ever_over_1_hz": 2,
+              "mean_hz": 64.57088470458984,
+              "pool_range_hz": 140.79359436035156
+            }
+          },
+          "tibia_both_variable": true,
+          "tibia_correlation": 0.19253592196395627,
+          "tibia_antiphase": false
+        },
+        "RHS": {
+          "pools": {
+            "coxa stance": {
+              "ever_over_1_hz": 1,
+              "mean_hz": 0.056151363998651505,
+              "pool_range_hz": 3.372360944747925
+            },
+            "coxa swing": {
+              "ever_over_1_hz": 7,
+              "mean_hz": 163.02279663085938,
+              "pool_range_hz": 86.04398345947266
+            },
+            "tibia flex": {
+              "ever_over_1_hz": 14,
+              "mean_hz": 153.63543701171875,
+              "pool_range_hz": 65.5696792602539
+            },
+            "tibia extend": {
+              "ever_over_1_hz": 2,
+              "mean_hz": 107.47987365722656,
+              "pool_range_hz": 90.74297332763672
+            }
+          },
+          "tibia_both_variable": true,
+          "tibia_correlation": -0.4046859478327016,
+          "tibia_antiphase": true
+        }
+      },
+      "left_joint_gate": false
+    },
+    {
+      "parameter_row": 78,
+      "split": "heldout",
+      "E1_left_sustained": true,
+      "E1_right_sustained": false,
+      "E1_left_frequency_hz": 5.555555555555555,
+      "sides": {
+        "LHS": {
+          "pools": {
+            "coxa stance": {
+              "ever_over_1_hz": 1,
+              "mean_hz": 0.11946805566549301,
+              "pool_range_hz": 0.3496626615524292
+            },
+            "coxa swing": {
+              "ever_over_1_hz": 2,
+              "mean_hz": 2.3246593475341797,
+              "pool_range_hz": 2.6427083015441895
+            },
+            "tibia flex": {
+              "ever_over_1_hz": 0,
+              "mean_hz": 2.2354241667379288e-13,
+              "pool_range_hz": 1.4116942857744785e-11
+            },
+            "tibia extend": {
+              "ever_over_1_hz": 0,
+              "mean_hz": 0.0,
+              "pool_range_hz": 0.0
+            }
+          },
+          "tibia_both_variable": false,
+          "tibia_correlation": null,
+          "tibia_antiphase": false
+        },
+        "RHS": {
+          "pools": {
+            "coxa stance": {
+              "ever_over_1_hz": 4,
+              "mean_hz": 2.1716630458831787,
+              "pool_range_hz": 4.487477779388428
+            },
+            "coxa swing": {
+              "ever_over_1_hz": 0,
+              "mean_hz": 0.0,
+              "pool_range_hz": 0.0
+            },
+            "tibia flex": {
+              "ever_over_1_hz": 7,
+              "mean_hz": 3.4826459884643555,
+              "pool_range_hz": 6.841116905212402
+            },
+            "tibia extend": {
+              "ever_over_1_hz": 0,
+              "mean_hz": 0.0,
+              "pool_range_hz": 0.0
+            }
+          },
+          "tibia_both_variable": false,
+          "tibia_correlation": null,
+          "tibia_antiphase": false
+        }
+      },
+      "left_joint_gate": false
+    }
+  ],
+  "checks": {
+    "both_solutions_finite": true,
+    "both_source_stimuli_250": true,
+    "both_rows_original_graph_and_params": true
+  },
+  "body_walking_achieved": false,
+  "passed": true
+}

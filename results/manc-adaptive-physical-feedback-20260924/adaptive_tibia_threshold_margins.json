@@ -1,0 +1,716 @@
+{
+  "date": "2026-09-24",
+  "source": "https://zenodo.org/records/22260924",
+  "scope": "Exact source-model pre-threshold net input for all 86 motor-module tibia flex/extend MNs, including 48 accessory tibia flexor cells, replaying recorded physical afferents; artificial DNg100+DNg75 remains",
+  "definition": "margin = source current + signed 0.03-scaled presynaptic input - source cell threshold; positive margin is not automatically a sustained spike or a physical step",
+  "records": [
+    {
+      "case": "no_sensory",
+      "selected_replay_mae_hz": 0.0,
+      "source_neurons": 23532,
+      "tibia_motor_cells": 86,
+      "rows": [
+        {
+          "leg": "T1L",
+          "motor_module": "tibia flex",
+          "motor_body_ids": [
+            12134,
+            13397,
+            14798,
+            15023,
+            15149,
+            15321,
+            15791,
+            16632,
+            17133,
+            17885,
+            18412,
+            18554,
+            23698,
+            101043,
+            166374
+          ],
+          "source_types": [
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN"
+          ],
+          "cell_count": 15,
+          "peak_margin": -3.401674747467041,
+          "mean_margin": -24.591413497924805,
+          "positive_margin_fraction": 0.0,
+          "peak_rate_hz": 0.0,
+          "active_cells_over_1hz": 0
+        },
+        {
+          "leg": "T1L",
+          "motor_module": "tibia extend",
+          "motor_body_ids": [
+            11657,
+            12704
+          ],
+          "source_types": [
+            "Ti extensor MN",
+            "Ti extensor MN"
+          ],
+          "cell_count": 2,
+          "peak_margin": -37.68836212158203,
+          "mean_margin": -49.311519622802734,
+          "positive_margin_fraction": 0.0,
+          "peak_rate_hz": 0.0,
+          "active_cells_over_1hz": 0
+        },
+        {
+          "leg": "T1R",
+          "motor_module": "tibia flex",
+          "motor_body_ids": [
+            12761,
+            13163,
+            13283,
+            13399,
+            13563,
+            13819,
+            14824,
+            14848,
+            15367,
+            18963,
+            19048,
+            20373,
+            20605,
+            26658,
+            26777
+          ],
+          "source_types": [
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Ti flexor MN",
+            "Ti flexor MN",
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN"
+          ],
+          "cell_count": 15,
+          "peak_margin": -8.170452117919922,
+          "mean_margin": -37.14865493774414,
+          "positive_margin_fraction": 0.0,
+          "peak_rate_hz": 0.0,
+          "active_cells_over_1hz": 0
+        },
+        {
+          "leg": "T1R",
+          "motor_module": "tibia extend",
+          "motor_body_ids": [
+            11706,
+            13115
+          ],
+          "source_types": [
+            "Ti extensor MN",
+            "Ti extensor MN"
+          ],
+          "cell_count": 2,
+          "peak_margin": -22.948820114135742,
+          "mean_margin": -48.617942810058594,
+          "positive_margin_fraction": 0.0,
+          "peak_rate_hz": 0.0,
+          "active_cells_over_1hz": 0
+        },
+        {
+          "leg": "T2L",
+          "motor_module": "tibia flex",
+          "motor_body_ids": [
+            10710,
+            13784,
+            14665,
+            14775,
+            15623,
+            16635,
+            17070,
+            21262,
+            24828,
+            25212,
+            100707,
+            153335
+          ],
+          "source_types": [
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Ti flexor MN"
+          ],
+          "cell_count": 12,
+          "peak_margin": -10.943117141723633,
+          "mean_margin": -22.91278839111328,
+          "positive_margin_fraction": 0.0,
+          "peak_rate_hz": 0.0,
+          "active_cells_over_1hz": 0
+        },
+        {
+          "leg": "T2L",
+          "motor_module": "tibia extend",
+          "motor_body_ids": [
+            10737,
+            11115
+          ],
+          "source_types": [
+            "Ti extensor MN",
+            "Ti extensor MN"
+          ],
+          "cell_count": 2,
+          "peak_margin": -41.155242919921875,
+          "mean_margin": -59.993621826171875,
+          "positive_margin_fraction": 0.0,
+          "peak_rate_hz": 0.0,
+          "active_cells_over_1hz": 0
+        },
+        {
+          "leg": "T2R",
+          "motor_module": "tibia flex",
+          "motor_body_ids": [
+            13280,
+            13746,
+            14849,
+            16495,
+            18448,
+            18664,
+            24443,
+            162868,
+            166397,
+            167438,
+            192299
+          ],
+          "source_types": [
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Ti flexor MN"
+          ],
+          "cell_count": 11,
+          "peak_margin": -10.358102798461914,
+          "mean_margin": -28.515464782714844,
+          "positive_margin_fraction": 0.0,
+          "peak_rate_hz": 0.0,
+          "active_cells_over_1hz": 0
+        },
+        {
+          "leg": "T2R",
+          "motor_module": "tibia extend",
+          "motor_body_ids": [
+            10461,
+            11489
+          ],
+          "source_types": [
+            "Ti extensor MN",
+            "Ti extensor MN"
+          ],
+          "cell_count": 2,
+          "peak_margin": -11.178913116455078,
+          "mean_margin": -52.52177429199219,
+          "positive_margin_fraction": 0.0,
+          "peak_rate_hz": 0.0,
+          "active_cells_over_1hz": 0
+        },
+        {
+          "leg": "T3L",
+          "motor_module": "tibia flex",
+          "motor_body_ids": [
+            12585,
+            12759,
+            13192,
+            13311,
+            14226,
+            14468,
+            15038,
+            17018,
+            19074,
+            25885,
+            176866
+          ],
+          "source_types": [
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN"
+          ],
+          "cell_count": 11,
+          "peak_margin": 16.098413467407227,
+          "mean_margin": -21.5610294342041,
+          "positive_margin_fraction": 0.028018679119412943,
+          "peak_rate_hz": 7.874741554260254,
+          "active_cells_over_1hz": 1
+        },
+        {
+          "leg": "T3L",
+          "motor_module": "tibia extend",
+          "motor_body_ids": [
+            10347,
+            13075
+          ],
+          "source_types": [
+            "Ti extensor MN",
+            "Ti extensor MN"
+          ],
+          "cell_count": 2,
+          "peak_margin": 29.48407554626465,
+          "mean_margin": -59.27080535888672,
+          "positive_margin_fraction": 0.1647765176784523,
+          "peak_rate_hz": 2.2114810943603516,
+          "active_cells_over_1hz": 1
+        },
+        {
+          "leg": "T3R",
+          "motor_module": "tibia flex",
+          "motor_body_ids": [
+            12474,
+            12725,
+            12758,
+            13170,
+            16228,
+            18491,
+            19260,
+            20593,
+            21991,
+            37220
+          ],
+          "source_types": [
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Ti flexor MN"
+          ],
+          "cell_count": 10,
+          "peak_margin": 13.040173530578613,
+          "mean_margin": -62.173851013183594,
+          "positive_margin_fraction": 0.030753835890593727,
+          "peak_rate_hz": 2.514507293701172,
+          "active_cells_over_1hz": 1
+        },
+        {
+          "leg": "T3R",
+          "motor_module": "tibia extend",
+          "motor_body_ids": [
+            10462,
+            13006
+          ],
+          "source_types": [
+            "Ti extensor MN",
+            "Ti extensor MN"
+          ],
+          "cell_count": 2,
+          "peak_margin": 185.75814819335938,
+          "mean_margin": -73.83097839355469,
+          "positive_margin_fraction": 0.3275517011340894,
+          "peak_rate_hz": 8.940374374389648,
+          "active_cells_over_1hz": 2
+        }
+      ],
+      "wall_seconds": 43.96902166699874
+    },
+    {
+      "case": "FeCO_plus_load",
+      "selected_replay_mae_hz": 0.0,
+      "source_neurons": 23532,
+      "tibia_motor_cells": 86,
+      "rows": [
+        {
+          "leg": "T1L",
+          "motor_module": "tibia flex",
+          "motor_body_ids": [
+            12134,
+            13397,
+            14798,
+            15023,
+            15149,
+            15321,
+            15791,
+            16632,
+            17133,
+            17885,
+            18412,
+            18554,
+            23698,
+            101043,
+            166374
+          ],
+          "source_types": [
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN"
+          ],
+          "cell_count": 15,
+          "peak_margin": -3.654852867126465,
+          "mean_margin": -24.611024856567383,
+          "positive_margin_fraction": 0.0,
+          "peak_rate_hz": 0.0,
+          "active_cells_over_1hz": 0
+        },
+        {
+          "leg": "T1L",
+          "motor_module": "tibia extend",
+          "motor_body_ids": [
+            11657,
+            12704
+          ],
+          "source_types": [
+            "Ti extensor MN",
+            "Ti extensor MN"
+          ],
+          "cell_count": 2,
+          "peak_margin": -37.81071090698242,
+          "mean_margin": -49.043373107910156,
+          "positive_margin_fraction": 0.0,
+          "peak_rate_hz": 0.0,
+          "active_cells_over_1hz": 0
+        },
+        {
+          "leg": "T1R",
+          "motor_module": "tibia flex",
+          "motor_body_ids": [
+            12761,
+            13163,
+            13283,
+            13399,
+            13563,
+            13819,
+            14824,
+            14848,
+            15367,
+            18963,
+            19048,
+            20373,
+            20605,
+            26658,
+            26777
+          ],
+          "source_types": [
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Ti flexor MN",
+            "Ti flexor MN",
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN"
+          ],
+          "cell_count": 15,
+          "peak_margin": -8.153979301452637,
+          "mean_margin": -37.12226486206055,
+          "positive_margin_fraction": 0.0,
+          "peak_rate_hz": 0.0,
+          "active_cells_over_1hz": 0
+        },
+        {
+          "leg": "T1R",
+          "motor_module": "tibia extend",
+          "motor_body_ids": [
+            11706,
+            13115
+          ],
+          "source_types": [
+            "Ti extensor MN",
+            "Ti extensor MN"
+          ],
+          "cell_count": 2,
+          "peak_margin": -22.008075714111328,
+          "mean_margin": -48.633995056152344,
+          "positive_margin_fraction": 0.0,
+          "peak_rate_hz": 0.0,
+          "active_cells_over_1hz": 0
+        },
+        {
+          "leg": "T2L",
+          "motor_module": "tibia flex",
+          "motor_body_ids": [
+            10710,
+            13784,
+            14665,
+            14775,
+            15623,
+            16635,
+            17070,
+            21262,
+            24828,
+            25212,
+            100707,
+            153335
+          ],
+          "source_types": [
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Ti flexor MN"
+          ],
+          "cell_count": 12,
+          "peak_margin": -11.091814994812012,
+          "mean_margin": -23.107656478881836,
+          "positive_margin_fraction": 0.0,
+          "peak_rate_hz": 0.0,
+          "active_cells_over_1hz": 0
+        },
+        {
+          "leg": "T2L",
+          "motor_module": "tibia extend",
+          "motor_body_ids": [
+            10737,
+            11115
+          ],
+          "source_types": [
+            "Ti extensor MN",
+            "Ti extensor MN"
+          ],
+          "cell_count": 2,
+          "peak_margin": -41.377960205078125,
+          "mean_margin": -60.537357330322266,
+          "positive_margin_fraction": 0.0,
+          "peak_rate_hz": 0.0,
+          "active_cells_over_1hz": 0
+        },
+        {
+          "leg": "T2R",
+          "motor_module": "tibia flex",
+          "motor_body_ids": [
+            13280,
+            13746,
+            14849,
+            16495,
+            18448,
+            18664,
+            24443,
+            162868,
+            166397,
+            167438,
+            192299
+          ],
+          "source_types": [
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Ti flexor MN"
+          ],
+          "cell_count": 11,
+          "peak_margin": -10.369720458984375,
+          "mean_margin": -29.032230377197266,
+          "positive_margin_fraction": 0.0,
+          "peak_rate_hz": 0.0,
+          "active_cells_over_1hz": 0
+        },
+        {
+          "leg": "T2R",
+          "motor_module": "tibia extend",
+          "motor_body_ids": [
+            10461,
+            11489
+          ],
+          "source_types": [
+            "Ti extensor MN",
+            "Ti extensor MN"
+          ],
+          "cell_count": 2,
+          "peak_margin": -11.261919021606445,
+          "mean_margin": -52.989898681640625,
+          "positive_margin_fraction": 0.0,
+          "peak_rate_hz": 0.0,
+          "active_cells_over_1hz": 0
+        },
+        {
+          "leg": "T3L",
+          "motor_module": "tibia flex",
+          "motor_body_ids": [
+            12585,
+            12759,
+            13192,
+            13311,
+            14226,
+            14468,
+            15038,
+            17018,
+            19074,
+            25885,
+            176866
+          ],
+          "source_types": [
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN"
+          ],
+          "cell_count": 11,
+          "peak_margin": 7.935893535614014,
+          "mean_margin": -22.455522537231445,
+          "positive_margin_fraction": 0.013524167626902783,
+          "peak_rate_hz": 3.382584810256958,
+          "active_cells_over_1hz": 1
+        },
+        {
+          "leg": "T3L",
+          "motor_module": "tibia extend",
+          "motor_body_ids": [
+            10347,
+            13075
+          ],
+          "source_types": [
+            "Ti extensor MN",
+            "Ti extensor MN"
+          ],
+          "cell_count": 2,
+          "peak_margin": 28.997621536254883,
+          "mean_margin": -53.74766159057617,
+          "positive_margin_fraction": 0.13842561707805204,
+          "peak_rate_hz": 2.201322078704834,
+          "active_cells_over_1hz": 1
+        },
+        {
+          "leg": "T3R",
+          "motor_module": "tibia flex",
+          "motor_body_ids": [
+            12474,
+            12725,
+            12758,
+            13170,
+            16228,
+            18491,
+            19260,
+            20593,
+            21991,
+            37220
+          ],
+          "source_types": [
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Acc. ti flexor MN",
+            "Acc. ti flexor MN",
+            "Ti flexor MN",
+            "Ti flexor MN"
+          ],
+          "cell_count": 10,
+          "peak_margin": 16.649620056152344,
+          "mean_margin": -62.19275665283203,
+          "positive_margin_fraction": 0.027284856571047365,
+          "peak_rate_hz": 1.5796306133270264,
+          "active_cells_over_1hz": 1
+        },
+        {
+          "leg": "T3R",
+          "motor_module": "tibia extend",
+          "motor_body_ids": [
+            10462,
+            13006
+          ],
+          "source_types": [
+            "Ti extensor MN",
+            "Ti extensor MN"
+          ],
+          "cell_count": 2,
+          "peak_margin": 190.44786071777344,
+          "mean_margin": -83.7592544555664,
+          "positive_margin_fraction": 0.29486324216144094,
+          "peak_rate_hz": 10.102262496948242,
+          "active_cells_over_1hz": 2
+        }
+      ],
+      "wall_seconds": 42.82958300001337
+    }
+  ],
+  "mean_abs_margin_change_from_feedback": 5.182748317718506,
+  "checks": {
+    "two_replayed_embodied_conditions": true,
+    "both_selected_traces_reproduce": true,
+    "all_86_annotated_tibia_MNs": true,
+    "all_twelve_leg_pool_rows_each": true,
+    "all_finite": true
+  },
+  "passed": true,
+  "goal_complete": false
+}

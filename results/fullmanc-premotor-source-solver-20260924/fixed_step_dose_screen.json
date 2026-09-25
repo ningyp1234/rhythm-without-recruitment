@@ -1,0 +1,123 @@
+{
+  "method": "0.5ms forward Euler multi-dose selection only; exact source W, mask, same-run cell parameters; not a neural success gate",
+  "data": "./data/pugliese-zenodo-22260924/full-manc-all-runs/33195857",
+  "doses_model_current_units": [
+    0.0,
+    20.0,
+    40.0,
+    60.0,
+    80.0,
+    100.0,
+    120.0,
+    140.0,
+    160.0
+  ],
+  "elapsed_seconds": 23.114936708007008,
+  "rows": [
+    {
+      "dose": 0.0,
+      "E1": 3,
+      "left_front_flex_active": 0,
+      "left_front_ext_active": 0,
+      "left_front_both": false,
+      "six_tibia_both_count": 0,
+      "IN21A004_mean_hz": 0.0,
+      "LF_flexor_12134_mean_hz": 0.0,
+      "gate_candidate_only": false
+    },
+    {
+      "dose": 20.0,
+      "E1": 3,
+      "left_front_flex_active": 0,
+      "left_front_ext_active": 0,
+      "left_front_both": false,
+      "six_tibia_both_count": 0,
+      "IN21A004_mean_hz": 7.478098001945099e-13,
+      "LF_flexor_12134_mean_hz": 0.0,
+      "gate_candidate_only": false
+    },
+    {
+      "dose": 40.0,
+      "E1": 3,
+      "left_front_flex_active": 0,
+      "left_front_ext_active": 0,
+      "left_front_both": false,
+      "six_tibia_both_count": 0,
+      "IN21A004_mean_hz": 1.9055627584457397,
+      "LF_flexor_12134_mean_hz": 0.0,
+      "gate_candidate_only": false
+    },
+    {
+      "dose": 60.0,
+      "E1": 3,
+      "left_front_flex_active": 0,
+      "left_front_ext_active": 0,
+      "left_front_both": false,
+      "six_tibia_both_count": 0,
+      "IN21A004_mean_hz": 6.1903839111328125,
+      "LF_flexor_12134_mean_hz": 0.18200981616973877,
+      "gate_candidate_only": false
+    },
+    {
+      "dose": 80.0,
+      "E1": 2,
+      "left_front_flex_active": 2,
+      "left_front_ext_active": 0,
+      "left_front_both": false,
+      "six_tibia_both_count": 0,
+      "IN21A004_mean_hz": 10.77990436553955,
+      "LF_flexor_12134_mean_hz": 4.339268207550049,
+      "gate_candidate_only": false
+    },
+    {
+      "dose": 100.0,
+      "E1": 3,
+      "left_front_flex_active": 3,
+      "left_front_ext_active": 0,
+      "left_front_both": false,
+      "six_tibia_both_count": 0,
+      "IN21A004_mean_hz": 14.9223051071167,
+      "LF_flexor_12134_mean_hz": 8.944876670837402,
+      "gate_candidate_only": false
+    },
+    {
+      "dose": 120.0,
+      "E1": 5,
+      "left_front_flex_active": 3,
+      "left_front_ext_active": 0,
+      "left_front_both": false,
+      "six_tibia_both_count": 0,
+      "IN21A004_mean_hz": 18.88121795654297,
+      "LF_flexor_12134_mean_hz": 13.399579048156738,
+      "gate_candidate_only": false
+    },
+    {
+      "dose": 140.0,
+      "E1": 1,
+      "left_front_flex_active": 4,
+      "left_front_ext_active": 0,
+      "left_front_both": false,
+      "six_tibia_both_count": 0,
+      "IN21A004_mean_hz": 22.32893180847168,
+      "LF_flexor_12134_mean_hz": 17.03371810913086,
+      "gate_candidate_only": false
+    },
+    {
+      "dose": 160.0,
+      "E1": 3,
+      "left_front_flex_active": 4,
+      "left_front_ext_active": 0,
+      "left_front_both": false,
+      "six_tibia_both_count": 0,
+      "IN21A004_mean_hz": 25.398866653442383,
+      "LF_flexor_12134_mean_hz": 20.137630462646484,
+      "gate_candidate_only": false
+    }
+  ],
+  "author_original_baseline_E1_count": 6,
+  "fixed_step_baseline_matches_author": false,
+  "dose_ranking_valid": false,
+  "interpretation": "INVALID for ranking: fixed-step no-intervention baseline has 3/6 E1 vs 6/6 in author trace and source-aligned adaptive rerun",
+  "adaptive_confirmation_required": true,
+  "autonomous_walking_achieved": false
+}

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the preprint."
+title: "Rhythm without recruitment: a falsification-first audit of a connectome-constrained ventral nerve cord model as a controller for a simulated Drosophila body"
+authors:
+  - family-names: Ning
+    given-names: Yupeng
+    email: ningyp@gmail.com
+    affiliation: "Beijing ZHYU Tech Corp, Beijing, China"
+repository-code: "https://github.com/ningyp1234/rhythm-without-recruitment"
+license: MIT
+date-released: 2026-09-25
+keywords:
+  - Drosophila
+  - connectome
+  - ventral nerve cord
+  - central pattern generator
+  - motor neuron recruitment
+  - neuromechanical simulation
+  - reproducibility

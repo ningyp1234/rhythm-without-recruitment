@@ -1,0 +1,40 @@
+{
+  "record": "https://zenodo.org/records/22260924",
+  "doi": "10.5281/zenodo.22260924",
+  "record_created": "2026-09-15",
+  "archive": "DNg100_Stim_fullManc.zip",
+  "archive_md5": "0f3d47ef1f6d33421e6f53ee25e74120",
+  "archive_size": 2030250053,
+  "license": "CC-BY-4.0",
+  "selection": "official run 33195882, seed 424, bilateral DNg100 current 380; the trace archive is deliberately omitted because local dynamics are rerun",
+  "files": [
+    {
+      "member": "simulations/DNg100_Stim_fullManc/hyak/run_id=33195882/.hydra/config.yaml",
+      "file": "./data/pugliese-zenodo-22260924/full-manc-run33195882/config.yaml",
+      "size": 1572,
+      "crc32": "4bb7b625",
+      "sha256": "69c7d84c367591c2be9fbf2729b3e85d7793bc5e065bbf12cdbaad95c14e6e95"
+    },
+    {
+      "member": "simulations/DNg100_Stim_fullManc/hyak/run_id=33195882/.hydra/overrides.yaml",
+      "file": "./data/pugliese-zenodo-22260924/full-manc-run33195882/overrides.yaml",
+      "size": 278,
+      "crc32": "616066fb",
+      "sha256": "7ee67fe8b8adde19abad096edcb211222019a80a684719737790471c172c36ac"
+    },
+    {
+      "member": "simulations/DNg100_Stim_fullManc/hyak/run_id=33195882/logs/run_config.yaml",
+      "file": "./data/pugliese-zenodo-22260924/full-manc-run33195882/run_config.yaml",
+      "size": 1834,
+      "crc32": "84c11baa",
+      "sha256": "7ae8efa6ca2ac029d20f5a78758882bed4d5a6e6c401f09e5585e11183ef871f"
+    },
+    {
+      "member": "simulations/DNg100_Stim_fullManc/hyak/run_id=33195882/ckpt/neuron_params.h5",
+      "file": "./data/pugliese-zenodo-22260924/full-manc-run33195882/neuron_params.h5",
+      "size": 42254892,
+      "crc32": "33be8d24",
+      "sha256": "778bd7c114f483b1a0bab87e3c95130a3f3b1ce37114a291dd791e6d4d1d2ef0"
+    }
+  ]
+}

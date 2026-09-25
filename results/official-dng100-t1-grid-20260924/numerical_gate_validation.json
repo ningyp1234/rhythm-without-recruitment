@@ -1,0 +1,106 @@
+{
+  "source": "https://zenodo.org/records/22260924",
+  "source_code": "https://github.com/smpuglie/Pugliese_2026",
+  "scope": "Fixed-step candidate was screened on author MANC T1 graph; exact author checkpoint re-solved with source Diffrax Dopri5, SciPy RK45, and three finer fixed steps. Numerical gate is not stable.",
+  "parameter_rows": [
+    10,
+    78
+  ],
+  "evaluations": [
+    {
+      "parameter_row": 10,
+      "method": "source_Diffrax_Dopri5",
+      "left_E1_sustained": false,
+      "left_antagonist_gate": false,
+      "left_tibia_correlation": 0.1931297679111579
+    },
+    {
+      "parameter_row": 10,
+      "method": "independent_scipy_RK45",
+      "left_E1_sustained": false,
+      "left_antagonist_gate": false,
+      "left_tibia_correlation": 0.19253592196395627
+    },
+    {
+      "parameter_row": 10,
+      "method": "fixed_Euler_dt_0.001",
+      "left_E1_sustained": true,
+      "left_antagonist_gate": true,
+      "left_tibia_correlation": -0.5928750145372971
+    },
+    {
+      "parameter_row": 10,
+      "method": "fixed_Euler_dt_0.0005",
+      "left_E1_sustained": false,
+      "left_antagonist_gate": false,
+      "left_tibia_correlation": 0.30872159729603843
+    },
+    {
+      "parameter_row": 10,
+      "method": "fixed_Euler_dt_0.00025",
+      "left_E1_sustained": false,
+      "left_antagonist_gate": false,
+      "left_tibia_correlation": 0.31066967187318023
+    },
+    {
+      "parameter_row": 10,
+      "method": "fixed_Euler_dt_0.000125",
+      "left_E1_sustained": false,
+      "left_antagonist_gate": false,
+      "left_tibia_correlation": 0.16194054604102084
+    },
+    {
+      "parameter_row": 78,
+      "method": "source_Diffrax_Dopri5",
+      "left_E1_sustained": true,
+      "left_antagonist_gate": false,
+      "left_tibia_correlation": null
+    },
+    {
+      "parameter_row": 78,
+      "method": "independent_scipy_RK45",
+      "left_E1_sustained": true,
+      "left_antagonist_gate": false,
+      "left_tibia_correlation": null
+    },
+    {
+      "parameter_row": 78,
+      "method": "fixed_Euler_dt_0.001",
+      "left_E1_sustained": true,
+      "left_antagonist_gate": true,
+      "left_tibia_correlation": -0.7519370788152574
+    },
+    {
+      "parameter_row": 78,
+      "method": "fixed_Euler_dt_0.0005",
+      "left_E1_sustained": false,
+      "left_antagonist_gate": false,
+      "left_tibia_correlation": -0.3441942158245311
+    },
+    {
+      "parameter_row": 78,
+      "method": "fixed_Euler_dt_0.00025",
+      "left_E1_sustained": false,
+      "left_antagonist_gate": false,
+      "left_tibia_correlation": -0.5342441209797207
+    },
+    {
+      "parameter_row": 78,
+      "method": "fixed_Euler_dt_0.000125",
+      "left_E1_sustained": true,
+      "left_antagonist_gate": false,
+      "left_tibia_correlation": null
+    }
+  ],
+  "checks": {
+    "source_archived_W_matches_source_glutamate_ratio_exactly": true,
+    "source_Diffrax_all_finite": true,
+    "one_ms_Euler_false_positive_both_rows": true,
+    "all_three_refined_Euler_steps_fail_both_rows": true,
+    "independent_RK45_fails_both_rows": true,
+    "source_Diffrax_fails_both_rows": true
+  },
+  "passed": true,
+  "numerically_validated_antagonist_gate": false,
+  "body_walking_achieved": false
+}

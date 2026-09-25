@@ -1,0 +1,104 @@
+{
+ "rows": [
+  13,
+  26,
+  30
+ ],
+ "euler": {
+  "1ms": {
+   "13": {
+    "rms_vs_archive_hz": 2.218992960443066,
+    "max_abs_vs_archive_hz": 5.977714929185155
+   },
+   "26": {
+    "rms_vs_archive_hz": 22.645775166526526,
+    "max_abs_vs_archive_hz": 77.60456735820225
+   },
+   "30": {
+    "rms_vs_archive_hz": 12.848491647557092,
+    "max_abs_vs_archive_hz": 58.648611434654825
+   }
+  },
+  "0.5ms": {
+   "13": {
+    "rms_vs_archive_hz": 2.1741361907443744,
+    "max_abs_vs_archive_hz": 5.835605260084075
+   },
+   "26": {
+    "rms_vs_archive_hz": 10.652444167906205,
+    "max_abs_vs_archive_hz": 71.14123336142119
+   },
+   "30": {
+    "rms_vs_archive_hz": 12.610888926247071,
+    "max_abs_vs_archive_hz": 61.199497535339084
+   }
+  },
+  "0.25ms": {
+   "13": {
+    "rms_vs_archive_hz": 1.3980153063058542,
+    "max_abs_vs_archive_hz": 5.087634510325054
+   },
+   "26": {
+    "rms_vs_archive_hz": 12.953723516662942,
+    "max_abs_vs_archive_hz": 87.06357263891486
+   },
+   "30": {
+    "rms_vs_archive_hz": 2.21497380015159,
+    "max_abs_vs_archive_hz": 6.503571805949877
+   }
+  },
+  "0.1ms": {
+   "13": {
+    "rms_vs_archive_hz": 0.6076637356001964,
+    "max_abs_vs_archive_hz": 2.485451067416624
+   },
+   "26": {
+    "rms_vs_archive_hz": 12.44117097480063,
+    "max_abs_vs_archive_hz": 76.65061573941307
+   },
+   "30": {
+    "rms_vs_archive_hz": 1.8410285760138574,
+    "max_abs_vs_archive_hz": 5.315168642873746
+   }
+  }
+ },
+ "rk45": {
+  "26": {
+   "rms_vs_archive_hz": 0.06619714531754321,
+   "max_abs_vs_archive_hz": 0.5718901107551906,
+   "nfev": 60050,
+   "seconds": 50.4
+  },
+  "30": {
+   "rms_vs_archive_hz": 0.022932341708475697,
+   "max_abs_vs_archive_hz": 0.09932585150086926,
+   "nfev": 53066,
+   "seconds": 44.7
+  }
+ },
+ "E1_spectral_counts": {
+  "13": {
+   "archive": 6,
+   "euler_1ms": 6,
+   "euler_0.5ms": 6,
+   "euler_0.25ms": 6,
+   "euler_0.1ms": 6
+  },
+  "26": {
+   "archive": 6,
+   "euler_1ms": 0,
+   "euler_0.5ms": 0,
+   "euler_0.25ms": 4,
+   "euler_0.1ms": 2,
+   "rk45": 6
+  },
+  "30": {
+   "archive": 6,
+   "euler_1ms": 0,
+   "euler_0.5ms": 0,
+   "euler_0.25ms": 5,
+   "euler_0.1ms": 6,
+   "rk45": 6
+  }
+ }
+}

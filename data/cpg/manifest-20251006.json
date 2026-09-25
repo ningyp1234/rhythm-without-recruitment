@@ -1,0 +1,29 @@
+{
+  "source_repository": "https://github.com/smpuglie/Pugliese_2026",
+  "source_commit": "10e7661bf414ba7b4c2edf795cd36d0f878c17c0",
+  "source_files": {
+    "W_20251006.feather": {
+      "path": "~/Documents/Codex/2026-09-07/referenced-chatgpt-conversation-this-is-an/work/upstream-20260922/pugliese-latest/data/manc full vnc data/W_20251006.feather",
+      "sha256": "b36e50922b54e1c616cc736bfd81c76212a5582e386f531811a31bdb8eb2d936"
+    },
+    "wTable_20251006.feather": {
+      "path": "~/Documents/Codex/2026-09-07/referenced-chatgpt-conversation-this-is-an/work/upstream-20260922/pugliese-latest/data/manc full vnc data/wTable_20251006.feather",
+      "sha256": "b223da73bd183c55c0d7d3a4dbfe94184a445d5e48d262ad8f0c44e3582bc766"
+    }
+  },
+  "derived": {
+    "manc-pre-post-20251006.npz": {
+      "path": "./data/cpg/manc-pre-post-20251006.npz",
+      "sha256": "c8d85a80b30a6f680932bbeb2c2dda2754ad0fd8b1b6a3c1f2652ca62d4cab61"
+    },
+    "manc-neurons-20251006.csv.gz": {
+      "path": "./data/cpg/manc-neurons-20251006.csv.gz",
+      "sha256": "4bb16ecd9a47bfb01318b3520dd622ce37ff5449563ae165272a3086bf56cfd8"
+    }
+  },
+  "neurons": 23532,
+  "directed_pairs": 1372404,
+  "absolute_signed_synapses": 24149548,
+  "orientation": "rows presynaptic, columns postsynaptic",
+  "license": "MIT code repository; original MANC connectome data terms remain applicable"
+}

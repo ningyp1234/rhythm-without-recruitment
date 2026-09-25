@@ -1,0 +1,87 @@
+{
+  "date": "2026-09-24",
+  "purpose": "Disentangle 1ms sensory-application timing from integration method",
+  "source": "https://zenodo.org/records/22260924",
+  "records": [
+    {
+      "scoring_version": "walking-kinematics-v3-rate-aware-contact-support",
+      "sample_dt_seconds": 0.010000000000000009,
+      "sustained_event_samples": 3,
+      "gates": {
+        "forward_distance_at_least_5mm": false,
+        "body_stays_upright": true,
+        "body_clear_of_ground": true,
+        "all_six_legs_complete_two_steps": false,
+        "stance_slip_below_2mm_s": true,
+        "feet_provide_support_without_body_drag": true
+      },
+      "walking_pass": false,
+      "foot_only_support_fraction": 1.0,
+      "forward_mm": 0.0019192182387508527,
+      "lateral_mm": 0.000692222209025305,
+      "upright_fraction": 1.0,
+      "min_height": 0.882652771636949,
+      "steps_per_leg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "median_stance_slip_mm_s": 0.0028563900139904853,
+      "case": "legacy_after_first_microstep",
+      "six_E1_sustained_count": 5,
+      "six_tibia_both_pools": false,
+      "physics_warnings": 0,
+      "no_applied_force": true,
+      "selected_mae_vs_adaptive_hz": 0.099659264087677,
+      "selected_mae_vs_legacy_hz": 0.0,
+      "position_max_abs_diff_vs_legacy_mm": 0.0
+    },
+    {
+      "scoring_version": "walking-kinematics-v3-rate-aware-contact-support",
+      "sample_dt_seconds": 0.010000000000000009,
+      "sustained_event_samples": 3,
+      "gates": {
+        "forward_distance_at_least_5mm": false,
+        "body_stays_upright": true,
+        "body_clear_of_ground": true,
+        "all_six_legs_complete_two_steps": false,
+        "stance_slip_below_2mm_s": true,
+        "feet_provide_support_without_body_drag": true
+      },
+      "walking_pass": false,
+      "foot_only_support_fraction": 1.0,
+      "forward_mm": 0.0018845576913315565,
+      "lateral_mm": 0.0006717160787133381,
+      "upright_fraction": 1.0,
+      "min_height": 0.8826527259922685,
+      "steps_per_leg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "median_stance_slip_mm_s": 0.0028614571717166786,
+      "case": "aligned_before_first_microstep",
+      "six_E1_sustained_count": 5,
+      "six_tibia_both_pools": false,
+      "physics_warnings": 0,
+      "no_applied_force": true,
+      "selected_mae_vs_adaptive_hz": 0.09960684180259705,
+      "selected_mae_vs_legacy_hz": 0.0003273865731898695,
+      "position_max_abs_diff_vs_legacy_mm": 8.610071677872533e-05
+    }
+  ],
+  "checks": {
+    "legacy_selected_bit_exact": true,
+    "legacy_body_bit_exact": true,
+    "same_source_cells": true,
+    "both_same_body_no_external_force": true
+  },
+  "passed": true,
+  "goal_complete": false
+}

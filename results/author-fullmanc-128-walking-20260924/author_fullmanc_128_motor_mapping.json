@@ -1,0 +1,1727 @@
+{
+  "scope": "Exact author-saved full-MANC rates, all four runs, after .5s >1Hz annotated leg motor mapping into the unchanged 78-Hill candidate",
+  "source": "https://zenodo.org/records/22260924",
+  "rows": [
+    {
+      "global_row": 0,
+      "run_id": 30662613,
+      "parameter_row": 0,
+      "active_motor_neurons": 13,
+      "active_annotated_leg_motor_neurons": 12,
+      "mapped_active_annotated_leg_motor_neurons": 11,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 1,
+      "run_id": 30662613,
+      "parameter_row": 1,
+      "active_motor_neurons": 11,
+      "active_annotated_leg_motor_neurons": 9,
+      "mapped_active_annotated_leg_motor_neurons": 9,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 2,
+      "run_id": 30662613,
+      "parameter_row": 2,
+      "active_motor_neurons": 360,
+      "active_annotated_leg_motor_neurons": 151,
+      "mapped_active_annotated_leg_motor_neurons": 132,
+      "unmapped_active_annotated_leg_motor_neurons": 19,
+      "unmapped_body_ids": [
+        12113,
+        12693,
+        13156,
+        14020,
+        15446,
+        15873,
+        16633,
+        16897,
+        17419,
+        19751,
+        21665,
+        22358,
+        23016,
+        25447,
+        25674,
+        35432,
+        101736,
+        157320,
+        166393
+      ]
+    },
+    {
+      "global_row": 3,
+      "run_id": 30662613,
+      "parameter_row": 3,
+      "active_motor_neurons": 14,
+      "active_annotated_leg_motor_neurons": 11,
+      "mapped_active_annotated_leg_motor_neurons": 11,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 4,
+      "run_id": 30662613,
+      "parameter_row": 4,
+      "active_motor_neurons": 14,
+      "active_annotated_leg_motor_neurons": 11,
+      "mapped_active_annotated_leg_motor_neurons": 10,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 5,
+      "run_id": 30662613,
+      "parameter_row": 5,
+      "active_motor_neurons": 289,
+      "active_annotated_leg_motor_neurons": 121,
+      "mapped_active_annotated_leg_motor_neurons": 101,
+      "unmapped_active_annotated_leg_motor_neurons": 20,
+      "unmapped_body_ids": [
+        12113,
+        12693,
+        13156,
+        14020,
+        15446,
+        15873,
+        16356,
+        16633,
+        17419,
+        19751,
+        21665,
+        22358,
+        23016,
+        25447,
+        25674,
+        35432,
+        101736,
+        157320,
+        166393,
+        219894
+      ]
+    },
+    {
+      "global_row": 6,
+      "run_id": 30662613,
+      "parameter_row": 6,
+      "active_motor_neurons": 11,
+      "active_annotated_leg_motor_neurons": 10,
+      "mapped_active_annotated_leg_motor_neurons": 9,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 7,
+      "run_id": 30662613,
+      "parameter_row": 7,
+      "active_motor_neurons": 16,
+      "active_annotated_leg_motor_neurons": 13,
+      "mapped_active_annotated_leg_motor_neurons": 13,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 8,
+      "run_id": 30662613,
+      "parameter_row": 8,
+      "active_motor_neurons": 24,
+      "active_annotated_leg_motor_neurons": 19,
+      "mapped_active_annotated_leg_motor_neurons": 18,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 9,
+      "run_id": 30662613,
+      "parameter_row": 9,
+      "active_motor_neurons": 19,
+      "active_annotated_leg_motor_neurons": 15,
+      "mapped_active_annotated_leg_motor_neurons": 15,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 10,
+      "run_id": 30662613,
+      "parameter_row": 10,
+      "active_motor_neurons": 17,
+      "active_annotated_leg_motor_neurons": 14,
+      "mapped_active_annotated_leg_motor_neurons": 14,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 11,
+      "run_id": 30662613,
+      "parameter_row": 11,
+      "active_motor_neurons": 29,
+      "active_annotated_leg_motor_neurons": 18,
+      "mapped_active_annotated_leg_motor_neurons": 17,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 12,
+      "run_id": 30662613,
+      "parameter_row": 12,
+      "active_motor_neurons": 15,
+      "active_annotated_leg_motor_neurons": 13,
+      "mapped_active_annotated_leg_motor_neurons": 12,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 13,
+      "run_id": 30662613,
+      "parameter_row": 13,
+      "active_motor_neurons": 20,
+      "active_annotated_leg_motor_neurons": 15,
+      "mapped_active_annotated_leg_motor_neurons": 15,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 14,
+      "run_id": 30662613,
+      "parameter_row": 14,
+      "active_motor_neurons": 11,
+      "active_annotated_leg_motor_neurons": 10,
+      "mapped_active_annotated_leg_motor_neurons": 9,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 15,
+      "run_id": 30662613,
+      "parameter_row": 15,
+      "active_motor_neurons": 16,
+      "active_annotated_leg_motor_neurons": 14,
+      "mapped_active_annotated_leg_motor_neurons": 14,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 16,
+      "run_id": 30662613,
+      "parameter_row": 16,
+      "active_motor_neurons": 19,
+      "active_annotated_leg_motor_neurons": 15,
+      "mapped_active_annotated_leg_motor_neurons": 14,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 17,
+      "run_id": 30662613,
+      "parameter_row": 17,
+      "active_motor_neurons": 13,
+      "active_annotated_leg_motor_neurons": 11,
+      "mapped_active_annotated_leg_motor_neurons": 10,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 18,
+      "run_id": 30662613,
+      "parameter_row": 18,
+      "active_motor_neurons": 17,
+      "active_annotated_leg_motor_neurons": 14,
+      "mapped_active_annotated_leg_motor_neurons": 13,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 19,
+      "run_id": 30662613,
+      "parameter_row": 19,
+      "active_motor_neurons": 16,
+      "active_annotated_leg_motor_neurons": 12,
+      "mapped_active_annotated_leg_motor_neurons": 12,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 20,
+      "run_id": 30662613,
+      "parameter_row": 20,
+      "active_motor_neurons": 22,
+      "active_annotated_leg_motor_neurons": 17,
+      "mapped_active_annotated_leg_motor_neurons": 16,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 21,
+      "run_id": 30662613,
+      "parameter_row": 21,
+      "active_motor_neurons": 8,
+      "active_annotated_leg_motor_neurons": 7,
+      "mapped_active_annotated_leg_motor_neurons": 7,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 22,
+      "run_id": 30662613,
+      "parameter_row": 22,
+      "active_motor_neurons": 13,
+      "active_annotated_leg_motor_neurons": 10,
+      "mapped_active_annotated_leg_motor_neurons": 10,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 23,
+      "run_id": 30662613,
+      "parameter_row": 23,
+      "active_motor_neurons": 332,
+      "active_annotated_leg_motor_neurons": 131,
+      "mapped_active_annotated_leg_motor_neurons": 111,
+      "unmapped_active_annotated_leg_motor_neurons": 20,
+      "unmapped_body_ids": [
+        12113,
+        12693,
+        14020,
+        15446,
+        15873,
+        16633,
+        17419,
+        19751,
+        21665,
+        22358,
+        23016,
+        25447,
+        25674,
+        29487,
+        35432,
+        45494,
+        101736,
+        157320,
+        166393,
+        219894
+      ]
+    },
+    {
+      "global_row": 24,
+      "run_id": 30662613,
+      "parameter_row": 24,
+      "active_motor_neurons": 19,
+      "active_annotated_leg_motor_neurons": 15,
+      "mapped_active_annotated_leg_motor_neurons": 15,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 25,
+      "run_id": 30662613,
+      "parameter_row": 25,
+      "active_motor_neurons": 7,
+      "active_annotated_leg_motor_neurons": 6,
+      "mapped_active_annotated_leg_motor_neurons": 6,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 26,
+      "run_id": 30662613,
+      "parameter_row": 26,
+      "active_motor_neurons": 14,
+      "active_annotated_leg_motor_neurons": 12,
+      "mapped_active_annotated_leg_motor_neurons": 11,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 27,
+      "run_id": 30662613,
+      "parameter_row": 27,
+      "active_motor_neurons": 14,
+      "active_annotated_leg_motor_neurons": 12,
+      "mapped_active_annotated_leg_motor_neurons": 12,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 28,
+      "run_id": 30662613,
+      "parameter_row": 28,
+      "active_motor_neurons": 21,
+      "active_annotated_leg_motor_neurons": 17,
+      "mapped_active_annotated_leg_motor_neurons": 17,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 29,
+      "run_id": 30662613,
+      "parameter_row": 29,
+      "active_motor_neurons": 25,
+      "active_annotated_leg_motor_neurons": 20,
+      "mapped_active_annotated_leg_motor_neurons": 19,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 30,
+      "run_id": 30662613,
+      "parameter_row": 30,
+      "active_motor_neurons": 17,
+      "active_annotated_leg_motor_neurons": 14,
+      "mapped_active_annotated_leg_motor_neurons": 13,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 31,
+      "run_id": 30662613,
+      "parameter_row": 31,
+      "active_motor_neurons": 11,
+      "active_annotated_leg_motor_neurons": 9,
+      "mapped_active_annotated_leg_motor_neurons": 8,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 32,
+      "run_id": 33195857,
+      "parameter_row": 0,
+      "active_motor_neurons": 16,
+      "active_annotated_leg_motor_neurons": 13,
+      "mapped_active_annotated_leg_motor_neurons": 12,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 33,
+      "run_id": 33195857,
+      "parameter_row": 1,
+      "active_motor_neurons": 12,
+      "active_annotated_leg_motor_neurons": 10,
+      "mapped_active_annotated_leg_motor_neurons": 9,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 34,
+      "run_id": 33195857,
+      "parameter_row": 2,
+      "active_motor_neurons": 329,
+      "active_annotated_leg_motor_neurons": 132,
+      "mapped_active_annotated_leg_motor_neurons": 113,
+      "unmapped_active_annotated_leg_motor_neurons": 19,
+      "unmapped_body_ids": [
+        12113,
+        12693,
+        14020,
+        15446,
+        15873,
+        16492,
+        16633,
+        17419,
+        19751,
+        21665,
+        23016,
+        25447,
+        25674,
+        29187,
+        35432,
+        45494,
+        101736,
+        157320,
+        166393
+      ]
+    },
+    {
+      "global_row": 35,
+      "run_id": 33195857,
+      "parameter_row": 3,
+      "active_motor_neurons": 6,
+      "active_annotated_leg_motor_neurons": 4,
+      "mapped_active_annotated_leg_motor_neurons": 3,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 36,
+      "run_id": 33195857,
+      "parameter_row": 4,
+      "active_motor_neurons": 21,
+      "active_annotated_leg_motor_neurons": 15,
+      "mapped_active_annotated_leg_motor_neurons": 14,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 37,
+      "run_id": 33195857,
+      "parameter_row": 5,
+      "active_motor_neurons": 33,
+      "active_annotated_leg_motor_neurons": 19,
+      "mapped_active_annotated_leg_motor_neurons": 18,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 38,
+      "run_id": 33195857,
+      "parameter_row": 6,
+      "active_motor_neurons": 21,
+      "active_annotated_leg_motor_neurons": 16,
+      "mapped_active_annotated_leg_motor_neurons": 15,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 39,
+      "run_id": 33195857,
+      "parameter_row": 7,
+      "active_motor_neurons": 26,
+      "active_annotated_leg_motor_neurons": 22,
+      "mapped_active_annotated_leg_motor_neurons": 21,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 40,
+      "run_id": 33195857,
+      "parameter_row": 8,
+      "active_motor_neurons": 20,
+      "active_annotated_leg_motor_neurons": 17,
+      "mapped_active_annotated_leg_motor_neurons": 16,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 41,
+      "run_id": 33195857,
+      "parameter_row": 9,
+      "active_motor_neurons": 13,
+      "active_annotated_leg_motor_neurons": 12,
+      "mapped_active_annotated_leg_motor_neurons": 11,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 42,
+      "run_id": 33195857,
+      "parameter_row": 10,
+      "active_motor_neurons": 13,
+      "active_annotated_leg_motor_neurons": 11,
+      "mapped_active_annotated_leg_motor_neurons": 10,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 43,
+      "run_id": 33195857,
+      "parameter_row": 11,
+      "active_motor_neurons": 8,
+      "active_annotated_leg_motor_neurons": 7,
+      "mapped_active_annotated_leg_motor_neurons": 7,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 44,
+      "run_id": 33195857,
+      "parameter_row": 12,
+      "active_motor_neurons": 0,
+      "active_annotated_leg_motor_neurons": 0,
+      "mapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 45,
+      "run_id": 33195857,
+      "parameter_row": 13,
+      "active_motor_neurons": 22,
+      "active_annotated_leg_motor_neurons": 18,
+      "mapped_active_annotated_leg_motor_neurons": 17,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 46,
+      "run_id": 33195857,
+      "parameter_row": 14,
+      "active_motor_neurons": 21,
+      "active_annotated_leg_motor_neurons": 16,
+      "mapped_active_annotated_leg_motor_neurons": 16,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 47,
+      "run_id": 33195857,
+      "parameter_row": 15,
+      "active_motor_neurons": 15,
+      "active_annotated_leg_motor_neurons": 12,
+      "mapped_active_annotated_leg_motor_neurons": 11,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 48,
+      "run_id": 33195857,
+      "parameter_row": 16,
+      "active_motor_neurons": 17,
+      "active_annotated_leg_motor_neurons": 14,
+      "mapped_active_annotated_leg_motor_neurons": 14,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 49,
+      "run_id": 33195857,
+      "parameter_row": 17,
+      "active_motor_neurons": 11,
+      "active_annotated_leg_motor_neurons": 10,
+      "mapped_active_annotated_leg_motor_neurons": 10,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 50,
+      "run_id": 33195857,
+      "parameter_row": 18,
+      "active_motor_neurons": 16,
+      "active_annotated_leg_motor_neurons": 13,
+      "mapped_active_annotated_leg_motor_neurons": 13,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 51,
+      "run_id": 33195857,
+      "parameter_row": 19,
+      "active_motor_neurons": 16,
+      "active_annotated_leg_motor_neurons": 13,
+      "mapped_active_annotated_leg_motor_neurons": 12,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 52,
+      "run_id": 33195857,
+      "parameter_row": 20,
+      "active_motor_neurons": 310,
+      "active_annotated_leg_motor_neurons": 122,
+      "mapped_active_annotated_leg_motor_neurons": 103,
+      "unmapped_active_annotated_leg_motor_neurons": 19,
+      "unmapped_body_ids": [
+        12113,
+        12693,
+        13156,
+        14020,
+        15446,
+        15873,
+        16633,
+        17419,
+        19751,
+        21665,
+        22358,
+        25674,
+        29487,
+        35432,
+        45494,
+        157320,
+        158681,
+        166393,
+        219894
+      ]
+    },
+    {
+      "global_row": 53,
+      "run_id": 33195857,
+      "parameter_row": 21,
+      "active_motor_neurons": 24,
+      "active_annotated_leg_motor_neurons": 19,
+      "mapped_active_annotated_leg_motor_neurons": 18,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 54,
+      "run_id": 33195857,
+      "parameter_row": 22,
+      "active_motor_neurons": 332,
+      "active_annotated_leg_motor_neurons": 139,
+      "mapped_active_annotated_leg_motor_neurons": 117,
+      "unmapped_active_annotated_leg_motor_neurons": 22,
+      "unmapped_body_ids": [
+        12113,
+        12693,
+        13156,
+        14020,
+        15446,
+        15873,
+        16356,
+        16633,
+        17419,
+        19751,
+        21665,
+        22358,
+        23016,
+        25447,
+        25674,
+        29487,
+        35432,
+        45494,
+        101736,
+        157320,
+        166393,
+        219894
+      ]
+    },
+    {
+      "global_row": 55,
+      "run_id": 33195857,
+      "parameter_row": 23,
+      "active_motor_neurons": 15,
+      "active_annotated_leg_motor_neurons": 13,
+      "mapped_active_annotated_leg_motor_neurons": 12,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 56,
+      "run_id": 33195857,
+      "parameter_row": 24,
+      "active_motor_neurons": 17,
+      "active_annotated_leg_motor_neurons": 16,
+      "mapped_active_annotated_leg_motor_neurons": 15,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 57,
+      "run_id": 33195857,
+      "parameter_row": 25,
+      "active_motor_neurons": 17,
+      "active_annotated_leg_motor_neurons": 14,
+      "mapped_active_annotated_leg_motor_neurons": 14,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 58,
+      "run_id": 33195857,
+      "parameter_row": 26,
+      "active_motor_neurons": 15,
+      "active_annotated_leg_motor_neurons": 12,
+      "mapped_active_annotated_leg_motor_neurons": 11,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 59,
+      "run_id": 33195857,
+      "parameter_row": 27,
+      "active_motor_neurons": 12,
+      "active_annotated_leg_motor_neurons": 12,
+      "mapped_active_annotated_leg_motor_neurons": 12,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 60,
+      "run_id": 33195857,
+      "parameter_row": 28,
+      "active_motor_neurons": 16,
+      "active_annotated_leg_motor_neurons": 12,
+      "mapped_active_annotated_leg_motor_neurons": 11,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 61,
+      "run_id": 33195857,
+      "parameter_row": 29,
+      "active_motor_neurons": 18,
+      "active_annotated_leg_motor_neurons": 13,
+      "mapped_active_annotated_leg_motor_neurons": 13,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 62,
+      "run_id": 33195857,
+      "parameter_row": 30,
+      "active_motor_neurons": 8,
+      "active_annotated_leg_motor_neurons": 7,
+      "mapped_active_annotated_leg_motor_neurons": 7,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 63,
+      "run_id": 33195857,
+      "parameter_row": 31,
+      "active_motor_neurons": 5,
+      "active_annotated_leg_motor_neurons": 4,
+      "mapped_active_annotated_leg_motor_neurons": 4,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 64,
+      "run_id": 33195876,
+      "parameter_row": 0,
+      "active_motor_neurons": 16,
+      "active_annotated_leg_motor_neurons": 14,
+      "mapped_active_annotated_leg_motor_neurons": 13,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 65,
+      "run_id": 33195876,
+      "parameter_row": 1,
+      "active_motor_neurons": 11,
+      "active_annotated_leg_motor_neurons": 10,
+      "mapped_active_annotated_leg_motor_neurons": 9,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 66,
+      "run_id": 33195876,
+      "parameter_row": 2,
+      "active_motor_neurons": 10,
+      "active_annotated_leg_motor_neurons": 10,
+      "mapped_active_annotated_leg_motor_neurons": 10,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 67,
+      "run_id": 33195876,
+      "parameter_row": 3,
+      "active_motor_neurons": 33,
+      "active_annotated_leg_motor_neurons": 20,
+      "mapped_active_annotated_leg_motor_neurons": 19,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 68,
+      "run_id": 33195876,
+      "parameter_row": 4,
+      "active_motor_neurons": 14,
+      "active_annotated_leg_motor_neurons": 12,
+      "mapped_active_annotated_leg_motor_neurons": 11,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 69,
+      "run_id": 33195876,
+      "parameter_row": 5,
+      "active_motor_neurons": 11,
+      "active_annotated_leg_motor_neurons": 10,
+      "mapped_active_annotated_leg_motor_neurons": 9,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 70,
+      "run_id": 33195876,
+      "parameter_row": 6,
+      "active_motor_neurons": 34,
+      "active_annotated_leg_motor_neurons": 20,
+      "mapped_active_annotated_leg_motor_neurons": 19,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 71,
+      "run_id": 33195876,
+      "parameter_row": 7,
+      "active_motor_neurons": 19,
+      "active_annotated_leg_motor_neurons": 15,
+      "mapped_active_annotated_leg_motor_neurons": 15,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 72,
+      "run_id": 33195876,
+      "parameter_row": 8,
+      "active_motor_neurons": 21,
+      "active_annotated_leg_motor_neurons": 16,
+      "mapped_active_annotated_leg_motor_neurons": 15,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 73,
+      "run_id": 33195876,
+      "parameter_row": 9,
+      "active_motor_neurons": 17,
+      "active_annotated_leg_motor_neurons": 15,
+      "mapped_active_annotated_leg_motor_neurons": 14,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 74,
+      "run_id": 33195876,
+      "parameter_row": 10,
+      "active_motor_neurons": 20,
+      "active_annotated_leg_motor_neurons": 17,
+      "mapped_active_annotated_leg_motor_neurons": 17,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 75,
+      "run_id": 33195876,
+      "parameter_row": 11,
+      "active_motor_neurons": 8,
+      "active_annotated_leg_motor_neurons": 6,
+      "mapped_active_annotated_leg_motor_neurons": 5,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 76,
+      "run_id": 33195876,
+      "parameter_row": 12,
+      "active_motor_neurons": 0,
+      "active_annotated_leg_motor_neurons": 0,
+      "mapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 77,
+      "run_id": 33195876,
+      "parameter_row": 13,
+      "active_motor_neurons": 13,
+      "active_annotated_leg_motor_neurons": 12,
+      "mapped_active_annotated_leg_motor_neurons": 11,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 78,
+      "run_id": 33195876,
+      "parameter_row": 14,
+      "active_motor_neurons": 21,
+      "active_annotated_leg_motor_neurons": 13,
+      "mapped_active_annotated_leg_motor_neurons": 12,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 79,
+      "run_id": 33195876,
+      "parameter_row": 15,
+      "active_motor_neurons": 14,
+      "active_annotated_leg_motor_neurons": 11,
+      "mapped_active_annotated_leg_motor_neurons": 10,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 80,
+      "run_id": 33195876,
+      "parameter_row": 16,
+      "active_motor_neurons": 14,
+      "active_annotated_leg_motor_neurons": 12,
+      "mapped_active_annotated_leg_motor_neurons": 11,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 81,
+      "run_id": 33195876,
+      "parameter_row": 17,
+      "active_motor_neurons": 326,
+      "active_annotated_leg_motor_neurons": 134,
+      "mapped_active_annotated_leg_motor_neurons": 112,
+      "unmapped_active_annotated_leg_motor_neurons": 22,
+      "unmapped_body_ids": [
+        12113,
+        12693,
+        13156,
+        14020,
+        15446,
+        15873,
+        16356,
+        16633,
+        17419,
+        19751,
+        21665,
+        22358,
+        23016,
+        25447,
+        25674,
+        29487,
+        35432,
+        45494,
+        101736,
+        157320,
+        166393,
+        219894
+      ]
+    },
+    {
+      "global_row": 82,
+      "run_id": 33195876,
+      "parameter_row": 18,
+      "active_motor_neurons": 34,
+      "active_annotated_leg_motor_neurons": 19,
+      "mapped_active_annotated_leg_motor_neurons": 18,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 83,
+      "run_id": 33195876,
+      "parameter_row": 19,
+      "active_motor_neurons": 7,
+      "active_annotated_leg_motor_neurons": 5,
+      "mapped_active_annotated_leg_motor_neurons": 4,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 84,
+      "run_id": 33195876,
+      "parameter_row": 20,
+      "active_motor_neurons": 7,
+      "active_annotated_leg_motor_neurons": 6,
+      "mapped_active_annotated_leg_motor_neurons": 6,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 85,
+      "run_id": 33195876,
+      "parameter_row": 21,
+      "active_motor_neurons": 20,
+      "active_annotated_leg_motor_neurons": 16,
+      "mapped_active_annotated_leg_motor_neurons": 15,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 86,
+      "run_id": 33195876,
+      "parameter_row": 22,
+      "active_motor_neurons": 19,
+      "active_annotated_leg_motor_neurons": 15,
+      "mapped_active_annotated_leg_motor_neurons": 14,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 87,
+      "run_id": 33195876,
+      "parameter_row": 23,
+      "active_motor_neurons": 346,
+      "active_annotated_leg_motor_neurons": 136,
+      "mapped_active_annotated_leg_motor_neurons": 113,
+      "unmapped_active_annotated_leg_motor_neurons": 23,
+      "unmapped_body_ids": [
+        12113,
+        12693,
+        13156,
+        14020,
+        15446,
+        15873,
+        16356,
+        16633,
+        17419,
+        19751,
+        21665,
+        22358,
+        23016,
+        25447,
+        25674,
+        29487,
+        35432,
+        45494,
+        47642,
+        101736,
+        157320,
+        166393,
+        219894
+      ]
+    },
+    {
+      "global_row": 88,
+      "run_id": 33195876,
+      "parameter_row": 24,
+      "active_motor_neurons": 33,
+      "active_annotated_leg_motor_neurons": 20,
+      "mapped_active_annotated_leg_motor_neurons": 19,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 89,
+      "run_id": 33195876,
+      "parameter_row": 25,
+      "active_motor_neurons": 24,
+      "active_annotated_leg_motor_neurons": 18,
+      "mapped_active_annotated_leg_motor_neurons": 17,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 90,
+      "run_id": 33195876,
+      "parameter_row": 26,
+      "active_motor_neurons": 14,
+      "active_annotated_leg_motor_neurons": 12,
+      "mapped_active_annotated_leg_motor_neurons": 11,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 91,
+      "run_id": 33195876,
+      "parameter_row": 27,
+      "active_motor_neurons": 7,
+      "active_annotated_leg_motor_neurons": 5,
+      "mapped_active_annotated_leg_motor_neurons": 4,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 92,
+      "run_id": 33195876,
+      "parameter_row": 28,
+      "active_motor_neurons": 19,
+      "active_annotated_leg_motor_neurons": 16,
+      "mapped_active_annotated_leg_motor_neurons": 16,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 93,
+      "run_id": 33195876,
+      "parameter_row": 29,
+      "active_motor_neurons": 16,
+      "active_annotated_leg_motor_neurons": 13,
+      "mapped_active_annotated_leg_motor_neurons": 13,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 94,
+      "run_id": 33195876,
+      "parameter_row": 30,
+      "active_motor_neurons": 20,
+      "active_annotated_leg_motor_neurons": 17,
+      "mapped_active_annotated_leg_motor_neurons": 16,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 95,
+      "run_id": 33195876,
+      "parameter_row": 31,
+      "active_motor_neurons": 33,
+      "active_annotated_leg_motor_neurons": 18,
+      "mapped_active_annotated_leg_motor_neurons": 17,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 96,
+      "run_id": 33195882,
+      "parameter_row": 0,
+      "active_motor_neurons": 11,
+      "active_annotated_leg_motor_neurons": 9,
+      "mapped_active_annotated_leg_motor_neurons": 8,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 97,
+      "run_id": 33195882,
+      "parameter_row": 1,
+      "active_motor_neurons": 30,
+      "active_annotated_leg_motor_neurons": 20,
+      "mapped_active_annotated_leg_motor_neurons": 19,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 98,
+      "run_id": 33195882,
+      "parameter_row": 2,
+      "active_motor_neurons": 15,
+      "active_annotated_leg_motor_neurons": 13,
+      "mapped_active_annotated_leg_motor_neurons": 12,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 99,
+      "run_id": 33195882,
+      "parameter_row": 3,
+      "active_motor_neurons": 18,
+      "active_annotated_leg_motor_neurons": 15,
+      "mapped_active_annotated_leg_motor_neurons": 14,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 100,
+      "run_id": 33195882,
+      "parameter_row": 4,
+      "active_motor_neurons": 8,
+      "active_annotated_leg_motor_neurons": 7,
+      "mapped_active_annotated_leg_motor_neurons": 7,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 101,
+      "run_id": 33195882,
+      "parameter_row": 5,
+      "active_motor_neurons": 24,
+      "active_annotated_leg_motor_neurons": 19,
+      "mapped_active_annotated_leg_motor_neurons": 17,
+      "unmapped_active_annotated_leg_motor_neurons": 2,
+      "unmapped_body_ids": [
+        11226,
+        21665
+      ]
+    },
+    {
+      "global_row": 102,
+      "run_id": 33195882,
+      "parameter_row": 6,
+      "active_motor_neurons": 20,
+      "active_annotated_leg_motor_neurons": 12,
+      "mapped_active_annotated_leg_motor_neurons": 11,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 103,
+      "run_id": 33195882,
+      "parameter_row": 7,
+      "active_motor_neurons": 21,
+      "active_annotated_leg_motor_neurons": 17,
+      "mapped_active_annotated_leg_motor_neurons": 16,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 104,
+      "run_id": 33195882,
+      "parameter_row": 8,
+      "active_motor_neurons": 321,
+      "active_annotated_leg_motor_neurons": 141,
+      "mapped_active_annotated_leg_motor_neurons": 120,
+      "unmapped_active_annotated_leg_motor_neurons": 21,
+      "unmapped_body_ids": [
+        12113,
+        12693,
+        13156,
+        14020,
+        15446,
+        15873,
+        16356,
+        16633,
+        17419,
+        19751,
+        21665,
+        22358,
+        23016,
+        25447,
+        25674,
+        29487,
+        35432,
+        45494,
+        101736,
+        157320,
+        166393
+      ]
+    },
+    {
+      "global_row": 105,
+      "run_id": 33195882,
+      "parameter_row": 9,
+      "active_motor_neurons": 22,
+      "active_annotated_leg_motor_neurons": 16,
+      "mapped_active_annotated_leg_motor_neurons": 15,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 106,
+      "run_id": 33195882,
+      "parameter_row": 10,
+      "active_motor_neurons": 13,
+      "active_annotated_leg_motor_neurons": 11,
+      "mapped_active_annotated_leg_motor_neurons": 11,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 107,
+      "run_id": 33195882,
+      "parameter_row": 11,
+      "active_motor_neurons": 11,
+      "active_annotated_leg_motor_neurons": 10,
+      "mapped_active_annotated_leg_motor_neurons": 10,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 108,
+      "run_id": 33195882,
+      "parameter_row": 12,
+      "active_motor_neurons": 12,
+      "active_annotated_leg_motor_neurons": 11,
+      "mapped_active_annotated_leg_motor_neurons": 11,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 109,
+      "run_id": 33195882,
+      "parameter_row": 13,
+      "active_motor_neurons": 15,
+      "active_annotated_leg_motor_neurons": 13,
+      "mapped_active_annotated_leg_motor_neurons": 12,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 110,
+      "run_id": 33195882,
+      "parameter_row": 14,
+      "active_motor_neurons": 16,
+      "active_annotated_leg_motor_neurons": 13,
+      "mapped_active_annotated_leg_motor_neurons": 12,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 111,
+      "run_id": 33195882,
+      "parameter_row": 15,
+      "active_motor_neurons": 20,
+      "active_annotated_leg_motor_neurons": 15,
+      "mapped_active_annotated_leg_motor_neurons": 14,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 112,
+      "run_id": 33195882,
+      "parameter_row": 16,
+      "active_motor_neurons": 0,
+      "active_annotated_leg_motor_neurons": 0,
+      "mapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 113,
+      "run_id": 33195882,
+      "parameter_row": 17,
+      "active_motor_neurons": 17,
+      "active_annotated_leg_motor_neurons": 13,
+      "mapped_active_annotated_leg_motor_neurons": 12,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 114,
+      "run_id": 33195882,
+      "parameter_row": 18,
+      "active_motor_neurons": 12,
+      "active_annotated_leg_motor_neurons": 12,
+      "mapped_active_annotated_leg_motor_neurons": 11,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 115,
+      "run_id": 33195882,
+      "parameter_row": 19,
+      "active_motor_neurons": 8,
+      "active_annotated_leg_motor_neurons": 7,
+      "mapped_active_annotated_leg_motor_neurons": 7,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 116,
+      "run_id": 33195882,
+      "parameter_row": 20,
+      "active_motor_neurons": 12,
+      "active_annotated_leg_motor_neurons": 10,
+      "mapped_active_annotated_leg_motor_neurons": 9,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 117,
+      "run_id": 33195882,
+      "parameter_row": 21,
+      "active_motor_neurons": 439,
+      "active_annotated_leg_motor_neurons": 189,
+      "mapped_active_annotated_leg_motor_neurons": 154,
+      "unmapped_active_annotated_leg_motor_neurons": 35,
+      "unmapped_body_ids": [
+        10811,
+        11226,
+        12113,
+        12693,
+        13156,
+        13920,
+        14020,
+        14949,
+        15446,
+        15873,
+        16356,
+        16633,
+        17419,
+        18983,
+        19468,
+        19751,
+        21665,
+        21749,
+        21944,
+        22358,
+        23390,
+        24139,
+        25674,
+        28884,
+        29484,
+        29487,
+        35432,
+        35735,
+        42738,
+        47642,
+        156857,
+        157320,
+        162830,
+        219894,
+        226276
+      ]
+    },
+    {
+      "global_row": 118,
+      "run_id": 33195882,
+      "parameter_row": 22,
+      "active_motor_neurons": 18,
+      "active_annotated_leg_motor_neurons": 15,
+      "mapped_active_annotated_leg_motor_neurons": 14,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 119,
+      "run_id": 33195882,
+      "parameter_row": 23,
+      "active_motor_neurons": 10,
+      "active_annotated_leg_motor_neurons": 9,
+      "mapped_active_annotated_leg_motor_neurons": 9,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 120,
+      "run_id": 33195882,
+      "parameter_row": 24,
+      "active_motor_neurons": 0,
+      "active_annotated_leg_motor_neurons": 0,
+      "mapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 121,
+      "run_id": 33195882,
+      "parameter_row": 25,
+      "active_motor_neurons": 4,
+      "active_annotated_leg_motor_neurons": 3,
+      "mapped_active_annotated_leg_motor_neurons": 3,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 122,
+      "run_id": 33195882,
+      "parameter_row": 26,
+      "active_motor_neurons": 38,
+      "active_annotated_leg_motor_neurons": 25,
+      "mapped_active_annotated_leg_motor_neurons": 24,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 123,
+      "run_id": 33195882,
+      "parameter_row": 27,
+      "active_motor_neurons": 10,
+      "active_annotated_leg_motor_neurons": 8,
+      "mapped_active_annotated_leg_motor_neurons": 7,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 124,
+      "run_id": 33195882,
+      "parameter_row": 28,
+      "active_motor_neurons": 15,
+      "active_annotated_leg_motor_neurons": 12,
+      "mapped_active_annotated_leg_motor_neurons": 12,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    },
+    {
+      "global_row": 125,
+      "run_id": 33195882,
+      "parameter_row": 29,
+      "active_motor_neurons": 20,
+      "active_annotated_leg_motor_neurons": 15,
+      "mapped_active_annotated_leg_motor_neurons": 14,
+      "unmapped_active_annotated_leg_motor_neurons": 1,
+      "unmapped_body_ids": [
+        21665
+      ]
+    },
+    {
+      "global_row": 126,
+      "run_id": 33195882,
+      "parameter_row": 30,
+      "active_motor_neurons": 35,
+      "active_annotated_leg_motor_neurons": 18,
+      "mapped_active_annotated_leg_motor_neurons": 16,
+      "unmapped_active_annotated_leg_motor_neurons": 2,
+      "unmapped_body_ids": [
+        21665,
+        35432
+      ]
+    },
+    {
+      "global_row": 127,
+      "run_id": 33195882,
+      "parameter_row": 31,
+      "active_motor_neurons": 11,
+      "active_annotated_leg_motor_neurons": 10,
+      "mapped_active_annotated_leg_motor_neurons": 10,
+      "unmapped_active_annotated_leg_motor_neurons": 0,
+      "unmapped_body_ids": []
+    }
+  ],
+  "author_global_row117_exact": {
+    "global_row": 117,
+    "run_id": 33195882,
+    "parameter_row": 21,
+    "active_motor_neurons": 439,
+    "active_annotated_leg_motor_neurons": 189,
+    "mapped_active_annotated_leg_motor_neurons": 154,
+    "unmapped_active_annotated_leg_motor_neurons": 35,
+    "unmapped_body_ids": [
+      10811,
+      11226,
+      12113,
+      12693,
+      13156,
+      13920,
+      14020,
+      14949,
+      15446,
+      15873,
+      16356,
+      16633,
+      17419,
+      18983,
+      19468,
+      19751,
+      21665,
+      21749,
+      21944,
+      22358,
+      23390,
+      24139,
+      25674,
+      28884,
+      29484,
+      29487,
+      35432,
+      35735,
+      42738,
+      47642,
+      156857,
+      157320,
+      162830,
+      219894,
+      226276
+    ]
+  },
+  "earlier_local_RK_row21_counts": {
+    "active_annotated_leg_motor_neurons": 197,
+    "mapped_active_annotated_leg_motor_neurons": 161,
+    "unmapped_active_annotated_leg_motor_neurons": 36
+  },
+  "checks": {
+    "all_128_source_rows": true,
+    "global_117_is_run33195882_row21": true,
+    "exact_author_row117_mapped_plus_unmapped": true,
+    "local_RK_counts_are_separate_from_author": true,
+    "all_mapped_counts_bounded": true
+  },
+  "passed": true
+}

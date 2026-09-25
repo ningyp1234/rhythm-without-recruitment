@@ -1,0 +1,477 @@
+{
+  "date": "2026-09-24",
+  "question": "Is current physical walking causally dependent on the published-data four-cell VNC core?",
+  "scope": "frozen engineering motor decoder on official v1 joint-actuated body; no full-MANC MN-to-muscle drive",
+  "source": {
+    "core_parameters": "data/pugliese-vnc-core-cpg.json",
+    "base_checkpoint_sha256": "817506e37a12100ef437d46f9fb9084e0171225c7babc0d8c13508ff5f74fb9a",
+    "residual_checkpoint_sha256": "05aa5fc2788c9cf1f54211141432594dfc3edbb7734d81839d2371d785df4d3f"
+  },
+  "records": {
+    "intact": {
+      "bout_key": "bout_1008_canonical",
+      "split": "training-derived standard start",
+      "distance_2s_mm": 38.16072932036253,
+      "body_contact_fraction": 0.0,
+      "first_body_contact_s": null,
+      "maximum_tilt": 0.02067747339606285,
+      "cycles": [
+        23,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "finite": true,
+      "decoded_phase_cycles": 22.361111111111125,
+      "E1_mean_hz": 3.514251947402954,
+      "E2_mean_hz": 7.162954807281494,
+      "action_rms_difference_from_intact": 0.0,
+      "walking_gate": true,
+      "sustained_contact_cycles_8_75ms": [
+        21,
+        22,
+        22,
+        22,
+        25,
+        22
+      ],
+      "foot_only_support_fraction": 1.0,
+      "contact_fraction_per_leg": [
+        0.6433479075577764,
+        0.4397251717676452,
+        0.5683947532792005,
+        0.6608369768894441,
+        0.7514053716427233,
+        0.7532792004996877
+      ],
+      "median_planted_foot_slip_mm_s": 4.362331867218018,
+      "strict_walking_gate": true
+    },
+    "hold_neural_state": {
+      "bout_key": "bout_1008_canonical",
+      "split": "training-derived standard start",
+      "distance_2s_mm": 18.508882536165675,
+      "body_contact_fraction": 0.024984384759525295,
+      "first_body_contact_s": 0.31375,
+      "maximum_tilt": 0.023290026932954788,
+      "cycles": [
+        17,
+        57,
+        56,
+        19,
+        21,
+        55
+      ],
+      "finite": true,
+      "decoded_phase_cycles": 0.0,
+      "E1_mean_hz": 4.347102642059326,
+      "E2_mean_hz": 10.395004272460938,
+      "action_rms_difference_from_intact": 0.10543816536664963,
+      "walking_gate": true,
+      "sustained_contact_cycles_8_75ms": [
+        0,
+        0,
+        0,
+        5,
+        5,
+        5
+      ],
+      "foot_only_support_fraction": 0.9750156152404748,
+      "contact_fraction_per_leg": [
+        0.03685196752029981,
+        0.8931917551530294,
+        0.9737663960024985,
+        0.7607745159275453,
+        0.6958151155527795,
+        0.7520299812617114
+      ],
+      "median_planted_foot_slip_mm_s": 11.857189178466797,
+      "strict_walking_gate": false
+    },
+    "silence_E1": {
+      "bout_key": "bout_1008_canonical",
+      "split": "training-derived standard start",
+      "distance_2s_mm": 3.446934764476179,
+      "body_contact_fraction": 0.7326670830730794,
+      "first_body_contact_s": 0.24875,
+      "maximum_tilt": 1.9645582437515259,
+      "cycles": [
+        2,
+        8,
+        10,
+        3,
+        3,
+        1
+      ],
+      "finite": true,
+      "decoded_phase_cycles": 0.19444444444444445,
+      "E1_mean_hz": 0.0,
+      "E2_mean_hz": 0.1540706604719162,
+      "action_rms_difference_from_intact": 0.1007549911737442,
+      "walking_gate": false,
+      "sustained_contact_cycles_8_75ms": [
+        0,
+        3,
+        2,
+        2,
+        5,
+        0
+      ],
+      "foot_only_support_fraction": 0.26670830730793255,
+      "contact_fraction_per_leg": [
+        0.2485946283572767,
+        0.19362898188632105,
+        0.21299188007495315,
+        0.12866958151155528,
+        0.13366645846346034,
+        0.2679575265459088
+      ],
+      "median_planted_foot_slip_mm_s": 5.591752529144287,
+      "strict_walking_gate": false
+    },
+    "silence_E2": {
+      "bout_key": "bout_1008_canonical",
+      "split": "training-derived standard start",
+      "distance_2s_mm": 4.444934458296569,
+      "body_contact_fraction": 0.0,
+      "first_body_contact_s": null,
+      "maximum_tilt": 0.036656998097896576,
+      "cycles": [
+        38,
+        33,
+        36,
+        39,
+        47,
+        4
+      ],
+      "finite": true,
+      "decoded_phase_cycles": 0.20833333333333337,
+      "E1_mean_hz": 7.449185848236084,
+      "E2_mean_hz": 0.0,
+      "action_rms_difference_from_intact": 0.10402270406484604,
+      "walking_gate": false,
+      "sustained_contact_cycles_8_75ms": [
+        17,
+        13,
+        10,
+        1,
+        1,
+        1
+      ],
+      "foot_only_support_fraction": 0.9993753903810119,
+      "contact_fraction_per_leg": [
+        0.39600249843847596,
+        0.6308557151780138,
+        0.7957526545908807,
+        0.9300437226733291,
+        0.966895690193629,
+        0.12304809494066209
+      ],
+      "median_planted_foot_slip_mm_s": 9.64803409576416,
+      "strict_walking_gate": false
+    }
+  },
+  "heldout_test_pairs": [
+    {
+      "bout_key": "bout_0209",
+      "intact": {
+        "bout_key": "bout_0209",
+        "split": "test",
+        "distance_2s_mm": 34.0876393399527,
+        "body_contact_fraction": 0.0,
+        "first_body_contact_s": null,
+        "maximum_tilt": 0.04638003557920456,
+        "cycles": [
+          22,
+          23,
+          23,
+          22,
+          22,
+          22
+        ],
+        "finite": true,
+        "decoded_phase_cycles": 22.361111111111125,
+        "E1_mean_hz": 3.5335397720336914,
+        "E2_mean_hz": 7.1906232833862305,
+        "action_rms_difference_from_intact": 0.0,
+        "walking_gate": true,
+        "sustained_contact_cycles_8_75ms": [
+          21,
+          21,
+          22,
+          22,
+          22,
+          21
+        ],
+        "foot_only_support_fraction": 1.0,
+        "contact_fraction_per_leg": [
+          0.6102435977514054,
+          0.4297314178638351,
+          0.6039975015615241,
+          0.7676452217364147,
+          0.8126171143035603,
+          0.542785758900687
+        ],
+        "median_planted_foot_slip_mm_s": 3.926827907562256,
+        "strict_walking_gate": true
+      },
+      "hold_neural_state": {
+        "bout_key": "bout_0209",
+        "split": "test",
+        "distance_2s_mm": 6.172884979049923,
+        "body_contact_fraction": 0.0,
+        "first_body_contact_s": null,
+        "maximum_tilt": 0.0569353848695755,
+        "cycles": [
+          21,
+          15,
+          38,
+          49,
+          52,
+          23
+        ],
+        "finite": true,
+        "decoded_phase_cycles": 0.0,
+        "E1_mean_hz": 4.761367321014404,
+        "E2_mean_hz": 8.443612098693848,
+        "action_rms_difference_from_intact": 0.09770416468381882,
+        "walking_gate": true,
+        "sustained_contact_cycles_8_75ms": [
+          9,
+          16,
+          3,
+          0,
+          0,
+          6
+        ],
+        "foot_only_support_fraction": 0.9993753903810119,
+        "contact_fraction_per_leg": [
+          0.16114928169893816,
+          0.603372891942536,
+          0.9350405996252342,
+          0.9881324172392255,
+          0.9700187382885697,
+          0.282948157401624
+        ],
+        "median_planted_foot_slip_mm_s": 7.523060321807861,
+        "strict_walking_gate": false
+      }
+    },
+    {
+      "bout_key": "bout_0325",
+      "intact": {
+        "bout_key": "bout_0325",
+        "split": "test",
+        "distance_2s_mm": 8.857100565274507,
+        "body_contact_fraction": 0.021861336664584636,
+        "first_body_contact_s": 0.24875,
+        "maximum_tilt": 0.01726970635354519,
+        "cycles": [
+          22,
+          22,
+          22,
+          23,
+          24,
+          22
+        ],
+        "finite": true,
+        "decoded_phase_cycles": 22.361111111111125,
+        "E1_mean_hz": 3.507255792617798,
+        "E2_mean_hz": 7.134711265563965,
+        "action_rms_difference_from_intact": 0.0,
+        "walking_gate": true,
+        "sustained_contact_cycles_8_75ms": [
+          21,
+          20,
+          22,
+          21,
+          23,
+          20
+        ],
+        "foot_only_support_fraction": 0.9781386633354153,
+        "contact_fraction_per_leg": [
+          0.6283572767020612,
+          0.36289818863210493,
+          0.636477201748907,
+          0.6914428482198626,
+          0.7195502810743285,
+          0.7183010618363522
+        ],
+        "median_planted_foot_slip_mm_s": 4.085192680358887,
+        "strict_walking_gate": false
+      },
+      "hold_neural_state": {
+        "bout_key": "bout_0325",
+        "split": "test",
+        "distance_2s_mm": 7.5944100857049115,
+        "body_contact_fraction": 0.06246096189881324,
+        "first_body_contact_s": 0.375,
+        "maximum_tilt": 0.03849354386329651,
+        "cycles": [
+          19,
+          5,
+          52,
+          24,
+          20,
+          48
+        ],
+        "finite": true,
+        "decoded_phase_cycles": 0.0,
+        "E1_mean_hz": 3.397984504699707,
+        "E2_mean_hz": 9.480789184570312,
+        "action_rms_difference_from_intact": 0.10304766148328781,
+        "walking_gate": false,
+        "sustained_contact_cycles_8_75ms": [
+          8,
+          4,
+          1,
+          14,
+          0,
+          2
+        ],
+        "foot_only_support_fraction": 0.9375390381011868,
+        "contact_fraction_per_leg": [
+          0.34603372891942535,
+          0.7713928794503435,
+          0.9918800749531543,
+          0.4353529044347283,
+          0.07995003123048094,
+          0.9088069956277327
+        ],
+        "median_planted_foot_slip_mm_s": 9.235590934753418,
+        "strict_walking_gate": false
+      }
+    },
+    {
+      "bout_key": "bout_1250",
+      "intact": {
+        "bout_key": "bout_1250",
+        "split": "test",
+        "distance_2s_mm": 31.719535205437985,
+        "body_contact_fraction": 0.0,
+        "first_body_contact_s": null,
+        "maximum_tilt": 0.028727907687425613,
+        "cycles": [
+          22,
+          22,
+          22,
+          22,
+          22,
+          22
+        ],
+        "finite": true,
+        "decoded_phase_cycles": 22.361111111111125,
+        "E1_mean_hz": 3.5225651264190674,
+        "E2_mean_hz": 7.117092132568359,
+        "action_rms_difference_from_intact": 0.0,
+        "walking_gate": true,
+        "sustained_contact_cycles_8_75ms": [
+          22,
+          22,
+          22,
+          22,
+          22,
+          22
+        ],
+        "foot_only_support_fraction": 1.0,
+        "contact_fraction_per_leg": [
+          0.6402248594628357,
+          0.45034353529044346,
+          0.5765146783260462,
+          0.7682698313554028,
+          0.8094940662086196,
+          0.5415365396627108
+        ],
+        "median_planted_foot_slip_mm_s": 4.061352729797363,
+        "strict_walking_gate": true
+      },
+      "hold_neural_state": {
+        "bout_key": "bout_1250",
+        "split": "test",
+        "distance_2s_mm": 3.5959312843004505,
+        "body_contact_fraction": 0.06995627732667083,
+        "first_body_contact_s": 0.34875,
+        "maximum_tilt": 0.036704618483781815,
+        "cycles": [
+          41,
+          23,
+          5,
+          56,
+          25,
+          54
+        ],
+        "finite": true,
+        "decoded_phase_cycles": 0.0,
+        "E1_mean_hz": 2.4741384983062744,
+        "E2_mean_hz": 4.427216053009033,
+        "action_rms_difference_from_intact": 0.10287253558635712,
+        "walking_gate": false,
+        "sustained_contact_cycles_8_75ms": [
+          4,
+          7,
+          5,
+          2,
+          2,
+          0
+        ],
+        "foot_only_support_fraction": 0.9300437226733291,
+        "contact_fraction_per_leg": [
+          0.8157401623985009,
+          0.3291692692067458,
+          0.8938163647720175,
+          0.8151155527795128,
+          0.20174890693316677,
+          0.957526545908807
+        ],
+        "median_planted_foot_slip_mm_s": 9.640312194824219,
+        "strict_walking_gate": false
+      }
+    }
+  ],
+  "official_source_gait_calibration": {
+    "sustained_contact_cycles_8_75ms": [
+      21,
+      22,
+      22,
+      22,
+      21,
+      22
+    ],
+    "foot_only_support_fraction": 1.0,
+    "contact_fraction_per_leg": [
+      0.6620861961274204,
+      0.532792004996877,
+      0.5053091817613992,
+      0.693316677076827,
+      0.48094940662086194,
+      0.27108057464084945
+    ],
+    "median_planted_foot_slip_mm_s": 5.097522735595703
+  },
+  "source_relative_slip_limit_mm_s": 6.371903419494629,
+  "neural_core_necessary_for_current_walking_gate": false,
+  "strict_walk_intact": true,
+  "limitations": [
+    "A finite neural intervention may alter the decoder input rather than a measured biological synapse.",
+    "The body has 56 engineering joint actuators and lacks validated six-leg muscles.",
+    "Phototaxis and flight are outside this experiment."
+  ],
+  "checks": {
+    "same_checkpoint_body_and_initial_state": true,
+    "intact_reproduces_previous_success": true,
+    "hold_core_really_holds_phase": true,
+    "E1_intervention_really_silences_E1": true,
+    "E2_intervention_really_silences_E2": true,
+    "all_rollouts_finite": true,
+    "saved_reproducible_trajectories": true
+  },
+  "passed": true,
+  "artifacts": {
+    "traces": "results/vnc-core-causal-audit-20260924/rollouts.npz",
+    "traces_sha256": "406a48c877db1cf5f29462a1dd7b86cdf339a4bcf654f5edcb94251eafa12921",
+    "figure": "results/vnc-core-causal-audit-20260924/vnc-core-causal-audit.png"
+  },
+  "goal_complete": false
+}

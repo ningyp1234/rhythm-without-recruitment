@@ -1,0 +1,6043 @@
+{
+  "scope": "Four official full-MANC DNg100 runs, all 128 author-saved parameter rows, 2s each, two unchanged six-leg bodies, open-loop",
+  "source": "https://zenodo.org/records/22260924",
+  "run_order": [
+    30662613,
+    33195857,
+    33195876,
+    33195882
+  ],
+  "model_seconds_each": 2.0,
+  "wall_seconds": 321.45778945900383,
+  "rows": [
+    {
+      "global_row": 0,
+      "run_id": 30662613,
+      "parameter_row": 0,
+      "hill": {
+        "forward_mm": 0.00020713874947286826,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00044208059941497346,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 1,
+      "run_id": 30662613,
+      "parameter_row": 1,
+      "hill": {
+        "forward_mm": 0.00033624768065654287,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0005364746405739362,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 2,
+      "run_id": 30662613,
+      "parameter_row": 2,
+      "hill": {
+        "forward_mm": -0.1229691696132183,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          3
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0723372112299534,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 3,
+      "run_id": 30662613,
+      "parameter_row": 3,
+      "hill": {
+        "forward_mm": 0.0007391762535006174,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0008460880260465764,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 4,
+      "run_id": 30662613,
+      "parameter_row": 4,
+      "hill": {
+        "forward_mm": 0.0005547474184893764,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00014734578677555454,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 5,
+      "run_id": 30662613,
+      "parameter_row": 5,
+      "hill": {
+        "forward_mm": -0.06545656846166803,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.004266976813658618,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 6,
+      "run_id": 30662613,
+      "parameter_row": 6,
+      "hill": {
+        "forward_mm": 4.850332503048005e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00010111115867095233,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 7,
+      "run_id": 30662613,
+      "parameter_row": 7,
+      "hill": {
+        "forward_mm": 0.0019217428091301558,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0020585129847078276,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 8,
+      "run_id": 30662613,
+      "parameter_row": 8,
+      "hill": {
+        "forward_mm": 0.0010581933196527338,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0013351695687039422,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 9,
+      "run_id": 30662613,
+      "parameter_row": 9,
+      "hill": {
+        "forward_mm": 0.0022824915094373788,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0014299412870778516,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 10,
+      "run_id": 30662613,
+      "parameter_row": 10,
+      "hill": {
+        "forward_mm": 0.002413875904200502,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0017999345903315644,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 11,
+      "run_id": 30662613,
+      "parameter_row": 11,
+      "hill": {
+        "forward_mm": 0.0005241237690800649,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00043435135994973617,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 12,
+      "run_id": 30662613,
+      "parameter_row": 12,
+      "hill": {
+        "forward_mm": 0.00030460340350191295,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0002937192298195779,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 13,
+      "run_id": 30662613,
+      "parameter_row": 13,
+      "hill": {
+        "forward_mm": 0.002588958760951998,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.001717825270771245,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 14,
+      "run_id": 30662613,
+      "parameter_row": 14,
+      "hill": {
+        "forward_mm": 0.0003674399348478907,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0002865097843465225,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 15,
+      "run_id": 30662613,
+      "parameter_row": 15,
+      "hill": {
+        "forward_mm": 0.002473055283113701,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0016147228333242003,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 16,
+      "run_id": 30662613,
+      "parameter_row": 16,
+      "hill": {
+        "forward_mm": 0.0029446521802999337,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0016862237898421784,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 17,
+      "run_id": 30662613,
+      "parameter_row": 17,
+      "hill": {
+        "forward_mm": 0.00045541074882249344,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0005041147525379763,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 18,
+      "run_id": 30662613,
+      "parameter_row": 18,
+      "hill": {
+        "forward_mm": 0.0031880348224602173,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.002579275511672696,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 19,
+      "run_id": 30662613,
+      "parameter_row": 19,
+      "hill": {
+        "forward_mm": 0.002368259761175051,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0017613971586314392,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 20,
+      "run_id": 30662613,
+      "parameter_row": 20,
+      "hill": {
+        "forward_mm": 0.0007310061050617156,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0006159317837781675,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 21,
+      "run_id": 30662613,
+      "parameter_row": 21,
+      "hill": {
+        "forward_mm": 8.259061390980538e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00014130879169738098,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 22,
+      "run_id": 30662613,
+      "parameter_row": 22,
+      "hill": {
+        "forward_mm": 0.0003832200660333074,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0005065241645275664,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 23,
+      "run_id": 30662613,
+      "parameter_row": 23,
+      "hill": {
+        "forward_mm": -0.04913499189223519,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          2
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0455712258463008,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 24,
+      "run_id": 30662613,
+      "parameter_row": 24,
+      "hill": {
+        "forward_mm": 0.0009038004642283326,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0010708989986913942,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 25,
+      "run_id": 30662613,
+      "parameter_row": 25,
+      "hill": {
+        "forward_mm": 8.078379853138085e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0001102343708823117,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 26,
+      "run_id": 30662613,
+      "parameter_row": 26,
+      "hill": {
+        "forward_mm": 0.0004886978981027967,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00040269455903607643,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 27,
+      "run_id": 30662613,
+      "parameter_row": 27,
+      "hill": {
+        "forward_mm": 0.0005826678236217075,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00072965794389801,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 28,
+      "run_id": 30662613,
+      "parameter_row": 28,
+      "hill": {
+        "forward_mm": 0.0027297986159877663,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.002522715954691779,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 29,
+      "run_id": 30662613,
+      "parameter_row": 29,
+      "hill": {
+        "forward_mm": 0.0018047106004577262,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0017135057416284294,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 30,
+      "run_id": 30662613,
+      "parameter_row": 30,
+      "hill": {
+        "forward_mm": 0.00039156085259872686,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0005155733372261828,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 31,
+      "run_id": 30662613,
+      "parameter_row": 31,
+      "hill": {
+        "forward_mm": 0.00033020813633888313,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00022307694968637382,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 32,
+      "run_id": 33195857,
+      "parameter_row": 0,
+      "hill": {
+        "forward_mm": 0.00029522964794270745,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00036274477110520564,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 33,
+      "run_id": 33195857,
+      "parameter_row": 1,
+      "hill": {
+        "forward_mm": 0.0001645870742800204,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00020979215039818033,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 34,
+      "run_id": 33195857,
+      "parameter_row": 2,
+      "hill": {
+        "forward_mm": -0.04632556133181598,
+        "steps_per_leg": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.026241660955504287,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 35,
+      "run_id": 33195857,
+      "parameter_row": 3,
+      "hill": {
+        "forward_mm": 4.944420282626538e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 2.0511811945622682e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 36,
+      "run_id": 33195857,
+      "parameter_row": 4,
+      "hill": {
+        "forward_mm": 0.0004143144579705771,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0003900399244683994,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 37,
+      "run_id": 33195857,
+      "parameter_row": 5,
+      "hill": {
+        "forward_mm": 0.002390976740080264,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.001707792986156087,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 38,
+      "run_id": 33195857,
+      "parameter_row": 6,
+      "hill": {
+        "forward_mm": 0.0024386472412739613,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.002144048385590014,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 39,
+      "run_id": 33195857,
+      "parameter_row": 7,
+      "hill": {
+        "forward_mm": 0.0016792323516349184,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.001668265654617307,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 40,
+      "run_id": 33195857,
+      "parameter_row": 8,
+      "hill": {
+        "forward_mm": 0.000709232358624079,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0007770673928721994,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 41,
+      "run_id": 33195857,
+      "parameter_row": 9,
+      "hill": {
+        "forward_mm": 1.2429464464003281e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 2.5604439987891858e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 42,
+      "run_id": 33195857,
+      "parameter_row": 10,
+      "hill": {
+        "forward_mm": 0.00021169196175363503,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 8.855024337361961e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 43,
+      "run_id": 33195857,
+      "parameter_row": 11,
+      "hill": {
+        "forward_mm": 7.297496957836547e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 9.607817949253139e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 44,
+      "run_id": 33195857,
+      "parameter_row": 12,
+      "hill": {
+        "forward_mm": -1.532735449671918e-06,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": -1.4816583809862394e-06,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 45,
+      "run_id": 33195857,
+      "parameter_row": 13,
+      "hill": {
+        "forward_mm": 0.0008641747636578545,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0008059175769835614,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 46,
+      "run_id": 33195857,
+      "parameter_row": 14,
+      "hill": {
+        "forward_mm": 0.001962352423873548,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0015140363482352148,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 47,
+      "run_id": 33195857,
+      "parameter_row": 15,
+      "hill": {
+        "forward_mm": 0.0004426877672872864,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0005515056178775346,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 48,
+      "run_id": 33195857,
+      "parameter_row": 16,
+      "hill": {
+        "forward_mm": 0.0023379508958222273,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0016148565604148235,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 49,
+      "run_id": 33195857,
+      "parameter_row": 17,
+      "hill": {
+        "forward_mm": 0.0012517508849961834,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0007095239418362098,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 50,
+      "run_id": 33195857,
+      "parameter_row": 18,
+      "hill": {
+        "forward_mm": 0.0009150367717843944,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00112311179753255,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 51,
+      "run_id": 33195857,
+      "parameter_row": 19,
+      "hill": {
+        "forward_mm": 0.001114398375345882,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0009507560922638048,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 52,
+      "run_id": 33195857,
+      "parameter_row": 20,
+      "hill": {
+        "forward_mm": -0.058092622405236216,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          3,
+          0,
+          2
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.03997345471738123,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 53,
+      "run_id": 33195857,
+      "parameter_row": 21,
+      "hill": {
+        "forward_mm": 0.0011399952838992977,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0013837032101510216,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 54,
+      "run_id": 33195857,
+      "parameter_row": 22,
+      "hill": {
+        "forward_mm": -0.10080812503295744,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          2
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.05809369854122859,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 55,
+      "run_id": 33195857,
+      "parameter_row": 23,
+      "hill": {
+        "forward_mm": 0.00028784860629993414,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00036336587946872445,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 56,
+      "run_id": 33195857,
+      "parameter_row": 24,
+      "hill": {
+        "forward_mm": 0.0007894987044044788,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0008327023380261256,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 57,
+      "run_id": 33195857,
+      "parameter_row": 25,
+      "hill": {
+        "forward_mm": 0.0013358736347502953,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0015989618536758066,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 58,
+      "run_id": 33195857,
+      "parameter_row": 26,
+      "hill": {
+        "forward_mm": 0.000323810359426413,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00015699394995971616,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 59,
+      "run_id": 33195857,
+      "parameter_row": 27,
+      "hill": {
+        "forward_mm": 0.0009795295196780573,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.000727769964589231,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 60,
+      "run_id": 33195857,
+      "parameter_row": 28,
+      "hill": {
+        "forward_mm": 0.00039920556333405965,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00040495888385261303,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 61,
+      "run_id": 33195857,
+      "parameter_row": 29,
+      "hill": {
+        "forward_mm": 0.0010579414950238064,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0009042551415208155,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 62,
+      "run_id": 33195857,
+      "parameter_row": 30,
+      "hill": {
+        "forward_mm": 0.00012683785265821257,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 7.64425144196279e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 63,
+      "run_id": 33195857,
+      "parameter_row": 31,
+      "hill": {
+        "forward_mm": -1.9295314458211976e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00010224018527460466,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 64,
+      "run_id": 33195876,
+      "parameter_row": 0,
+      "hill": {
+        "forward_mm": 0.0012072860454980239,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0008405459461796605,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 65,
+      "run_id": 33195876,
+      "parameter_row": 1,
+      "hill": {
+        "forward_mm": 0.0007020930540148074,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0008530270235553861,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 66,
+      "run_id": 33195876,
+      "parameter_row": 2,
+      "hill": {
+        "forward_mm": 0.00045330498125317753,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00039371314878389185,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 67,
+      "run_id": 33195876,
+      "parameter_row": 3,
+      "hill": {
+        "forward_mm": 0.003780924998052937,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0016171814653895833,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 68,
+      "run_id": 33195876,
+      "parameter_row": 4,
+      "hill": {
+        "forward_mm": 0.0005071776803128314,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00026436527807982557,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 69,
+      "run_id": 33195876,
+      "parameter_row": 5,
+      "hill": {
+        "forward_mm": 3.35017007568883e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 9.727591585106943e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 70,
+      "run_id": 33195876,
+      "parameter_row": 6,
+      "hill": {
+        "forward_mm": 0.0022070964312413954,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.001914227030826554,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 71,
+      "run_id": 33195876,
+      "parameter_row": 7,
+      "hill": {
+        "forward_mm": 0.0038179515388360175,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.003362356753649487,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 72,
+      "run_id": 33195876,
+      "parameter_row": 8,
+      "hill": {
+        "forward_mm": 0.0007046754828476942,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0008667960792492213,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 73,
+      "run_id": 33195876,
+      "parameter_row": 9,
+      "hill": {
+        "forward_mm": 0.0007148526676885592,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0006528386396288388,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 74,
+      "run_id": 33195876,
+      "parameter_row": 10,
+      "hill": {
+        "forward_mm": 0.0030596075950461987,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0017395431378507409,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 75,
+      "run_id": 33195876,
+      "parameter_row": 11,
+      "hill": {
+        "forward_mm": 4.739089189165213e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 1.8153194142889184e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 76,
+      "run_id": 33195876,
+      "parameter_row": 12,
+      "hill": {
+        "forward_mm": -1.532735449671918e-06,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": -1.4816583809862394e-06,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 77,
+      "run_id": 33195876,
+      "parameter_row": 13,
+      "hill": {
+        "forward_mm": 5.293510059989348e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00013595766663332398,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 78,
+      "run_id": 33195876,
+      "parameter_row": 14,
+      "hill": {
+        "forward_mm": 0.0010712150566687395,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.001063075697564475,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 79,
+      "run_id": 33195876,
+      "parameter_row": 15,
+      "hill": {
+        "forward_mm": 0.00010738362595663631,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00011815872955411866,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 80,
+      "run_id": 33195876,
+      "parameter_row": 16,
+      "hill": {
+        "forward_mm": 0.0003080253909926167,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0003840216404151775,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 81,
+      "run_id": 33195876,
+      "parameter_row": 17,
+      "hill": {
+        "forward_mm": -0.18487155380792786,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          3,
+          1,
+          1
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.07911856443447596,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 82,
+      "run_id": 33195876,
+      "parameter_row": 18,
+      "hill": {
+        "forward_mm": 0.00395567589998802,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0029711280924624717,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 83,
+      "run_id": 33195876,
+      "parameter_row": 19,
+      "hill": {
+        "forward_mm": 9.513299515306883e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 8.567619487198641e-06,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 84,
+      "run_id": 33195876,
+      "parameter_row": 20,
+      "hill": {
+        "forward_mm": 5.994598628900061e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00016524889645141982,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 85,
+      "run_id": 33195876,
+      "parameter_row": 21,
+      "hill": {
+        "forward_mm": 0.0023573724651506645,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0021809706526685346,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 86,
+      "run_id": 33195876,
+      "parameter_row": 22,
+      "hill": {
+        "forward_mm": 0.0010177631125284359,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0010391174753860977,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 87,
+      "run_id": 33195876,
+      "parameter_row": 23,
+      "hill": {
+        "forward_mm": -0.020018510075801688,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.04726704037382734,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 88,
+      "run_id": 33195876,
+      "parameter_row": 24,
+      "hill": {
+        "forward_mm": 0.0014915059840755474,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0010867893053542188,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 89,
+      "run_id": 33195876,
+      "parameter_row": 25,
+      "hill": {
+        "forward_mm": 0.0029867853671408096,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0019242618320609584,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 90,
+      "run_id": 33195876,
+      "parameter_row": 26,
+      "hill": {
+        "forward_mm": 0.0002940723046072069,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0003618902406670177,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 91,
+      "run_id": 33195876,
+      "parameter_row": 27,
+      "hill": {
+        "forward_mm": -7.449736735609669e-06,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": -2.5657556439351303e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 92,
+      "run_id": 33195876,
+      "parameter_row": 28,
+      "hill": {
+        "forward_mm": 0.0030520085487039106,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0018856081442047978,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 93,
+      "run_id": 33195876,
+      "parameter_row": 29,
+      "hill": {
+        "forward_mm": 0.0017494639498282227,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0010680267475097205,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 94,
+      "run_id": 33195876,
+      "parameter_row": 30,
+      "hill": {
+        "forward_mm": 0.0014699317352243613,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0014648860255538354,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 95,
+      "run_id": 33195876,
+      "parameter_row": 31,
+      "hill": {
+        "forward_mm": 0.002162639676804301,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0016842780000473345,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 96,
+      "run_id": 33195882,
+      "parameter_row": 0,
+      "hill": {
+        "forward_mm": 0.00015496894731381605,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00018950198786316097,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 97,
+      "run_id": 33195882,
+      "parameter_row": 1,
+      "hill": {
+        "forward_mm": 0.0003180684939769751,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00033752220389771104,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 98,
+      "run_id": 33195882,
+      "parameter_row": 2,
+      "hill": {
+        "forward_mm": 0.0006721984361567346,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0009092146811174873,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 99,
+      "run_id": 33195882,
+      "parameter_row": 3,
+      "hill": {
+        "forward_mm": 0.0006827196630637689,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0006675371298997534,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 100,
+      "run_id": 33195882,
+      "parameter_row": 4,
+      "hill": {
+        "forward_mm": 0.0006261635169522162,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00046066414335843575,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 101,
+      "run_id": 33195882,
+      "parameter_row": 5,
+      "hill": {
+        "forward_mm": 0.0021417971821281467,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0018238007954231028,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 102,
+      "run_id": 33195882,
+      "parameter_row": 6,
+      "hill": {
+        "forward_mm": 0.0007513149660730578,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0005772256968311629,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 103,
+      "run_id": 33195882,
+      "parameter_row": 7,
+      "hill": {
+        "forward_mm": 0.0025856456683276408,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.002301040924303166,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 104,
+      "run_id": 33195882,
+      "parameter_row": 8,
+      "hill": {
+        "forward_mm": -0.09380156656181776,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.08962569493586647,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 105,
+      "run_id": 33195882,
+      "parameter_row": 9,
+      "hill": {
+        "forward_mm": 0.0026788883308763722,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0023005493098503527,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 106,
+      "run_id": 33195882,
+      "parameter_row": 10,
+      "hill": {
+        "forward_mm": 0.0003224779456766358,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0005925904092335399,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 107,
+      "run_id": 33195882,
+      "parameter_row": 11,
+      "hill": {
+        "forward_mm": 0.0010723505933489808,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0007655562418227291,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 108,
+      "run_id": 33195882,
+      "parameter_row": 12,
+      "hill": {
+        "forward_mm": 0.0005057577531056845,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00044375942450802786,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 109,
+      "run_id": 33195882,
+      "parameter_row": 13,
+      "hill": {
+        "forward_mm": 0.0003768461913745691,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00028877861553622264,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 110,
+      "run_id": 33195882,
+      "parameter_row": 14,
+      "hill": {
+        "forward_mm": 0.00015025446667049636,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00025345129762555096,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 111,
+      "run_id": 33195882,
+      "parameter_row": 15,
+      "hill": {
+        "forward_mm": 0.00011701458809187937,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00023456752062134267,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 112,
+      "run_id": 33195882,
+      "parameter_row": 16,
+      "hill": {
+        "forward_mm": -1.532735449671918e-06,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": -1.4816583809862394e-06,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 113,
+      "run_id": 33195882,
+      "parameter_row": 17,
+      "hill": {
+        "forward_mm": 0.0008529033510821238,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.000769280744656986,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 114,
+      "run_id": 33195882,
+      "parameter_row": 18,
+      "hill": {
+        "forward_mm": 0.00038911354816939525,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0005535320666865129,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 115,
+      "run_id": 33195882,
+      "parameter_row": 19,
+      "hill": {
+        "forward_mm": 0.0002155722873048438,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0002853504948765462,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 116,
+      "run_id": 33195882,
+      "parameter_row": 20,
+      "hill": {
+        "forward_mm": 3.321932997613075e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 6.699746434357667e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 117,
+      "run_id": 33195882,
+      "parameter_row": 21,
+      "hill": {
+        "forward_mm": 0.6475206379966966,
+        "steps_per_leg": [
+          0,
+          3,
+          0,
+          0,
+          2,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.14211431439195832,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 118,
+      "run_id": 33195882,
+      "parameter_row": 22,
+      "hill": {
+        "forward_mm": 0.0009973299875097874,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0006660918054455234,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 119,
+      "run_id": 33195882,
+      "parameter_row": 23,
+      "hill": {
+        "forward_mm": 3.162215405461133e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 8.359735538154833e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 120,
+      "run_id": 33195882,
+      "parameter_row": 24,
+      "hill": {
+        "forward_mm": -1.532735449671918e-06,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": -1.4816583809862394e-06,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 121,
+      "run_id": 33195882,
+      "parameter_row": 25,
+      "hill": {
+        "forward_mm": 5.499280751442015e-06,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 7.222054586919491e-06,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 122,
+      "run_id": 33195882,
+      "parameter_row": 26,
+      "hill": {
+        "forward_mm": 0.0008239708721389238,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0007971319299264756,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 123,
+      "run_id": 33195882,
+      "parameter_row": 27,
+      "hill": {
+        "forward_mm": 2.1153212693025836e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 6.162164620804322e-05,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 124,
+      "run_id": 33195882,
+      "parameter_row": 28,
+      "hill": {
+        "forward_mm": 0.0006693897328012843,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0009098804162691598,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 125,
+      "run_id": 33195882,
+      "parameter_row": 29,
+      "hill": {
+        "forward_mm": 0.0009067576519822262,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0011080151879498956,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 126,
+      "run_id": 33195882,
+      "parameter_row": 30,
+      "hill": {
+        "forward_mm": 0.0013084595243493258,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.0009120730124281273,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    },
+    {
+      "global_row": 127,
+      "run_id": 33195882,
+      "parameter_row": 31,
+      "hill": {
+        "forward_mm": 0.0004582810151992911,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      },
+      "torque": {
+        "forward_mm": 0.00038760177385488426,
+        "steps_per_leg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "walking_pass": false,
+        "gates": {
+          "forward_distance_at_least_5mm": false,
+          "body_stays_upright": true,
+          "body_clear_of_ground": true,
+          "all_six_legs_complete_two_steps": false,
+          "stance_slip_below_2mm_s": true,
+          "feet_provide_support_without_body_drag": true
+        },
+        "physics_warnings": 0
+      }
+    }
+  ],
+  "hill_walking_pass_rows": [],
+  "torque_walking_pass_rows": [],
+  "hill_forward_5mm_rows": [],
+  "torque_forward_5mm_rows": [],
+  "checks": {
+    "all_128_author_rows_physically_replayed": true,
+    "run33195882_old_32row_body_reproduced": true,
+    "no_physics_warnings": true,
+    "two_unchanged_body_models": true,
+    "source_motor_rates_without_added_gait_or_phase": true
+  },
+  "passed": true,
+  "autonomous_walking_achieved": false
+}

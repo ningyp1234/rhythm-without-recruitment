@@ -1,0 +1,25 @@
+{
+  "source": "https://zenodo.org/records/22260924",
+  "scope": "Four original ZIP member hashes/CRC, published Figure 4 cross-check, source sparse samples, 128 neural and 256 body outcomes",
+  "checks": {
+    "published_run_order_and_128_rows": true,
+    "four_original_trajectory_shapes": true,
+    "all_15_new_zip_members_crc_verified_by_fetch": true,
+    "original_source_hashes_and_CRC_reverified": true,
+    "old_original_source_hash_and_CRC_reverified": true,
+    "four_two_DNg100_380_inputs": true,
+    "figure4_motor_counts_exact_all_four": true,
+    "neural_six_E1_and_six_tibia_rows_as_recorded": true,
+    "exact_author_row117_mapping_corrected": true,
+    "source_sparse_samples_equal_saved_selected_traces": true,
+    "all_256_physics_trials_no_warnings": true,
+    "all_256_physics_trials_below_5mm": true,
+    "all_256_physics_trials_fail_full_gait": true,
+    "old_32_rows_replayed_identically": true,
+    "no_autonomous_behavior_claim": true
+  },
+  "checks_passed": 15,
+  "checks_total": 15,
+  "passed": true,
+  "goal_complete": false
+}

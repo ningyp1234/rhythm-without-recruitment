@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-24",
+  "scope": "Full-MANC online walking versus prerecorded MANC phase with identical free-body controller",
+  "comparison_changes": "The complete MANC integration is removed at runtime; only its saved phase is given to the unchanged body policy, which recomputes all 56 actions from current proprioception.",
+  "rows": [
+    {
+      "body_state": "canonical",
+      "frames": 1601,
+      "maximum_absolute_qpos_difference": 0.0,
+      "maximum_absolute_control_difference": 0.0,
+      "endpoint_xy_difference_mm": 0.0,
+      "source_2s_distance_mm": 33.336528425295235
+    },
+    {
+      "body_state": "bout_0209",
+      "frames": 1601,
+      "maximum_absolute_qpos_difference": 0.0,
+      "maximum_absolute_control_difference": 0.0,
+      "endpoint_xy_difference_mm": 0.0,
+      "source_2s_distance_mm": 32.05350929272276
+    },
+    {
+      "body_state": "bout_0325",
+      "frames": 1601,
+      "maximum_absolute_qpos_difference": 0.0,
+      "maximum_absolute_control_difference": 0.0,
+      "endpoint_xy_difference_mm": 0.0,
+      "source_2s_distance_mm": 19.366940161432055
+    },
+    {
+      "body_state": "bout_1250",
+      "frames": 1601,
+      "maximum_absolute_qpos_difference": 0.0,
+      "maximum_absolute_control_difference": 0.0,
+      "endpoint_xy_difference_mm": 0.0,
+      "source_2s_distance_mm": 27.357041582203184
+    }
+  ],
+  "checks": {
+    "four_body_starts_checked": true,
+    "all_1601_physical_frames_checked": true,
+    "body_states_bit_exact": true,
+    "actuator_controls_bit_exact": true,
+    "online_network_can_be_replaced_by_phase_replay": true
+  },
+  "passed": true,
+  "interpretation": "Exact equivalence proves the current full-MANC walker has no online body-dependent neural role. MANC supplies an open-loop gait clock; body proprioception is handled by the engineering policy.",
+  "brain_autonomous_walking_achieved": false,
+  "goal_complete": false
+}

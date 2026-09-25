@@ -1,0 +1,34 @@
+{
+  "checks": {
+    "author_baseline_738_neurons_within_0p001hz_rmse": true,
+    "four_adaptive_neural_gates_recomputed": true,
+    "fixed_step_bad_baseline_rejected": true,
+    "opposite_SNpp50_two_edge_scores_recomputed": true,
+    "walking_claim_false": true
+  },
+  "passed": true,
+  "baseline_rmse_hz": 0.00028128590201959014,
+  "baseline_max_abs_hz": 0.012580394744873047,
+  "adaptive_E1_counts": [
+    6,
+    4,
+    3,
+    4
+  ],
+  "adaptive_lf_flexor_active": [
+    0,
+    2,
+    4,
+    4
+  ],
+  "adaptive_lf_extensor_active": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "SNpp50_signed_two_edge_counts": {
+    "100531": -18689,
+    "163745": 11913
+  }
+}

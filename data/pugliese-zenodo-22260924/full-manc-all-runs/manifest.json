@@ -1,0 +1,157 @@
+{
+  "source": "https://zenodo.org/records/22260924",
+  "source_license": "CC-BY-4.0",
+  "archive": "DNg100_Stim_fullManc.zip",
+  "archive_bytes": 2030250053,
+  "whole_archive_downloaded": false,
+  "figure_code": "https://github.com/smpuglie/Pugliese_2026/blob/main/notebooks/Figure%204.ipynb",
+  "figure_run_order": [
+    30662613,
+    33195857,
+    33195876,
+    33195882
+  ],
+  "previously_downloaded_run": 33195882,
+  "new_runs": [
+    30662613,
+    33195857,
+    33195876
+  ],
+  "files": [
+    {
+      "run_id": 30662613,
+      "member": "simulations/DNg100_Stim_fullManc/hyak/run_id=30662613/ckpt/DNg100_Stim_fullManc_Rs.npz",
+      "relative_file": "data/pugliese-zenodo-22260924/full-manc-all-runs/30662613/DNg100_Stim_fullManc_Rs.npz",
+      "size": 235621977,
+      "crc32": "22b7d7e6",
+      "sha256": "d9b3f6e2347f92ac605c68291084b3d311fc4049d02934b70e7ea025d15d6b78",
+      "zip_crc_verified": true
+    },
+    {
+      "run_id": 30662613,
+      "member": "simulations/DNg100_Stim_fullManc/hyak/run_id=30662613/ckpt/neuron_params.h5",
+      "relative_file": "data/pugliese-zenodo-22260924/full-manc-all-runs/30662613/neuron_params.h5",
+      "size": 42255197,
+      "crc32": "6690ae03",
+      "sha256": "fff78cd799437aaff921d8b994d005dfb7e3e5866ab6d3b28594f3203987de09",
+      "zip_crc_verified": true
+    },
+    {
+      "run_id": 30662613,
+      "member": "simulations/DNg100_Stim_fullManc/hyak/run_id=30662613/logs/run_config.yaml",
+      "relative_file": "data/pugliese-zenodo-22260924/full-manc-all-runs/30662613/run_config.yaml",
+      "size": 1834,
+      "crc32": "60e9308d",
+      "sha256": "f230e5b6ebd83142d2be001e1a11c3ad4653f18914e275ac1134c203b85dbcbe",
+      "zip_crc_verified": true
+    },
+    {
+      "run_id": 30662613,
+      "member": "simulations/DNg100_Stim_fullManc/hyak/run_id=30662613/.hydra/config.yaml",
+      "relative_file": "data/pugliese-zenodo-22260924/full-manc-all-runs/30662613/config.yaml",
+      "size": 1572,
+      "crc32": "f852ac47",
+      "sha256": "d833cc54e0b85d4cc36a82278d1d2c180bbb6fd6a5b3559aa501c362282d1adf",
+      "zip_crc_verified": true
+    },
+    {
+      "run_id": 30662613,
+      "member": "simulations/DNg100_Stim_fullManc/hyak/run_id=30662613/.hydra/overrides.yaml",
+      "relative_file": "data/pugliese-zenodo-22260924/full-manc-all-runs/30662613/overrides.yaml",
+      "size": 254,
+      "crc32": "dab0268a",
+      "sha256": "2a770146f342e040731ff7a4b9fcd171ab10223d2ebeff36bc70c205796b1b4e",
+      "zip_crc_verified": true
+    },
+    {
+      "run_id": 33195857,
+      "member": "simulations/DNg100_Stim_fullManc/hyak/run_id=33195857/ckpt/DNg100_Stim_fullManc_Rs.npz",
+      "relative_file": "data/pugliese-zenodo-22260924/full-manc-all-runs/33195857/DNg100_Stim_fullManc_Rs.npz",
+      "size": 263322716,
+      "crc32": "17d27046",
+      "sha256": "317b466d5b139f93dbcb930e69178db6b0d4daa8987e9adac210d72a9d91a876",
+      "zip_crc_verified": true
+    },
+    {
+      "run_id": 33195857,
+      "member": "simulations/DNg100_Stim_fullManc/hyak/run_id=33195857/ckpt/neuron_params.h5",
+      "relative_file": "data/pugliese-zenodo-22260924/full-manc-all-runs/33195857/neuron_params.h5",
+      "size": 42254834,
+      "crc32": "1d6815d1",
+      "sha256": "7833bc052c91861372ec610c7aeef0e8e184de9b1a8496318954e26e3515bb71",
+      "zip_crc_verified": true
+    },
+    {
+      "run_id": 33195857,
+      "member": "simulations/DNg100_Stim_fullManc/hyak/run_id=33195857/logs/run_config.yaml",
+      "relative_file": "data/pugliese-zenodo-22260924/full-manc-all-runs/33195857/run_config.yaml",
+      "size": 1833,
+      "crc32": "d26b66ae",
+      "sha256": "3722778cf09c84cd92787692e7958ae5985064e63a5db3812a6c5cae6bc62868",
+      "zip_crc_verified": true
+    },
+    {
+      "run_id": 33195857,
+      "member": "simulations/DNg100_Stim_fullManc/hyak/run_id=33195857/.hydra/config.yaml",
+      "relative_file": "data/pugliese-zenodo-22260924/full-manc-all-runs/33195857/config.yaml",
+      "size": 1571,
+      "crc32": "2e3bf5fe",
+      "sha256": "f5e921905dad570537ddb758863020c4f149836087b6ca3771590109ffb13563",
+      "zip_crc_verified": true
+    },
+    {
+      "run_id": 33195857,
+      "member": "simulations/DNg100_Stim_fullManc/hyak/run_id=33195857/.hydra/overrides.yaml",
+      "relative_file": "data/pugliese-zenodo-22260924/full-manc-all-runs/33195857/overrides.yaml",
+      "size": 277,
+      "crc32": "c42f72c3",
+      "sha256": "a797d082bde3a0bf13f26321300303ba15a5cda5686198a0a5c76c6fe67387df",
+      "zip_crc_verified": true
+    },
+    {
+      "run_id": 33195876,
+      "member": "simulations/DNg100_Stim_fullManc/hyak/run_id=33195876/ckpt/DNg100_Stim_fullManc_Rs.npz",
+      "relative_file": "data/pugliese-zenodo-22260924/full-manc-all-runs/33195876/DNg100_Stim_fullManc_Rs.npz",
+      "size": 232261197,
+      "crc32": "36caa491",
+      "sha256": "fcdd24ea2b8ef7c07eb0bd0bc94d1aa3418512ed997c26fe1f3f5b792f8d3a26",
+      "zip_crc_verified": true
+    },
+    {
+      "run_id": 33195876,
+      "member": "simulations/DNg100_Stim_fullManc/hyak/run_id=33195876/ckpt/neuron_params.h5",
+      "relative_file": "data/pugliese-zenodo-22260924/full-manc-all-runs/33195876/neuron_params.h5",
+      "size": 42255368,
+      "crc32": "f9a515a1",
+      "sha256": "78c17ad786b4a74414ed5e82cdb5d32b6c847bd6da155f61f089a8ed58fe308a",
+      "zip_crc_verified": true
+    },
+    {
+      "run_id": 33195876,
+      "member": "simulations/DNg100_Stim_fullManc/hyak/run_id=33195876/logs/run_config.yaml",
+      "relative_file": "data/pugliese-zenodo-22260924/full-manc-all-runs/33195876/run_config.yaml",
+      "size": 1834,
+      "crc32": "00f179f6",
+      "sha256": "081df1cf7e13ce5aaf5c2cea1166f9096eb66e669412000b47db6e3b6d61c516",
+      "zip_crc_verified": true
+    },
+    {
+      "run_id": 33195876,
+      "member": "simulations/DNg100_Stim_fullManc/hyak/run_id=33195876/.hydra/config.yaml",
+      "relative_file": "data/pugliese-zenodo-22260924/full-manc-all-runs/33195876/config.yaml",
+      "size": 1572,
+      "crc32": "d994a887",
+      "sha256": "d8c4d292e390a9b9fe525d432fd1ea9ad3de01c8fa22cbcd01e860d1869f165a",
+      "zip_crc_verified": true
+    },
+    {
+      "run_id": 33195876,
+      "member": "simulations/DNg100_Stim_fullManc/hyak/run_id=33195876/.hydra/overrides.yaml",
+      "relative_file": "data/pugliese-zenodo-22260924/full-manc-all-runs/33195876/overrides.yaml",
+      "size": 278,
+      "crc32": "e1d8b377",
+      "sha256": "27826cfee67752f05487db032724f4982249ba1b0f0f9e5c5730d44a5b58a6b3",
+      "zip_crc_verified": true
+    }
+  ]
+}

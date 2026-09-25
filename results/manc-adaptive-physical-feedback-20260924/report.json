@@ -1,0 +1,365 @@
+{
+  "date": "2026-09-24",
+  "source": "https://zenodo.org/records/22260924",
+  "method": "Published full MANC equation, RK45 per 10ms physical feedback interval with max 1ms internal step, 78 Hill muscle six-leg body",
+  "input": "Artificial bilateral DNg100 current 380 plus DNg75 current 150, source parameter row21/global row117",
+  "calibrated_physiological_sensory_and_motor_interface": false,
+  "cases": [
+    "unclamped_source",
+    "no_sensory",
+    "FeCO_plus_load",
+    "FeCO_plus_load_outgoing_cut"
+  ],
+  "mapped_sensory_outgoing_connections_cut": 2159,
+  "results": [
+    {
+      "scoring_version": "walking-kinematics-v3-rate-aware-contact-support",
+      "sample_dt_seconds": 0.010000000000000009,
+      "sustained_event_samples": 3,
+      "gates": {
+        "forward_distance_at_least_5mm": false,
+        "body_stays_upright": true,
+        "body_clear_of_ground": true,
+        "all_six_legs_complete_two_steps": false,
+        "stance_slip_below_2mm_s": true,
+        "feet_provide_support_without_body_drag": true
+      },
+      "walking_pass": false,
+      "foot_only_support_fraction": 1.0,
+      "forward_mm": 0.004633625372594041,
+      "lateral_mm": 0.0013750790202055729,
+      "upright_fraction": 1.0,
+      "min_height": 0.8828240938637284,
+      "steps_per_leg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "median_stance_slip_mm_s": 0.003596048764112913,
+      "case": "unclamped_source",
+      "neural": {
+        "motor_cells_active_peak_over_1hz": 41,
+        "tibia_active_counts": {
+          "T1L": {
+            "Ti flexor MN": 0,
+            "Ti extensor MN": 0
+          },
+          "T1R": {
+            "Ti flexor MN": 0,
+            "Ti extensor MN": 0
+          },
+          "T2L": {
+            "Ti flexor MN": 0,
+            "Ti extensor MN": 0
+          },
+          "T2R": {
+            "Ti flexor MN": 0,
+            "Ti extensor MN": 0
+          },
+          "T3L": {
+            "Ti flexor MN": 0,
+            "Ti extensor MN": 1
+          },
+          "T3R": {
+            "Ti flexor MN": 1,
+            "Ti extensor MN": 2
+          }
+        },
+        "six_tibia_both_pools": false,
+        "E1_mean_hz": {
+          "10072": 2.7226624488830566,
+          "10498": 2.0219058990478516,
+          "10558": 3.3642053604125977,
+          "10559": 3.0112855434417725,
+          "10690": 3.6542797088623047,
+          "10707": 3.425863027572632
+        },
+        "six_E1_sustained_count": 6,
+        "E1_frequency_hz": [
+          11.834319526627219,
+          7.2727272727272725,
+          11.627906976744185,
+          14.285714285714285,
+          11.11111111111111,
+          13.888888888888888
+        ]
+      },
+      "wall_seconds": 43.41546437499346,
+      "physics_warnings": 0,
+      "zero_native_joint_position_gain": true,
+      "no_external_body_force": true,
+      "sensory_clamped": false,
+      "sensory_outgoing_edges_cut": false
+    },
+    {
+      "scoring_version": "walking-kinematics-v3-rate-aware-contact-support",
+      "sample_dt_seconds": 0.010000000000000009,
+      "sustained_event_samples": 3,
+      "gates": {
+        "forward_distance_at_least_5mm": false,
+        "body_stays_upright": true,
+        "body_clear_of_ground": true,
+        "all_six_legs_complete_two_steps": false,
+        "stance_slip_below_2mm_s": true,
+        "feet_provide_support_without_body_drag": true
+      },
+      "walking_pass": false,
+      "foot_only_support_fraction": 1.0,
+      "forward_mm": 0.004633625372594041,
+      "lateral_mm": 0.0013750790202055729,
+      "upright_fraction": 1.0,
+      "min_height": 0.8828240938637284,
+      "steps_per_leg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "median_stance_slip_mm_s": 0.003596048764112913,
+      "case": "no_sensory",
+      "neural": {
+        "motor_cells_active_peak_over_1hz": 41,
+        "tibia_active_counts": {
+          "T1L": {
+            "Ti flexor MN": 0,
+            "Ti extensor MN": 0
+          },
+          "T1R": {
+            "Ti flexor MN": 0,
+            "Ti extensor MN": 0
+          },
+          "T2L": {
+            "Ti flexor MN": 0,
+            "Ti extensor MN": 0
+          },
+          "T2R": {
+            "Ti flexor MN": 0,
+            "Ti extensor MN": 0
+          },
+          "T3L": {
+            "Ti flexor MN": 0,
+            "Ti extensor MN": 1
+          },
+          "T3R": {
+            "Ti flexor MN": 1,
+            "Ti extensor MN": 2
+          }
+        },
+        "six_tibia_both_pools": false,
+        "E1_mean_hz": {
+          "10072": 2.7226624488830566,
+          "10498": 2.0219058990478516,
+          "10558": 3.3642053604125977,
+          "10559": 3.0112855434417725,
+          "10690": 3.6542797088623047,
+          "10707": 3.425863027572632
+        },
+        "six_E1_sustained_count": 6,
+        "E1_frequency_hz": [
+          11.834319526627219,
+          7.2727272727272725,
+          11.627906976744185,
+          14.285714285714285,
+          11.11111111111111,
+          13.888888888888888
+        ]
+      },
+      "wall_seconds": 43.906631125020795,
+      "physics_warnings": 0,
+      "zero_native_joint_position_gain": true,
+      "no_external_body_force": true,
+      "sensory_clamped": true,
+      "sensory_outgoing_edges_cut": false
+    },
+    {
+      "scoring_version": "walking-kinematics-v3-rate-aware-contact-support",
+      "sample_dt_seconds": 0.010000000000000009,
+      "sustained_event_samples": 3,
+      "gates": {
+        "forward_distance_at_least_5mm": false,
+        "body_stays_upright": true,
+        "body_clear_of_ground": true,
+        "all_six_legs_complete_two_steps": false,
+        "stance_slip_below_2mm_s": true,
+        "feet_provide_support_without_body_drag": true
+      },
+      "walking_pass": false,
+      "foot_only_support_fraction": 1.0,
+      "forward_mm": 0.0016958552064618715,
+      "lateral_mm": 0.0003857530165022613,
+      "upright_fraction": 1.0,
+      "min_height": 0.8828012746783586,
+      "steps_per_leg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "median_stance_slip_mm_s": 0.0033831035230550907,
+      "case": "FeCO_plus_load",
+      "neural": {
+        "motor_cells_active_peak_over_1hz": 40,
+        "tibia_active_counts": {
+          "T1L": {
+            "Ti flexor MN": 0,
+            "Ti extensor MN": 0
+          },
+          "T1R": {
+            "Ti flexor MN": 0,
+            "Ti extensor MN": 0
+          },
+          "T2L": {
+            "Ti flexor MN": 0,
+            "Ti extensor MN": 0
+          },
+          "T2R": {
+            "Ti flexor MN": 0,
+            "Ti extensor MN": 0
+          },
+          "T3L": {
+            "Ti flexor MN": 0,
+            "Ti extensor MN": 1
+          },
+          "T3R": {
+            "Ti flexor MN": 1,
+            "Ti extensor MN": 2
+          }
+        },
+        "six_tibia_both_pools": false,
+        "E1_mean_hz": {
+          "10072": 2.706042528152466,
+          "10498": 2.1230223178863525,
+          "10558": 3.4070005416870117,
+          "10559": 2.977508068084717,
+          "10690": 3.650988817214966,
+          "10707": 3.4423210620880127
+        },
+        "six_E1_sustained_count": 6,
+        "E1_frequency_hz": [
+          11.904761904761903,
+          7.751937984496124,
+          11.904761904761903,
+          13.888888888888888,
+          11.11111111111111,
+          13.888888888888888
+        ]
+      },
+      "wall_seconds": 43.237664750020485,
+      "physics_warnings": 0,
+      "zero_native_joint_position_gain": true,
+      "no_external_body_force": true,
+      "sensory_clamped": true,
+      "sensory_outgoing_edges_cut": false
+    },
+    {
+      "scoring_version": "walking-kinematics-v3-rate-aware-contact-support",
+      "sample_dt_seconds": 0.010000000000000009,
+      "sustained_event_samples": 3,
+      "gates": {
+        "forward_distance_at_least_5mm": false,
+        "body_stays_upright": true,
+        "body_clear_of_ground": true,
+        "all_six_legs_complete_two_steps": false,
+        "stance_slip_below_2mm_s": true,
+        "feet_provide_support_without_body_drag": true
+      },
+      "walking_pass": false,
+      "foot_only_support_fraction": 1.0,
+      "forward_mm": 0.004634307289098305,
+      "lateral_mm": 0.001376511319386613,
+      "upright_fraction": 1.0,
+      "min_height": 0.8828240885108043,
+      "steps_per_leg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "median_stance_slip_mm_s": 0.003602503024713704,
+      "case": "FeCO_plus_load_outgoing_cut",
+      "neural": {
+        "motor_cells_active_peak_over_1hz": 41,
+        "tibia_active_counts": {
+          "T1L": {
+            "Ti flexor MN": 0,
+            "Ti extensor MN": 0
+          },
+          "T1R": {
+            "Ti flexor MN": 0,
+            "Ti extensor MN": 0
+          },
+          "T2L": {
+            "Ti flexor MN": 0,
+            "Ti extensor MN": 0
+          },
+          "T2R": {
+            "Ti flexor MN": 0,
+            "Ti extensor MN": 0
+          },
+          "T3L": {
+            "Ti flexor MN": 0,
+            "Ti extensor MN": 1
+          },
+          "T3R": {
+            "Ti flexor MN": 1,
+            "Ti extensor MN": 2
+          }
+        },
+        "six_tibia_both_pools": false,
+        "E1_mean_hz": {
+          "10072": 2.7226855754852295,
+          "10498": 2.0218703746795654,
+          "10558": 3.3646552562713623,
+          "10559": 3.011321783065796,
+          "10690": 3.654250383377075,
+          "10707": 3.425856828689575
+        },
+        "six_E1_sustained_count": 6,
+        "E1_frequency_hz": [
+          11.834319526627219,
+          7.2727272727272725,
+          11.627906976744185,
+          14.285714285714285,
+          11.11111111111111,
+          13.888888888888888
+        ]
+      },
+      "wall_seconds": 43.47067395900376,
+      "physics_warnings": 0,
+      "zero_native_joint_position_gain": true,
+      "no_external_body_force": true,
+      "sensory_clamped": true,
+      "sensory_outgoing_edges_cut": true
+    }
+  ],
+  "numerical_and_causal_comparisons": {
+    "unclamped_selected_MAE_vs_saved_one_shot_RK45_hz": 0.00011112262284624903,
+    "unclamped_selected_max_error_vs_saved_one_shot_RK45_hz": 0.06143522262573242,
+    "sensory_cut_selected_rates_mean_abs_difference_hz": 8.672684634802863e-05,
+    "sensory_cut_selected_rates_max_abs_difference_hz": 0.06467819213867188,
+    "sensory_cut_body_position_max_abs_difference_mm": 1.289206187493619e-05,
+    "sensory_cut_contacts_exact_baseline": true,
+    "feedback_selected_rates_mean_abs_effect_hz": 0.06660403311252594,
+    "feedback_effect_to_cut_numerical_difference_ratio": 767.9748073076325
+  },
+  "checks": {
+    "source_neurons_23532": true,
+    "same_DNg100_source_current": true,
+    "all_source_body_ids_saved": true,
+    "all_physics_finite": true,
+    "all_native_position_gains_zero": true,
+    "no_external_body_force": true
+  },
+  "passed": true,
+  "goal_complete": false,
+  "reused_saved_traces_for_report_correction": true
+}

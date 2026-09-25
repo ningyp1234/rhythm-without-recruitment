@@ -1,0 +1,12 @@
+{
+  "member": "simulations/DNg100_Stim_fullManc/hyak/run_id=33195882/ckpt/DNg100_Stim_fullManc_Rs.npz",
+  "file": "./data/pugliese-zenodo-22260924/full-manc-run33195882/DNg100_Stim_fullManc_Rs.npz",
+  "size": 200268890,
+  "crc32": "c549f2f9",
+  "sha256": "ed6a22e0123ea6d7e83f7e7516b480e5baf1d411fd94d3ee9cea53b5be8b29f2",
+  "source": "https://zenodo.org/records/22260924",
+  "archive": "DNg100_Stim_fullManc.zip",
+  "license": "CC-BY-4.0",
+  "zip_directory_member_size_and_crc_verified": true,
+  "whole_archive_downloaded": false
+}

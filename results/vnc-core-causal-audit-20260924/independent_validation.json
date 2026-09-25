@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "checks": {
+    "trace_hash_matches_report": true,
+    "intact_neural_phase_changes": true,
+    "frozen_neural_phase_constant": true,
+    "saved_intact_contact_steps_match_report": true,
+    "saved_frozen_contact_steps_match_report": true,
+    "intact_has_all_six_sustained_leg_cycles": true,
+    "frozen_lacks_three_leg_cycles": true,
+    "intact_and_frozen_both_move_far": true,
+    "simple_gate_false_positive_detected": true,
+    "intact_passes_source_calibrated_standard_gate": true,
+    "frozen_slip_above_source_relative_limit": true,
+    "source_calibration_has_six_steps": true,
+    "heldout_intact_two_of_three_strict": true,
+    "heldout_frozen_zero_of_three_strict": true,
+    "global_goal_stays_open": true,
+    "replay_uses_exact_audited_trace": true,
+    "replay_intact_final_contact_steps_match": true,
+    "replay_frozen_final_contact_steps_match": true,
+    "browser_page_labels_real_contact_steps_and_limit": true
+  },
+  "total": 19,
+  "successful": 19
+}

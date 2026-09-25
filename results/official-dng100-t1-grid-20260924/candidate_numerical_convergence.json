@@ -1,0 +1,654 @@
+{
+  "source": "https://zenodo.org/records/22260924",
+  "rows": [
+    {
+      "dt_s": 0.001,
+      "parameter_row": 10,
+      "E1_left_sustained": true,
+      "E1_right_sustained": false,
+      "E1_left_frequency_hz": 5.88235294117647,
+      "sides": {
+        "LHS": {
+          "pools": {
+            "coxa stance": {
+              "ever_over_1_hz": 0,
+              "mean_hz": 7.553252544312272e-06,
+              "pool_range_hz": 0.00047836205339990556
+            },
+            "coxa swing": {
+              "ever_over_1_hz": 7,
+              "mean_hz": 106.676025390625,
+              "pool_range_hz": 92.3338851928711
+            },
+            "tibia flex": {
+              "ever_over_1_hz": 10,
+              "mean_hz": 49.660614013671875,
+              "pool_range_hz": 71.6017837524414
+            },
+            "tibia extend": {
+              "ever_over_1_hz": 1,
+              "mean_hz": 5.567004203796387,
+              "pool_range_hz": 22.173460006713867
+            }
+          },
+          "tibia_both_variable": true,
+          "tibia_correlation": -0.5928750145372971,
+          "tibia_antiphase": true
+        },
+        "RHS": {
+          "pools": {
+            "coxa stance": {
+              "ever_over_1_hz": 2,
+              "mean_hz": 24.152667999267578,
+              "pool_range_hz": 30.680742263793945
+            },
+            "coxa swing": {
+              "ever_over_1_hz": 5,
+              "mean_hz": 126.84864807128906,
+              "pool_range_hz": 22.198013305664062
+            },
+            "tibia flex": {
+              "ever_over_1_hz": 14,
+              "mean_hz": 161.0522003173828,
+              "pool_range_hz": 25.359756469726562
+            },
+            "tibia extend": {
+              "ever_over_1_hz": 2,
+              "mean_hz": 139.93760681152344,
+              "pool_range_hz": 74.50298309326172
+            }
+          },
+          "tibia_both_variable": true,
+          "tibia_correlation": -0.18583783110688393,
+          "tibia_antiphase": false
+        }
+      },
+      "left_joint_gate": true
+    },
+    {
+      "dt_s": 0.001,
+      "parameter_row": 78,
+      "E1_left_sustained": true,
+      "E1_right_sustained": false,
+      "E1_left_frequency_hz": 2.9850746268656714,
+      "sides": {
+        "LHS": {
+          "pools": {
+            "coxa stance": {
+              "ever_over_1_hz": 5,
+              "mean_hz": 125.25218963623047,
+              "pool_range_hz": 41.875694274902344
+            },
+            "coxa swing": {
+              "ever_over_1_hz": 5,
+              "mean_hz": 92.9361572265625,
+              "pool_range_hz": 14.106597900390625
+            },
+            "tibia flex": {
+              "ever_over_1_hz": 11,
+              "mean_hz": 99.06465911865234,
+              "pool_range_hz": 23.535888671875
+            },
+            "tibia extend": {
+              "ever_over_1_hz": 2,
+              "mean_hz": 166.4149932861328,
+              "pool_range_hz": 114.2308578491211
+            }
+          },
+          "tibia_both_variable": true,
+          "tibia_correlation": -0.7519370788152574,
+          "tibia_antiphase": true
+        },
+        "RHS": {
+          "pools": {
+            "coxa stance": {
+              "ever_over_1_hz": 0,
+              "mean_hz": 6.354919701578865e-09,
+              "pool_range_hz": 3.8221614317990316e-07
+            },
+            "coxa swing": {
+              "ever_over_1_hz": 7,
+              "mean_hz": 157.2961883544922,
+              "pool_range_hz": 91.22638702392578
+            },
+            "tibia flex": {
+              "ever_over_1_hz": 13,
+              "mean_hz": 113.13734436035156,
+              "pool_range_hz": 53.160072326660156
+            },
+            "tibia extend": {
+              "ever_over_1_hz": 2,
+              "mean_hz": 199.08773803710938,
+              "pool_range_hz": 24.740554809570312
+            }
+          },
+          "tibia_both_variable": true,
+          "tibia_correlation": -0.25305667756914024,
+          "tibia_antiphase": true
+        }
+      },
+      "left_joint_gate": true
+    },
+    {
+      "dt_s": 0.0005,
+      "parameter_row": 10,
+      "E1_left_sustained": false,
+      "E1_right_sustained": false,
+      "E1_left_frequency_hz": 10.0,
+      "sides": {
+        "LHS": {
+          "pools": {
+            "coxa stance": {
+              "ever_over_1_hz": 5,
+              "mean_hz": 96.61111450195312,
+              "pool_range_hz": 126.24783325195312
+            },
+            "coxa swing": {
+              "ever_over_1_hz": 7,
+              "mean_hz": 90.75125122070312,
+              "pool_range_hz": 112.16529846191406
+            },
+            "tibia flex": {
+              "ever_over_1_hz": 11,
+              "mean_hz": 82.14659118652344,
+              "pool_range_hz": 29.123565673828125
+            },
+            "tibia extend": {
+              "ever_over_1_hz": 2,
+              "mean_hz": 68.02713012695312,
+              "pool_range_hz": 150.3104248046875
+            }
+          },
+          "tibia_both_variable": true,
+          "tibia_correlation": 0.30872159729603843,
+          "tibia_antiphase": false
+        },
+        "RHS": {
+          "pools": {
+            "coxa stance": {
+              "ever_over_1_hz": 1,
+              "mean_hz": 0.004083545412868261,
+              "pool_range_hz": 0.24770891666412354
+            },
+            "coxa swing": {
+              "ever_over_1_hz": 7,
+              "mean_hz": 158.98193359375,
+              "pool_range_hz": 86.06521606445312
+            },
+            "tibia flex": {
+              "ever_over_1_hz": 13,
+              "mean_hz": 154.5469512939453,
+              "pool_range_hz": 41.57188415527344
+            },
+            "tibia extend": {
+              "ever_over_1_hz": 2,
+              "mean_hz": 111.66657257080078,
+              "pool_range_hz": 92.26284790039062
+            }
+          },
+          "tibia_both_variable": true,
+          "tibia_correlation": 0.34896746415367885,
+          "tibia_antiphase": false
+        }
+      },
+      "left_joint_gate": false
+    },
+    {
+      "dt_s": 0.0005,
+      "parameter_row": 78,
+      "E1_left_sustained": false,
+      "E1_right_sustained": false,
+      "E1_left_frequency_hz": 6.060606060606061,
+      "sides": {
+        "LHS": {
+          "pools": {
+            "coxa stance": {
+              "ever_over_1_hz": 1,
+              "mean_hz": 0.17228728532791138,
+              "pool_range_hz": 5.456182479858398
+            },
+            "coxa swing": {
+              "ever_over_1_hz": 7,
+              "mean_hz": 133.22584533691406,
+              "pool_range_hz": 153.60960388183594
+            },
+            "tibia flex": {
+              "ever_over_1_hz": 14,
+              "mean_hz": 45.70124435424805,
+              "pool_range_hz": 87.03309631347656
+            },
+            "tibia extend": {
+              "ever_over_1_hz": 2,
+              "mean_hz": 20.698570251464844,
+              "pool_range_hz": 95.57241821289062
+            }
+          },
+          "tibia_both_variable": true,
+          "tibia_correlation": -0.3441942158245311,
+          "tibia_antiphase": true
+        },
+        "RHS": {
+          "pools": {
+            "coxa stance": {
+              "ever_over_1_hz": 6,
+              "mean_hz": 36.01282501220703,
+              "pool_range_hz": 123.05939483642578
+            },
+            "coxa swing": {
+              "ever_over_1_hz": 5,
+              "mean_hz": 122.2161636352539,
+              "pool_range_hz": 123.15184783935547
+            },
+            "tibia flex": {
+              "ever_over_1_hz": 15,
+              "mean_hz": 140.95046997070312,
+              "pool_range_hz": 157.1112060546875
+            },
+            "tibia extend": {
+              "ever_over_1_hz": 2,
+              "mean_hz": 161.3257293701172,
+              "pool_range_hz": 198.62034606933594
+            }
+          },
+          "tibia_both_variable": true,
+          "tibia_correlation": -0.09021972934295605,
+          "tibia_antiphase": false
+        }
+      },
+      "left_joint_gate": false
+    },
+    {
+      "dt_s": 0.00025,
+      "parameter_row": 10,
+      "E1_left_sustained": false,
+      "E1_right_sustained": false,
+      "E1_left_frequency_hz": 9.090909090909092,
+      "sides": {
+        "LHS": {
+          "pools": {
+            "coxa stance": {
+              "ever_over_1_hz": 5,
+              "mean_hz": 91.78427124023438,
+              "pool_range_hz": 122.47744750976562
+            },
+            "coxa swing": {
+              "ever_over_1_hz": 7,
+              "mean_hz": 95.3854751586914,
+              "pool_range_hz": 116.51725769042969
+            },
+            "tibia flex": {
+              "ever_over_1_hz": 11,
+              "mean_hz": 81.69947052001953,
+              "pool_range_hz": 27.924095153808594
+            },
+            "tibia extend": {
+              "ever_over_1_hz": 2,
+              "mean_hz": 64.94151306152344,
+              "pool_range_hz": 153.45751953125
+            }
+          },
+          "tibia_both_variable": true,
+          "tibia_correlation": 0.31066967187318023,
+          "tibia_antiphase": false
+        },
+        "RHS": {
+          "pools": {
+            "coxa stance": {
+              "ever_over_1_hz": 2,
+              "mean_hz": 0.07389744371175766,
+              "pool_range_hz": 4.458395481109619
+            },
+            "coxa swing": {
+              "ever_over_1_hz": 7,
+              "mean_hz": 163.0113067626953,
+              "pool_range_hz": 86.0448226928711
+            },
+            "tibia flex": {
+              "ever_over_1_hz": 14,
+              "mean_hz": 153.47898864746094,
+              "pool_range_hz": 67.83207702636719
+            },
+            "tibia extend": {
+              "ever_over_1_hz": 2,
+              "mean_hz": 102.09898376464844,
+              "pool_range_hz": 101.59613800048828
+            }
+          },
+          "tibia_both_variable": true,
+          "tibia_correlation": -0.5924756147859819,
+          "tibia_antiphase": true
+        }
+      },
+      "left_joint_gate": false
+    },
+    {
+      "dt_s": 0.00025,
+      "parameter_row": 78,
+      "E1_left_sustained": false,
+      "E1_right_sustained": false,
+      "E1_left_frequency_hz": null,
+      "sides": {
+        "LHS": {
+          "pools": {
+            "coxa stance": {
+              "ever_over_1_hz": 1,
+              "mean_hz": 0.11196213960647583,
+              "pool_range_hz": 3.8618595600128174
+            },
+            "coxa swing": {
+              "ever_over_1_hz": 7,
+              "mean_hz": 135.75421142578125,
+              "pool_range_hz": 175.2413330078125
+            },
+            "tibia flex": {
+              "ever_over_1_hz": 14,
+              "mean_hz": 44.85432815551758,
+              "pool_range_hz": 98.3076171875
+            },
+            "tibia extend": {
+              "ever_over_1_hz": 2,
+              "mean_hz": 68.55120086669922,
+              "pool_range_hz": 169.333984375
+            }
+          },
+          "tibia_both_variable": true,
+          "tibia_correlation": -0.5342441209797207,
+          "tibia_antiphase": true
+        },
+        "RHS": {
+          "pools": {
+            "coxa stance": {
+              "ever_over_1_hz": 6,
+              "mean_hz": 36.39494705200195,
+              "pool_range_hz": 115.63024139404297
+            },
+            "coxa swing": {
+              "ever_over_1_hz": 5,
+              "mean_hz": 120.3497314453125,
+              "pool_range_hz": 123.65914154052734
+            },
+            "tibia flex": {
+              "ever_over_1_hz": 15,
+              "mean_hz": 139.5260467529297,
+              "pool_range_hz": 155.0177001953125
+            },
+            "tibia extend": {
+              "ever_over_1_hz": 2,
+              "mean_hz": 153.67434692382812,
+              "pool_range_hz": 194.37933349609375
+            }
+          },
+          "tibia_both_variable": true,
+          "tibia_correlation": -0.16375762209287806,
+          "tibia_antiphase": false
+        }
+      },
+      "left_joint_gate": false
+    },
+    {
+      "dt_s": 0.000125,
+      "parameter_row": 10,
+      "E1_left_sustained": false,
+      "E1_right_sustained": false,
+      "E1_left_frequency_hz": null,
+      "sides": {
+        "LHS": {
+          "pools": {
+            "coxa stance": {
+              "ever_over_1_hz": 5,
+              "mean_hz": 106.03421020507812,
+              "pool_range_hz": 122.970947265625
+            },
+            "coxa swing": {
+              "ever_over_1_hz": 7,
+              "mean_hz": 93.53475952148438,
+              "pool_range_hz": 115.02872467041016
+            },
+            "tibia flex": {
+              "ever_over_1_hz": 11,
+              "mean_hz": 90.96476745605469,
+              "pool_range_hz": 27.99402618408203
+            },
+            "tibia extend": {
+              "ever_over_1_hz": 2,
+              "mean_hz": 66.69880676269531,
+              "pool_range_hz": 131.20846557617188
+            }
+          },
+          "tibia_both_variable": true,
+          "tibia_correlation": 0.16194054604102084,
+          "tibia_antiphase": false
+        },
+        "RHS": {
+          "pools": {
+            "coxa stance": {
+              "ever_over_1_hz": 1,
+              "mean_hz": 0.06032538414001465,
+              "pool_range_hz": 3.6316585540771484
+            },
+            "coxa swing": {
+              "ever_over_1_hz": 7,
+              "mean_hz": 197.22213745117188,
+              "pool_range_hz": 53.57612609863281
+            },
+            "tibia flex": {
+              "ever_over_1_hz": 14,
+              "mean_hz": 156.9544219970703,
+              "pool_range_hz": 66.55547332763672
+            },
+            "tibia extend": {
+              "ever_over_1_hz": 2,
+              "mean_hz": 122.14845275878906,
+              "pool_range_hz": 101.31134033203125
+            }
+          },
+          "tibia_both_variable": true,
+          "tibia_correlation": -0.5636014882825755,
+          "tibia_antiphase": true
+        }
+      },
+      "left_joint_gate": false
+    },
+    {
+      "dt_s": 0.000125,
+      "parameter_row": 78,
+      "E1_left_sustained": true,
+      "E1_right_sustained": false,
+      "E1_left_frequency_hz": 5.555555555555555,
+      "sides": {
+        "LHS": {
+          "pools": {
+            "coxa stance": {
+              "ever_over_1_hz": 1,
+              "mean_hz": 0.10594028234481812,
+              "pool_range_hz": 0.3203519880771637
+            },
+            "coxa swing": {
+              "ever_over_1_hz": 2,
+              "mean_hz": 2.4475653171539307,
+              "pool_range_hz": 2.904137134552002
+            },
+            "tibia flex": {
+              "ever_over_1_hz": 0,
+              "mean_hz": 4.81650797804628e-13,
+              "pool_range_hz": 3.070841844698968e-11
+            },
+            "tibia extend": {
+              "ever_over_1_hz": 0,
+              "mean_hz": 0.0,
+              "pool_range_hz": 0.0
+            }
+          },
+          "tibia_both_variable": false,
+          "tibia_correlation": null,
+          "tibia_antiphase": false
+        },
+        "RHS": {
+          "pools": {
+            "coxa stance": {
+              "ever_over_1_hz": 4,
+              "mean_hz": 2.5154402256011963,
+              "pool_range_hz": 5.2492523193359375
+            },
+            "coxa swing": {
+              "ever_over_1_hz": 1,
+              "mean_hz": 0.04351261258125305,
+              "pool_range_hz": 0.7230482697486877
+            },
+            "tibia flex": {
+              "ever_over_1_hz": 10,
+              "mean_hz": 5.1206817626953125,
+              "pool_range_hz": 14.286120414733887
+            },
+            "tibia extend": {
+              "ever_over_1_hz": 0,
+              "mean_hz": 0.0,
+              "pool_range_hz": 0.0
+            }
+          },
+          "tibia_both_variable": false,
+          "tibia_correlation": null,
+          "tibia_antiphase": false
+        }
+      },
+      "left_joint_gate": false
+    },
+    {
+      "dt_s": "adaptive_RK45",
+      "parameter_row": 10,
+      "split": "discovery",
+      "E1_left_sustained": false,
+      "E1_right_sustained": false,
+      "E1_left_frequency_hz": null,
+      "sides": {
+        "LHS": {
+          "pools": {
+            "coxa stance": {
+              "ever_over_1_hz": 5,
+              "mean_hz": 93.11221313476562,
+              "pool_range_hz": 123.70378875732422
+            },
+            "coxa swing": {
+              "ever_over_1_hz": 7,
+              "mean_hz": 94.2189712524414,
+              "pool_range_hz": 114.40058135986328
+            },
+            "tibia flex": {
+              "ever_over_1_hz": 11,
+              "mean_hz": 82.2000732421875,
+              "pool_range_hz": 28.51111602783203
+            },
+            "tibia extend": {
+              "ever_over_1_hz": 2,
+              "mean_hz": 64.57088470458984,
+              "pool_range_hz": 140.79359436035156
+            }
+          },
+          "tibia_both_variable": true,
+          "tibia_correlation": 0.19253592196395627,
+          "tibia_antiphase": false
+        },
+        "RHS": {
+          "pools": {
+            "coxa stance": {
+              "ever_over_1_hz": 1,
+              "mean_hz": 0.056151363998651505,
+              "pool_range_hz": 3.372360944747925
+            },
+            "coxa swing": {
+              "ever_over_1_hz": 7,
+              "mean_hz": 163.02279663085938,
+              "pool_range_hz": 86.04398345947266
+            },
+            "tibia flex": {
+              "ever_over_1_hz": 14,
+              "mean_hz": 153.63543701171875,
+              "pool_range_hz": 65.5696792602539
+            },
+            "tibia extend": {
+              "ever_over_1_hz": 2,
+              "mean_hz": 107.47987365722656,
+              "pool_range_hz": 90.74297332763672
+            }
+          },
+          "tibia_both_variable": true,
+          "tibia_correlation": -0.4046859478327016,
+          "tibia_antiphase": true
+        }
+      },
+      "left_joint_gate": false
+    },
+    {
+      "dt_s": "adaptive_RK45",
+      "parameter_row": 78,
+      "split": "heldout",
+      "E1_left_sustained": true,
+      "E1_right_sustained": false,
+      "E1_left_frequency_hz": 5.555555555555555,
+      "sides": {
+        "LHS": {
+          "pools": {
+            "coxa stance": {
+              "ever_over_1_hz": 1,
+              "mean_hz": 0.11946805566549301,
+              "pool_range_hz": 0.3496626615524292
+            },
+            "coxa swing": {
+              "ever_over_1_hz": 2,
+              "mean_hz": 2.3246593475341797,
+              "pool_range_hz": 2.6427083015441895
+            },
+            "tibia flex": {
+              "ever_over_1_hz": 0,
+              "mean_hz": 2.2354241667379288e-13,
+              "pool_range_hz": 1.4116942857744785e-11
+            },
+            "tibia extend": {
+              "ever_over_1_hz": 0,
+              "mean_hz": 0.0,
+              "pool_range_hz": 0.0
+            }
+          },
+          "tibia_both_variable": false,
+          "tibia_correlation": null,
+          "tibia_antiphase": false
+        },
+        "RHS": {
+          "pools": {
+            "coxa stance": {
+              "ever_over_1_hz": 4,
+              "mean_hz": 2.1716630458831787,
+              "pool_range_hz": 4.487477779388428
+            },
+            "coxa swing": {
+              "ever_over_1_hz": 0,
+              "mean_hz": 0.0,
+              "pool_range_hz": 0.0
+            },
+            "tibia flex": {
+              "ever_over_1_hz": 7,
+              "mean_hz": 3.4826459884643555,
+              "pool_range_hz": 6.841116905212402
+            },
+            "tibia extend": {
+              "ever_over_1_hz": 0,
+              "mean_hz": 0.0,
+              "pool_range_hz": 0.0
+            }
+          },
+          "tibia_both_variable": false,
+          "tibia_correlation": null,
+          "tibia_antiphase": false
+        }
+      },
+      "left_joint_gate": false
+    }
+  ],
+  "scope": "Exact author checkpoint; four Euler step sizes 1ms to 0.125ms plus independent adaptive RK45; two predeclared rows 10 and 78",
+  "checks": {
+    "all_euler_traces_finite": true,
+    "all_euler_step_sizes_tested": true
+  },
+  "body_walking_achieved": false,
+  "passed": true
+}

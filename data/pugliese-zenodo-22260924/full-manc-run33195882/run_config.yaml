@@ -1,0 +1,68 @@
+version: hyak
+num_gpus: ''
+run_id: 33195882
+load_jobid: ''
+note: hyak_ckpt
+experiment:
+  name: DNg100_Stim_fullManc
+  wPath: ${paths.data_dir}/manc full vnc data/W_20251006.feather
+  dfPath: ${paths.data_dir}/manc full vnc data/wTable_20251006.feather
+  n_replicates: 32
+  batch_size: null
+  dn_screen: false
+  stimNeurons:
+  - - 59
+    - 282
+  removeNeurons: []
+  keepOnly: []
+  stimI:
+  - 380
+  seed: 424
+  saveFigs: true
+  useTsp: false
+  save_checkpoints: false
+  max_pruning_iterations: 200
+  oscillation_threshold: 0.5
+neuron_params:
+  name: TestingNeuronParams
+  tauMean: 0.02
+  tauStdv: 0.002
+  aMean: 1
+  aStdv: 0.1
+  thresholdMean: 7.5
+  thresholdStdv: 0.6
+  frcapMean: 200
+  frcapStdv: 10
+  excitatoryMultiplier: 0.03
+  inhibitoryMultiplier: 0.03
+paths:
+  user: smpuglie
+  cwd_dir: /gscratch/portia/smpuglie/github/vnc-connectome-sim
+  base_dir: /gscratch/portia/smpuglie/vnc-connectome-sim/DNg100_Stim_fullManc/hyak
+  save_dir: /gscratch/portia/smpuglie/vnc-connectome-sim/DNg100_Stim_fullManc/hyak/run_id=33195882
+  log_dir: /gscratch/portia/smpuglie/vnc-connectome-sim/DNg100_Stim_fullManc/hyak/run_id=33195882/logs
+  ckpt_dir: /gscratch/portia/smpuglie/vnc-connectome-sim/DNg100_Stim_fullManc/hyak/run_id=33195882/ckpt
+  fig_dir: /gscratch/portia/smpuglie/vnc-connectome-sim/DNg100_Stim_fullManc/hyak/run_id=33195882/figures
+  data_dir: /gscratch/portia/smpuglie/github/vnc-connectome-sim/data
+sim:
+  T: 2.0
+  dt: 0.001
+  pulseStart: 0.02
+  pulseEnd: 1.999
+  shuffle: false
+  noise: false
+  noiseStdvProp: 0.0
+  noiseMean: 0.0
+  noiseStdv: 0.0
+  prune_network: false
+  adjustStimI: false
+  max_adjustment_iters: 10
+  n_active_upper: 500
+  n_active_lower: 5
+  n_high_fr_upper: 100
+  high_fr_threshold: 100.0
+  rtol: 2.0e-06
+  atol: 5.0e-09
+  enable_checkpointing: true
+  checkpoint_interval: 100
+  async_mode: streaming

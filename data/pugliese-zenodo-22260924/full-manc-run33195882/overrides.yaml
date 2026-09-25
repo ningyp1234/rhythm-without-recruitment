@@ -1,0 +1,12 @@
+- paths=hyak-smpuglie-private
+- note=hyak_ckpt
+- version=hyak
+- experiment=DNg100_Stim_fullManc
+- sim=default
+- neuron_params=default
+- load_jobid=
+- run_id=33195882
+- experiment.n_replicates=32
+- experiment.seed=424
+- experiment.stimNeurons=[[59,282]]
+- experiment.stimI=[380]

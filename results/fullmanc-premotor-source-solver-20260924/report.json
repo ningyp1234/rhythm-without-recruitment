@@ -1,0 +1,503 @@
+{
+  "source": "https://zenodo.org/records/22260924",
+  "run_id": 33195857,
+  "source_parameter_row": 13,
+  "figure4_global_row": 45,
+  "scope": "Synthetic upstream-current causal probe in the full author MANC graph, not natural sensory feedback or autonomous walking",
+  "conditions": [
+    {
+      "case": "author_DNg100_only",
+      "added_artificial_input_current_by_body_id": {},
+      "numerics": {
+        "wall_seconds": 37.41156741598388,
+        "solver": "scipy RK45 / Dormand-Prince 5(4)",
+        "rtol": 2e-06,
+        "atol": 5e-09,
+        "max_step_seconds": 0.001,
+        "source_solver_family": "author Diffrax Dopri5; independent implementation, compared with author's archived baseline"
+      },
+      "author_baseline_comparison": {
+        "author_selected_738_rate_rmse_hz": 0.00028128590201959014,
+        "author_selected_738_rate_max_abs_hz": 0.012580394744873047,
+        "author_original_six_E1_count": 6,
+        "author_original_left_front_tibia_both": false,
+        "qualitative_E1_and_left_tibia_match_author": true
+      },
+      "neural": {
+        "six_E1_sustained_count": 6,
+        "left_front_tibia_both": false,
+        "six_leg_tibia_both_count": 0,
+        "joint_six_E1_and_six_tibia_gate": false,
+        "named_cell_mean_hz_after_0p5s": {
+          "12650": 0.0,
+          "10827": 0.0,
+          "17678": 0.0,
+          "12134": 0.0,
+          "12704": 0.0
+        },
+        "legs": {
+          "lf": {
+            "tibia flex": {
+              "neurons": 15,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "tibia extend": {
+              "neurons": 2,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "both_variable": false
+          },
+          "lm": {
+            "tibia flex": {
+              "neurons": 12,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "tibia extend": {
+              "neurons": 2,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "both_variable": false
+          },
+          "lh": {
+            "tibia flex": {
+              "neurons": 11,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "tibia extend": {
+              "neurons": 2,
+              "active_over_1_hz": 1,
+              "mean_pool_range_hz": 1.393613338470459,
+              "mean_pool_rate_hz": 0.47394677996635437
+            },
+            "both_variable": false
+          },
+          "rf": {
+            "tibia flex": {
+              "neurons": 15,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "tibia extend": {
+              "neurons": 2,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "both_variable": false
+          },
+          "rm": {
+            "tibia flex": {
+              "neurons": 11,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "tibia extend": {
+              "neurons": 2,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "both_variable": false
+          },
+          "rh": {
+            "tibia flex": {
+              "neurons": 10,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.05476841703057289,
+              "mean_pool_rate_hz": 0.027316944673657417
+            },
+            "tibia extend": {
+              "neurons": 2,
+              "active_over_1_hz": 1,
+              "mean_pool_range_hz": 2.7817440032958984,
+              "mean_pool_rate_hz": 1.3875738382339478
+            },
+            "both_variable": false
+          }
+        }
+      }
+    },
+    {
+      "case": "IN21A004_12650_plus80",
+      "added_artificial_input_current_by_body_id": {
+        "12650": 80.0
+      },
+      "numerics": {
+        "wall_seconds": 36.4447105829895,
+        "solver": "scipy RK45 / Dormand-Prince 5(4)",
+        "rtol": 2e-06,
+        "atol": 5e-09,
+        "max_step_seconds": 0.001,
+        "source_solver_family": "author Diffrax Dopri5; independent implementation, compared with author's archived baseline"
+      },
+      "author_baseline_comparison": null,
+      "neural": {
+        "six_E1_sustained_count": 4,
+        "left_front_tibia_both": false,
+        "six_leg_tibia_both_count": 0,
+        "joint_six_E1_and_six_tibia_gate": false,
+        "named_cell_mean_hz_after_0p5s": {
+          "12650": 10.863539695739746,
+          "10827": 0.0,
+          "17678": 0.0,
+          "12134": 4.415435314178467,
+          "12704": 0.0
+        },
+        "legs": {
+          "lf": {
+            "tibia flex": {
+              "neurons": 15,
+              "active_over_1_hz": 2,
+              "mean_pool_range_hz": 0.26081976294517517,
+              "mean_pool_rate_hz": 0.39065656065940857
+            },
+            "tibia extend": {
+              "neurons": 2,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "both_variable": false
+          },
+          "lm": {
+            "tibia flex": {
+              "neurons": 12,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "tibia extend": {
+              "neurons": 2,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "both_variable": false
+          },
+          "lh": {
+            "tibia flex": {
+              "neurons": 11,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "tibia extend": {
+              "neurons": 2,
+              "active_over_1_hz": 1,
+              "mean_pool_range_hz": 1.3843297958374023,
+              "mean_pool_rate_hz": 0.46119236946105957
+            },
+            "both_variable": false
+          },
+          "rf": {
+            "tibia flex": {
+              "neurons": 15,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "tibia extend": {
+              "neurons": 2,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "both_variable": false
+          },
+          "rm": {
+            "tibia flex": {
+              "neurons": 11,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "tibia extend": {
+              "neurons": 2,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "both_variable": false
+          },
+          "rh": {
+            "tibia flex": {
+              "neurons": 10,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.06000739708542824,
+              "mean_pool_rate_hz": 0.02767670713365078
+            },
+            "tibia extend": {
+              "neurons": 2,
+              "active_over_1_hz": 1,
+              "mean_pool_range_hz": 2.780734062194824,
+              "mean_pool_rate_hz": 1.3617897033691406
+            },
+            "both_variable": false
+          }
+        }
+      }
+    },
+    {
+      "case": "IN21A004_12650_plus160",
+      "added_artificial_input_current_by_body_id": {
+        "12650": 160.0
+      },
+      "numerics": {
+        "wall_seconds": 34.972303500020644,
+        "solver": "scipy RK45 / Dormand-Prince 5(4)",
+        "rtol": 2e-06,
+        "atol": 5e-09,
+        "max_step_seconds": 0.001,
+        "source_solver_family": "author Diffrax Dopri5; independent implementation, compared with author's archived baseline"
+      },
+      "author_baseline_comparison": null,
+      "neural": {
+        "six_E1_sustained_count": 3,
+        "left_front_tibia_both": false,
+        "six_leg_tibia_both_count": 0,
+        "joint_six_E1_and_six_tibia_gate": false,
+        "named_cell_mean_hz_after_0p5s": {
+          "12650": 25.447965621948242,
+          "10827": 0.0,
+          "17678": 0.0,
+          "12134": 20.200345993041992,
+          "12704": 0.0
+        },
+        "legs": {
+          "lf": {
+            "tibia flex": {
+              "neurons": 15,
+              "active_over_1_hz": 4,
+              "mean_pool_range_hz": 0.18768954277038574,
+              "mean_pool_rate_hz": 2.7740113735198975
+            },
+            "tibia extend": {
+              "neurons": 2,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "both_variable": false
+          },
+          "lm": {
+            "tibia flex": {
+              "neurons": 12,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "tibia extend": {
+              "neurons": 2,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "both_variable": false
+          },
+          "lh": {
+            "tibia flex": {
+              "neurons": 11,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "tibia extend": {
+              "neurons": 2,
+              "active_over_1_hz": 1,
+              "mean_pool_range_hz": 0.9973065257072449,
+              "mean_pool_rate_hz": 0.2919977605342865
+            },
+            "both_variable": false
+          },
+          "rf": {
+            "tibia flex": {
+              "neurons": 15,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "tibia extend": {
+              "neurons": 2,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "both_variable": false
+          },
+          "rm": {
+            "tibia flex": {
+              "neurons": 11,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "tibia extend": {
+              "neurons": 2,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "both_variable": false
+          },
+          "rh": {
+            "tibia flex": {
+              "neurons": 10,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.050345562398433685,
+              "mean_pool_rate_hz": 0.03024805150926113
+            },
+            "tibia extend": {
+              "neurons": 2,
+              "active_over_1_hz": 1,
+              "mean_pool_range_hz": 2.920121908187866,
+              "mean_pool_rate_hz": 1.5072286128997803
+            },
+            "both_variable": false
+          }
+        }
+      }
+    },
+    {
+      "case": "IN21A004_12650_plus160_IN04B031_17678_plus60",
+      "added_artificial_input_current_by_body_id": {
+        "12650": 160.0,
+        "17678": 60.0
+      },
+      "numerics": {
+        "wall_seconds": 34.47197108299588,
+        "solver": "scipy RK45 / Dormand-Prince 5(4)",
+        "rtol": 2e-06,
+        "atol": 5e-09,
+        "max_step_seconds": 0.001,
+        "source_solver_family": "author Diffrax Dopri5; independent implementation, compared with author's archived baseline"
+      },
+      "author_baseline_comparison": null,
+      "neural": {
+        "six_E1_sustained_count": 4,
+        "left_front_tibia_both": false,
+        "six_leg_tibia_both_count": 0,
+        "joint_six_E1_and_six_tibia_gate": false,
+        "named_cell_mean_hz_after_0p5s": {
+          "12650": 25.42300796508789,
+          "10827": 0.0,
+          "17678": 12.858512878417969,
+          "12134": 20.182170867919922,
+          "12704": 3.6288544868687267e-13
+        },
+        "legs": {
+          "lf": {
+            "tibia flex": {
+              "neurons": 15,
+              "active_over_1_hz": 4,
+              "mean_pool_range_hz": 0.18697881698608398,
+              "mean_pool_rate_hz": 2.7718896865844727
+            },
+            "tibia extend": {
+              "neurons": 2,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 1.1810732079842179e-11,
+              "mean_pool_rate_hz": 1.814427378959635e-13
+            },
+            "both_variable": false
+          },
+          "lm": {
+            "tibia flex": {
+              "neurons": 12,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "tibia extend": {
+              "neurons": 2,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "both_variable": false
+          },
+          "lh": {
+            "tibia flex": {
+              "neurons": 11,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "tibia extend": {
+              "neurons": 2,
+              "active_over_1_hz": 1,
+              "mean_pool_range_hz": 1.0269811153411865,
+              "mean_pool_rate_hz": 0.2951984107494354
+            },
+            "both_variable": false
+          },
+          "rf": {
+            "tibia flex": {
+              "neurons": 15,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "tibia extend": {
+              "neurons": 2,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "both_variable": false
+          },
+          "rm": {
+            "tibia flex": {
+              "neurons": 11,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "tibia extend": {
+              "neurons": 2,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.0,
+              "mean_pool_rate_hz": 0.0
+            },
+            "both_variable": false
+          },
+          "rh": {
+            "tibia flex": {
+              "neurons": 10,
+              "active_over_1_hz": 0,
+              "mean_pool_range_hz": 0.05155732110142708,
+              "mean_pool_rate_hz": 0.029477646574378014
+            },
+            "tibia extend": {
+              "neurons": 2,
+              "active_over_1_hz": 1,
+              "mean_pool_range_hz": 2.8450889587402344,
+              "mean_pool_rate_hz": 1.4913674592971802
+            },
+            "both_variable": false
+          }
+        }
+      }
+    }
+  ],
+  "checks": {
+    "source_graph_bit_exact_and_unpruned": true,
+    "original_738_source_cells_matched": true,
+    "four_23k_neuron_2s_adaptive_cases": true,
+    "all_traces_finite": true
+  },
+  "passed": true,
+  "autonomous_walking_achieved": false,
+  "goal_complete": false
+}

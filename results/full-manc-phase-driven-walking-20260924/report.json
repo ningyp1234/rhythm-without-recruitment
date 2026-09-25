@@ -1,0 +1,171 @@
+{
+  "date": "2026-09-24",
+  "scope": "source full 23,532-cell MANC neural dynamics online with real 2-s free-body walking",
+  "sources": {
+    "neurons_sha256": "4bb16ecd9a47bfb01318b3520dd622ce37ff5449563ae165272a3086bf56cfd8",
+    "weights_sha256": "c8d85a80b30a6f680932bbeb2c2dda2754ad0fd8b1b6a3c1f2652ca62d4cab61",
+    "official_neuron_params_sha256": "778bd7c114f483b1a0bab87e3c95130a3f3b1ce37114a291dd791e6d4d1d2ef0",
+    "base_policy_sha256": "817506e37a12100ef437d46f9fb9084e0171225c7babc0d8c13508ff5f74fb9a",
+    "stabilizer_sha256": "05aa5fc2788c9cf1f54211141432594dfc3edbb7734d81839d2371d785df4d3f"
+  },
+  "neural_source": {
+    "parameter_row": 13,
+    "neurons": 23532,
+    "directed_edges": 1372404,
+    "E1_body_ids": [
+      10072,
+      10498,
+      10558,
+      10559,
+      10690,
+      10707
+    ],
+    "readout_body_ids": [
+      10707,
+      11751,
+      13905
+    ],
+    "late_reference_cycle_ms": 107
+  },
+  "runtime_contract": "Every 1.25-ms body frame, exact official MANC rate equation advances for 1 or 2 one-ms neural steps; current T1L E1/E2/I1 state is decoded to a phase used by the unchanged engineering 56-actuator policy. Bilateral DNg100 input is still artificial.",
+  "rows": [
+    {
+      "body_state": "canonical",
+      "condition": "full_manc_online",
+      "distance_2s_mm": 33.336528425295235,
+      "body_contact_fraction": 0.0,
+      "cycles_per_leg": [
+        19,
+        18,
+        18,
+        19,
+        25,
+        21
+      ],
+      "neural_steps": 2000,
+      "neural_phase_cycles": 18.625000000000007,
+      "mean_motor_neuron_rate_hz": 0.02868533879518509,
+      "source_motor_neurons_ever_above_1_hz": 18,
+      "source_motor_neuron_count": 732,
+      "all_neural_rates_finite": true,
+      "walking_gate_pass": true
+    },
+    {
+      "body_state": "canonical",
+      "condition": "neural_state_frozen",
+      "distance_2s_mm": 18.508882536165675,
+      "body_contact_fraction": 0.024984384759525295,
+      "cycles_per_leg": [
+        17,
+        57,
+        56,
+        19,
+        21,
+        55
+      ],
+      "neural_steps": 0,
+      "neural_phase_cycles": 0.0,
+      "mean_motor_neuron_rate_hz": 0.04286818206310272,
+      "source_motor_neurons_ever_above_1_hz": 11,
+      "source_motor_neuron_count": 732,
+      "all_neural_rates_finite": true,
+      "walking_gate_pass": true
+    },
+    {
+      "body_state": "canonical",
+      "condition": "DNg100_drive_removed",
+      "distance_2s_mm": 3.517155987572692,
+      "body_contact_fraction": 0.7582760774515928,
+      "cycles_per_leg": [
+        3,
+        9,
+        5,
+        3,
+        3,
+        4
+      ],
+      "neural_steps": 2000,
+      "neural_phase_cycles": 0.5416666666666666,
+      "mean_motor_neuron_rate_hz": 0.0008434608462266624,
+      "source_motor_neurons_ever_above_1_hz": 14,
+      "source_motor_neuron_count": 732,
+      "all_neural_rates_finite": true,
+      "walking_gate_pass": false
+    },
+    {
+      "body_state": "bout_0209",
+      "condition": "full_manc_online",
+      "distance_2s_mm": 32.05350929272276,
+      "body_contact_fraction": 0.0,
+      "cycles_per_leg": [
+        19,
+        19,
+        19,
+        19,
+        19,
+        18
+      ],
+      "neural_steps": 2000,
+      "neural_phase_cycles": 18.625000000000007,
+      "mean_motor_neuron_rate_hz": 0.028882542625069618,
+      "source_motor_neurons_ever_above_1_hz": 18,
+      "source_motor_neuron_count": 732,
+      "all_neural_rates_finite": true,
+      "walking_gate_pass": true
+    },
+    {
+      "body_state": "bout_0325",
+      "condition": "full_manc_online",
+      "distance_2s_mm": 19.366940161432055,
+      "body_contact_fraction": 0.016864459712679577,
+      "cycles_per_leg": [
+        18,
+        18,
+        18,
+        19,
+        23,
+        18
+      ],
+      "neural_steps": 2000,
+      "neural_phase_cycles": 18.625000000000007,
+      "mean_motor_neuron_rate_hz": 0.02851727232336998,
+      "source_motor_neurons_ever_above_1_hz": 18,
+      "source_motor_neuron_count": 732,
+      "all_neural_rates_finite": true,
+      "walking_gate_pass": true
+    },
+    {
+      "body_state": "bout_1250",
+      "condition": "full_manc_online",
+      "distance_2s_mm": 27.357041582203184,
+      "body_contact_fraction": 0.0,
+      "cycles_per_leg": [
+        18,
+        19,
+        19,
+        18,
+        18,
+        19
+      ],
+      "neural_steps": 2000,
+      "neural_phase_cycles": 18.625000000000007,
+      "mean_motor_neuron_rate_hz": 0.028282860293984413,
+      "source_motor_neurons_ever_above_1_hz": 18,
+      "source_motor_neuron_count": 732,
+      "all_neural_rates_finite": true,
+      "walking_gate_pass": true
+    }
+  ],
+  "checks": {
+    "full_official_manc_graph_loaded": true,
+    "all_live_neural_states_finite": true,
+    "neural_clock_matches_two_second_body": true,
+    "DNg100_cut_uses_same_two_second_neural_clock": true,
+    "frozen_neural_control_has_zero_steps": true,
+    "four_body_initial_states_and_two_controls_completed": true
+  },
+  "audit_passed": true,
+  "four_start_walking_gate_passed": true,
+  "brain_autonomous_walking_achieved": false,
+  "goal_complete": false
+}

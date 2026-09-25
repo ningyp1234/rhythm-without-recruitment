@@ -1,0 +1,54 @@
+section,claim,computed,pass,source
+Methods,"23,532 neurons",23532,True,data/cpg/manc-neurons-20251006.csv.gz
+Methods,"1,372,404 nonzero directed connections",1372404,True,data/cpg/manc-pre-post-20251006.npz
+Methods,"DNg100 380 units, pulse 0.02-1.999 s, pruning off, multipliers 0.03",stimI 380; pulseStart .02; pulseEnd 1.999; prune false; mult .03,True,run33195882/config.yaml
+Methods,"86 tibia MNs (74 flexor, 12 extensor); LF 15+2","86 (74, 12); LF 15+2",True,neuron annotation
+Methods,"6 E1 (IN17A001), 732 MNs","6, 732",True,neuron annotation
+Methods,Figure 4 active-MN counts reproduced 128/128,True,True,author_fullmanc_128_neural_screen.json
+Methods,"RK45 vs archive RMS 2.8e-4 Hz (set 45, 738 cells)",0.00028128590201959014,True,fullmanc-premotor report
+Methods/Control 2,"RK45 vs archive E1 RMS 0.066 and 0.023 Hz (sets 122, 126)","0.0662, 0.0229",True,fullmanc_integrator_convergence.json
+Methods,"53 flies, 2,213 bouts, 653,919 frames, 800 Hz","53, 2213, 653919, 800.0",True,3d-kinematics manifest
+Methods,"reference slip 5.10, limit 6.37 mm/s","5.098, 6.372",True,vnc-core report
+3.1,reanalysis reproduces original peak-based E1 and tibia counts,"True, True",True,robustness_128.json
+3.1,51/128 six-hemisegment E1 rhythm (spectral),51,True,robustness_128.json
+3.1,"median 11.3 Hz, IQR 11.0-12.0 Hz","11.33, 10.99-11.99",True,robustness_128.json
+3.1,0 of 51 rhythmic sets with any recruiting leg,0,True,robustness_128.json
+3.1,"six-leg antagonism in 2 sets (2, 117); any leg in 9 sets","[2, 117], 9",True,robustness_128.json
+3.1,recruiting sets have E1 rhythm in <=2 hemisegments,2,True,robustness_128.json
+3.1,P(empty intersection | independence) = 0.36,0.360,True,combinatorics
+3.1,any-E1 vs any-recruiting Fisher p = 6.4e-6,"6.42e-06 [[3, 114], [6, 5]]",True,robustness_128.json
+3.1,118 sets <=38 active MNs; 10 sets 289-439,118 (max 38); 10 (289-439),True,robustness_128.json
+3.1/Abstract,9/10 hyperactive vs 0/118 low-activity; p = 5.2e-13 (abstract: 5e-13),"[[9, 1], [0, 118]]; 5.25e-13",True,robustness_128.json
+3.1,rhythmic sets recruit 13-38 MNs (median 20),13-38 (median 20),True,robustness_128.json
+3.1,"femur/tr 36%, coxa 23%, no module 26%, tibia ext 10%, tibia flex 2 of 3,774","0.363, 0.233, 0.259, 0.099, 2 of 3774",True,robustness_128.json
+Table 2,robustness table entries,see robustness_128.json conditions,True,robustness_128.json (values transcribed; spot-checked below)
+Table 2,peak 0.1/0.1,5/2/0/1; p=5.7e-09,True,robustness_128.json
+Table 2,peak 1.0/0.5,5/2/0/0; p=1.3e-09,True,robustness_128.json
+Table 2,peak 5.0/2.0,5/1/0/0; p=2.3e-06,True,robustness_128.json
+Table 2,spec0.3 0.1/0.1,51/2/0/2; p=1.8e-05,True,robustness_128.json
+Table 2,spec0.3 1.0/0.5,51/2/0/0; p=6.4e-06,True,robustness_128.json
+Table 2,spec0.3 5.0/2.0,51/1/0/0; p=4.2e-04,True,robustness_128.json
+Table 2,spec0.5 0.1/0.1,36/2/0/2; p=1.8e-06,True,robustness_128.json
+Table 2,spec0.5 1.0/0.5,36/2/0/0; p=2.8e-07,True,robustness_128.json
+Table 2,spec0.5 5.0/2.0,36/1/0/0; p=1.7e-05,True,robustness_128.json
+3.1,0/256 pass; best 0.648 / 0.142 mm (set 117),"0; 0.648 (set 117), 0.142 (set 117)",True,body screen
+3.1,"set 117 steps [0,3,0,0,2,0]; medians 5.4e-4 and 7.3e-4 mm","[0, 3, 0, 0, 2, 0]; 5.39e-04, 7.29e-04",True,body screen
+Fig 2D,"15 and 5 runs backwards, min -0.18 mm","15, 5, -0.185",True,body screen
+3.1,"set 117: 189 active leg MNs, 154 mapped, 35 unmapped","189, 154, 35",True,motor mapping
+3.1/Abstract,17 LF tibia MNs never fire in 51 rhythmic sets (max 0 Hz),0.0,True,archived rates
+3.2,"rhythmic margins -4.37..-5.04; recruiting +1,683 / +2,196","{2: 1683.07, 36: -4.98, 38: -4.57, 39: -4.37, 45: -5.04, 72: -4.79, 117: 2196.33}",True,motor-input margins
+3.2,weights/masks bit-identical; thresholds 20.75 vs 19.33; drives 3.29/-8.31 vs 155.24/-256.54 (30-50x),"True, True; 20.75/19.33; 3.29/-8.31 vs 155.24/-256.54; x47.2, x30.9",True,motor-input margins
+3.2,"12134 net +326.9; IN21A004 +219.0, IN03A004 +157.6, both silent in set 45","326.9; 219.0 (0.0 Hz), 157.6 (0.0 Hz)",True,motor-input margins
+3.3,"+80: 10.9 & 4.4 Hz, 2/15; +160: 25.4 & 20.2 Hz, 4/15; E1 6/6 spectral all; ranges 0.26/0.19; ext 0; IN04B031 12.9 Hz","10.86/4.42/2; 25.45/20.20/4; E1 [6, 6, 6, 6]; 0.261/0.188; ext [0, 0, 0, 0]; 12.86",True,premotor report + spectral recheck
+3.3,feedback effect 0.067 Hz; cut returns within 8.7e-5 Hz; 0.0017-0.0046 mm,0.0666; 8.67e-05; 0.0017-0.0046,True,adaptive feedback report
+3.3,T1-T2 tibia pools (8) subthreshold in both conditions,max peak margin -3.40; active 0,True,adaptive tibia margins
+Control 1,"bit-identical over 1,601 frames, 4 starts, 19.4-33.3 mm","[(1601, 0.0, 0.0), (1601, 0.0, 0.0), (1601, 0.0, 0.0), (1601, 0.0, 0.0)]; 19.37-33.34",True,phase replay report
+Control 1,732 MNs averaged 0.029 Hz,0.02868533879518509,True,phase-driven report
+Control 2,"T1: 4,604 neurons; 116 x 16 = 1,856; candidate grid 90 row 10; heldout row 78 (112 rows)",4604; 116x16; 90/10; heldout joint 1 of 112,True,T1 reports
+Control 2,"all refined Euler, RK45, Dopri5 fail; correlation -0.59 -> +0.19","{'source_archived_W_matches_source_glutamate_ratio_exactly': True, 'source_Diffrax_all_finite': True, 'one_ms_Euler_false_positive_both_rows': True, 'all_three_refined_Euler_steps_fail_both_rows': True, 'independent_RK45_fails_both_rows': True, 'source_Diffrax_fails_both_rows': True}; -0.593 -> 0.193",True,numerical gate validation
+Control 2,Euler 1 ms vs archive: E1 classification differs in 6/32 sets (spectral),6,True,e1_detector_recheck.json (same-sampling recheck in session gave identical 6)
+Control 2,"sets 122/126: archive & RK45 6/6; Euler 1, 0.5 ms 0/6; RMS 22.6/12.8 Hz at 1 ms; set 122 at 0.1 ms 2/6, RMS 12.4","{'archive': 6, 'euler_1ms': 0, 'euler_0.5ms': 0, 'euler_0.25ms': 4, 'euler_0.1ms': 2, 'rk45': 6}; {'archive': 6, 'euler_1ms': 0, 'euler_0.5ms': 0, 'euler_0.25ms': 5, 'euler_0.1ms': 6, 'rk45': 6}; 22.6/12.8; 12.4",True,fullmanc_integrator_convergence.json
+Control 3,"38.2 / 18.5 mm; toe peaks 17-57; frozen zero cycles LF,RF,LM; slip 11.9/4.4; both pass original gate","38.16/18.51; 17-57; [0, 0, 0, 5, 5, 5]; 11.86/4.36; True/True",True,"vnc-core report (leg order LF,RF,LM,RM,LH,RH)"
+Control 3,"held-out: intact 2/3, frozen 0/3 strict; E1/E2 silencing 3.4/4.4 mm","2/3, 0/3; 3.45/4.44",True,vnc-core report
+Control 4,"set 42: 10.7 Hz, 97%, intervals 100-280 ms, CV 0.36; peak 5 vs spectral 51","10.66, 0.965, 100-280, 0.36; 5/51",True,figure_source_numbers.json
+Control 4,four spurious findings: IN21A004 6/4/3 vs 6/6/6; 0.5 ms baseline 3 vs 6; closed loop 5 vs 6 (both 6 spectral); set 109 3 vs 6,"[6, 4, 3] vs [6, 6, 6]; {'peak_10ms': 3, 'spectral_10ms': 6}; legacy 5, spectral 6/6; set109 3/6",True,e1_detector_recheck.json etc.

@@ -1,0 +1,64 @@
+{
+  "source_record": "https://zenodo.org/records/22260924",
+  "author_code": "https://github.com/smpuglie/Pugliese_2026",
+  "author_code_commit": "10e7661bf414ba7b4c2edf795cd36d0f878c17c0",
+  "license": "CC-BY-4.0 (Zenodo record metadata checked 2026-09-24)",
+  "archive": "DNg100_Stim__edf2_a.zip",
+  "archive_size_bytes": 32693216567,
+  "archive_md5_from_zenodo": "bc5eae95a262f03c87e2a3bd72753ddb",
+  "archive_whole_downloaded": false,
+  "archive_whole_md5_locally_checked": false,
+  "method": "HTTP byte range of remote ZIP central directory and selected exact HDF5 members; CRC32 and bytes checked against the ZIP directory; SHA-256 of local member recorded",
+  "published_checkpoint_count": 116,
+  "files": [
+    {
+      "local_file": "neuron_params.h5",
+      "grid_index": 62,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.03,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "archive_member_bytes": 13404776,
+      "local_bytes": 13404776,
+      "archive_member_crc32": "02e961d8",
+      "local_crc32": "02e961d8",
+      "sha256": "5a50047fec784aa7a5fb695c982ac54ad4aa4e735815ea9af6ebb14ef1d3819e",
+      "synapse_class_multipliers": {
+        "excitatory": 0.03,
+        "glutamate": 0.03,
+        "inhibitory": 0.03
+      },
+      "verified_against_zip_directory": true
+    },
+    {
+      "local_file": "neuron_params_glu_ratio_2p25056.h5",
+      "grid_index": 60,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.03,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "archive_member_bytes": 13479295,
+      "local_bytes": 13479295,
+      "archive_member_crc32": "b2c8ca8b",
+      "local_crc32": "b2c8ca8b",
+      "sha256": "be638b0803a13f743bccfd1aee3c1cd2d7eb85fae1f7fd2f7ff42c8a0d2516be",
+      "synapse_class_multipliers": {
+        "excitatory": 0.03,
+        "glutamate": 0.03,
+        "inhibitory": 0.01333
+      },
+      "verified_against_zip_directory": true
+    },
+    {
+      "local_file": "neuron_params_candidate_grid90.h5",
+      "grid_index": 90,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.045,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "archive_member_bytes": 13482615,
+      "local_bytes": 13482615,
+      "archive_member_crc32": "1d770f31",
+      "local_crc32": "1d770f31",
+      "sha256": "ffa99936a12a26f9b1ff36fbdd46c067ddedf01780eb18645bf142927511b7b7",
+      "synapse_class_multipliers": {
+        "excitatory": 0.045,
+        "glutamate": 0.045,
+        "inhibitory": 0.01333
+      },
+      "verified_against_zip_directory": true
+    }
+  ],
+  "all_members_verified": true
+}

@@ -1,0 +1,97 @@
+{
+  "source": "https://zenodo.org/records/22260924",
+  "official_run": 33195882,
+  "parameter_row": 21,
+  "source_trace_sha256": "ed6a22e0123ea6d7e83f7e7516b480e5baf1d411fd94d3ee9cea53b5be8b29f2",
+  "published_sparse_shape": [
+    1,
+    32,
+    23532,
+    2001
+  ],
+  "extracted_row21_nonzero_entries": 7710149,
+  "author_six_E1_sustained": 0,
+  "author_E1_stats": [
+    {
+      "mean_hz": 4.694348808800246,
+      "amplitude_hz": 90.09467315673828,
+      "peaks": 1,
+      "period_cv": null,
+      "frequency_hz": null,
+      "first_third_amplitude_hz": 12.546381684931475,
+      "last_third_amplitude_hz": 3.913156731973599e-08,
+      "diagnostic_sustained_rhythm": false
+    },
+    {
+      "mean_hz": 0.35689356598330046,
+      "amplitude_hz": 4.96157693862915,
+      "peaks": 3,
+      "period_cv": 0.16666666666666669,
+      "frequency_hz": 8.333333333333332,
+      "first_third_amplitude_hz": 4.961336530846893,
+      "last_third_amplitude_hz": 3.4724194022419437e-15,
+      "diagnostic_sustained_rhythm": false
+    },
+    {
+      "mean_hz": 1.3234245439204755,
+      "amplitude_hz": 24.414703369140543,
+      "peaks": 3,
+      "period_cv": 0.696969696969697,
+      "frequency_hz": 3.0303030303030303,
+      "first_third_amplitude_hz": 8.919673030883132,
+      "last_third_amplitude_hz": 0.001871494343422393,
+      "diagnostic_sustained_rhythm": false
+    },
+    {
+      "mean_hz": 0.990897856879245,
+      "amplitude_hz": 13.19526195526123,
+      "peaks": 3,
+      "period_cv": 0.08333333333333336,
+      "frequency_hz": 4.166666666666667,
+      "first_third_amplitude_hz": 5.1764936756117095,
+      "last_third_amplitude_hz": 3.387166935817636e-11,
+      "diagnostic_sustained_rhythm": false
+    },
+    {
+      "mean_hz": 9.533280677155147,
+      "amplitude_hz": 44.68816560821506,
+      "peaks": 3,
+      "period_cv": 0.02222222222222224,
+      "frequency_hz": 4.444444444444445,
+      "first_third_amplitude_hz": 7.870768487453461,
+      "last_third_amplitude_hz": 7.30529159622165,
+      "diagnostic_sustained_rhythm": false
+    },
+    {
+      "mean_hz": 3.8221806952013626,
+      "amplitude_hz": 35.734203336252406,
+      "peaks": 5,
+      "period_cv": 0.6128532443458649,
+      "frequency_hz": 4.25531914893617,
+      "first_third_amplitude_hz": 17.694383919239044,
+      "last_third_amplitude_hz": 8.84259605170651,
+      "diagnostic_sustained_rhythm": false
+    }
+  ],
+  "author_motor_over_1hz_0p5_2s": 439,
+  "solver_comparisons": {
+    "RK45_1ms_max_step": {
+      "motor_rmse_hz": 10.663271909653043,
+      "motor_mae_hz": 1.743858814239502,
+      "motor_max_abs_hz": 204.003173828125
+    },
+    "RK45_0p5ms_max_step": {
+      "motor_rmse_hz": 3.167652923669648,
+      "motor_mae_hz": 0.5050148963928223,
+      "motor_max_abs_hz": 178.26454162597656
+    }
+  },
+  "checks": {
+    "zip_member_verified": true,
+    "author_trajectory_shape_matches_config": true,
+    "motor_count_exact": true,
+    "source_rates_finite": true
+  },
+  "brain_autonomous_walking_achieved": false,
+  "passed": true
+}

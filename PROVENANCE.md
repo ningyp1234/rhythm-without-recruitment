@@ -1,6 +1,6 @@
 # Provenance of result files
 
-Each directory in `results/` was produced by the author's original simulation pipeline. The pipeline is not included in this repository and is available from the corresponding author upon reasonable request. The table names the original scripts, in execution order, so that each file can be traced. The paper's analyses in `paper/scripts/` read only the files included here.
+Each directory in `results/` was produced by the simulation pipeline in [`pipeline/`](pipeline/); [`pipeline/README.md`](pipeline/README.md) explains how to set it up and run it. The table names the scripts, in execution order, so that each file can be traced. [`pipeline/README.md`](pipeline/README.md) also lists the scripts that trained the hybrid walker. The paper's analyses in `paper/scripts/` read only the files included here.
 
 | `results/` directory | Procedure (original scripts) | Used in the paper for |
 |---|---|---|
@@ -24,7 +24,7 @@ Each directory in `results/` was produced by the author's original simulation pi
 | `make_figures_v2.py` | Figures 2–4 and `../figures/figure_source_numbers.json` |
 | `verify_manuscript_numbers.py` | `manuscript_number_check.csv`: 53 checks of the numbers in `main.tex` |
 
-## Known caveats of the original pipeline (documented in the paper)
+## Known caveats of the pipeline (documented in the paper)
 
 - **Rhythm detector.** The original peak-based rhythm detector enforces a 100 ms minimum peak spacing, so it undercounts the ~11 Hz E1 rhythm. The paper uses a spectral detector and reports both (Table 2, Control 4).
 - **Fixed-step integration.** Several original screens used 1 ms or 0.5 ms fixed-step Euler integration. These results are used only where the paper says so, and never as positive evidence (Control 2).

@@ -1,0 +1,342 @@
+{
+  "date": "2026-09-24",
+  "scope": "pre-fall prioritized recovery refinement for autonomous engineering CPG",
+  "source_checkpoint": "results/official-running-cpg-policy-20260924/checkpoint.pt",
+  "training": {
+    "seed": 20261005,
+    "rounds": 8,
+    "episodes_per_round": 6,
+    "danger_window_frames": 240,
+    "history": [
+      {
+        "round": 0,
+        "standard": {
+          "bout_key": "bout_1008_canonical",
+          "split": "training-derived standard start",
+          "phase_initializer": "internal CPG phase zero",
+          "distance_2s_mm": 27.1532391960314,
+          "body_contact_fraction": 0.18238600874453467,
+          "first_body_contact_s": 1.53875,
+          "cycles": [
+            23,
+            15,
+            18,
+            19,
+            23,
+            19
+          ],
+          "finite": true
+        },
+        "score": 2.9688891949899086
+      },
+      {
+        "round": 1,
+        "danger_onset_s_median": 1.635,
+        "danger_frames": 1613,
+        "loss_final": 1.01242196559906,
+        "standard": {
+          "bout_key": "bout_1008_canonical",
+          "split": "training-derived standard start",
+          "phase_initializer": "internal CPG phase zero",
+          "distance_2s_mm": 3.6733386419223053,
+          "body_contact_fraction": 0.8900687070580887,
+          "first_body_contact_s": 0.1525,
+          "cycles": [
+            8,
+            2,
+            4,
+            3,
+            1,
+            5
+          ],
+          "finite": true
+        },
+        "score": 17.974872946729253
+      },
+      {
+        "round": 2,
+        "danger_onset_s_median": 0.465625,
+        "danger_frames": 1600,
+        "loss_final": 0.6527456641197205,
+        "standard": {
+          "bout_key": "bout_1008_canonical",
+          "split": "training-derived standard start",
+          "phase_initializer": "internal CPG phase zero",
+          "distance_2s_mm": 5.786030121618962,
+          "body_contact_fraction": 0.7257963772642099,
+          "first_body_contact_s": 0.54875,
+          "cycles": [
+            9,
+            5,
+            7,
+            9,
+            3,
+            7
+          ],
+          "finite": true
+        },
+        "score": 14.371276792243723
+      },
+      {
+        "round": 3,
+        "danger_onset_s_median": 0.419375,
+        "danger_frames": 1632,
+        "loss_final": 0.3262712061405182,
+        "standard": {
+          "bout_key": "bout_1008_canonical",
+          "split": "training-derived standard start",
+          "phase_initializer": "internal CPG phase zero",
+          "distance_2s_mm": 33.38409087367361,
+          "body_contact_fraction": 0.0,
+          "first_body_contact_s": null,
+          "cycles": [
+            22,
+            22,
+            20,
+            22,
+            24,
+            26
+          ],
+          "finite": true
+        },
+        "score": -0.8346022718418402
+      },
+      {
+        "round": 4,
+        "danger_onset_s_median": 1.3987500000000002,
+        "danger_frames": 1568,
+        "loss_final": 0.19297119975090027,
+        "standard": {
+          "bout_key": "bout_1008_canonical",
+          "split": "training-derived standard start",
+          "phase_initializer": "internal CPG phase zero",
+          "distance_2s_mm": 7.682418826887625,
+          "body_contact_fraction": 0.6239850093691443,
+          "first_body_contact_s": 0.70625,
+          "cycles": [
+            11,
+            7,
+            18,
+            5,
+            16,
+            17
+          ],
+          "finite": true
+        },
+        "score": 12.287639716710695
+      },
+      {
+        "round": 5,
+        "danger_onset_s_median": 0.356875,
+        "danger_frames": 1536,
+        "loss_final": 0.15289519727230072,
+        "standard": {
+          "bout_key": "bout_1008_canonical",
+          "split": "training-derived standard start",
+          "phase_initializer": "internal CPG phase zero",
+          "distance_2s_mm": 26.757349064842963,
+          "body_contact_fraction": 0.25109306683322924,
+          "first_body_contact_s": 1.49875,
+          "cycles": [
+            24,
+            20,
+            16,
+            22,
+            11,
+            22
+          ],
+          "finite": true
+        },
+        "score": 4.35292761004351
+      },
+      {
+        "round": 6,
+        "danger_onset_s_median": 0.615,
+        "danger_frames": 1632,
+        "loss_final": 0.16596297919750214,
+        "standard": {
+          "bout_key": "bout_1008_canonical",
+          "split": "training-derived standard start",
+          "phase_initializer": "internal CPG phase zero",
+          "distance_2s_mm": 11.250531374234003,
+          "body_contact_fraction": 0.6283572767020612,
+          "first_body_contact_s": 0.675,
+          "cycles": [
+            18,
+            20,
+            22,
+            22,
+            19,
+            8
+          ],
+          "finite": true
+        },
+        "score": 12.285882249685374
+      },
+      {
+        "round": 7,
+        "danger_onset_s_median": 0.525625,
+        "danger_frames": 1632,
+        "loss_final": 0.0839414969086647,
+        "standard": {
+          "bout_key": "bout_1008_canonical",
+          "split": "training-derived standard start",
+          "phase_initializer": "internal CPG phase zero",
+          "distance_2s_mm": 36.31945665021435,
+          "body_contact_fraction": 0.0,
+          "first_body_contact_s": null,
+          "cycles": [
+            22,
+            22,
+            22,
+            22,
+            22,
+            22
+          ],
+          "finite": true
+        },
+        "score": -0.9079864162553587
+      },
+      {
+        "round": 8,
+        "danger_onset_s_median": 1.649375,
+        "danger_frames": 1568,
+        "loss_final": 0.061122603714466095,
+        "standard": {
+          "bout_key": "bout_1008_canonical",
+          "split": "training-derived standard start",
+          "phase_initializer": "internal CPG phase zero",
+          "distance_2s_mm": 40.09360756173404,
+          "body_contact_fraction": 0.0,
+          "first_body_contact_s": null,
+          "cycles": [
+            22,
+            22,
+            22,
+            22,
+            22,
+            22
+          ],
+          "finite": true
+        },
+        "score": -1.0
+      }
+    ],
+    "selected_round": 8
+  },
+  "standard_start": {
+    "result": {
+      "bout_key": "bout_1008_canonical",
+      "split": "training-derived standard start",
+      "phase_initializer": "internal CPG phase zero",
+      "distance_2s_mm": 40.09360756173404,
+      "body_contact_fraction": 0.0,
+      "first_body_contact_s": null,
+      "cycles": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "finite": true
+    },
+    "gate_pass": true
+  },
+  "heldout_initial_state_generalization": {
+    "summary": {
+      "bouts": 3,
+      "finite_bouts": 3,
+      "minimum_distance_2s_mm": 1.4442265146390512,
+      "median_distance_2s_mm": 2.872560006621878,
+      "maximum_body_contact_fraction": 0.9275452841973766,
+      "minimum_cycles_per_leg": [
+        8,
+        4,
+        19,
+        7,
+        21,
+        3
+      ]
+    },
+    "by_bout": [
+      {
+        "bout_key": "bout_0209",
+        "split": "test",
+        "phase_initializer": "one-time proprioceptive nearest CPG state",
+        "distance_2s_mm": 4.1382879335953655,
+        "body_contact_fraction": 0.6801998750780762,
+        "first_body_contact_s": 0.64,
+        "cycles": [
+          11,
+          7,
+          19,
+          20,
+          21,
+          5
+        ],
+        "finite": true
+      },
+      {
+        "bout_key": "bout_0325",
+        "split": "test",
+        "phase_initializer": "one-time proprioceptive nearest CPG state",
+        "distance_2s_mm": 2.872560006621878,
+        "body_contact_fraction": 0.7570268582136165,
+        "first_body_contact_s": 0.0875,
+        "cycles": [
+          8,
+          9,
+          22,
+          7,
+          22,
+          3
+        ],
+        "finite": true
+      },
+      {
+        "bout_key": "bout_1250",
+        "split": "test",
+        "phase_initializer": "one-time proprioceptive nearest CPG state",
+        "distance_2s_mm": 1.4442265146390512,
+        "body_contact_fraction": 0.9275452841973766,
+        "first_body_contact_s": 0.145,
+        "cycles": [
+          24,
+          4,
+          22,
+          21,
+          21,
+          14
+        ],
+        "finite": true
+      }
+    ]
+  },
+  "artifacts": {
+    "checkpoint": "results/official-running-cpg-recovery-20260924/checkpoint.pt",
+    "checkpoint_sha256": "817506e37a12100ef437d46f9fb9084e0171225c7babc0d8c13508ff5f74fb9a",
+    "trajectories": "results/official-running-cpg-recovery-20260924/rollouts.npz",
+    "trajectories_sha256": "0a25a8826a4f5bdd7a7e7b0db7cfb8f67e25f4965dcaff7a7c8da26db6cb2558",
+    "figure": "results/official-running-cpg-recovery-20260924/cpg-recovery.png"
+  },
+  "checks": {
+    "source_checkpoint_is_selected_CPG": true,
+    "danger_window_300ms": true,
+    "eight_recovery_rounds": true,
+    "selection_uses_standard_training_derived_start": true,
+    "heldout_test_not_used_for_selection": true,
+    "runtime_has_no_trajectory_teacher_root_force_or_position_servo": true,
+    "artifacts_saved": true,
+    "not_mislabelled_as_connectome_derived": true
+  },
+  "passed": true,
+  "classification": {
+    "A1_engineering_CPG_standard_start": "pass",
+    "A1_heldout_initial_state_robustness": "incomplete",
+    "A2_connectome_motor_decoder": "incomplete",
+    "A3_autonomous_walking": "incomplete"
+  },
+  "goal_complete": false
+}

@@ -11,3 +11,11 @@ __pycache__/
 *.fls
 *.fdb_latexmk
 *.synctex.gz
+
+# Pipeline: external checkouts and third-party inputs fetched by the scripts
+external/work/
+data/official-3d-kinematics-20260916/raw/
+data/official-3d-kinematics-20260916/running-reference-subset.h5
+data/pugliese-zenodo-22260924/core-cpg-seed207-stim300/
+data/pugliese-zenodo-22260924/full-manc-all-runs/*/
+data/pugliese-zenodo-22260924/full-manc-run33195882/DNg100_Stim_fullManc_Rs.npz

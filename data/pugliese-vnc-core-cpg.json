@@ -1,0 +1,142 @@
+{
+  "title": "Pugliese et al. VNC core walking CPG source extract",
+  "repository": "https://github.com/smpuglie/Pugliese_2026",
+  "commit": "10e7661bf414ba7b4c2edf795cd36d0f878c17c0",
+  "license": "MIT",
+  "source_files": {
+    "external/Pugliese_2026/data/manc t1 connectome data/W_20250813_DNtoMN_unsorted.csv": "77d5f87c1596a40a7f46c8704008cb8c07c4efe663732034318ee98172d26d2d",
+    "external/Pugliese_2026/data/manc t1 connectome data/wTable_20250813_DNtoMN_unsorted_withModules.csv": "279c1262cfe2896e5d5d3e79cccf5058f3d27a8e4e1f706a371f597fab7674a8",
+    "external/Pugliese_2026/configs/experiment/DNg100_Stim_CoreCPG.yaml": "4036c202183b0be6960bff47bea74d69dfd57e69bd6137cf7bb660cdeeeed1b8",
+    "external/Pugliese_2026/configs/neuron_params/default.yaml": "b63a37b84e056035d638bb8a36baf53e199d37feb4ddca9d044af3c521247298",
+    "external/Pugliese_2026/pyproject.toml": "f89e37ab5427922ee4c3a8f7fb792f9f2d9ad4c9c1da44e07b2fda4df6fc8714"
+  },
+  "core_indices": [
+    31,
+    277,
+    617,
+    1167
+  ],
+  "neurons": [
+    {
+      "label": "DNg100",
+      "index": 31,
+      "body_id": "10093",
+      "type": "DNg100",
+      "transmitter": "acetylcholine",
+      "size": 7124816452.0,
+      "size_ratio_to_network_median": 10.693580798063028
+    },
+    {
+      "label": "E1 / IN17A001",
+      "index": 277,
+      "body_id": "10707",
+      "type": "IN17A001",
+      "transmitter": "acetylcholine",
+      "size": 3939072421.0,
+      "size_ratio_to_network_median": 5.912122717429583
+    },
+    {
+      "label": "E2 / INXXX466",
+      "index": 617,
+      "body_id": "11751",
+      "type": "INXXX466",
+      "transmitter": "acetylcholine",
+      "size": 2180476120.0,
+      "size_ratio_to_network_median": 3.272659404569174
+    },
+    {
+      "label": "I1 / IN16B036",
+      "index": 1167,
+      "body_id": "13905",
+      "type": "IN16B036",
+      "transmitter": "glutamate",
+      "size": 1314155373.0,
+      "size_ratio_to_network_median": 1.9724054306605112
+    }
+  ],
+  "synapse_matrix_pre_by_post": [
+    [
+      0.0,
+      187.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      539.0,
+      17.0
+    ],
+    [
+      0.0,
+      19.0,
+      0.0,
+      71.0
+    ],
+    [
+      0.0,
+      -531.0,
+      -172.0,
+      0.0
+    ]
+  ],
+  "weighted_matrix_post_by_pre": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      5.609999999999999,
+      0.0,
+      0.57,
+      -15.93
+    ],
+    [
+      0.0,
+      16.169999999999998,
+      0.0,
+      -5.16
+    ],
+    [
+      0.0,
+      0.51,
+      2.13,
+      0.0
+    ]
+  ],
+  "deterministic_mean_parameters": {
+    "tau": [
+      0.02,
+      0.02,
+      0.02,
+      0.02
+    ],
+    "a": [
+      0.09351404537768435,
+      0.16914398563681549,
+      0.3055618921430793,
+      0.5069951565004178
+    ],
+    "threshold": [
+      80.2018559854727,
+      44.340920380721876,
+      24.544945534268805,
+      14.793040729953834
+    ],
+    "fr_cap": [
+      200.0,
+      200.0,
+      200.0,
+      200.0
+    ]
+  },
+  "stimulus": {
+    "neuron": "DNg100",
+    "current": 250.0,
+    "start_s": 0.02,
+    "end_s": 1.999
+  },
+  "scope_limit": "source-faithful four-cell rhythm diagnostic; no full VNC motor decoder or muscle mapping"
+}

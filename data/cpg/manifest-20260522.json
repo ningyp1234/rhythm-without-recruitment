@@ -1,0 +1,281 @@
+{
+  "repository": "https://github.com/smpuglie/Pugliese_2026",
+  "commit": "10e7661bf414ba7b4c2edf795cd36d0f878c17c0",
+  "as_of": "2026-09-22",
+  "upstream_license": "MIT code; original connectome data terms remain applicable",
+  "dataset": "MANC full VNC author table/matrix dated 2026-05-22, all signed synapses",
+  "orientation": "row=presynaptic; column=postsynaptic",
+  "neurons": 23628,
+  "directed_pairs": 5303491,
+  "absolute_synapse_count": 30930102,
+  "minimum_nonzero_absolute_weight": 1.0,
+  "maximum_weight": 915.0,
+  "minimum_weight": -1080.0,
+  "source_files": {
+    "wTable_20260522_allSynapses.feather": {
+      "bytes": 1520242,
+      "sha256": "a013ec9910d5377bf8b90b9abdd6411bf29f934141228be3d677962a047b7522"
+    },
+    "W_20260522_allSynapses.npz": {
+      "bytes": 23103426,
+      "sha256": "3cd637b2397236aec4c8d46883b753335f73e3acae508f9c082f39bd123e0b84"
+    }
+  },
+  "derived_files": {
+    "manc-neurons-20260522.csv.gz": {
+      "bytes": 638181,
+      "sha256": "9fd492e04226f6e342efd1a6ed273be9dbd40547f5380a630f897c3d3deb287a"
+    },
+    "manc-pre-post-all-synapses-20260522.npz": {
+      "bytes": 15162409,
+      "sha256": "d158f8a7fca938ab2eb4ed82da109897f7c4f3922b650f20ef05635192ebe9f7"
+    }
+  },
+  "published_core_and_command_identities": [
+    {
+      "bodyId": 10072,
+      "type": "IN17A001",
+      "instance": "IN17A001_T2_R",
+      "class": "intrinsic neuron",
+      "predictedNt": "acetylcholine",
+      "somaSide": "RHS",
+      "somaNeuromere": "T2",
+      "rootSide": ""
+    },
+    {
+      "bodyId": 10093,
+      "type": "DNg100",
+      "instance": "DNxl058_CvC_L",
+      "class": "descending neuron",
+      "predictedNt": "acetylcholine",
+      "somaSide": "",
+      "somaNeuromere": "",
+      "rootSide": "LHS"
+    },
+    {
+      "bodyId": 10339,
+      "type": "DNg100",
+      "instance": "DNxl058_CvC_R",
+      "class": "descending neuron",
+      "predictedNt": "acetylcholine",
+      "somaSide": "",
+      "somaNeuromere": "",
+      "rootSide": "RHS"
+    },
+    {
+      "bodyId": 10498,
+      "type": "IN17A001",
+      "instance": "IN17A001_T3_L",
+      "class": "intrinsic neuron",
+      "predictedNt": "acetylcholine",
+      "somaSide": "LHS",
+      "somaNeuromere": "T3",
+      "rootSide": ""
+    },
+    {
+      "bodyId": 10558,
+      "type": "IN17A001",
+      "instance": "IN17A001_T3_R",
+      "class": "intrinsic neuron",
+      "predictedNt": "acetylcholine",
+      "somaSide": "RHS",
+      "somaNeuromere": "T3",
+      "rootSide": ""
+    },
+    {
+      "bodyId": 10559,
+      "type": "IN17A001",
+      "instance": "IN17A001_T2_L",
+      "class": "intrinsic neuron",
+      "predictedNt": "acetylcholine",
+      "somaSide": "LHS",
+      "somaNeuromere": "T2",
+      "rootSide": ""
+    },
+    {
+      "bodyId": 10690,
+      "type": "IN17A001",
+      "instance": "IN17A001_T1_R",
+      "class": "intrinsic neuron",
+      "predictedNt": "acetylcholine",
+      "somaSide": "RHS",
+      "somaNeuromere": "T1",
+      "rootSide": ""
+    },
+    {
+      "bodyId": 10707,
+      "type": "IN17A001",
+      "instance": "IN17A001_T1_L",
+      "class": "intrinsic neuron",
+      "predictedNt": "acetylcholine",
+      "somaSide": "LHS",
+      "somaNeuromere": "T1",
+      "rootSide": ""
+    },
+    {
+      "bodyId": 11751,
+      "type": "INXXX466",
+      "instance": "INXXX466_T1_L",
+      "class": "intrinsic neuron",
+      "predictedNt": "acetylcholine",
+      "somaSide": "LHS",
+      "somaNeuromere": "T1",
+      "rootSide": ""
+    },
+    {
+      "bodyId": 11767,
+      "type": "INXXX466",
+      "instance": "INXXX466_T2_L",
+      "class": "intrinsic neuron",
+      "predictedNt": "acetylcholine",
+      "somaSide": "LHS",
+      "somaNeuromere": "T2",
+      "rootSide": ""
+    },
+    {
+      "bodyId": 12107,
+      "type": "INXXX466",
+      "instance": "INXXX466_T2_R",
+      "class": "intrinsic neuron",
+      "predictedNt": "acetylcholine",
+      "somaSide": "RHS",
+      "somaNeuromere": "T2",
+      "rootSide": ""
+    },
+    {
+      "bodyId": 12315,
+      "type": "INXXX466",
+      "instance": "INXXX466_T3_L",
+      "class": "intrinsic neuron",
+      "predictedNt": "acetylcholine",
+      "somaSide": "LHS",
+      "somaNeuromere": "T3",
+      "rootSide": ""
+    },
+    {
+      "bodyId": 12953,
+      "type": "IN16B036",
+      "instance": "IN16B036_T3_L",
+      "class": "intrinsic neuron",
+      "predictedNt": "glutamate",
+      "somaSide": "LHS",
+      "somaNeuromere": "T3",
+      "rootSide": ""
+    },
+    {
+      "bodyId": 13186,
+      "type": "IN16B036",
+      "instance": "IN16B036_T2_L",
+      "class": "intrinsic neuron",
+      "predictedNt": "glutamate",
+      "somaSide": "LHS",
+      "somaNeuromere": "T2",
+      "rootSide": ""
+    },
+    {
+      "bodyId": 13698,
+      "type": "INXXX466",
+      "instance": "INXXX466_T1_R",
+      "class": "intrinsic neuron",
+      "predictedNt": "acetylcholine",
+      "somaSide": "RHS",
+      "somaNeuromere": "T1",
+      "rootSide": ""
+    },
+    {
+      "bodyId": 13892,
+      "type": "DNb08",
+      "instance": "DNxl027_CvC_L",
+      "class": "descending neuron",
+      "predictedNt": "acetylcholine",
+      "somaSide": "",
+      "somaNeuromere": "",
+      "rootSide": "LHS"
+    },
+    {
+      "bodyId": 13905,
+      "type": "IN16B036",
+      "instance": "IN16B036_T1_L",
+      "class": "intrinsic neuron",
+      "predictedNt": "glutamate",
+      "somaSide": "LHS",
+      "somaNeuromere": "T1",
+      "rootSide": ""
+    },
+    {
+      "bodyId": 14061,
+      "type": "DNb08",
+      "instance": "DNxl027_CvC_L",
+      "class": "descending neuron",
+      "predictedNt": "acetylcholine",
+      "somaSide": "",
+      "somaNeuromere": "",
+      "rootSide": "LHS"
+    },
+    {
+      "bodyId": 14096,
+      "type": "IN16B036",
+      "instance": "IN16B036_T1_R",
+      "class": "intrinsic neuron",
+      "predictedNt": "glutamate",
+      "somaSide": "RHS",
+      "somaNeuromere": "T1",
+      "rootSide": ""
+    },
+    {
+      "bodyId": 14680,
+      "type": "DNb08",
+      "instance": "DNxl027_CvC_R",
+      "class": "descending neuron",
+      "predictedNt": "acetylcholine",
+      "somaSide": "",
+      "somaNeuromere": "",
+      "rootSide": "RHS"
+    },
+    {
+      "bodyId": 14966,
+      "type": "DNb08",
+      "instance": "DNxl027_CvC_R",
+      "class": "descending neuron",
+      "predictedNt": "acetylcholine",
+      "somaSide": "",
+      "somaNeuromere": "",
+      "rootSide": "RHS"
+    },
+    {
+      "bodyId": 17322,
+      "type": "IN16B036",
+      "instance": "IN16B036_T2_R",
+      "class": "intrinsic neuron",
+      "predictedNt": "glutamate",
+      "somaSide": "RHS",
+      "somaNeuromere": "T2",
+      "rootSide": ""
+    },
+    {
+      "bodyId": 152696,
+      "type": "INXXX466",
+      "instance": "INXXX466_T3_R",
+      "class": "intrinsic neuron",
+      "predictedNt": "acetylcholine",
+      "somaSide": "RHS",
+      "somaNeuromere": "T3",
+      "rootSide": ""
+    },
+    {
+      "bodyId": 156245,
+      "type": "IN16B036",
+      "instance": "IN16B036_T3_R",
+      "class": "intrinsic neuron",
+      "predictedNt": "glutamate",
+      "somaSide": "RHS",
+      "somaNeuromere": "T3",
+      "rootSide": ""
+    }
+  ],
+  "limits": [
+    "MANC is a different specimen from MaleCNS; body IDs cannot be interchanged.",
+    "Pugliese model parameters are fitted model assumptions, not per-neuron measurements.",
+    "The dataset alone does not provide a musculoskeletal motor-unit registration."
+  ]
+}

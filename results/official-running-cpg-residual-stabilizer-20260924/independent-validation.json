@@ -1,0 +1,63 @@
+{
+  "date": "2026-09-24",
+  "scope": "independent deterministic replay of the frozen-CPG residual stabilizer",
+  "checks": {
+    "checkpoint_hash_matches_report": true,
+    "trajectory_hash_matches_report": true,
+    "source_checkpoint_hash_matches_checkpoint": true,
+    "selected_checkpoint_is_validation_iteration": true,
+    "whole_fly_test_count_is_three": true,
+    "replay_is_finite": true,
+    "replayed_test_minimum_distance_matches": true,
+    "replayed_test_median_distance_matches": true,
+    "replayed_test_body_contact_matches": true,
+    "replayed_test_cycles_match": true,
+    "replayed_standard_distance_matches": true,
+    "replayed_standard_body_contact_matches": true,
+    "replayed_standard_cycles_match": true,
+    "saved_trajectories_match_replay": true,
+    "test_minimum_distance_gate": true,
+    "test_body_contact_gate": true,
+    "test_six_leg_cycle_gate": true,
+    "standard_start_gate": true,
+    "runtime_source_zeros_external_forces": true,
+    "classification_is_bounded": true
+  },
+  "passed": true,
+  "recomputed": {
+    "standard": {
+      "bout_key": "bout_1008_canonical",
+      "split": "training-derived standard start",
+      "distance_2s_mm": 37.92770931830185,
+      "body_contact_fraction": 0.0,
+      "first_body_contact_s": null,
+      "maximum_tilt": 0.021435419097542763,
+      "cycles": [
+        22,
+        22,
+        22,
+        22,
+        23,
+        22
+      ],
+      "finite": true
+    },
+    "test": {
+      "bouts": 3,
+      "finite_bouts": 3,
+      "minimum_distance_2s_mm": 11.532065564754625,
+      "median_distance_2s_mm": 31.377530422542,
+      "maximum_body_contact_fraction": 0.022485946283572766,
+      "minimum_cycles_per_leg": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ]
+    },
+    "maximum_replayed_qpos_error": 0.0
+  },
+  "goal_complete": false
+}

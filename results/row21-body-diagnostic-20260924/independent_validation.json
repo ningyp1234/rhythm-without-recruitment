@@ -1,0 +1,21 @@
+{
+  "scope": "Independent raw-array/source-ID/replayed-body/capacity verification; failed walking is an experimental result, not a passed gait gate",
+  "checks": {
+    "source_motor_body_ids_match_current_graph": true,
+    "original_hill_forward_recomputed_from_positions": true,
+    "torque_forward_recomputed_from_positions": true,
+    "motor_cut_forward_recomputed_from_positions": true,
+    "both_neural_body_models_below_5mm": true,
+    "motor_cut_has_negligible_translation": true,
+    "body_failure_reproduced_identically": true,
+    "active_annotated_leg_count_recomputed": true,
+    "current_hill_positive_control_hash_matches": true,
+    "current_hill_six_leg_lift_positive_control_failed": true,
+    "static_capacity_independent_149_checks": true,
+    "two_body_reports_truthfully_fail": true
+  },
+  "checks_passed": 12,
+  "checks_total": 12,
+  "passed": true,
+  "brain_autonomous_walking_achieved": false
+}

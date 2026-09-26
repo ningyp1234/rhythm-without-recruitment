@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-24",
+  "scope": "Independently validate the selected autonomous CPG standard-start result.",
+  "recomputed": {
+    "root_displacement_2s_mm": 40.19100570678711,
+    "body_contact_fraction": 0.0,
+    "cycles": [
+      22,
+      22,
+      22,
+      22,
+      22,
+      22
+    ],
+    "frames": 1601,
+    "replay_final_forward_mm": 40.191001892089844
+  },
+  "checks": {
+    "source_report_internal_checks_pass": true,
+    "checkpoint_hash_matches_report": true,
+    "trajectory_hash_matches_report": true,
+    "checkpoint_selected_recovery_round_is_8": true,
+    "trajectory_is_exactly_1601_frames": true,
+    "trajectory_all_finite": true,
+    "independent_root_displacement_exceeds_5mm": true,
+    "no_body_floor_contact_in_saved_trajectory": true,
+    "six_legs_each_have_at_least_two_cycles": true,
+    "reported_standard_gate_pass": true,
+    "heldout_generalization_explicitly_incomplete": true,
+    "connectome_decoder_explicitly_incomplete": true,
+    "goal_not_mislabelled_complete": true,
+    "replay_matches_saved_frame_count_and_contact": true,
+    "replay_final_forward_exceeds_5mm": true,
+    "viewer_states_standard_pass_and_arbitrary_start_limit": true
+  },
+  "passed": true,
+  "summary": "16/16"
+}

@@ -1,0 +1,11 @@
+{
+  "source_file": "body-annotations-male-cns-v1.0-minconf-0.5.feather",
+  "source_sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+  "source_project": "MaleCNS v1.0",
+  "license": "CC-BY-4.0",
+  "selection": "Exact bodyId join to full graph; FeCO hook and claw annotations; original entryNerve and rootSide retained.",
+  "rows": 155,
+  "functional_reference": "https://elifesciences.org/reviewed-preprints/97766",
+  "caution": "Type/function association comes from MANC matching. Individual-cell angle tuning, frequency calibration and direction polarity are not measured by these annotations.",
+  "sha256": "3ed98d29d20299d179cdd7a7f6c1ed9582d32a8c6db8848f43101079cfdc2f42"
+}

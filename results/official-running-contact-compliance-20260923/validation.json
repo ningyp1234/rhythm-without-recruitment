@@ -1,0 +1,30 @@
+{
+  "passed": 14,
+  "total": 14,
+  "all_checks_pass": true,
+  "checks": {
+    "report_passes_integrity_checks": true,
+    "inverse_teacher_hash_matches": true,
+    "contact_teacher_hash_matches": true,
+    "six_candidates_exact": true,
+    "training_objective_selects_five_ms": true,
+    "validation_and_test_do_not_select": true,
+    "source_geometry_and_friction_fixed": true,
+    "heldout_local_gate_recomputes": true,
+    "continuous_gate_failure_recomputes": true,
+    "all_18_bouts_unique": true,
+    "all_three_splits_present": true,
+    "source_stiff_contact_is_materially_worse": true,
+    "capacity_remains_incomplete": true,
+    "muscle_and_autonomy_remain_incomplete": true
+  },
+  "recomputed": {
+    "selected_time_constant_ms": 5.0,
+    "heldout_local_gate": true,
+    "heldout_continuous_gate": false,
+    "test_root_p95_improvement_factor": 9.905791883980044,
+    "test_contact_f1_improvement_factor": 2.8744567286383975
+  },
+  "classification": "held-out local dynamics pass; continuous open-loop capacity incomplete",
+  "goal_complete": false
+}

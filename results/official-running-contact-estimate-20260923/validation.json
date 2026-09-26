@@ -1,0 +1,38 @@
+{
+  "passed": 20,
+  "total": 20,
+  "all_checks_pass": true,
+  "checks": {
+    "report_passed": true,
+    "artifact_hash_matches_report": true,
+    "inverse_teacher_hash_matches": true,
+    "frame_count_matches": true,
+    "all_arrays_finite": true,
+    "foot_positions_recompute": true,
+    "jacobian_contact_force_recomputes": true,
+    "saved_root_residual_recomputes": true,
+    "root_relative_l2_recomputes": true,
+    "actuator_projection_recomputes": true,
+    "bounded_projection_recomputes": true,
+    "bounded_leg_residual_recomputes": true,
+    "normal_forces_nonnegative": true,
+    "friction_cone_respected": true,
+    "support_minimum_is_three": true,
+    "imputed_mask_is_exact": true,
+    "imputed_support_is_not_hidden": true,
+    "bounded_controls_respect_xml": true,
+    "no_root_actuation": true,
+    "not_mislabelled_as_measurement_or_autonomy": true
+  },
+  "recomputed": {
+    "foot_position_max_abs_error": 1.1916391207122956e-07,
+    "generalized_contact_max_abs_error": 9.313225746154785e-08,
+    "root_residual_max_abs_save_error": 4.558239652396878e-08,
+    "root_relative_residual_l2": 0.002264296773248339,
+    "bounded_leg_relative_residual_l2": 0.09010513868411822,
+    "maximum_friction_utilization": 0.9999999215289798,
+    "imputed_support_samples": 447
+  },
+  "classification": "validated engineering estimate; force measurement unavailable",
+  "goal_complete": false
+}

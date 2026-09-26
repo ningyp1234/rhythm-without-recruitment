@@ -1,0 +1,1322 @@
+{
+  "source": "Official full-MANC row21 adaptive neural rates to unchanged 78-Hill-muscle body",
+  "neural_motor_neurons": 732,
+  "neural_motor_active_gt1hz_0p5_2s": 450,
+  "anatomically_mapped_motor_neurons": 245,
+  "active_motor_neurons_reaching_any_muscle": 161,
+  "active_motor_neurons_not_mapped_to_any_muscle": 289,
+  "active_annotated_leg_motor_neurons": 197,
+  "active_annotated_leg_motor_neurons_reaching_muscle": 161,
+  "active_annotated_leg_motor_neurons_without_muscle": 36,
+  "active_annotated_leg_motor_by_module": {
+    "coxa stance": {
+      "active": 32,
+      "mapped": 32
+    },
+    "coxa swing": {
+      "active": 20,
+      "mapped": 20
+    },
+    "femur reductor": {
+      "active": 16,
+      "mapped": 0
+    },
+    "femur/tr extend": {
+      "active": 32,
+      "mapped": 32
+    },
+    "femur/tr flex": {
+      "active": 27,
+      "mapped": 27
+    },
+    "substrate grip": {
+      "active": 12,
+      "mapped": 0
+    },
+    "tarsus control": {
+      "active": 8,
+      "mapped": 0
+    },
+    "tibia extend": {
+      "active": 10,
+      "mapped": 10
+    },
+    "tibia flex": {
+      "active": 40,
+      "mapped": 40
+    }
+  },
+  "source_muscle_templates_not_created": 12,
+  "muscles": [
+    {
+      "index": 0,
+      "leg": "lf",
+      "source_actuator": "LFC_tergopleural_promotor_a",
+      "motor_types": [
+        "Tergopleural/Pleural promotor MN"
+      ],
+      "source_motor_count": 4,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 0.30311474204063416,
+      "range_hz_0p5_2s": 2.2472739219665527,
+      "mean_excitation_0p5_2s": 0.00301166414283216,
+      "range_excitation_0p5_2s": 0.02222210168838501,
+      "max_abs_muscle_force": 0.35220203036829834
+    },
+    {
+      "index": 1,
+      "leg": "lf",
+      "source_actuator": "LFC_tergopleural_promotor_b",
+      "motor_types": [
+        "Tergopleural/Pleural promotor MN"
+      ],
+      "source_motor_count": 4,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 0.30311474204063416,
+      "range_hz_0p5_2s": 2.2472739219665527,
+      "mean_excitation_0p5_2s": 0.00301166414283216,
+      "range_excitation_0p5_2s": 0.02222210168838501,
+      "max_abs_muscle_force": 1.5056446922014075
+    },
+    {
+      "index": 2,
+      "leg": "lf",
+      "source_actuator": "LFC_pleural_remotor_and_abductor",
+      "motor_types": [
+        "Pleural remotor/abductor MN"
+      ],
+      "source_motor_count": 2,
+      "active_motor_count": 1,
+      "mean_hz_0p5_2s": 1.9776415824890137,
+      "range_hz_0p5_2s": 17.599281311035156,
+      "mean_excitation_0p5_2s": 0.018407339230179787,
+      "range_excitation_0p5_2s": 0.1613759994506836,
+      "max_abs_muscle_force": 4.4641210116823515
+    },
+    {
+      "index": 3,
+      "leg": "lf",
+      "source_actuator": "LFC_pleural_promotor",
+      "motor_types": [
+        "Tergopleural/Pleural promotor MN"
+      ],
+      "source_motor_count": 4,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 0.30311474204063416,
+      "range_hz_0p5_2s": 2.2472739219665527,
+      "mean_excitation_0p5_2s": 0.00301166414283216,
+      "range_excitation_0p5_2s": 0.02222210168838501,
+      "max_abs_muscle_force": 1.968984637973267
+    },
+    {
+      "index": 4,
+      "leg": "lf",
+      "source_actuator": "LFC_sternal_anterior_rotator",
+      "motor_types": [
+        "Sternal anterior rotator MN"
+      ],
+      "source_motor_count": 2,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 5.827977180480957,
+      "range_hz_0p5_2s": 104.87579345703125,
+      "mean_excitation_0p5_2s": 0.043536651879549026,
+      "range_excitation_0p5_2s": 0.6496273279190063,
+      "max_abs_muscle_force": 16.725630794900084
+    },
+    {
+      "index": 5,
+      "leg": "lf",
+      "source_actuator": "LFC_sternal_posterior_rotator",
+      "motor_types": [
+        "Sternal posterior rotator MN"
+      ],
+      "source_motor_count": 4,
+      "active_motor_count": 3,
+      "mean_hz_0p5_2s": 0.23844078183174133,
+      "range_hz_0p5_2s": 5.655066967010498,
+      "mean_excitation_0p5_2s": 0.0023387789260596037,
+      "range_excitation_0p5_2s": 0.05498141050338745,
+      "max_abs_muscle_force": 9.50796976997505
+    },
+    {
+      "index": 6,
+      "leg": "lf",
+      "source_actuator": "LFC_sternal_adductor",
+      "motor_types": [
+        "Sternal adductor MN"
+      ],
+      "source_motor_count": 1,
+      "active_motor_count": 1,
+      "mean_hz_0p5_2s": 2.5382468700408936,
+      "range_hz_0p5_2s": 47.470481872558594,
+      "mean_excitation_0p5_2s": 0.02186501957476139,
+      "range_excitation_0p5_2s": 0.3779313564300537,
+      "max_abs_muscle_force": 5.000108118328618
+    },
+    {
+      "index": 7,
+      "leg": "lf",
+      "source_actuator": "LFF_trochanter_flexor_b",
+      "motor_types": [
+        "Tr flexor MN"
+      ],
+      "source_motor_count": 8,
+      "active_motor_count": 5,
+      "mean_hz_0p5_2s": 1.1466102600097656,
+      "range_hz_0p5_2s": 16.73075294494629,
+      "mean_excitation_0p5_2s": 0.010959243401885033,
+      "range_excitation_0p5_2s": 0.15406060218811035,
+      "max_abs_muscle_force": 9.783455477130207
+    },
+    {
+      "index": 8,
+      "leg": "lf",
+      "source_actuator": "LFF_sterno-tergo-trochanter_extensor_a",
+      "motor_types": [
+        "Sternotrochanter MN",
+        "Tergotr. MN"
+      ],
+      "source_motor_count": 6,
+      "active_motor_count": 6,
+      "mean_hz_0p5_2s": 34.66592025756836,
+      "range_hz_0p5_2s": 97.33003997802734,
+      "mean_excitation_0p5_2s": 0.255574107170105,
+      "range_excitation_0p5_2s": 0.6221660375595093,
+      "max_abs_muscle_force": 122.40344942487025
+    },
+    {
+      "index": 9,
+      "leg": "lf",
+      "source_actuator": "LFF_sterno-tergo-trochanter_extensor_b",
+      "motor_types": [
+        "Sternotrochanter MN",
+        "Tergotr. MN"
+      ],
+      "source_motor_count": 6,
+      "active_motor_count": 6,
+      "mean_hz_0p5_2s": 34.66592025756836,
+      "range_hz_0p5_2s": 97.33003997802734,
+      "mean_excitation_0p5_2s": 0.255574107170105,
+      "range_excitation_0p5_2s": 0.6221660375595093,
+      "max_abs_muscle_force": 85.49937620881079
+    },
+    {
+      "index": 10,
+      "leg": "lf",
+      "source_actuator": "LFF_accesory_trochanter_flexor",
+      "motor_types": [
+        "Acc. tr flexor MN"
+      ],
+      "source_motor_count": 3,
+      "active_motor_count": 0,
+      "mean_hz_0p5_2s": 0.0,
+      "range_hz_0p5_2s": 0.0,
+      "mean_excitation_0p5_2s": 0.0,
+      "range_excitation_0p5_2s": 0.0,
+      "max_abs_muscle_force": 0.0
+    },
+    {
+      "index": 11,
+      "leg": "lf",
+      "source_actuator": "LFF_trochanter_extensor",
+      "motor_types": [
+        "Tr extensor MN"
+      ],
+      "source_motor_count": 2,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 18.305288314819336,
+      "range_hz_0p5_2s": 48.56703567504883,
+      "mean_excitation_0p5_2s": 0.15584473311901093,
+      "range_excitation_0p5_2s": 0.38471537828445435,
+      "max_abs_muscle_force": 15.955396904420665
+    },
+    {
+      "index": 12,
+      "leg": "lf",
+      "source_actuator": "LFF_trochanter_flexor_a",
+      "motor_types": [
+        "Tr flexor MN"
+      ],
+      "source_motor_count": 8,
+      "active_motor_count": 5,
+      "mean_hz_0p5_2s": 1.1466102600097656,
+      "range_hz_0p5_2s": 16.73075294494629,
+      "mean_excitation_0p5_2s": 0.010959243401885033,
+      "range_excitation_0p5_2s": 0.15406060218811035,
+      "max_abs_muscle_force": 6.726236019178927
+    },
+    {
+      "index": 13,
+      "leg": "lf",
+      "source_actuator": "LFTibia_flex_93434",
+      "motor_types": [
+        "Ti flexor MN",
+        "Acc. ti flexor MN"
+      ],
+      "source_motor_count": 15,
+      "active_motor_count": 12,
+      "mean_hz_0p5_2s": 10.171310424804688,
+      "range_hz_0p5_2s": 55.78759002685547,
+      "mean_excitation_0p5_2s": 0.08161494135856628,
+      "range_excitation_0p5_2s": 0.42757630348205566,
+      "max_abs_muscle_force": 29.03329251048255
+    },
+    {
+      "index": 14,
+      "leg": "lf",
+      "source_actuator": "LFTibia_extensor_93932",
+      "motor_types": [
+        "Ti extensor MN"
+      ],
+      "source_motor_count": 2,
+      "active_motor_count": 1,
+      "mean_hz_0p5_2s": 0.271342009305954,
+      "range_hz_0p5_2s": 7.419049263000488,
+      "mean_excitation_0p5_2s": 0.002655032556504011,
+      "range_excitation_0p5_2s": 0.07150518894195557,
+      "max_abs_muscle_force": 25.19238842894313
+    },
+    {
+      "index": 15,
+      "leg": "lm",
+      "source_actuator": "LFC_pleural_remotor_and_abductor",
+      "motor_types": [
+        "Pleural remotor/abductor MN"
+      ],
+      "source_motor_count": 3,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 2.1313953399658203,
+      "range_hz_0p5_2s": 14.257019996643066,
+      "mean_excitation_0p5_2s": 0.020279938355088234,
+      "range_excitation_0p5_2s": 0.1328732967376709,
+      "max_abs_muscle_force": 2.864803019965011
+    },
+    {
+      "index": 16,
+      "leg": "lm",
+      "source_actuator": "LFC_sternal_anterior_rotator",
+      "motor_types": [
+        "Sternal anterior rotator MN"
+      ],
+      "source_motor_count": 2,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 1.799190640449524,
+      "range_hz_0p5_2s": 30.807479858398438,
+      "mean_excitation_0p5_2s": 0.016409607604146004,
+      "range_excitation_0p5_2s": 0.265139639377594,
+      "max_abs_muscle_force": 18.086636347740676
+    },
+    {
+      "index": 17,
+      "leg": "lm",
+      "source_actuator": "LFC_sternal_posterior_rotator",
+      "motor_types": [
+        "Sternal posterior rotator MN"
+      ],
+      "source_motor_count": 4,
+      "active_motor_count": 4,
+      "mean_hz_0p5_2s": 19.956844329833984,
+      "range_hz_0p5_2s": 83.11942291259766,
+      "mean_excitation_0p5_2s": 0.1465740203857422,
+      "range_excitation_0p5_2s": 0.5644711256027222,
+      "max_abs_muscle_force": 54.15432483805531
+    },
+    {
+      "index": 18,
+      "leg": "lm",
+      "source_actuator": "LFC_sternal_adductor",
+      "motor_types": [
+        "Sternal adductor MN"
+      ],
+      "source_motor_count": 1,
+      "active_motor_count": 0,
+      "mean_hz_0p5_2s": 0.0,
+      "range_hz_0p5_2s": 0.0,
+      "mean_excitation_0p5_2s": 0.0,
+      "range_excitation_0p5_2s": 0.0,
+      "max_abs_muscle_force": 0.0
+    },
+    {
+      "index": 19,
+      "leg": "lm",
+      "source_actuator": "LFF_trochanter_flexor_b",
+      "motor_types": [
+        "Tr flexor MN"
+      ],
+      "source_motor_count": 7,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 0.573498547077179,
+      "range_hz_0p5_2s": 4.214656352996826,
+      "mean_excitation_0p5_2s": 0.00566997192800045,
+      "range_excitation_0p5_2s": 0.04127073287963867,
+      "max_abs_muscle_force": 2.5886902625281256
+    },
+    {
+      "index": 20,
+      "leg": "lm",
+      "source_actuator": "LFF_sterno-tergo-trochanter_extensor_a",
+      "motor_types": [
+        "Sternotrochanter MN",
+        "Tergotr. MN"
+      ],
+      "source_motor_count": 3,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 7.83784818649292,
+      "range_hz_0p5_2s": 25.439115524291992,
+      "mean_excitation_0p5_2s": 0.07149644941091537,
+      "range_excitation_0p5_2s": 0.2246115803718567,
+      "max_abs_muscle_force": 50.03943678936765
+    },
+    {
+      "index": 21,
+      "leg": "lm",
+      "source_actuator": "LFF_sterno-tergo-trochanter_extensor_b",
+      "motor_types": [
+        "Sternotrochanter MN",
+        "Tergotr. MN"
+      ],
+      "source_motor_count": 3,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 7.83784818649292,
+      "range_hz_0p5_2s": 25.439115524291992,
+      "mean_excitation_0p5_2s": 0.07149644941091537,
+      "range_excitation_0p5_2s": 0.2246115803718567,
+      "max_abs_muscle_force": 38.25210467776111
+    },
+    {
+      "index": 22,
+      "leg": "lm",
+      "source_actuator": "LFF_accesory_trochanter_flexor",
+      "motor_types": [
+        "Acc. tr flexor MN"
+      ],
+      "source_motor_count": 2,
+      "active_motor_count": 0,
+      "mean_hz_0p5_2s": 0.0,
+      "range_hz_0p5_2s": 0.0,
+      "mean_excitation_0p5_2s": 0.0,
+      "range_excitation_0p5_2s": 0.0,
+      "max_abs_muscle_force": 0.0
+    },
+    {
+      "index": 23,
+      "leg": "lm",
+      "source_actuator": "LFF_trochanter_extensor",
+      "motor_types": [
+        "Tr extensor MN"
+      ],
+      "source_motor_count": 2,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 17.702842712402344,
+      "range_hz_0p5_2s": 51.772640228271484,
+      "mean_excitation_0p5_2s": 0.14726349711418152,
+      "range_excitation_0p5_2s": 0.40412622690200806,
+      "max_abs_muscle_force": 22.98155467527861
+    },
+    {
+      "index": 24,
+      "leg": "lm",
+      "source_actuator": "LFF_trochanter_flexor_a",
+      "motor_types": [
+        "Tr flexor MN"
+      ],
+      "source_motor_count": 7,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 0.573498547077179,
+      "range_hz_0p5_2s": 4.214656352996826,
+      "mean_excitation_0p5_2s": 0.00566997192800045,
+      "range_excitation_0p5_2s": 0.04127073287963867,
+      "max_abs_muscle_force": 1.8149696923052183
+    },
+    {
+      "index": 25,
+      "leg": "lm",
+      "source_actuator": "LFTibia_flex_93434",
+      "motor_types": [
+        "Ti flexor MN",
+        "Acc. ti flexor MN"
+      ],
+      "source_motor_count": 12,
+      "active_motor_count": 7,
+      "mean_hz_0p5_2s": 2.863966226577759,
+      "range_hz_0p5_2s": 20.491666793823242,
+      "mean_excitation_0p5_2s": 0.027678506448864937,
+      "range_excitation_0p5_2s": 0.1852847933769226,
+      "max_abs_muscle_force": 12.618352276730072
+    },
+    {
+      "index": 26,
+      "leg": "lm",
+      "source_actuator": "LFTibia_extensor_93932",
+      "motor_types": [
+        "Ti extensor MN"
+      ],
+      "source_motor_count": 2,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 48.517940521240234,
+      "range_hz_0p5_2s": 121.13754272460938,
+      "mean_excitation_0p5_2s": 0.31143081188201904,
+      "range_excitation_0p5_2s": 0.7022125720977783,
+      "max_abs_muscle_force": 131.02634787301858
+    },
+    {
+      "index": 27,
+      "leg": "lh",
+      "source_actuator": "LFC_pleural_remotor_and_abductor",
+      "motor_types": [
+        "Pleural remotor/abductor MN"
+      ],
+      "source_motor_count": 2,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 96.85340881347656,
+      "range_hz_0p5_2s": 185.52293395996094,
+      "mean_excitation_0p5_2s": 0.5536924004554749,
+      "range_excitation_0p5_2s": 0.8350217342376709,
+      "max_abs_muscle_force": 23.96894226010199
+    },
+    {
+      "index": 28,
+      "leg": "lh",
+      "source_actuator": "LFC_sternal_anterior_rotator",
+      "motor_types": [
+        "Sternal anterior rotator MN"
+      ],
+      "source_motor_count": 2,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 16.74891471862793,
+      "range_hz_0p5_2s": 122.21744537353516,
+      "mean_excitation_0p5_2s": 0.11804530024528503,
+      "range_excitation_0p5_2s": 0.7054110765457153,
+      "max_abs_muscle_force": 17.643492406322192
+    },
+    {
+      "index": 29,
+      "leg": "lh",
+      "source_actuator": "LFC_sternal_posterior_rotator",
+      "motor_types": [
+        "Sternal posterior rotator MN"
+      ],
+      "source_motor_count": 4,
+      "active_motor_count": 4,
+      "mean_hz_0p5_2s": 2.447507619857788,
+      "range_hz_0p5_2s": 21.031478881835938,
+      "mean_excitation_0p5_2s": 0.02314453199505806,
+      "range_excitation_0p5_2s": 0.1896708607673645,
+      "max_abs_muscle_force": 40.07947198087322
+    },
+    {
+      "index": 30,
+      "leg": "lh",
+      "source_actuator": "LFC_sternal_adductor",
+      "motor_types": [
+        "Sternal adductor MN"
+      ],
+      "source_motor_count": 1,
+      "active_motor_count": 1,
+      "mean_hz_0p5_2s": 29.96539306640625,
+      "range_hz_0p5_2s": 144.762939453125,
+      "mean_excitation_0p5_2s": 0.21291616559028625,
+      "range_excitation_0p5_2s": 0.7648728489875793,
+      "max_abs_muscle_force": 8.187615393995795
+    },
+    {
+      "index": 31,
+      "leg": "lh",
+      "source_actuator": "LFF_trochanter_flexor_b",
+      "motor_types": [
+        "Tr flexor MN"
+      ],
+      "source_motor_count": 5,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 0.5289227962493896,
+      "range_hz_0p5_2s": 3.920208692550659,
+      "mean_excitation_0p5_2s": 0.005220330785959959,
+      "range_excitation_0p5_2s": 0.03844362497329712,
+      "max_abs_muscle_force": 2.431156940115307
+    },
+    {
+      "index": 32,
+      "leg": "lh",
+      "source_actuator": "LFF_sterno-tergo-trochanter_extensor_a",
+      "motor_types": [
+        "Sternotrochanter MN",
+        "Tergotr. MN"
+      ],
+      "source_motor_count": 4,
+      "active_motor_count": 4,
+      "mean_hz_0p5_2s": 16.953182220458984,
+      "range_hz_0p5_2s": 137.27621459960938,
+      "mean_excitation_0p5_2s": 0.11524664610624313,
+      "range_excitation_0p5_2s": 0.7465939521789551,
+      "max_abs_muscle_force": 165.6647278051941
+    },
+    {
+      "index": 33,
+      "leg": "lh",
+      "source_actuator": "LFF_sterno-tergo-trochanter_extensor_b",
+      "motor_types": [
+        "Sternotrochanter MN",
+        "Tergotr. MN"
+      ],
+      "source_motor_count": 4,
+      "active_motor_count": 4,
+      "mean_hz_0p5_2s": 16.953182220458984,
+      "range_hz_0p5_2s": 137.27621459960938,
+      "mean_excitation_0p5_2s": 0.11524664610624313,
+      "range_excitation_0p5_2s": 0.7465939521789551,
+      "max_abs_muscle_force": 127.77492691021547
+    },
+    {
+      "index": 34,
+      "leg": "lh",
+      "source_actuator": "LFF_accesory_trochanter_flexor",
+      "motor_types": [
+        "Acc. tr flexor MN"
+      ],
+      "source_motor_count": 3,
+      "active_motor_count": 3,
+      "mean_hz_0p5_2s": 2.5503320693969727,
+      "range_hz_0p5_2s": 18.870725631713867,
+      "mean_excitation_0p5_2s": 0.024242257699370384,
+      "range_excitation_0p5_2s": 0.1719711422920227,
+      "max_abs_muscle_force": 4.042991296420893
+    },
+    {
+      "index": 35,
+      "leg": "lh",
+      "source_actuator": "LFF_trochanter_extensor",
+      "motor_types": [
+        "Tr extensor MN"
+      ],
+      "source_motor_count": 2,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 9.806157112121582,
+      "range_hz_0p5_2s": 83.52033233642578,
+      "mean_excitation_0p5_2s": 0.07732601463794708,
+      "range_excitation_0p5_2s": 0.5662137269973755,
+      "max_abs_muscle_force": 25.733374444945266
+    },
+    {
+      "index": 36,
+      "leg": "lh",
+      "source_actuator": "LFF_trochanter_flexor_a",
+      "motor_types": [
+        "Tr flexor MN"
+      ],
+      "source_motor_count": 5,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 0.5289227962493896,
+      "range_hz_0p5_2s": 3.920208692550659,
+      "mean_excitation_0p5_2s": 0.005220330785959959,
+      "range_excitation_0p5_2s": 0.03844362497329712,
+      "max_abs_muscle_force": 1.6920959704168248
+    },
+    {
+      "index": 37,
+      "leg": "lh",
+      "source_actuator": "LFTibia_flex_93434",
+      "motor_types": [
+        "Ti flexor MN",
+        "Acc. ti flexor MN"
+      ],
+      "source_motor_count": 11,
+      "active_motor_count": 10,
+      "mean_hz_0p5_2s": 21.2781982421875,
+      "range_hz_0p5_2s": 47.66213607788086,
+      "mean_excitation_0p5_2s": 0.17531296610832214,
+      "range_excitation_0p5_2s": 0.37912243604660034,
+      "max_abs_muscle_force": 26.459506391609086
+    },
+    {
+      "index": 38,
+      "leg": "lh",
+      "source_actuator": "LFTibia_extensor_93932",
+      "motor_types": [
+        "Ti extensor MN"
+      ],
+      "source_motor_count": 2,
+      "active_motor_count": 1,
+      "mean_hz_0p5_2s": 0.05797364562749863,
+      "range_hz_0p5_2s": 1.003822684288025,
+      "mean_excitation_0p5_2s": 0.0005781296640634537,
+      "range_excitation_0p5_2s": 0.009988009929656982,
+      "max_abs_muscle_force": 10.851868645328173
+    },
+    {
+      "index": 39,
+      "leg": "rf",
+      "source_actuator": "LFC_tergopleural_promotor_a",
+      "motor_types": [
+        "Tergopleural/Pleural promotor MN"
+      ],
+      "source_motor_count": 4,
+      "active_motor_count": 4,
+      "mean_hz_0p5_2s": 44.099666595458984,
+      "range_hz_0p5_2s": 114.841796875,
+      "mean_excitation_0p5_2s": 0.31370601058006287,
+      "range_excitation_0p5_2s": 0.6828619241714478,
+      "max_abs_muscle_force": 8.118422146298208
+    },
+    {
+      "index": 40,
+      "leg": "rf",
+      "source_actuator": "LFC_tergopleural_promotor_b",
+      "motor_types": [
+        "Tergopleural/Pleural promotor MN"
+      ],
+      "source_motor_count": 4,
+      "active_motor_count": 4,
+      "mean_hz_0p5_2s": 44.099666595458984,
+      "range_hz_0p5_2s": 114.841796875,
+      "mean_excitation_0p5_2s": 0.31370601058006287,
+      "range_excitation_0p5_2s": 0.6828619241714478,
+      "max_abs_muscle_force": 43.963645701591
+    },
+    {
+      "index": 41,
+      "leg": "rf",
+      "source_actuator": "LFC_pleural_remotor_and_abductor",
+      "motor_types": [
+        "Pleural remotor/abductor MN"
+      ],
+      "source_motor_count": 2,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 18.03484344482422,
+      "range_hz_0p5_2s": 64.5696029663086,
+      "mean_excitation_0p5_2s": 0.14418958127498627,
+      "range_excitation_0p5_2s": 0.47570252418518066,
+      "max_abs_muscle_force": 18.345571416229692
+    },
+    {
+      "index": 42,
+      "leg": "rf",
+      "source_actuator": "LFC_pleural_promotor",
+      "motor_types": [
+        "Tergopleural/Pleural promotor MN"
+      ],
+      "source_motor_count": 4,
+      "active_motor_count": 4,
+      "mean_hz_0p5_2s": 44.099666595458984,
+      "range_hz_0p5_2s": 114.841796875,
+      "mean_excitation_0p5_2s": 0.31370601058006287,
+      "range_excitation_0p5_2s": 0.6828619241714478,
+      "max_abs_muscle_force": 15.64168936809324
+    },
+    {
+      "index": 43,
+      "leg": "rf",
+      "source_actuator": "LFC_sternal_anterior_rotator",
+      "motor_types": [
+        "Sternal anterior rotator MN"
+      ],
+      "source_motor_count": 2,
+      "active_motor_count": 0,
+      "mean_hz_0p5_2s": 0.0,
+      "range_hz_0p5_2s": 0.0,
+      "mean_excitation_0p5_2s": 0.0,
+      "range_excitation_0p5_2s": 0.0,
+      "max_abs_muscle_force": 11.907345288974371
+    },
+    {
+      "index": 44,
+      "leg": "rf",
+      "source_actuator": "LFC_sternal_posterior_rotator",
+      "motor_types": [
+        "Sternal posterior rotator MN"
+      ],
+      "source_motor_count": 4,
+      "active_motor_count": 1,
+      "mean_hz_0p5_2s": 4.1421122550964355,
+      "range_hz_0p5_2s": 19.72015953063965,
+      "mean_excitation_0p5_2s": 0.03846491128206253,
+      "range_excitation_0p5_2s": 0.1789749264717102,
+      "max_abs_muscle_force": 39.26158398109931
+    },
+    {
+      "index": 45,
+      "leg": "rf",
+      "source_actuator": "LFC_sternal_adductor",
+      "motor_types": [
+        "Sternal adductor MN"
+      ],
+      "source_motor_count": 1,
+      "active_motor_count": 0,
+      "mean_hz_0p5_2s": 0.0,
+      "range_hz_0p5_2s": 0.0,
+      "mean_excitation_0p5_2s": 0.0,
+      "range_excitation_0p5_2s": 0.0,
+      "max_abs_muscle_force": 0.0
+    },
+    {
+      "index": 46,
+      "leg": "rf",
+      "source_actuator": "LFF_trochanter_flexor_b",
+      "motor_types": [
+        "Tr flexor MN"
+      ],
+      "source_motor_count": 7,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 18.05588150024414,
+      "range_hz_0p5_2s": 47.74647521972656,
+      "mean_excitation_0p5_2s": 0.14958348870277405,
+      "range_excitation_0p5_2s": 0.37964439392089844,
+      "max_abs_muscle_force": 20.945164029414244
+    },
+    {
+      "index": 47,
+      "leg": "rf",
+      "source_actuator": "LFF_sterno-tergo-trochanter_extensor_a",
+      "motor_types": [
+        "Sternotrochanter MN",
+        "Tergotr. MN"
+      ],
+      "source_motor_count": 6,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 0.6350327730178833,
+      "range_hz_0p5_2s": 2.8788557052612305,
+      "mean_excitation_0p5_2s": 0.006271376274526119,
+      "range_excitation_0p5_2s": 0.02837812900543213,
+      "max_abs_muscle_force": 6.190573760368746
+    },
+    {
+      "index": 48,
+      "leg": "rf",
+      "source_actuator": "LFF_sterno-tergo-trochanter_extensor_b",
+      "motor_types": [
+        "Sternotrochanter MN",
+        "Tergotr. MN"
+      ],
+      "source_motor_count": 6,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 0.6350327730178833,
+      "range_hz_0p5_2s": 2.8788557052612305,
+      "mean_excitation_0p5_2s": 0.006271376274526119,
+      "range_excitation_0p5_2s": 0.02837812900543213,
+      "max_abs_muscle_force": 4.762144962208501
+    },
+    {
+      "index": 49,
+      "leg": "rf",
+      "source_actuator": "LFF_accesory_trochanter_flexor",
+      "motor_types": [
+        "Acc. tr flexor MN"
+      ],
+      "source_motor_count": 3,
+      "active_motor_count": 0,
+      "mean_hz_0p5_2s": 0.0,
+      "range_hz_0p5_2s": 0.0,
+      "mean_excitation_0p5_2s": 0.0,
+      "range_excitation_0p5_2s": 0.0,
+      "max_abs_muscle_force": 0.0
+    },
+    {
+      "index": 50,
+      "leg": "rf",
+      "source_actuator": "LFF_trochanter_extensor",
+      "motor_types": [
+        "Tr extensor MN"
+      ],
+      "source_motor_count": 2,
+      "active_motor_count": 1,
+      "mean_hz_0p5_2s": 0.08487437665462494,
+      "range_hz_0p5_2s": 3.1284263134002686,
+      "mean_excitation_0p5_2s": 0.0008398207137361169,
+      "range_excitation_0p5_2s": 0.0307999849319458,
+      "max_abs_muscle_force": 1.4103727392597576
+    },
+    {
+      "index": 51,
+      "leg": "rf",
+      "source_actuator": "LFF_trochanter_flexor_a",
+      "motor_types": [
+        "Tr flexor MN"
+      ],
+      "source_motor_count": 7,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 18.05588150024414,
+      "range_hz_0p5_2s": 47.74647521972656,
+      "mean_excitation_0p5_2s": 0.14958348870277405,
+      "range_excitation_0p5_2s": 0.37964439392089844,
+      "max_abs_muscle_force": 13.701140845701149
+    },
+    {
+      "index": 52,
+      "leg": "rf",
+      "source_actuator": "LFTibia_flex_93434",
+      "motor_types": [
+        "Ti flexor MN",
+        "Acc. ti flexor MN"
+      ],
+      "source_motor_count": 15,
+      "active_motor_count": 1,
+      "mean_hz_0p5_2s": 0.8500706553459167,
+      "range_hz_0p5_2s": 4.130331993103027,
+      "mean_excitation_0p5_2s": 0.00837236363440752,
+      "range_excitation_0p5_2s": 0.040461957454681396,
+      "max_abs_muscle_force": 2.1233571049199216
+    },
+    {
+      "index": 53,
+      "leg": "rf",
+      "source_actuator": "LFTibia_extensor_93932",
+      "motor_types": [
+        "Ti extensor MN"
+      ],
+      "source_motor_count": 2,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 123.48074340820312,
+      "range_hz_0p5_2s": 196.25991821289062,
+      "mean_excitation_0p5_2s": 0.5587183833122253,
+      "range_excitation_0p5_2s": 0.8595072031021118,
+      "max_abs_muscle_force": 330.4542101948492
+    },
+    {
+      "index": 54,
+      "leg": "rm",
+      "source_actuator": "LFC_pleural_remotor_and_abductor",
+      "motor_types": [
+        "Pleural remotor/abductor MN"
+      ],
+      "source_motor_count": 3,
+      "active_motor_count": 3,
+      "mean_hz_0p5_2s": 4.939667701721191,
+      "range_hz_0p5_2s": 51.994964599609375,
+      "mean_excitation_0p5_2s": 0.04088472202420235,
+      "range_excitation_0p5_2s": 0.4054495096206665,
+      "max_abs_muscle_force": 15.396492947467875
+    },
+    {
+      "index": 55,
+      "leg": "rm",
+      "source_actuator": "LFC_sternal_anterior_rotator",
+      "motor_types": [
+        "Sternal anterior rotator MN"
+      ],
+      "source_motor_count": 2,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 6.307258129119873,
+      "range_hz_0p5_2s": 71.24162292480469,
+      "mean_excitation_0p5_2s": 0.04937906190752983,
+      "range_excitation_0p5_2s": 0.5095422863960266,
+      "max_abs_muscle_force": 19.20093183474301
+    },
+    {
+      "index": 56,
+      "leg": "rm",
+      "source_actuator": "LFC_sternal_posterior_rotator",
+      "motor_types": [
+        "Sternal posterior rotator MN"
+      ],
+      "source_motor_count": 4,
+      "active_motor_count": 4,
+      "mean_hz_0p5_2s": 30.447538375854492,
+      "range_hz_0p5_2s": 129.3609161376953,
+      "mean_excitation_0p5_2s": 0.20838165283203125,
+      "range_excitation_0p5_2s": 0.7257208824157715,
+      "max_abs_muscle_force": 158.11596042173292
+    },
+    {
+      "index": 57,
+      "leg": "rm",
+      "source_actuator": "LFC_sternal_adductor",
+      "motor_types": [
+        "Sternal adductor MN"
+      ],
+      "source_motor_count": 1,
+      "active_motor_count": 1,
+      "mean_hz_0p5_2s": 0.15954719483852386,
+      "range_hz_0p5_2s": 18.368867874145508,
+      "mean_excitation_0p5_2s": 0.0014794913586229086,
+      "range_excitation_0p5_2s": 0.16780513525009155,
+      "max_abs_muscle_force": 2.8967434058535515
+    },
+    {
+      "index": 58,
+      "leg": "rm",
+      "source_actuator": "LFF_trochanter_flexor_b",
+      "motor_types": [
+        "Tr flexor MN"
+      ],
+      "source_motor_count": 7,
+      "active_motor_count": 6,
+      "mean_hz_0p5_2s": 5.426501750946045,
+      "range_hz_0p5_2s": 100.92581939697266,
+      "mean_excitation_0p5_2s": 0.03996919468045235,
+      "range_excitation_0p5_2s": 0.6355106830596924,
+      "max_abs_muscle_force": 49.450010759798175
+    },
+    {
+      "index": 59,
+      "leg": "rm",
+      "source_actuator": "LFF_sterno-tergo-trochanter_extensor_a",
+      "motor_types": [
+        "Sternotrochanter MN",
+        "Tergotr. MN"
+      ],
+      "source_motor_count": 3,
+      "active_motor_count": 3,
+      "mean_hz_0p5_2s": 1.0063600540161133,
+      "range_hz_0p5_2s": 20.81757926940918,
+      "mean_excitation_0p5_2s": 0.009550080634653568,
+      "range_excitation_0p5_2s": 0.1879357099533081,
+      "max_abs_muscle_force": 28.95653834068906
+    },
+    {
+      "index": 60,
+      "leg": "rm",
+      "source_actuator": "LFF_sterno-tergo-trochanter_extensor_b",
+      "motor_types": [
+        "Sternotrochanter MN",
+        "Tergotr. MN"
+      ],
+      "source_motor_count": 3,
+      "active_motor_count": 3,
+      "mean_hz_0p5_2s": 1.0063600540161133,
+      "range_hz_0p5_2s": 20.81757926940918,
+      "mean_excitation_0p5_2s": 0.009550080634653568,
+      "range_excitation_0p5_2s": 0.1879357099533081,
+      "max_abs_muscle_force": 22.52036957962758
+    },
+    {
+      "index": 61,
+      "leg": "rm",
+      "source_actuator": "LFF_accesory_trochanter_flexor",
+      "motor_types": [
+        "Acc. tr flexor MN"
+      ],
+      "source_motor_count": 2,
+      "active_motor_count": 0,
+      "mean_hz_0p5_2s": 0.0,
+      "range_hz_0p5_2s": 0.0,
+      "mean_excitation_0p5_2s": 0.0,
+      "range_excitation_0p5_2s": 0.0,
+      "max_abs_muscle_force": 0.0
+    },
+    {
+      "index": 62,
+      "leg": "rm",
+      "source_actuator": "LFF_trochanter_extensor",
+      "motor_types": [
+        "Tr extensor MN"
+      ],
+      "source_motor_count": 2,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 3.4128530025482178,
+      "range_hz_0p5_2s": 33.64753723144531,
+      "mean_excitation_0p5_2s": 0.030858390033245087,
+      "range_excitation_0p5_2s": 0.28571653366088867,
+      "max_abs_muscle_force": 8.20695056549952
+    },
+    {
+      "index": 63,
+      "leg": "rm",
+      "source_actuator": "LFF_trochanter_flexor_a",
+      "motor_types": [
+        "Tr flexor MN"
+      ],
+      "source_motor_count": 7,
+      "active_motor_count": 6,
+      "mean_hz_0p5_2s": 5.426501750946045,
+      "range_hz_0p5_2s": 100.92581939697266,
+      "mean_excitation_0p5_2s": 0.03996919468045235,
+      "range_excitation_0p5_2s": 0.6355106830596924,
+      "max_abs_muscle_force": 37.695335817004924
+    },
+    {
+      "index": 64,
+      "leg": "rm",
+      "source_actuator": "LFTibia_flex_93434",
+      "motor_types": [
+        "Ti flexor MN",
+        "Acc. ti flexor MN"
+      ],
+      "source_motor_count": 11,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 1.5787866115570068,
+      "range_hz_0p5_2s": 12.338912010192871,
+      "mean_excitation_0p5_2s": 0.015175030566751957,
+      "range_excitation_0p5_2s": 0.11608034372329712,
+      "max_abs_muscle_force": 6.4886608506237815
+    },
+    {
+      "index": 65,
+      "leg": "rm",
+      "source_actuator": "LFTibia_extensor_93932",
+      "motor_types": [
+        "Ti extensor MN"
+      ],
+      "source_motor_count": 2,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 24.356037139892578,
+      "range_hz_0p5_2s": 132.98291015625,
+      "mean_excitation_0p5_2s": 0.17431437969207764,
+      "range_excitation_0p5_2s": 0.7354775667190552,
+      "max_abs_muscle_force": 290.09236023218034
+    },
+    {
+      "index": 66,
+      "leg": "rh",
+      "source_actuator": "LFC_pleural_remotor_and_abductor",
+      "motor_types": [
+        "Pleural remotor/abductor MN"
+      ],
+      "source_motor_count": 2,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 87.28598022460938,
+      "range_hz_0p5_2s": 211.7079315185547,
+      "mean_excitation_0p5_2s": 0.4116082489490509,
+      "range_excitation_0p5_2s": 0.8796128630638123,
+      "max_abs_muscle_force": 33.16722646775658
+    },
+    {
+      "index": 67,
+      "leg": "rh",
+      "source_actuator": "LFC_sternal_anterior_rotator",
+      "motor_types": [
+        "Sternal anterior rotator MN"
+      ],
+      "source_motor_count": 2,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 38.43040084838867,
+      "range_hz_0p5_2s": 183.10025024414062,
+      "mean_excitation_0p5_2s": 0.23151840269565582,
+      "range_excitation_0p5_2s": 0.8397471904754639,
+      "max_abs_muscle_force": 22.0171629973574
+    },
+    {
+      "index": 68,
+      "leg": "rh",
+      "source_actuator": "LFC_sternal_posterior_rotator",
+      "motor_types": [
+        "Sternal posterior rotator MN"
+      ],
+      "source_motor_count": 4,
+      "active_motor_count": 4,
+      "mean_hz_0p5_2s": 30.261856079101562,
+      "range_hz_0p5_2s": 127.2042236328125,
+      "mean_excitation_0p5_2s": 0.20053277909755707,
+      "range_excitation_0p5_2s": 0.7197413444519043,
+      "max_abs_muscle_force": 149.25852969979078
+    },
+    {
+      "index": 69,
+      "leg": "rh",
+      "source_actuator": "LFC_sternal_adductor",
+      "motor_types": [
+        "Sternal adductor MN"
+      ],
+      "source_motor_count": 1,
+      "active_motor_count": 1,
+      "mean_hz_0p5_2s": 108.72386932373047,
+      "range_hz_0p5_2s": 209.8835906982422,
+      "mean_excitation_0p5_2s": 0.5264827013015747,
+      "range_excitation_0p5_2s": 0.87738037109375,
+      "max_abs_muscle_force": 15.52220608717062
+    },
+    {
+      "index": 70,
+      "leg": "rh",
+      "source_actuator": "LFF_trochanter_flexor_b",
+      "motor_types": [
+        "Tr flexor MN"
+      ],
+      "source_motor_count": 7,
+      "active_motor_count": 6,
+      "mean_hz_0p5_2s": 9.001646041870117,
+      "range_hz_0p5_2s": 95.07301330566406,
+      "mean_excitation_0p5_2s": 0.06727364659309387,
+      "range_excitation_0p5_2s": 0.6135412454605103,
+      "max_abs_muscle_force": 47.466673337093205
+    },
+    {
+      "index": 71,
+      "leg": "rh",
+      "source_actuator": "LFF_sterno-tergo-trochanter_extensor_a",
+      "motor_types": [
+        "Sternotrochanter MN",
+        "Tergotr. MN"
+      ],
+      "source_motor_count": 4,
+      "active_motor_count": 4,
+      "mean_hz_0p5_2s": 64.49187469482422,
+      "range_hz_0p5_2s": 190.23867797851562,
+      "mean_excitation_0p5_2s": 0.37482911348342896,
+      "range_excitation_0p5_2s": 0.8506067395210266,
+      "max_abs_muscle_force": 188.58112717188777
+    },
+    {
+      "index": 72,
+      "leg": "rh",
+      "source_actuator": "LFF_sterno-tergo-trochanter_extensor_b",
+      "motor_types": [
+        "Sternotrochanter MN",
+        "Tergotr. MN"
+      ],
+      "source_motor_count": 4,
+      "active_motor_count": 4,
+      "mean_hz_0p5_2s": 64.49187469482422,
+      "range_hz_0p5_2s": 190.23867797851562,
+      "mean_excitation_0p5_2s": 0.37482911348342896,
+      "range_excitation_0p5_2s": 0.8506067395210266,
+      "max_abs_muscle_force": 145.53587082438708
+    },
+    {
+      "index": 73,
+      "leg": "rh",
+      "source_actuator": "LFF_accesory_trochanter_flexor",
+      "motor_types": [
+        "Acc. tr flexor MN"
+      ],
+      "source_motor_count": 3,
+      "active_motor_count": 1,
+      "mean_hz_0p5_2s": 0.14611941576004028,
+      "range_hz_0p5_2s": 4.083414554595947,
+      "mean_excitation_0p5_2s": 0.0014413706958293915,
+      "range_excitation_0p5_2s": 0.04001164436340332,
+      "max_abs_muscle_force": 0.9968151533235045
+    },
+    {
+      "index": 74,
+      "leg": "rh",
+      "source_actuator": "LFF_trochanter_extensor",
+      "motor_types": [
+        "Tr extensor MN"
+      ],
+      "source_motor_count": 2,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 24.33428955078125,
+      "range_hz_0p5_2s": 131.5165557861328,
+      "mean_excitation_0p5_2s": 0.16921497881412506,
+      "range_excitation_0p5_2s": 0.7315689325332642,
+      "max_abs_muscle_force": 30.997579481005943
+    },
+    {
+      "index": 75,
+      "leg": "rh",
+      "source_actuator": "LFF_trochanter_flexor_a",
+      "motor_types": [
+        "Tr flexor MN"
+      ],
+      "source_motor_count": 7,
+      "active_motor_count": 6,
+      "mean_hz_0p5_2s": 9.001646041870117,
+      "range_hz_0p5_2s": 95.07301330566406,
+      "mean_excitation_0p5_2s": 0.06727364659309387,
+      "range_excitation_0p5_2s": 0.6135412454605103,
+      "max_abs_muscle_force": 38.36984489181336
+    },
+    {
+      "index": 76,
+      "leg": "rh",
+      "source_actuator": "LFTibia_flex_93434",
+      "motor_types": [
+        "Ti flexor MN",
+        "Acc. ti flexor MN"
+      ],
+      "source_motor_count": 10,
+      "active_motor_count": 8,
+      "mean_hz_0p5_2s": 51.59066390991211,
+      "range_hz_0p5_2s": 115.34580993652344,
+      "mean_excitation_0p5_2s": 0.3357435464859009,
+      "range_excitation_0p5_2s": 0.6844556331634521,
+      "max_abs_muscle_force": 47.66128518690983
+    },
+    {
+      "index": 77,
+      "leg": "rh",
+      "source_actuator": "LFTibia_extensor_93932",
+      "motor_types": [
+        "Ti extensor MN"
+      ],
+      "source_motor_count": 2,
+      "active_motor_count": 2,
+      "mean_hz_0p5_2s": 0.8208533525466919,
+      "range_hz_0p5_2s": 7.40151834487915,
+      "mean_excitation_0p5_2s": 0.008038477972149849,
+      "range_excitation_0p5_2s": 0.07134240865707397,
+      "max_abs_muscle_force": 25.50852458649461
+    }
+  ],
+  "legs": [
+    {
+      "leg": "lf",
+      "muscle_count": 15,
+      "active_muscles_gt1hz": 9,
+      "variable_excitation_ge0p05": 11,
+      "contact_fraction": 0.995,
+      "tibia_flex_muscle_count": 1,
+      "tibia_ext_muscle_count": 1,
+      "tibia_flex_mean_hz": 10.171310424804688,
+      "tibia_ext_mean_hz": 0.271342009305954,
+      "tibia_flex_ext_corr_0p5_2s": -0.1353877100901814
+    },
+    {
+      "leg": "lm",
+      "muscle_count": 12,
+      "active_muscles_gt1hz": 8,
+      "variable_excitation_ge0p05": 8,
+      "contact_fraction": 0.68,
+      "tibia_flex_muscle_count": 1,
+      "tibia_ext_muscle_count": 1,
+      "tibia_flex_mean_hz": 2.863966226577759,
+      "tibia_ext_mean_hz": 48.517940521240234,
+      "tibia_flex_ext_corr_0p5_2s": 0.38335711528330835
+    },
+    {
+      "leg": "lh",
+      "muscle_count": 12,
+      "active_muscles_gt1hz": 9,
+      "variable_excitation_ge0p05": 9,
+      "contact_fraction": 0.99,
+      "tibia_flex_muscle_count": 1,
+      "tibia_ext_muscle_count": 1,
+      "tibia_flex_mean_hz": 21.2781982421875,
+      "tibia_ext_mean_hz": 0.05797364562749863,
+      "tibia_flex_ext_corr_0p5_2s": -0.3617564342845866
+    },
+    {
+      "leg": "rf",
+      "muscle_count": 15,
+      "active_muscles_gt1hz": 8,
+      "variable_excitation_ge0p05": 8,
+      "contact_fraction": 0.595,
+      "tibia_flex_muscle_count": 1,
+      "tibia_ext_muscle_count": 1,
+      "tibia_flex_mean_hz": 0.8500706553459167,
+      "tibia_ext_mean_hz": 123.48074340820312,
+      "tibia_flex_ext_corr_0p5_2s": 0.434794419499122
+    },
+    {
+      "leg": "rm",
+      "muscle_count": 12,
+      "active_muscles_gt1hz": 10,
+      "variable_excitation_ge0p05": 11,
+      "contact_fraction": 0.875,
+      "tibia_flex_muscle_count": 1,
+      "tibia_ext_muscle_count": 1,
+      "tibia_flex_mean_hz": 1.5787866115570068,
+      "tibia_ext_mean_hz": 24.356037139892578,
+      "tibia_flex_ext_corr_0p5_2s": 0.5717911928464561
+    },
+    {
+      "leg": "rh",
+      "muscle_count": 12,
+      "active_muscles_gt1hz": 10,
+      "variable_excitation_ge0p05": 11,
+      "contact_fraction": 0.955,
+      "tibia_flex_muscle_count": 1,
+      "tibia_ext_muscle_count": 1,
+      "tibia_flex_mean_hz": 51.59066390991211,
+      "tibia_ext_mean_hz": 0.8208533525466919,
+      "tibia_flex_ext_corr_0p5_2s": -0.4833012047062062
+    }
+  ],
+  "checks": {
+    "source_trace_732_ids_match": true,
+    "mapped_78_muscles": true,
+    "all_6_legs_present": true,
+    "saved_body_excitation_reconstructed": true,
+    "all_finite": true
+  },
+  "passed": true
+}

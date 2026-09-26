@@ -1,0 +1,1068 @@
+{
+  "date": "2026-09-23",
+  "scope": "global engineering foot-contact calibration on training flies with held-out whole-fly validation and test",
+  "sources": {
+    "inverse_teacher": "results/official-running-inverse-dynamics-20260923/teacher.npz",
+    "inverse_teacher_sha256": "95da0df2fdae0e46e21678210b79ca359a06f0565d7d40ee01666efd7cb43189",
+    "contact_teacher": "results/official-running-contact-estimate-20260923/contact-teacher.npz",
+    "contact_teacher_sha256": "bb3e8cc6596ab8ad8d1abc6b9146cc72c7808dcc2d6982957e42d55549794b22"
+  },
+  "selection": {
+    "candidate_margins_native": [
+      0.0005,
+      0.003,
+      0.006,
+      0.009,
+      0.012,
+      0.015
+    ],
+    "candidate_margins_mm": [
+      0.005,
+      0.03,
+      0.06,
+      0.09,
+      0.12,
+      0.15
+    ],
+    "objective": "median(root_mm)/0.05 + median(root_angle_rad)/0.03 + median(joint_rms_rad)/0.005 + 1 - observed_contact_F1",
+    "data_used": "training flies only",
+    "selected_margin_native": 0.0005,
+    "selected_margin_mm": 0.005
+  },
+  "candidates": [
+    {
+      "contact_margin_native": 0.0005,
+      "contact_margin_mm": 0.005,
+      "train_selection_objective": 2.8851128398330905,
+      "by_split": {
+        "train": {
+          "frames": 3696,
+          "root_error_mm": {
+            "median": 0.038913282875924604,
+            "p95": 0.0983763963891184,
+            "maximum": 0.18999022015032782
+          },
+          "root_angle_error_rad": {
+            "median": 0.025045818009092564,
+            "p95": 0.06303232594257181,
+            "maximum": 0.11696550718797348
+          },
+          "joint_rms_error_rad": {
+            "median": 0.0030715500787006546,
+            "p95": 0.005774716045224457,
+            "maximum": 0.010036057644857443
+          },
+          "observed_contact_match": {
+            "true_positive": 3262,
+            "false_positive": 46,
+            "false_negative": 12488,
+            "precision": 0.9860943168077388,
+            "recall": 0.2071111111111111,
+            "f1": 0.34232343372861784
+          },
+          "selection_objective": 2.8851128398330905
+        },
+        "validation": {
+          "frames": 975,
+          "root_error_mm": {
+            "median": 0.045216355307761774,
+            "p95": 0.09015864120574531,
+            "maximum": 0.12247792305259542
+          },
+          "root_angle_error_rad": {
+            "median": 0.02504409248474081,
+            "p95": 0.049200408648819464,
+            "maximum": 0.07021211345757289
+          },
+          "joint_rms_error_rad": {
+            "median": 0.003373457340910253,
+            "p95": 0.005699555869106331,
+            "maximum": 0.008799246322880662
+          },
+          "observed_contact_match": {
+            "true_positive": 955,
+            "false_positive": 5,
+            "false_negative": 3305,
+            "precision": 0.9947916666666666,
+            "recall": 0.22417840375586853,
+            "f1": 0.3659003831417624
+          },
+          "selection_objective": 3.0479212740202177
+        },
+        "test": {
+          "frames": 1886,
+          "root_error_mm": {
+            "median": 0.033107740650698145,
+            "p95": 0.07415747228306174,
+            "maximum": 0.13955248170072915
+          },
+          "root_angle_error_rad": {
+            "median": 0.019796688172390168,
+            "p95": 0.07745746240161375,
+            "maximum": 0.1362569617746161
+          },
+          "joint_rms_error_rad": {
+            "median": 0.002546423635370927,
+            "p95": 0.005289266908377644,
+            "maximum": 0.009104567915655226
+          },
+          "observed_contact_match": {
+            "true_positive": 1397,
+            "false_positive": 52,
+            "false_negative": 6870,
+            "precision": 0.9641131815044859,
+            "recall": 0.16898512156767873,
+            "f1": 0.2875668999588308
+          },
+          "selection_objective": 2.5437622458756564
+        }
+      }
+    },
+    {
+      "contact_margin_native": 0.003,
+      "contact_margin_mm": 0.03,
+      "train_selection_objective": 4.025842032442524,
+      "by_split": {
+        "train": {
+          "frames": 3696,
+          "root_error_mm": {
+            "median": 0.06663301535627929,
+            "p95": 0.13532942871023612,
+            "maximum": 0.22559190453805056
+          },
+          "root_angle_error_rad": {
+            "median": 0.033463414271613444,
+            "p95": 0.075904021931319,
+            "maximum": 0.1283950899561183
+          },
+          "joint_rms_error_rad": {
+            "median": 0.004001716392909988,
+            "p95": 0.007036707120457344,
+            "maximum": 0.010552812147720561
+          },
+          "observed_contact_match": {
+            "true_positive": 1984,
+            "false_positive": 91,
+            "false_negative": 13766,
+            "precision": 0.9561445783132531,
+            "recall": 0.12596825396825398,
+            "f1": 0.22260869565217392
+          },
+          "selection_objective": 4.025842032442524
+        },
+        "validation": {
+          "frames": 975,
+          "root_error_mm": {
+            "median": 0.07394668280527752,
+            "p95": 0.1263027999427534,
+            "maximum": 0.1554013781745047
+          },
+          "root_angle_error_rad": {
+            "median": 0.03322468065799323,
+            "p95": 0.060554318825046013,
+            "maximum": 0.08118675457556121
+          },
+          "joint_rms_error_rad": {
+            "median": 0.004344725824914441,
+            "p95": 0.00693645698940969,
+            "maximum": 0.009473158507099757
+          },
+          "observed_contact_match": {
+            "true_positive": 456,
+            "false_positive": 4,
+            "false_negative": 3804,
+            "precision": 0.991304347826087,
+            "recall": 0.10704225352112676,
+            "f1": 0.19322033898305083
+          },
+          "selection_objective": 4.2621478373718285
+        },
+        "test": {
+          "frames": 1886,
+          "root_error_mm": {
+            "median": 0.05890190072788561,
+            "p95": 0.10717515705295659,
+            "maximum": 0.1810319185140931
+          },
+          "root_angle_error_rad": {
+            "median": 0.02620888398088296,
+            "p95": 0.07658355777968123,
+            "maximum": 0.1251702064878618
+          },
+          "joint_rms_error_rad": {
+            "median": 0.00370037000973891,
+            "p95": 0.0065184594918923375,
+            "maximum": 0.010640494453682448
+          },
+          "observed_contact_match": {
+            "true_positive": 831,
+            "false_positive": 72,
+            "false_negative": 7436,
+            "precision": 0.920265780730897,
+            "recall": 0.1005201403169227,
+            "f1": 0.1812431842966194
+          },
+          "selection_objective": 3.6104982982383067
+        }
+      }
+    },
+    {
+      "contact_margin_native": 0.006,
+      "contact_margin_mm": 0.06,
+      "train_selection_objective": 5.4946456007599656,
+      "by_split": {
+        "train": {
+          "frames": 3696,
+          "root_error_mm": {
+            "median": 0.10222161238950077,
+            "p95": 0.1817921944585732,
+            "maximum": 0.26828665169512056
+          },
+          "root_angle_error_rad": {
+            "median": 0.0447328730264885,
+            "p95": 0.09050503388456844,
+            "maximum": 0.1448240033440429
+          },
+          "joint_rms_error_rad": {
+            "median": 0.005472044638590226,
+            "p95": 0.008753381764990048,
+            "maximum": 0.012534725943195024
+          },
+          "observed_contact_match": {
+            "true_positive": 1147,
+            "false_positive": 59,
+            "false_negative": 14603,
+            "precision": 0.951077943615257,
+            "recall": 0.07282539682539682,
+            "f1": 0.1352913422977117
+          },
+          "selection_objective": 5.4946456007599656
+        },
+        "validation": {
+          "frames": 975,
+          "root_error_mm": {
+            "median": 0.109613359675046,
+            "p95": 0.1701825410698172,
+            "maximum": 0.19992229299123174
+          },
+          "root_angle_error_rad": {
+            "median": 0.04270650885698337,
+            "p95": 0.0770312517168002,
+            "maximum": 0.09643797288919403
+          },
+          "joint_rms_error_rad": {
+            "median": 0.0057821402841631625,
+            "p95": 0.008635974745825687,
+            "maximum": 0.010906249413590726
+          },
+          "observed_contact_match": {
+            "true_positive": 150,
+            "false_positive": 2,
+            "false_negative": 4110,
+            "precision": 0.9868421052631579,
+            "recall": 0.035211267605633804,
+            "f1": 0.06799637352674523
+          },
+          "selection_objective": 5.704249172039586
+        },
+        "test": {
+          "frames": 1886,
+          "root_error_mm": {
+            "median": 0.09510097024859776,
+            "p95": 0.1522567213622637,
+            "maximum": 0.2372617087343194
+          },
+          "root_angle_error_rad": {
+            "median": 0.03351581579221885,
+            "p95": 0.08041274711111772,
+            "maximum": 0.12587145857099521
+          },
+          "joint_rms_error_rad": {
+            "median": 0.0053005574142952865,
+            "p95": 0.008137444748107965,
+            "maximum": 0.012443278686516044
+          },
+          "observed_contact_match": {
+            "true_positive": 361,
+            "false_positive": 58,
+            "false_negative": 7906,
+            "precision": 0.8615751789976134,
+            "recall": 0.04366759404862707,
+            "f1": 0.08312226571494359
+          },
+          "selection_objective": 4.996202481856697
+        }
+      }
+    },
+    {
+      "contact_margin_native": 0.009,
+      "contact_margin_mm": 0.09,
+      "train_selection_objective": 7.00633771058678,
+      "by_split": {
+        "train": {
+          "frames": 3696,
+          "root_error_mm": {
+            "median": 0.14040609543957944,
+            "p95": 0.2315906588376274,
+            "maximum": 0.31112801649890187
+          },
+          "root_angle_error_rad": {
+            "median": 0.055142947117313566,
+            "p95": 0.1042941281413998,
+            "maximum": 0.1630553868431351
+          },
+          "joint_rms_error_rad": {
+            "median": 0.007122300360983333,
+            "p95": 0.010520253791153015,
+            "maximum": 0.01486005796764207
+          },
+          "observed_contact_match": {
+            "true_positive": 526,
+            "false_positive": 74,
+            "false_negative": 15224,
+            "precision": 0.8766666666666667,
+            "recall": 0.0333968253968254,
+            "f1": 0.06434250764525994
+          },
+          "selection_objective": 7.00633771058678
+        },
+        "validation": {
+          "frames": 975,
+          "root_error_mm": {
+            "median": 0.1460616851834848,
+            "p95": 0.21389553126411892,
+            "maximum": 0.24525597341231575
+          },
+          "root_angle_error_rad": {
+            "median": 0.05244392283694722,
+            "p95": 0.09254549570263276,
+            "maximum": 0.11516216296263337
+          },
+          "joint_rms_error_rad": {
+            "median": 0.007456743270415546,
+            "p95": 0.010474218786880405,
+            "maximum": 0.012614168230985845
+          },
+          "observed_contact_match": {
+            "true_positive": 32,
+            "false_positive": 2,
+            "false_negative": 4228,
+            "precision": 0.9411764705882353,
+            "recall": 0.007511737089201878,
+            "f1": 0.014904517931998137
+          },
+          "selection_objective": 7.14580860105238
+        },
+        "test": {
+          "frames": 1886,
+          "root_error_mm": {
+            "median": 0.1350449577184522,
+            "p95": 0.20208309824537188,
+            "maximum": 0.29579183836825407
+          },
+          "root_angle_error_rad": {
+            "median": 0.04389464651753272,
+            "p95": 0.09031606613743444,
+            "maximum": 0.13856403406349677
+          },
+          "joint_rms_error_rad": {
+            "median": 0.0069465495505490645,
+            "p95": 0.00991580291982575,
+            "maximum": 0.014367761576376401
+          },
+          "observed_contact_match": {
+            "true_positive": 126,
+            "false_positive": 63,
+            "false_negative": 8141,
+            "precision": 0.6666666666666666,
+            "recall": 0.015241320914479255,
+            "f1": 0.029801324503311258
+          },
+          "selection_objective": 6.523562623893302
+        }
+      }
+    },
+    {
+      "contact_margin_native": 0.012,
+      "contact_margin_mm": 0.12,
+      "train_selection_objective": 8.483770666880055,
+      "by_split": {
+        "train": {
+          "frames": 3696,
+          "root_error_mm": {
+            "median": 0.17958909622801938,
+            "p95": 0.2831844219107458,
+            "maximum": 0.35425843618984487
+          },
+          "root_angle_error_rad": {
+            "median": 0.06457036903749189,
+            "p95": 0.11832719797244368,
+            "maximum": 0.1815563887000356
+          },
+          "joint_rms_error_rad": {
+            "median": 0.008861772752613371,
+            "p95": 0.012355542375728463,
+            "maximum": 0.0172574793217871
+          },
+          "observed_contact_match": {
+            "true_positive": 263,
+            "false_positive": 67,
+            "false_negative": 15487,
+            "precision": 0.796969696969697,
+            "recall": 0.0166984126984127,
+            "f1": 0.032711442786069654
+          },
+          "selection_objective": 8.483770666880055
+        },
+        "validation": {
+          "frames": 975,
+          "root_error_mm": {
+            "median": 0.18252030503220287,
+            "p95": 0.25923347372521854,
+            "maximum": 0.2916193358382096
+          },
+          "root_angle_error_rad": {
+            "median": 0.06122272953099368,
+            "p95": 0.1086559165181822,
+            "maximum": 0.1338096828689867
+          },
+          "joint_rms_error_rad": {
+            "median": 0.009203164653572469,
+            "p95": 0.012333133647725222,
+            "maximum": 0.014553821079681535
+          },
+          "observed_contact_match": {
+            "true_positive": 6,
+            "false_positive": 2,
+            "false_negative": 4254,
+            "precision": 0.75,
+            "recall": 0.0014084507042253522,
+            "f1": 0.0028116213683223997
+          },
+          "selection_objective": 8.528985061023352
+        },
+        "test": {
+          "frames": 1886,
+          "root_error_mm": {
+            "median": 0.176153109599055,
+            "p95": 0.2548044482579528,
+            "maximum": 0.3529678185333906
+          },
+          "root_angle_error_rad": {
+            "median": 0.054688045062449224,
+            "p95": 0.09966958727504668,
+            "maximum": 0.15015981099516695
+          },
+          "joint_rms_error_rad": {
+            "median": 0.008684172304772038,
+            "p95": 0.011743628814618417,
+            "maximum": 0.01630688882087443
+          },
+          "observed_contact_match": {
+            "true_positive": 84,
+            "false_positive": 43,
+            "false_negative": 8183,
+            "precision": 0.6614173228346457,
+            "recall": 0.010160880609652836,
+            "f1": 0.020014295925661185
+          },
+          "selection_objective": 8.06281719242482
+        }
+      }
+    },
+    {
+      "contact_margin_native": 0.015,
+      "contact_margin_mm": 0.15,
+      "train_selection_objective": 9.970757107911949,
+      "by_split": {
+        "train": {
+          "frames": 3696,
+          "root_error_mm": {
+            "median": 0.21927046786100785,
+            "p95": 0.3357505837352909,
+            "maximum": 0.3999776610509151
+          },
+          "root_angle_error_rad": {
+            "median": 0.07417445131150432,
+            "p95": 0.132802009483507,
+            "maximum": 0.1957524930384861
+          },
+          "joint_rms_error_rad": {
+            "median": 0.010619738840252066,
+            "p95": 0.014248975331207522,
+            "maximum": 0.01958947079922841
+          },
+          "observed_contact_match": {
+            "true_positive": 88,
+            "false_positive": 44,
+            "false_negative": 15662,
+            "precision": 0.6666666666666666,
+            "recall": 0.005587301587301587,
+            "f1": 0.011081727742097973
+          },
+          "selection_objective": 9.970757107911949
+        },
+        "validation": {
+          "frames": 975,
+          "root_error_mm": {
+            "median": 0.21958409060122502,
+            "p95": 0.30583862899476516,
+            "maximum": 0.3445058553751041
+          },
+          "root_angle_error_rad": {
+            "median": 0.0691251718324843,
+            "p95": 0.12503301325046542,
+            "maximum": 0.15252463658280505
+          },
+          "joint_rms_error_rad": {
+            "median": 0.011004277040643504,
+            "p95": 0.014252418488915414,
+            "maximum": 0.016527901025850462
+          },
+          "observed_contact_match": {
+            "true_positive": 1,
+            "false_positive": 1,
+            "false_negative": 4259,
+            "precision": 0.5,
+            "recall": 0.00023474178403755868,
+            "f1": 0.00046926325668700134
+          },
+          "selection_objective": 9.896240351312658
+        },
+        "test": {
+          "frames": 1886,
+          "root_error_mm": {
+            "median": 0.21825152072744797,
+            "p95": 0.30912957282899284,
+            "maximum": 0.4102353024810352
+          },
+          "root_angle_error_rad": {
+            "median": 0.0646903276098283,
+            "p95": 0.11069328669315588,
+            "maximum": 0.16176586573364274
+          },
+          "joint_rms_error_rad": {
+            "median": 0.010473267868539936,
+            "p95": 0.013589365919346603,
+            "maximum": 0.018269572168308337
+          },
+          "observed_contact_match": {
+            "true_positive": 59,
+            "false_positive": 43,
+            "false_negative": 8208,
+            "precision": 0.5784313725490197,
+            "recall": 0.0071368089996371115,
+            "f1": 0.014099653483092365
+          },
+          "selection_objective": 9.601928588434795
+        }
+      }
+    }
+  ],
+  "selected_heldout_results": {
+    "validation": {
+      "frames": 975,
+      "root_error_mm": {
+        "median": 0.045216355307761774,
+        "p95": 0.09015864120574531,
+        "maximum": 0.12247792305259542
+      },
+      "root_angle_error_rad": {
+        "median": 0.02504409248474081,
+        "p95": 0.049200408648819464,
+        "maximum": 0.07021211345757289
+      },
+      "joint_rms_error_rad": {
+        "median": 0.003373457340910253,
+        "p95": 0.005699555869106331,
+        "maximum": 0.008799246322880662
+      },
+      "observed_contact_match": {
+        "true_positive": 955,
+        "false_positive": 5,
+        "false_negative": 3305,
+        "precision": 0.9947916666666666,
+        "recall": 0.22417840375586853,
+        "f1": 0.3659003831417624
+      },
+      "selection_objective": 3.0479212740202177
+    },
+    "test": {
+      "frames": 1886,
+      "root_error_mm": {
+        "median": 0.033107740650698145,
+        "p95": 0.07415747228306174,
+        "maximum": 0.13955248170072915
+      },
+      "root_angle_error_rad": {
+        "median": 0.019796688172390168,
+        "p95": 0.07745746240161375,
+        "maximum": 0.1362569617746161
+      },
+      "joint_rms_error_rad": {
+        "median": 0.002546423635370927,
+        "p95": 0.005289266908377644,
+        "maximum": 0.009104567915655226
+      },
+      "observed_contact_match": {
+        "true_positive": 1397,
+        "false_positive": 52,
+        "false_negative": 6870,
+        "precision": 0.9641131815044859,
+        "recall": 0.16898512156767873,
+        "f1": 0.2875668999588308
+      },
+      "selection_objective": 2.5437622458756564
+    }
+  },
+  "continuous_rollout": {
+    "by_split": {
+      "train": {
+        "bouts": 12,
+        "finite_bouts": 12,
+        "median_forward_ratio": 0.8737142612800037,
+        "median_terminal_root_error_mm": 0.6983164470202876,
+        "median_terminal_joint_rms_error_rad": 0.048369743623007194,
+        "median_body_floor_contact_frame_fraction": 0.0
+      },
+      "validation": {
+        "bouts": 3,
+        "finite_bouts": 3,
+        "median_forward_ratio": 0.8493185595064651,
+        "median_terminal_root_error_mm": 0.7362066801810935,
+        "median_terminal_joint_rms_error_rad": 0.06986013364775567,
+        "median_body_floor_contact_frame_fraction": 0.0
+      },
+      "test": {
+        "bouts": 3,
+        "finite_bouts": 3,
+        "median_forward_ratio": 0.8455074265257717,
+        "median_terminal_root_error_mm": 2.5911978342980015,
+        "median_terminal_joint_rms_error_rad": 0.15354349062458506,
+        "median_body_floor_contact_frame_fraction": 0.052884615384615384
+      }
+    },
+    "by_bout": [
+      {
+        "bout_key": "bout_0050",
+        "split": "validation",
+        "frames": 478,
+        "floor_height_native_median": 0.07026655972003937,
+        "reference_forward_mm": 17.131393309127454,
+        "actual_forward_mm": 6.366176774494691,
+        "forward_ratio": 0.37160881544309937,
+        "terminal_root_error_mm": 11.681643701309905,
+        "terminal_joint_rms_error_rad": 0.27729446329238144,
+        "actual_claw_contact_frame_fraction": 0.36506276150627615,
+        "body_floor_contact_frame_fraction": 0.26569037656903766,
+        "observed_contact_match": {
+          "true_positive": 1035,
+          "false_positive": 12,
+          "false_negative": 996,
+          "precision": 0.9885386819484241,
+          "recall": 0.5096011816838996,
+          "f1": 0.6725146198830411
+        },
+        "finite": true
+      },
+      {
+        "bout_key": "bout_0144",
+        "split": "validation",
+        "frames": 189,
+        "floor_height_native_median": 0.0771479643881321,
+        "reference_forward_mm": 4.700374515619946,
+        "actual_forward_mm": 4.158576777829859,
+        "forward_ratio": 0.8847330705266945,
+        "terminal_root_error_mm": 0.5786147310470615,
+        "terminal_joint_rms_error_rad": 0.06986013364775567,
+        "actual_claw_contact_frame_fraction": 0.6128747795414462,
+        "body_floor_contact_frame_fraction": 0.0,
+        "observed_contact_match": {
+          "true_positive": 689,
+          "false_positive": 6,
+          "false_negative": 144,
+          "precision": 0.9913669064748202,
+          "recall": 0.8271308523409364,
+          "f1": 0.9018324607329843
+        },
+        "finite": true
+      },
+      {
+        "bout_key": "bout_0209",
+        "split": "test",
+        "frames": 1325,
+        "floor_height_native_median": 0.06427241489291191,
+        "reference_forward_mm": 11.33071578360666,
+        "actual_forward_mm": 1.610433725079792,
+        "forward_ratio": 0.14212991975403497,
+        "terminal_root_error_mm": 11.51043726455159,
+        "terminal_joint_rms_error_rad": 0.45737486497347746,
+        "actual_claw_contact_frame_fraction": 0.29748427672955974,
+        "body_floor_contact_frame_fraction": 0.6233962264150943,
+        "observed_contact_match": {
+          "true_positive": 2223,
+          "false_positive": 142,
+          "false_negative": 3616,
+          "precision": 0.9399577167019028,
+          "recall": 0.38071587600616547,
+          "f1": 0.5419307654802537
+        },
+        "finite": true
+      },
+      {
+        "bout_key": "bout_0242",
+        "split": "train",
+        "frames": 268,
+        "floor_height_native_median": 0.10105230286717415,
+        "reference_forward_mm": 5.561789189600555,
+        "actual_forward_mm": 4.823860919782357,
+        "forward_ratio": 0.867321783573175,
+        "terminal_root_error_mm": 0.7729951726072457,
+        "terminal_joint_rms_error_rad": 0.0494898822140822,
+        "actual_claw_contact_frame_fraction": 0.6106965174129353,
+        "body_floor_contact_frame_fraction": 0.0,
+        "observed_contact_match": {
+          "true_positive": 959,
+          "false_positive": 23,
+          "false_negative": 225,
+          "precision": 0.9765784114052953,
+          "recall": 0.8099662162162162,
+          "f1": 0.8855032317636196
+        },
+        "finite": true
+      },
+      {
+        "bout_key": "bout_0325",
+        "split": "test",
+        "frames": 148,
+        "floor_height_native_median": 0.0729241706430912,
+        "reference_forward_mm": 5.178314034701917,
+        "actual_forward_mm": 4.378302973223104,
+        "forward_ratio": 0.8455074265257717,
+        "terminal_root_error_mm": 0.8454008831711392,
+        "terminal_joint_rms_error_rad": 0.09933317848758666,
+        "actual_claw_contact_frame_fraction": 0.5157657657657657,
+        "body_floor_contact_frame_fraction": 0.0,
+        "observed_contact_match": {
+          "true_positive": 447,
+          "false_positive": 11,
+          "false_negative": 167,
+          "precision": 0.9759825327510917,
+          "recall": 0.7280130293159609,
+          "f1": 0.8339552238805971
+        },
+        "finite": true
+      },
+      {
+        "bout_key": "bout_0412",
+        "split": "train",
+        "frames": 798,
+        "floor_height_native_median": 0.06382285058498383,
+        "reference_forward_mm": 7.622040647708873,
+        "actual_forward_mm": 3.244252538613122,
+        "forward_ratio": 0.4256409390296704,
+        "terminal_root_error_mm": 4.607682888223541,
+        "terminal_joint_rms_error_rad": 0.3148093376336741,
+        "actual_claw_contact_frame_fraction": 0.4793233082706767,
+        "body_floor_contact_frame_fraction": 0.2744360902255639,
+        "observed_contact_match": {
+          "true_positive": 2227,
+          "false_positive": 68,
+          "false_negative": 1431,
+          "precision": 0.9703703703703703,
+          "recall": 0.6088026243849098,
+          "f1": 0.7481941878044683
+        },
+        "finite": true
+      },
+      {
+        "bout_key": "bout_0558",
+        "split": "train",
+        "frames": 168,
+        "floor_height_native_median": 0.05239440128207207,
+        "reference_forward_mm": 4.9994468969160355,
+        "actual_forward_mm": 4.626893124182216,
+        "forward_ratio": 0.9254810021157275,
+        "terminal_root_error_mm": 0.45116638798389536,
+        "terminal_joint_rms_error_rad": 0.039184535430654574,
+        "actual_claw_contact_frame_fraction": 0.5426587301587301,
+        "body_floor_contact_frame_fraction": 0.0,
+        "observed_contact_match": {
+          "true_positive": 542,
+          "false_positive": 5,
+          "false_negative": 179,
+          "precision": 0.9908592321755028,
+          "recall": 0.7517337031900139,
+          "f1": 0.8548895899053628
+        },
+        "finite": true
+      },
+      {
+        "bout_key": "bout_0571",
+        "split": "train",
+        "frames": 131,
+        "floor_height_native_median": 0.0659065991640091,
+        "reference_forward_mm": 3.5951666564055063,
+        "actual_forward_mm": 2.943896965513497,
+        "forward_ratio": 0.8188485394045246,
+        "terminal_root_error_mm": 0.7765009121975761,
+        "terminal_joint_rms_error_rad": 0.03685998289165051,
+        "actual_claw_contact_frame_fraction": 0.4847328244274809,
+        "body_floor_contact_frame_fraction": 0.0,
+        "observed_contact_match": {
+          "true_positive": 352,
+          "false_positive": 29,
+          "false_negative": 126,
+          "precision": 0.9238845144356955,
+          "recall": 0.7364016736401674,
+          "f1": 0.8195576251455181
+        },
+        "finite": true
+      },
+      {
+        "bout_key": "bout_0778",
+        "split": "train",
+        "frames": 201,
+        "floor_height_native_median": 0.07838863506913185,
+        "reference_forward_mm": 4.381083886241864,
+        "actual_forward_mm": 3.9284884910523656,
+        "forward_ratio": 0.8966932825434348,
+        "terminal_root_error_mm": 0.47271354440865987,
+        "terminal_joint_rms_error_rad": 0.04724960503193219,
+        "actual_claw_contact_frame_fraction": 0.5804311774461028,
+        "body_floor_contact_frame_fraction": 0.0,
+        "observed_contact_match": {
+          "true_positive": 696,
+          "false_positive": 4,
+          "false_negative": 204,
+          "precision": 0.9942857142857143,
+          "recall": 0.7733333333333333,
+          "f1": 0.8700000000000001
+        },
+        "finite": true
+      },
+      {
+        "bout_key": "bout_0874",
+        "split": "train",
+        "frames": 192,
+        "floor_height_native_median": 0.09307470545172691,
+        "reference_forward_mm": 6.96089972078254,
+        "actual_forward_mm": 5.950980481807287,
+        "forward_ratio": 0.8549154161839128,
+        "terminal_root_error_mm": 1.6493741949586789,
+        "terminal_joint_rms_error_rad": 0.08415962769155853,
+        "actual_claw_contact_frame_fraction": 0.4678819444444444,
+        "body_floor_contact_frame_fraction": 0.0,
+        "observed_contact_match": {
+          "true_positive": 508,
+          "false_positive": 31,
+          "false_negative": 232,
+          "precision": 0.9424860853432282,
+          "recall": 0.6864864864864865,
+          "f1": 0.794370602032838
+        },
+        "finite": true
+      },
+      {
+        "bout_key": "bout_0941",
+        "split": "train",
+        "frames": 184,
+        "floor_height_native_median": 0.08784311264753342,
+        "reference_forward_mm": 6.021539304888331,
+        "actual_forward_mm": 5.438937110494676,
+        "forward_ratio": 0.9032469664491446,
+        "terminal_root_error_mm": 0.6236377214333295,
+        "terminal_joint_rms_error_rad": 0.061811324688731184,
+        "actual_claw_contact_frame_fraction": 0.5117753623188406,
+        "body_floor_contact_frame_fraction": 0.0,
+        "observed_contact_match": {
+          "true_positive": 560,
+          "false_positive": 5,
+          "false_negative": 212,
+          "precision": 0.9911504424778761,
+          "recall": 0.7253886010362695,
+          "f1": 0.8376963350785339
+        },
+        "finite": true
+      },
+      {
+        "bout_key": "bout_0973",
+        "split": "train",
+        "frames": 240,
+        "floor_height_native_median": 0.0956883504986763,
+        "reference_forward_mm": 3.60084350667252,
+        "actual_forward_mm": 3.169126636259463,
+        "forward_ratio": 0.8801067389868326,
+        "terminal_root_error_mm": 0.526738744565301,
+        "terminal_joint_rms_error_rad": 0.03916881663277354,
+        "actual_claw_contact_frame_fraction": 0.7083333333333334,
+        "body_floor_contact_frame_fraction": 0.0,
+        "observed_contact_match": {
+          "true_positive": 1011,
+          "false_positive": 9,
+          "false_negative": 116,
+          "precision": 0.9911764705882353,
+          "recall": 0.8970718722271517,
+          "f1": 0.9417792268281323
+        },
+        "finite": true
+      },
+      {
+        "bout_key": "bout_1008",
+        "split": "train",
+        "frames": 590,
+        "floor_height_native_median": 0.09744862094521523,
+        "reference_forward_mm": 14.91829114839546,
+        "actual_forward_mm": 8.641009227188718,
+        "forward_ratio": 0.5792224552554134,
+        "terminal_root_error_mm": 6.365399063949862,
+        "terminal_joint_rms_error_rad": 0.28272579822054184,
+        "actual_claw_contact_frame_fraction": 0.32598870056497176,
+        "body_floor_contact_frame_fraction": 0.36610169491525424,
+        "observed_contact_match": {
+          "true_positive": 1036,
+          "false_positive": 118,
+          "false_negative": 904,
+          "precision": 0.8977469670710572,
+          "recall": 0.534020618556701,
+          "f1": 0.6696832579185521
+        },
+        "finite": true
+      },
+      {
+        "bout_key": "bout_1205",
+        "split": "validation",
+        "frames": 311,
+        "floor_height_native_median": 0.09343546256422997,
+        "reference_forward_mm": 4.586172904105791,
+        "actual_forward_mm": 3.8951217645627114,
+        "forward_ratio": 0.8493185595064651,
+        "terminal_root_error_mm": 0.7362066801810935,
+        "terminal_joint_rms_error_rad": 0.06214506873654558,
+        "actual_claw_contact_frame_fraction": 0.6302250803858521,
+        "body_floor_contact_frame_fraction": 0.0,
+        "observed_contact_match": {
+          "true_positive": 1167,
+          "false_positive": 9,
+          "false_negative": 242,
+          "precision": 0.9923469387755102,
+          "recall": 0.8282469836763662,
+          "f1": 0.9029013539651837
+        },
+        "finite": true
+      },
+      {
+        "bout_key": "bout_1250",
+        "split": "test",
+        "frames": 416,
+        "floor_height_native_median": 0.07978640496730804,
+        "reference_forward_mm": 8.025998880411677,
+        "actual_forward_mm": 7.157056822859321,
+        "forward_ratio": 0.8917340918557684,
+        "terminal_root_error_mm": 2.5911978342980015,
+        "terminal_joint_rms_error_rad": 0.15354349062458506,
+        "actual_claw_contact_frame_fraction": 0.47716346153846156,
+        "body_floor_contact_frame_fraction": 0.052884615384615384,
+        "observed_contact_match": {
+          "true_positive": 1153,
+          "false_positive": 38,
+          "false_negative": 677,
+          "precision": 0.9680940386230059,
+          "recall": 0.6300546448087432,
+          "f1": 0.7633234028467395
+        },
+        "finite": true
+      },
+      {
+        "bout_key": "bout_1389",
+        "split": "train",
+        "frames": 203,
+        "floor_height_native_median": 0.08060630783438683,
+        "reference_forward_mm": 3.5087321769469115,
+        "actual_forward_mm": 3.004544250009795,
+        "forward_ratio": 0.8563048128182212,
+        "terminal_root_error_mm": 0.599100084109922,
+        "terminal_joint_rms_error_rad": 0.03639659667265131,
+        "actual_claw_contact_frame_fraction": 0.6313628899835796,
+        "body_floor_contact_frame_fraction": 0.0,
+        "observed_contact_match": {
+          "true_positive": 763,
+          "false_positive": 6,
+          "false_negative": 199,
+          "precision": 0.9921976592977894,
+          "recall": 0.7931392931392931,
+          "f1": 0.8815713460427498
+        },
+        "finite": true
+      },
+      {
+        "bout_key": "bout_1525",
+        "split": "train",
+        "frames": 238,
+        "floor_height_native_median": 0.06839596852660179,
+        "reference_forward_mm": 5.6721733264081085,
+        "actual_forward_mm": 5.286095337706772,
+        "forward_ratio": 0.9319347335696071,
+        "terminal_root_error_mm": 0.5161832040354122,
+        "terminal_joint_rms_error_rad": 0.04062284719860678,
+        "actual_claw_contact_frame_fraction": 0.5721288515406162,
+        "body_floor_contact_frame_fraction": 0.0,
+        "observed_contact_match": {
+          "true_positive": 812,
+          "false_positive": 5,
+          "false_negative": 196,
+          "precision": 0.9938800489596084,
+          "recall": 0.8055555555555556,
+          "f1": 0.8898630136986301
+        },
+        "finite": true
+      },
+      {
+        "bout_key": "bout_2130",
+        "split": "train",
+        "frames": 495,
+        "floor_height_native_median": 0.09324248507618904,
+        "reference_forward_mm": 10.70058733882994,
+        "actual_forward_mm": 9.586221005719949,
+        "forward_ratio": 0.8958593301634747,
+        "terminal_root_error_mm": 1.1300763188470073,
+        "terminal_joint_rms_error_rad": 0.13202731231289086,
+        "actual_claw_contact_frame_fraction": 0.5626262626262626,
+        "body_floor_contact_frame_fraction": 0.0,
+        "observed_contact_match": {
+          "true_positive": 1659,
+          "false_positive": 12,
+          "false_negative": 652,
+          "precision": 0.992818671454219,
+          "recall": 0.7178710514928602,
+          "f1": 0.8332496233048718
+        },
+        "finite": true
+      }
+    ]
+  },
+  "artifacts": {
+    "figure": "results/official-running-foot-contact-calibration-20260923/foot-contact-calibration.png"
+  },
+  "checks": {
+    "six_predeclared_global_margins": true,
+    "selection_uses_training_objective_only": true,
+    "all_three_whole_fly_splits_reported": true,
+    "validation_and_test_not_empty": true,
+    "all_18_continuous_bouts_run": true,
+    "all_rollouts_finite": true,
+    "single_margin_shared_across_all_heldout_flies": true,
+    "no_state_reset_in_continuous_rollouts": true,
+    "no_root_or_external_force": true,
+    "no_position_servo_or_runtime_phase": true,
+    "result_not_mislabelled_as_muscle_or_autonomy": true
+  },
+  "passed": true,
+  "classification": {
+    "A0_global_contact_calibration": "pass",
+    "A1_open_loop_source_body_capacity": "incomplete",
+    "A1_source_aligned_six_leg_muscle_body": "incomplete",
+    "A3_autonomous_walking": "incomplete"
+  },
+  "goal_complete": false
+}

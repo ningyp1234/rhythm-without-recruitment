@@ -1,0 +1,1556 @@
+{
+  "source": "https://zenodo.org/records/22260924",
+  "scope": "Same-run MANC signed anatomical routes from annotated proprioceptive sensory cells to four tested premotor neurons",
+  "method": "pre-by-post W, direct W[s,t] and two-edge sum_j W[s,j]*W[j,t]; no time constants, sensory transduction, muscle or behavior in this score",
+  "proprioceptive_cell_count": 774,
+  "targets": [
+    {
+      "target_body_id": 12650,
+      "target_type": "IN21A004",
+      "direct_proprioceptor_cells": 1,
+      "direct_proprioceptor_connections": [
+        {
+          "body_id": 176735,
+          "type": "SNpp51",
+          "instance": "SNpp51_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": -25,
+          "two_edge_signed_count_product_sum": -233,
+          "two_edge_abs_count_product_sum": 2571
+        }
+      ],
+      "top_positive_two_edge_signed": [
+        {
+          "body_id": 163745,
+          "type": "SNpp50",
+          "instance": "SNpp50_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 11913,
+          "two_edge_abs_count_product_sum": 11913
+        },
+        {
+          "body_id": 96728,
+          "type": "SNpp50",
+          "instance": "SNpp50_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 4329,
+          "two_edge_abs_count_product_sum": 4329
+        },
+        {
+          "body_id": 11399,
+          "type": "SNpp52",
+          "instance": "SNpp52_DProN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 3629,
+          "two_edge_abs_count_product_sum": 9805
+        },
+        {
+          "body_id": 21155,
+          "type": "SNpp45",
+          "instance": "SNpp45_ProLN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 2261,
+          "two_edge_abs_count_product_sum": 2547
+        },
+        {
+          "body_id": 155073,
+          "type": "SNpp41",
+          "instance": "SNpp41_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 1161,
+          "two_edge_abs_count_product_sum": 1611
+        },
+        {
+          "body_id": 33176,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProAN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 1077,
+          "two_edge_abs_count_product_sum": 1167
+        },
+        {
+          "body_id": 46406,
+          "type": "SNpp41",
+          "instance": "SNpp41_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 847,
+          "two_edge_abs_count_product_sum": 1297
+        },
+        {
+          "body_id": 154496,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProAN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 651,
+          "two_edge_abs_count_product_sum": 651
+        },
+        {
+          "body_id": 80251,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProAN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 604,
+          "two_edge_abs_count_product_sum": 940
+        },
+        {
+          "body_id": 141175,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProLN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 592,
+          "two_edge_abs_count_product_sum": 1642
+        },
+        {
+          "body_id": 21159,
+          "type": "SNpp52",
+          "instance": "SNpp52_DProN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 591,
+          "two_edge_abs_count_product_sum": 11393
+        },
+        {
+          "body_id": 74801,
+          "type": "SNpp45",
+          "instance": "SNpp45_ProAN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 485,
+          "two_edge_abs_count_product_sum": 569
+        }
+      ],
+      "top_negative_two_edge_signed": [
+        {
+          "body_id": 100531,
+          "type": "SNpp50",
+          "instance": "SNpp50_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -18689,
+          "two_edge_abs_count_product_sum": 18689
+        },
+        {
+          "body_id": 175485,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -8427,
+          "two_edge_abs_count_product_sum": 8595
+        },
+        {
+          "body_id": 55943,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -1628,
+          "two_edge_abs_count_product_sum": 1628
+        },
+        {
+          "body_id": 17486,
+          "type": "SNpp52",
+          "instance": "SNpp52_DProN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -1359,
+          "two_edge_abs_count_product_sum": 16467
+        },
+        {
+          "body_id": 100046,
+          "type": "SNpp41",
+          "instance": "SNpp41_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -402,
+          "two_edge_abs_count_product_sum": 754
+        },
+        {
+          "body_id": 12235,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_L",
+          "subclass": "campaniform sensilla",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -381,
+          "two_edge_abs_count_product_sum": 1319
+        },
+        {
+          "body_id": 18941,
+          "type": "SNpp32",
+          "instance": "SNpp32_ADMN_L",
+          "subclass": "campaniform sensilla",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -270,
+          "two_edge_abs_count_product_sum": 270
+        },
+        {
+          "body_id": 12495,
+          "type": "SNpp31",
+          "instance": "SNpp31_ADMN_R",
+          "subclass": "campaniform sensilla",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -234,
+          "two_edge_abs_count_product_sum": 234
+        },
+        {
+          "body_id": 176735,
+          "type": "SNpp51",
+          "instance": "SNpp51_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": -25,
+          "two_edge_signed_count_product_sum": -233,
+          "two_edge_abs_count_product_sum": 2571
+        },
+        {
+          "body_id": 36607,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProLN_R",
+          "subclass": "hair plate",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -232,
+          "two_edge_abs_count_product_sum": 232
+        },
+        {
+          "body_id": 22308,
+          "type": "SNpp45",
+          "instance": "SNpp45_MesoLN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -231,
+          "two_edge_abs_count_product_sum": 231
+        },
+        {
+          "body_id": 21506,
+          "type": "SNpp16",
+          "instance": "SNpp16_ADMN_L",
+          "subclass": "campaniform sensilla",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -216,
+          "two_edge_abs_count_product_sum": 216
+        }
+      ],
+      "top_absolute_two_edge_mass": [
+        {
+          "body_id": 100531,
+          "type": "SNpp50",
+          "instance": "SNpp50_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -18689,
+          "two_edge_abs_count_product_sum": 18689
+        },
+        {
+          "body_id": 17486,
+          "type": "SNpp52",
+          "instance": "SNpp52_DProN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -1359,
+          "two_edge_abs_count_product_sum": 16467
+        },
+        {
+          "body_id": 163745,
+          "type": "SNpp50",
+          "instance": "SNpp50_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 11913,
+          "two_edge_abs_count_product_sum": 11913
+        },
+        {
+          "body_id": 21159,
+          "type": "SNpp52",
+          "instance": "SNpp52_DProN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 591,
+          "two_edge_abs_count_product_sum": 11393
+        },
+        {
+          "body_id": 11399,
+          "type": "SNpp52",
+          "instance": "SNpp52_DProN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 3629,
+          "two_edge_abs_count_product_sum": 9805
+        },
+        {
+          "body_id": 175485,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -8427,
+          "two_edge_abs_count_product_sum": 8595
+        },
+        {
+          "body_id": 96728,
+          "type": "SNpp50",
+          "instance": "SNpp50_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 4329,
+          "two_edge_abs_count_product_sum": 4329
+        },
+        {
+          "body_id": 176735,
+          "type": "SNpp51",
+          "instance": "SNpp51_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": -25,
+          "two_edge_signed_count_product_sum": -233,
+          "two_edge_abs_count_product_sum": 2571
+        },
+        {
+          "body_id": 21155,
+          "type": "SNpp45",
+          "instance": "SNpp45_ProLN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 2261,
+          "two_edge_abs_count_product_sum": 2547
+        },
+        {
+          "body_id": 141175,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProLN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 592,
+          "two_edge_abs_count_product_sum": 1642
+        },
+        {
+          "body_id": 55943,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -1628,
+          "two_edge_abs_count_product_sum": 1628
+        },
+        {
+          "body_id": 155073,
+          "type": "SNpp41",
+          "instance": "SNpp41_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 1161,
+          "two_edge_abs_count_product_sum": 1611
+        }
+      ]
+    },
+    {
+      "target_body_id": 10827,
+      "target_type": "IN03A004",
+      "direct_proprioceptor_cells": 4,
+      "direct_proprioceptor_connections": [
+        {
+          "body_id": 11399,
+          "type": "SNpp52",
+          "instance": "SNpp52_DProN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": -16,
+          "two_edge_signed_count_product_sum": 1552,
+          "two_edge_abs_count_product_sum": 1552
+        },
+        {
+          "body_id": 17486,
+          "type": "SNpp52",
+          "instance": "SNpp52_DProN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": -37,
+          "two_edge_signed_count_product_sum": 1751,
+          "two_edge_abs_count_product_sum": 2051
+        },
+        {
+          "body_id": 21159,
+          "type": "SNpp52",
+          "instance": "SNpp52_DProN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": -25,
+          "two_edge_signed_count_product_sum": 1012,
+          "two_edge_abs_count_product_sum": 1138
+        },
+        {
+          "body_id": 176735,
+          "type": "SNpp51",
+          "instance": "SNpp51_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": -5,
+          "two_edge_signed_count_product_sum": -3221,
+          "two_edge_abs_count_product_sum": 4237
+        }
+      ],
+      "top_positive_two_edge_signed": [
+        {
+          "body_id": 163745,
+          "type": "SNpp50",
+          "instance": "SNpp50_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 22944,
+          "two_edge_abs_count_product_sum": 24336
+        },
+        {
+          "body_id": 96728,
+          "type": "SNpp50",
+          "instance": "SNpp50_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 8485,
+          "two_edge_abs_count_product_sum": 8485
+        },
+        {
+          "body_id": 169661,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_R",
+          "subclass": "campaniform sensilla",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 4823,
+          "two_edge_abs_count_product_sum": 4823
+        },
+        {
+          "body_id": 10364,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_L",
+          "subclass": "campaniform sensilla",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 3007,
+          "two_edge_abs_count_product_sum": 3077
+        },
+        {
+          "body_id": 11135,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_L",
+          "subclass": "campaniform sensilla",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 2355,
+          "two_edge_abs_count_product_sum": 2355
+        },
+        {
+          "body_id": 17486,
+          "type": "SNpp52",
+          "instance": "SNpp52_DProN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": -37,
+          "two_edge_signed_count_product_sum": 1751,
+          "two_edge_abs_count_product_sum": 2051
+        },
+        {
+          "body_id": 21155,
+          "type": "SNpp45",
+          "instance": "SNpp45_ProLN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 1683,
+          "two_edge_abs_count_product_sum": 1863
+        },
+        {
+          "body_id": 141175,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProLN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 1633,
+          "two_edge_abs_count_product_sum": 1909
+        },
+        {
+          "body_id": 12583,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_R",
+          "subclass": "campaniform sensilla",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 1603,
+          "two_edge_abs_count_product_sum": 1603
+        },
+        {
+          "body_id": 11399,
+          "type": "SNpp52",
+          "instance": "SNpp52_DProN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": -16,
+          "two_edge_signed_count_product_sum": 1552,
+          "two_edge_abs_count_product_sum": 1552
+        },
+        {
+          "body_id": 11615,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_R",
+          "subclass": "campaniform sensilla",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 1506,
+          "two_edge_abs_count_product_sum": 1586
+        },
+        {
+          "body_id": 74801,
+          "type": "SNpp45",
+          "instance": "SNpp45_ProAN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 1473,
+          "two_edge_abs_count_product_sum": 1473
+        }
+      ],
+      "top_negative_two_edge_signed": [
+        {
+          "body_id": 100531,
+          "type": "SNpp50",
+          "instance": "SNpp50_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -35334,
+          "two_edge_abs_count_product_sum": 35334
+        },
+        {
+          "body_id": 175485,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -16660,
+          "two_edge_abs_count_product_sum": 17240
+        },
+        {
+          "body_id": 33176,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProAN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -13801,
+          "two_edge_abs_count_product_sum": 14955
+        },
+        {
+          "body_id": 80251,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProAN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -11909,
+          "two_edge_abs_count_product_sum": 12777
+        },
+        {
+          "body_id": 154496,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProAN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -8518,
+          "two_edge_abs_count_product_sum": 9634
+        },
+        {
+          "body_id": 22677,
+          "type": "SNpp45",
+          "instance": "SNpp45_VProN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -3580,
+          "two_edge_abs_count_product_sum": 5056
+        },
+        {
+          "body_id": 55943,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -3568,
+          "two_edge_abs_count_product_sum": 3638
+        },
+        {
+          "body_id": 176735,
+          "type": "SNpp51",
+          "instance": "SNpp51_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": -5,
+          "two_edge_signed_count_product_sum": -3221,
+          "two_edge_abs_count_product_sum": 4237
+        },
+        {
+          "body_id": 22308,
+          "type": "SNpp45",
+          "instance": "SNpp45_MesoLN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -2624,
+          "two_edge_abs_count_product_sum": 2624
+        },
+        {
+          "body_id": 58800,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProLN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -2562,
+          "two_edge_abs_count_product_sum": 2814
+        },
+        {
+          "body_id": 76087,
+          "type": "SNpp45",
+          "instance": "SNpp45_MesoLN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -1613,
+          "two_edge_abs_count_product_sum": 1613
+        },
+        {
+          "body_id": 65476,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProLN_R",
+          "subclass": "hair plate",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -1550,
+          "two_edge_abs_count_product_sum": 1550
+        }
+      ],
+      "top_absolute_two_edge_mass": [
+        {
+          "body_id": 100531,
+          "type": "SNpp50",
+          "instance": "SNpp50_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -35334,
+          "two_edge_abs_count_product_sum": 35334
+        },
+        {
+          "body_id": 163745,
+          "type": "SNpp50",
+          "instance": "SNpp50_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 22944,
+          "two_edge_abs_count_product_sum": 24336
+        },
+        {
+          "body_id": 175485,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -16660,
+          "two_edge_abs_count_product_sum": 17240
+        },
+        {
+          "body_id": 33176,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProAN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -13801,
+          "two_edge_abs_count_product_sum": 14955
+        },
+        {
+          "body_id": 80251,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProAN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -11909,
+          "two_edge_abs_count_product_sum": 12777
+        },
+        {
+          "body_id": 154496,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProAN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -8518,
+          "two_edge_abs_count_product_sum": 9634
+        },
+        {
+          "body_id": 96728,
+          "type": "SNpp50",
+          "instance": "SNpp50_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 8485,
+          "two_edge_abs_count_product_sum": 8485
+        },
+        {
+          "body_id": 22677,
+          "type": "SNpp45",
+          "instance": "SNpp45_VProN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -3580,
+          "two_edge_abs_count_product_sum": 5056
+        },
+        {
+          "body_id": 169661,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_R",
+          "subclass": "campaniform sensilla",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 4823,
+          "two_edge_abs_count_product_sum": 4823
+        },
+        {
+          "body_id": 176735,
+          "type": "SNpp51",
+          "instance": "SNpp51_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": -5,
+          "two_edge_signed_count_product_sum": -3221,
+          "two_edge_abs_count_product_sum": 4237
+        },
+        {
+          "body_id": 55943,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -3568,
+          "two_edge_abs_count_product_sum": 3638
+        },
+        {
+          "body_id": 10364,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_L",
+          "subclass": "campaniform sensilla",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 3007,
+          "two_edge_abs_count_product_sum": 3077
+        }
+      ]
+    },
+    {
+      "target_body_id": 17678,
+      "target_type": "IN04B031",
+      "direct_proprioceptor_cells": 0,
+      "direct_proprioceptor_connections": [],
+      "top_positive_two_edge_signed": [
+        {
+          "body_id": 17486,
+          "type": "SNpp52",
+          "instance": "SNpp52_DProN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 3089,
+          "two_edge_abs_count_product_sum": 3257
+        },
+        {
+          "body_id": 176735,
+          "type": "SNpp51",
+          "instance": "SNpp51_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 2324,
+          "two_edge_abs_count_product_sum": 3024
+        },
+        {
+          "body_id": 169661,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_R",
+          "subclass": "campaniform sensilla",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 1709,
+          "two_edge_abs_count_product_sum": 1709
+        },
+        {
+          "body_id": 11399,
+          "type": "SNpp52",
+          "instance": "SNpp52_DProN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 1242,
+          "two_edge_abs_count_product_sum": 1382
+        },
+        {
+          "body_id": 21159,
+          "type": "SNpp52",
+          "instance": "SNpp52_DProN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 1170,
+          "two_edge_abs_count_product_sum": 1602
+        },
+        {
+          "body_id": 10364,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_L",
+          "subclass": "campaniform sensilla",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 958,
+          "two_edge_abs_count_product_sum": 1252
+        },
+        {
+          "body_id": 163745,
+          "type": "SNpp50",
+          "instance": "SNpp50_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 861,
+          "two_edge_abs_count_product_sum": 1103
+        },
+        {
+          "body_id": 11135,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_L",
+          "subclass": "campaniform sensilla",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 789,
+          "two_edge_abs_count_product_sum": 789
+        },
+        {
+          "body_id": 12583,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_R",
+          "subclass": "campaniform sensilla",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 738,
+          "two_edge_abs_count_product_sum": 738
+        },
+        {
+          "body_id": 11615,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_R",
+          "subclass": "campaniform sensilla",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 618,
+          "two_edge_abs_count_product_sum": 618
+        },
+        {
+          "body_id": 15657,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_L",
+          "subclass": "campaniform sensilla",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 565,
+          "two_edge_abs_count_product_sum": 565
+        },
+        {
+          "body_id": 12235,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_L",
+          "subclass": "campaniform sensilla",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 539,
+          "two_edge_abs_count_product_sum": 1127
+        }
+      ],
+      "top_negative_two_edge_signed": [
+        {
+          "body_id": 30692,
+          "type": "SNpp39",
+          "instance": "SNpp39_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -568,
+          "two_edge_abs_count_product_sum": 568
+        },
+        {
+          "body_id": 21506,
+          "type": "SNpp16",
+          "instance": "SNpp16_ADMN_L",
+          "subclass": "campaniform sensilla",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -567,
+          "two_edge_abs_count_product_sum": 567
+        },
+        {
+          "body_id": 23590,
+          "type": "SNpp16",
+          "instance": "SNpp16_ADMN_L",
+          "subclass": "campaniform sensilla",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -378,
+          "two_edge_abs_count_product_sum": 378
+        },
+        {
+          "body_id": 154496,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProAN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -320,
+          "two_edge_abs_count_product_sum": 400
+        },
+        {
+          "body_id": 33176,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProAN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -246,
+          "two_edge_abs_count_product_sum": 492
+        },
+        {
+          "body_id": 28001,
+          "type": "SNpp44",
+          "instance": "SNpp44_MesoLN_R",
+          "subclass": "chordotonal organ",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -240,
+          "two_edge_abs_count_product_sum": 240
+        },
+        {
+          "body_id": 101927,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProAN_R",
+          "subclass": "hair plate",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -224,
+          "two_edge_abs_count_product_sum": 224
+        },
+        {
+          "body_id": 80251,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProAN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -196,
+          "two_edge_abs_count_product_sum": 308
+        },
+        {
+          "body_id": 18540,
+          "type": "SNpp33",
+          "instance": "SNpp33_ADMN_L",
+          "subclass": "campaniform sensilla",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -189,
+          "two_edge_abs_count_product_sum": 189
+        },
+        {
+          "body_id": 172653,
+          "type": "SNpp60",
+          "instance": "SNpp60_MetaLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -189,
+          "two_edge_abs_count_product_sum": 189
+        },
+        {
+          "body_id": 17398,
+          "type": "SNpp17",
+          "instance": "SNpp17_ProCN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -179,
+          "two_edge_abs_count_product_sum": 179
+        },
+        {
+          "body_id": 11434,
+          "type": "SNpp17",
+          "instance": "SNpp17_ProCN_R",
+          "subclass": "chordotonal organ",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -170,
+          "two_edge_abs_count_product_sum": 170
+        }
+      ],
+      "top_absolute_two_edge_mass": [
+        {
+          "body_id": 17486,
+          "type": "SNpp52",
+          "instance": "SNpp52_DProN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 3089,
+          "two_edge_abs_count_product_sum": 3257
+        },
+        {
+          "body_id": 176735,
+          "type": "SNpp51",
+          "instance": "SNpp51_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 2324,
+          "two_edge_abs_count_product_sum": 3024
+        },
+        {
+          "body_id": 169661,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_R",
+          "subclass": "campaniform sensilla",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 1709,
+          "two_edge_abs_count_product_sum": 1709
+        },
+        {
+          "body_id": 21159,
+          "type": "SNpp52",
+          "instance": "SNpp52_DProN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 1170,
+          "two_edge_abs_count_product_sum": 1602
+        },
+        {
+          "body_id": 11399,
+          "type": "SNpp52",
+          "instance": "SNpp52_DProN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 1242,
+          "two_edge_abs_count_product_sum": 1382
+        },
+        {
+          "body_id": 10364,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_L",
+          "subclass": "campaniform sensilla",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 958,
+          "two_edge_abs_count_product_sum": 1252
+        },
+        {
+          "body_id": 12235,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_L",
+          "subclass": "campaniform sensilla",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 539,
+          "two_edge_abs_count_product_sum": 1127
+        },
+        {
+          "body_id": 163745,
+          "type": "SNpp50",
+          "instance": "SNpp50_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 861,
+          "two_edge_abs_count_product_sum": 1103
+        },
+        {
+          "body_id": 21155,
+          "type": "SNpp45",
+          "instance": "SNpp45_ProLN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 423,
+          "two_edge_abs_count_product_sum": 853
+        },
+        {
+          "body_id": 11135,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_L",
+          "subclass": "campaniform sensilla",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 789,
+          "two_edge_abs_count_product_sum": 789
+        },
+        {
+          "body_id": 12583,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_R",
+          "subclass": "campaniform sensilla",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 738,
+          "two_edge_abs_count_product_sum": 738
+        },
+        {
+          "body_id": 11615,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_R",
+          "subclass": "campaniform sensilla",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 618,
+          "two_edge_abs_count_product_sum": 618
+        }
+      ]
+    },
+    {
+      "target_body_id": 18605,
+      "target_type": "IN04B031",
+      "direct_proprioceptor_cells": 0,
+      "direct_proprioceptor_connections": [],
+      "top_positive_two_edge_signed": [
+        {
+          "body_id": 176735,
+          "type": "SNpp51",
+          "instance": "SNpp51_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 1931,
+          "two_edge_abs_count_product_sum": 2111
+        },
+        {
+          "body_id": 169661,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_R",
+          "subclass": "campaniform sensilla",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 953,
+          "two_edge_abs_count_product_sum": 953
+        },
+        {
+          "body_id": 163745,
+          "type": "SNpp50",
+          "instance": "SNpp50_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 809,
+          "two_edge_abs_count_product_sum": 809
+        },
+        {
+          "body_id": 10364,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_L",
+          "subclass": "campaniform sensilla",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 498,
+          "two_edge_abs_count_product_sum": 680
+        },
+        {
+          "body_id": 11135,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_L",
+          "subclass": "campaniform sensilla",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 465,
+          "two_edge_abs_count_product_sum": 465
+        },
+        {
+          "body_id": 12583,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_R",
+          "subclass": "campaniform sensilla",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 318,
+          "two_edge_abs_count_product_sum": 318
+        },
+        {
+          "body_id": 11615,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_R",
+          "subclass": "campaniform sensilla",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 306,
+          "two_edge_abs_count_product_sum": 306
+        },
+        {
+          "body_id": 141175,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProLN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 271,
+          "two_edge_abs_count_product_sum": 341
+        },
+        {
+          "body_id": 200479,
+          "type": "SNpp17",
+          "instance": "SNpp17_ProCN_R",
+          "subclass": "chordotonal organ",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 252,
+          "two_edge_abs_count_product_sum": 252
+        },
+        {
+          "body_id": 33176,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProAN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 222,
+          "two_edge_abs_count_product_sum": 222
+        },
+        {
+          "body_id": 45922,
+          "type": "SNpp41",
+          "instance": "SNpp41_MesoLN_R",
+          "subclass": "chordotonal organ",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 222,
+          "two_edge_abs_count_product_sum": 222
+        },
+        {
+          "body_id": 15657,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_L",
+          "subclass": "campaniform sensilla",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 205,
+          "two_edge_abs_count_product_sum": 205
+        }
+      ],
+      "top_negative_two_edge_signed": [
+        {
+          "body_id": 155073,
+          "type": "SNpp41",
+          "instance": "SNpp41_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -376,
+          "two_edge_abs_count_product_sum": 376
+        },
+        {
+          "body_id": 28001,
+          "type": "SNpp44",
+          "instance": "SNpp44_MesoLN_R",
+          "subclass": "chordotonal organ",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -370,
+          "two_edge_abs_count_product_sum": 370
+        },
+        {
+          "body_id": 21506,
+          "type": "SNpp16",
+          "instance": "SNpp16_ADMN_L",
+          "subclass": "campaniform sensilla",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -351,
+          "two_edge_abs_count_product_sum": 351
+        },
+        {
+          "body_id": 46406,
+          "type": "SNpp41",
+          "instance": "SNpp41_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -340,
+          "two_edge_abs_count_product_sum": 340
+        },
+        {
+          "body_id": 21159,
+          "type": "SNpp52",
+          "instance": "SNpp52_DProN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -253,
+          "two_edge_abs_count_product_sum": 393
+        },
+        {
+          "body_id": 101927,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProAN_R",
+          "subclass": "hair plate",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -240,
+          "two_edge_abs_count_product_sum": 240
+        },
+        {
+          "body_id": 23590,
+          "type": "SNpp16",
+          "instance": "SNpp16_ADMN_L",
+          "subclass": "campaniform sensilla",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -234,
+          "two_edge_abs_count_product_sum": 234
+        },
+        {
+          "body_id": 100531,
+          "type": "SNpp50",
+          "instance": "SNpp50_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -184,
+          "two_edge_abs_count_product_sum": 184
+        },
+        {
+          "body_id": 30692,
+          "type": "SNpp39",
+          "instance": "SNpp39_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -170,
+          "two_edge_abs_count_product_sum": 170
+        },
+        {
+          "body_id": 65476,
+          "type": "SNppxx",
+          "instance": "SNppxx_ProLN_R",
+          "subclass": "hair plate",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -120,
+          "two_edge_abs_count_product_sum": 120
+        },
+        {
+          "body_id": 172653,
+          "type": "SNpp60",
+          "instance": "SNpp60_MetaLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -117,
+          "two_edge_abs_count_product_sum": 117
+        },
+        {
+          "body_id": 18540,
+          "type": "SNpp33",
+          "instance": "SNpp33_ADMN_L",
+          "subclass": "campaniform sensilla",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -117,
+          "two_edge_abs_count_product_sum": 117
+        }
+      ],
+      "top_absolute_two_edge_mass": [
+        {
+          "body_id": 176735,
+          "type": "SNpp51",
+          "instance": "SNpp51_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 1931,
+          "two_edge_abs_count_product_sum": 2111
+        },
+        {
+          "body_id": 21155,
+          "type": "SNpp45",
+          "instance": "SNpp45_ProLN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -78,
+          "two_edge_abs_count_product_sum": 1274
+        },
+        {
+          "body_id": 17486,
+          "type": "SNpp52",
+          "instance": "SNpp52_DProN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 116,
+          "two_edge_abs_count_product_sum": 1092
+        },
+        {
+          "body_id": 169661,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_R",
+          "subclass": "campaniform sensilla",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 953,
+          "two_edge_abs_count_product_sum": 953
+        },
+        {
+          "body_id": 163745,
+          "type": "SNpp50",
+          "instance": "SNpp50_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 809,
+          "two_edge_abs_count_product_sum": 809
+        },
+        {
+          "body_id": 10364,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_L",
+          "subclass": "campaniform sensilla",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 498,
+          "two_edge_abs_count_product_sum": 680
+        },
+        {
+          "body_id": 11135,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_L",
+          "subclass": "campaniform sensilla",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 465,
+          "two_edge_abs_count_product_sum": 465
+        },
+        {
+          "body_id": 12235,
+          "type": "SNpp30",
+          "instance": "SNpp30_ADMN_L",
+          "subclass": "campaniform sensilla",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": 63,
+          "two_edge_abs_count_product_sum": 427
+        },
+        {
+          "body_id": 21159,
+          "type": "SNpp52",
+          "instance": "SNpp52_DProN_L",
+          "subclass": "hair plate",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -253,
+          "two_edge_abs_count_product_sum": 393
+        },
+        {
+          "body_id": 155073,
+          "type": "SNpp41",
+          "instance": "SNpp41_ProLN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -376,
+          "two_edge_abs_count_product_sum": 376
+        },
+        {
+          "body_id": 28001,
+          "type": "SNpp44",
+          "instance": "SNpp44_MesoLN_R",
+          "subclass": "chordotonal organ",
+          "root_side": "RHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -370,
+          "two_edge_abs_count_product_sum": 370
+        },
+        {
+          "body_id": 100197,
+          "type": "SNpp17",
+          "instance": "SNpp17_ProCN_L",
+          "subclass": "chordotonal organ",
+          "root_side": "LHS",
+          "direct_signed_synapse_count": 0,
+          "two_edge_signed_count_product_sum": -79,
+          "two_edge_abs_count_product_sum": 365
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "source_graph_exact": true,
+    "source_mask_unpruned": true,
+    "four_premotor_targets": true,
+    "all_traced_cells_are_source_annotations": true
+  },
+  "walking_achieved": false,
+  "passed": true
+}

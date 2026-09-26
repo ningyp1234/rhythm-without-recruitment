@@ -1,0 +1,191 @@
+{
+  "date": "2026-09-23",
+  "scope": "Engineering support-force reconstruction from official real kinematics, source-body Jacobians and source friction coefficient; no force-plate measurement and no claim of biological ground-reaction-force truth.",
+  "sources": {
+    "inverse_teacher": {
+      "file": "results/official-running-inverse-dynamics-20260923/teacher.npz",
+      "sha256": "95da0df2fdae0e46e21678210b79ca359a06f0565d7d40ee01666efd7cb43189"
+    },
+    "model": "work/upstream-20260923/3d_tracking_ik/model/fruitfly_v1/fruitfly_v1_free.xml",
+    "model_commit": "defdb66932a17e41c8852f3b4c5056bee74046eb",
+    "friction_coefficient_from_source_xml": 0.6
+  },
+  "method": {
+    "observed_contact_proxy": "per-bout/per-foot height <= 5th percentile + 0.12 mm",
+    "minimum_support": "If fewer than three near-floor feet are observed, add the lowest feet and mark them imputed; add another only if root residual exceeds 1%.",
+    "force_model": "four-ray pyramidal Coulomb cone per active foot; nonnegative ray weights",
+    "objective": "weighted root-wrench least squares plus 1e-6 minimum-force ridge",
+    "contact_generalized_force": "sum of source claw-site translational Jacobian transpose times estimated Cartesian foot force",
+    "leg_teacher": "qfrc_inverse minus estimated contact generalized force, projected onto the 48 source leg actuator columns",
+    "collision_policy": "IK-only wing/abdomen detector collisions disabled, as in the preceding inverse-dynamics teacher"
+  },
+  "artifact": {
+    "file": "results/official-running-contact-estimate-20260923/contact-teacher.npz",
+    "sha256": "bb3e8cc6596ab8ad8d1abc6b9146cc72c7808dcc2d6982957e42d55549794b22",
+    "frames": 6575,
+    "legs": [
+      "T1_left",
+      "T1_right",
+      "T2_left",
+      "T2_right",
+      "T3_left",
+      "T3_right"
+    ]
+  },
+  "results": {
+    "observed_near_floor_foot_fraction": 0.718808618504436,
+    "active_support_foot_fraction": 0.7301394169835235,
+    "imputed_support_foot_fraction": 0.011330798479087453,
+    "frames_requiring_any_imputed_support": 365,
+    "maximum_imputed_feet_in_frame": 5,
+    "support_feet_per_frame": {
+      "3": 1602,
+      "4": 1996,
+      "5": 1848,
+      "6": 1129
+    },
+    "root_wrench": {
+      "target_rms_native": 0.40608386399718027,
+      "residual_rms_native": 0.0009194942325378865,
+      "relative_residual_l2": 0.0022642964029328462,
+      "norm_coverage": 0.9977357035970672,
+      "energy_explained_fraction": 0.9999948729617997
+    },
+    "root_frame_relative_residual": {
+      "median": 1.0544068238927379e-06,
+      "p95": 1.2907599523502676e-06,
+      "p99": 1.8254488501450992e-06,
+      "maximum": 0.15242160748153177
+    },
+    "leg_projection": {
+      "target_rms_native": 0.08788938603064227,
+      "residual_rms_native": 0.005590613060584715,
+      "relative_residual_l2": 0.06360964973217097,
+      "norm_coverage": 0.936390350267829,
+      "energy_explained_fraction": 0.9959538124609505
+    },
+    "bounded_leg_projection": {
+      "target_rms_native": 0.08788938603064227,
+      "residual_rms_native": 0.007919285146554163,
+      "relative_residual_l2": 0.09010513674305493,
+      "norm_coverage": 0.909894863256945,
+      "energy_explained_fraction": 0.9918810643325153
+    },
+    "leg_control_clip_fraction": 0.0008681875792141951,
+    "normal_support_force_native": {
+      "mean_total_per_frame": 0.9861926355225888,
+      "p95_total_per_frame": 1.097723114666587,
+      "maximum_single_foot": 0.8072664733876056
+    },
+    "friction_utilization_on_nonzero_forces": {
+      "median": 0.10352147120391642,
+      "p95": 0.39613513856445837,
+      "maximum": 0.9999999658168366
+    },
+    "by_split": {
+      "train": {
+        "teacher_frames": 3708,
+        "root_wrench": {
+          "target_rms_native": 0.40672162471605733,
+          "residual_rms_native": 0.001224162521250436,
+          "relative_residual_l2": 0.003009828951448192,
+          "norm_coverage": 0.9969901710485518,
+          "energy_explained_fraction": 0.999990940929683
+        },
+        "leg_projection": {
+          "target_rms_native": 0.09093363897095377,
+          "residual_rms_native": 0.006291683048632209,
+          "relative_residual_l2": 0.06918983029637593,
+          "norm_coverage": 0.9308101697036241,
+          "energy_explained_fraction": 0.9952127673835587
+        },
+        "bounded_leg_projection": {
+          "target_rms_native": 0.09093363897095377,
+          "residual_rms_native": 0.007541494943757721,
+          "relative_residual_l2": 0.08293404980929713,
+          "norm_coverage": 0.9170659501907029,
+          "energy_explained_fraction": 0.993121943382229
+        },
+        "imputed_support_foot_fraction": 0.015551959726717008
+      },
+      "validation": {
+        "teacher_frames": 978,
+        "root_wrench": {
+          "target_rms_native": 0.40711882430394875,
+          "residual_rms_native": 4.613057887412592e-07,
+          "relative_residual_l2": 1.1330986463963047e-06,
+          "norm_coverage": 0.9999988669013536,
+          "energy_explained_fraction": 0.9999999999987161
+        },
+        "leg_projection": {
+          "target_rms_native": 0.11121071360574969,
+          "residual_rms_native": 0.005777315476881072,
+          "relative_residual_l2": 0.05194927079923332,
+          "norm_coverage": 0.9480507292007667,
+          "energy_explained_fraction": 0.9973012732634279
+        },
+        "bounded_leg_projection": {
+          "target_rms_native": 0.11121071360574969,
+          "residual_rms_native": 0.0109448173437629,
+          "relative_residual_l2": 0.0984151345576569,
+          "norm_coverage": 0.9015848654423431,
+          "energy_explained_fraction": 0.9903144612899983
+        },
+        "imputed_support_foot_fraction": 0.0006816632583503749
+      },
+      "test": {
+        "teacher_frames": 1889,
+        "root_wrench": {
+          "target_rms_native": 0.40429051565972585,
+          "residual_rms_native": 3.4518220671316815e-05,
+          "relative_residual_l2": 8.537974385817484e-05,
+          "norm_coverage": 0.9999146202561419,
+          "energy_explained_fraction": 0.9999999927102994
+        },
+        "leg_projection": {
+          "target_rms_native": 0.06520711415246373,
+          "residual_rms_native": 0.00371539451041926,
+          "relative_residual_l2": 0.05697836131395305,
+          "norm_coverage": 0.9430216386860469,
+          "energy_explained_fraction": 0.9967534663419766
+        },
+        "bounded_leg_projection": {
+          "target_rms_native": 0.06520711415246373,
+          "residual_rms_native": 0.006680670321658298,
+          "relative_residual_l2": 0.10245308979688805,
+          "norm_coverage": 0.897546910203112,
+          "energy_explained_fraction": 0.9895033643910708
+        },
+        "imputed_support_foot_fraction": 0.008558320098817717
+      }
+    }
+  },
+  "checks": {
+    "source_inverse_teacher_was_validated": true,
+    "all_estimates_finite": true,
+    "all_frames_solved": true,
+    "minimum_three_support_feet": true,
+    "normal_forces_nonnegative": true,
+    "friction_pyramid_respected": true,
+    "root_wrench_relative_l2_below_1pct": true,
+    "root_wrench_p95_frame_residual_below_1pct": true,
+    "bounded_leg_projection_relative_l2_below_20pct": true,
+    "no_root_actuator_authority": true,
+    "support_forces_are_marked_estimated": true
+  },
+  "passed": true,
+  "classification": {
+    "A0_engineering_contact_force_teacher": "pass",
+    "measured_ground_reaction_force": "unavailable",
+    "A1_source_aligned_six_leg_muscle_body": "incomplete",
+    "A2_motor_neuron_recruitment": "incomplete",
+    "A3_autonomous_walking": "incomplete"
+  },
+  "limits": [
+    "No force plate or pressure sensor was published with the kinematics; every contact force here is an optimization estimate.",
+    "Near-floor contact is inferred from height. Added support feet are flagged per frame and remain an engineering assumption.",
+    "A 0.6 pyramidal friction cone comes from the source XML, not a measured surface in these recordings.",
+    "The result supplies joint-force targets for body reconstruction; it does not reveal muscle activation or motor-neuron recruitment."
+  ],
+  "goal_complete": false
+}

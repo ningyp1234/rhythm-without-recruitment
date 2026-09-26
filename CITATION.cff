@@ -2,13 +2,13 @@ cff-version: 1.2.0
 message: "If you use this code or data, please cite the preprint and this archive."
 type: software
 title: "Rhythm without recruitment: analysis code, derived data and verification"
-abstract: "Analysis and verification code, derived data and figure scripts for the preprint 'Rhythm without recruitment: a falsification-first audit of a connectome-constrained ventral nerve cord model as a controller for a simulated Drosophila body' (Yupeng Ning, 2026)."
+abstract: "Simulation pipeline, analysis and verification code, derived data and figure scripts for the manuscript 'Rhythm without recruitment: a falsification-first audit of a connectome-constrained ventral nerve cord model as a controller for a simulated Drosophila body' (Yupeng Ning, 2026)."
 authors:
   - family-names: Ning
     given-names: Yupeng
     email: ningyp@gmail.com
     affiliation: "Beijing ZHYU Tech Corp, Beijing, China"
-version: "1.0.2"
+version: "1.1.0"
 doi: 10.5281/zenodo.22957834
 repository-code: "https://github.com/ningyp1234/rhythm-without-recruitment"
 license: MIT

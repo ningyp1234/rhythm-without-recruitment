@@ -1,0 +1,38 @@
+[
+  {
+    "type": "SNpp39",
+    "body_ids": [
+      815569,
+      903843,
+      935541
+    ],
+    "entry_nerve": "ProLN",
+    "side": "L"
+  },
+  {
+    "type": "SNpp41",
+    "body_ids": [
+      817298
+    ],
+    "entry_nerve": "ProLN",
+    "side": "L"
+  },
+  {
+    "type": "SNpp50",
+    "body_ids": [
+      912317
+    ],
+    "entry_nerve": "ProLN",
+    "side": "L"
+  },
+  {
+    "type": "SNpp51",
+    "body_ids": [
+      815843,
+      817680,
+      935383
+    ],
+    "entry_nerve": "ProLN",
+    "side": "L"
+  }
+]

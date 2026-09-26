@@ -1,0 +1,657 @@
+{
+  "date": "2026-09-24",
+  "scope": "All 32 source parameter columns; full 23532-neuron MANC; source bilateral DNg100 current; no sensory or body feedback",
+  "integration": "1 ms Euler, 2 s, stimulus from 20 ms; rows selected only for measurement, no fit",
+  "predeclared_recruitment_check": "After 0.5 s, at least one flexor and one extensor >1 Hz and both mean-pool ranges >=0.5 Hz",
+  "left_front_tibia_flexors": 15,
+  "left_front_tibia_extensors": 2,
+  "rows": [
+    {
+      "parameter_row": 0,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        3.6271440982818604,
+        3.7744274139404297,
+        5.103684902191162,
+        4.611794471740723,
+        2.117746353149414,
+        3.7445714473724365
+      ],
+      "sustained_rhythmic_E1_count": 4,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 1,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        6.132129669189453,
+        5.448610305786133,
+        5.5634636878967285,
+        16.885047912597656,
+        6.390815258026123,
+        6.277341365814209
+      ],
+      "sustained_rhythmic_E1_count": 0,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 2,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        4.586386203765869,
+        3.1128900051116943,
+        6.198337078094482,
+        4.1059184074401855,
+        5.411874294281006,
+        3.8296608924865723
+      ],
+      "sustained_rhythmic_E1_count": 5,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 3,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        5.026579856872559,
+        5.214443206787109,
+        5.828261375427246,
+        4.782951354980469,
+        6.307503700256348,
+        4.285976886749268
+      ],
+      "sustained_rhythmic_E1_count": 4,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 4,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        3.399318218231201,
+        3.316894292831421,
+        3.863640546798706,
+        3.0368456840515137,
+        1.8068350553512573,
+        4.210155487060547
+      ],
+      "sustained_rhythmic_E1_count": 0,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 5,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        6.768156051635742,
+        4.988522052764893,
+        7.505043029785156,
+        8.415204048156738,
+        7.431670188903809,
+        5.047595024108887
+      ],
+      "sustained_rhythmic_E1_count": 3,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 6,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        5.822906494140625,
+        6.0870184898376465,
+        6.224176406860352,
+        7.719286918640137,
+        5.8892059326171875,
+        5.15341854095459
+      ],
+      "sustained_rhythmic_E1_count": 2,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 7,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        5.499362945556641,
+        6.386486053466797,
+        5.039344787597656,
+        5.346251010894775,
+        6.164389610290527,
+        3.7953829765319824
+      ],
+      "sustained_rhythmic_E1_count": 4,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 8,
+      "left_front_tibia_flexor_ever_over_1_hz": 9,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 150.8212127685547,
+      "left_front_tibia_extensor_max_hz": 0.0035282850731164217,
+      "left_front_tibia_flexor_pool_range_hz": 31.046850204467773,
+      "left_front_tibia_extensor_pool_range_hz": 0.0018428197363391519,
+      "all_six_E1_max_hz": [
+        3.8840702472953126e-05,
+        0.035671934485435486,
+        65.71256256103516,
+        2.0029850929859094e-05,
+        35.2001953125,
+        36.29998779296875
+      ],
+      "sustained_rhythmic_E1_count": 0,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 9,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        5.4835205078125,
+        5.745640277862549,
+        6.356072425842285,
+        6.522886276245117,
+        6.267912864685059,
+        4.924297332763672
+      ],
+      "sustained_rhythmic_E1_count": 2,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 10,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        3.532416343688965,
+        3.7111141681671143,
+        4.61920690536499,
+        3.986945152282715,
+        5.744672775268555,
+        4.0095534324646
+      ],
+      "sustained_rhythmic_E1_count": 4,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 11,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        4.822475433349609,
+        3.487790822982788,
+        4.635590076446533,
+        3.763582468032837,
+        6.3324151039123535,
+        1.8193200826644897
+      ],
+      "sustained_rhythmic_E1_count": 3,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 12,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        3.9692864418029785,
+        3.539091110229492,
+        5.296583652496338,
+        3.727871894836426,
+        5.2799577713012695,
+        4.430293083190918
+      ],
+      "sustained_rhythmic_E1_count": 4,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 13,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        4.296404838562012,
+        6.249914169311523,
+        3.937786340713501,
+        4.238818645477295,
+        5.034202575683594,
+        5.254369735717773
+      ],
+      "sustained_rhythmic_E1_count": 6,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 14,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        4.7750959396362305,
+        4.8194475173950195,
+        5.616296768188477,
+        6.030314922332764,
+        4.459418773651123,
+        4.459214687347412
+      ],
+      "sustained_rhythmic_E1_count": 5,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 15,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        4.875656604766846,
+        4.424739360809326,
+        5.5459160804748535,
+        6.667237281799316,
+        5.05515718460083,
+        6.258482933044434
+      ],
+      "sustained_rhythmic_E1_count": 3,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 16,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 2,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 83.6851806640625,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 58.06903839111328,
+      "all_six_E1_max_hz": [
+        49.30769348144531,
+        5.864368438720703,
+        73.68502807617188,
+        24.678998947143555,
+        109.76545715332031,
+        59.01395034790039
+      ],
+      "sustained_rhythmic_E1_count": 0,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 17,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        4.5430908203125,
+        4.463701248168945,
+        5.382328510284424,
+        7.195057392120361,
+        5.121029376983643,
+        4.461614608764648
+      ],
+      "sustained_rhythmic_E1_count": 3,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 18,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        4.563677787780762,
+        4.029033660888672,
+        5.139512062072754,
+        3.9211854934692383,
+        4.486167907714844,
+        3.865767240524292
+      ],
+      "sustained_rhythmic_E1_count": 4,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 19,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        2.2346203327178955,
+        4.1957502365112305,
+        4.061348915100098,
+        3.7772560119628906,
+        2.869795083999634,
+        2.523639678955078
+      ],
+      "sustained_rhythmic_E1_count": 2,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 20,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        3.277742624282837,
+        5.076269626617432,
+        5.306061267852783,
+        3.9095160961151123,
+        1.6592518091201782,
+        4.248913288116455
+      ],
+      "sustained_rhythmic_E1_count": 3,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 21,
+      "left_front_tibia_flexor_ever_over_1_hz": 9,
+      "left_front_tibia_extensor_ever_over_1_hz": 1,
+      "left_front_tibia_flexor_max_hz": 187.83367919921875,
+      "left_front_tibia_extensor_max_hz": 62.48713684082031,
+      "left_front_tibia_flexor_pool_range_hz": 52.50179672241211,
+      "left_front_tibia_extensor_pool_range_hz": 31.243568420410156,
+      "all_six_E1_max_hz": [
+        99.66862487792969,
+        36.01927185058594,
+        8.310738563537598,
+        23.404617309570312,
+        43.61848831176758,
+        35.07033920288086
+      ],
+      "sustained_rhythmic_E1_count": 0,
+      "both_antagonist_pools_recruited_and_variable": true,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 22,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        5.206305027008057,
+        4.80113410949707,
+        5.94825553894043,
+        5.441601753234863,
+        5.662788391113281,
+        4.6514739990234375
+      ],
+      "sustained_rhythmic_E1_count": 0,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 23,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        3.9199466705322266,
+        4.231132507324219,
+        4.267425060272217,
+        3.2648983001708984,
+        4.758783340454102,
+        4.027883529663086
+      ],
+      "sustained_rhythmic_E1_count": 1,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 24,
+      "left_front_tibia_flexor_ever_over_1_hz": 1,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 11.267518043518066,
+      "left_front_tibia_extensor_max_hz": 2.6315570721635595e-05,
+      "left_front_tibia_flexor_pool_range_hz": 0.751167893409729,
+      "left_front_tibia_extensor_pool_range_hz": 2.045352812274359e-05,
+      "all_six_E1_max_hz": [
+        18.440715789794922,
+        6.420565605163574,
+        60.03128433227539,
+        1.0447982958794455e-06,
+        80.66924285888672,
+        35.82582092285156
+      ],
+      "sustained_rhythmic_E1_count": 0,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 25,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        2.4347946643829346,
+        3.499467372894287,
+        3.8399932384490967,
+        2.7266640663146973,
+        0.9112039804458618,
+        3.8609015941619873
+      ],
+      "sustained_rhythmic_E1_count": 3,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 26,
+      "left_front_tibia_flexor_ever_over_1_hz": 9,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 135.52687072753906,
+      "left_front_tibia_extensor_max_hz": 0.00010866812226595357,
+      "left_front_tibia_flexor_pool_range_hz": 25.70037269592285,
+      "left_front_tibia_extensor_pool_range_hz": 8.195682312361896e-05,
+      "all_six_E1_max_hz": [
+        31.307329177856445,
+        29.5000057220459,
+        77.76912689208984,
+        1.1713290405168664e-05,
+        74.63260650634766,
+        59.71803665161133
+      ],
+      "sustained_rhythmic_E1_count": 0,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 27,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        3.275456666946411,
+        4.595590114593506,
+        4.95164155960083,
+        3.564918041229248,
+        4.337462425231934,
+        4.207014083862305
+      ],
+      "sustained_rhythmic_E1_count": 3,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 28,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        5.308712482452393,
+        2.6607987880706787,
+        4.749131679534912,
+        3.6776247024536133,
+        6.0962724685668945,
+        2.228175401687622
+      ],
+      "sustained_rhythmic_E1_count": 1,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 29,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        5.342987537384033,
+        4.5251970291137695,
+        6.50819206237793,
+        5.6564717292785645,
+        5.9216203689575195,
+        4.95565128326416
+      ],
+      "sustained_rhythmic_E1_count": 4,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 30,
+      "left_front_tibia_flexor_ever_over_1_hz": 8,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 174.85745239257812,
+      "left_front_tibia_extensor_max_hz": 0.00018857434042729437,
+      "left_front_tibia_flexor_pool_range_hz": 45.98756790161133,
+      "left_front_tibia_extensor_pool_range_hz": 0.00011572716175578535,
+      "all_six_E1_max_hz": [
+        7.982708666531835e-06,
+        0.0008953196229413152,
+        60.44746017456055,
+        4.328883278503781e-06,
+        35.79185104370117,
+        12.27627182006836
+      ],
+      "sustained_rhythmic_E1_count": 0,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    },
+    {
+      "parameter_row": 31,
+      "left_front_tibia_flexor_ever_over_1_hz": 0,
+      "left_front_tibia_extensor_ever_over_1_hz": 0,
+      "left_front_tibia_flexor_max_hz": 0.0,
+      "left_front_tibia_extensor_max_hz": 0.0,
+      "left_front_tibia_flexor_pool_range_hz": 0.0,
+      "left_front_tibia_extensor_pool_range_hz": 0.0,
+      "all_six_E1_max_hz": [
+        4.46738862991333,
+        3.624239206314087,
+        4.867524147033691,
+        3.881218433380127,
+        4.115900039672852,
+        3.9169938564300537
+      ],
+      "sustained_rhythmic_E1_count": 4,
+      "both_antagonist_pools_recruited_and_variable": false,
+      "motor_and_six_E1_gate": false
+    }
+  ],
+  "rows_passing_both_antagonist_recruitment": [
+    21
+  ],
+  "rows_passing_motor_and_six_E1_gate": [],
+  "author_ensemble_and_identity_checks_passed": true,
+  "brain_autonomous_walking_achieved": false,
+  "goal_complete": false
+}

@@ -1,0 +1,81 @@
+{
+  "scope": "Independent source-equation full-MANC row21 RK45; max step .5 ms vs archived 1 ms max-step motor output; no body",
+  "source_neurons": 23532,
+  "source_edges": 1372404,
+  "parameter_row": 21,
+  "source_input_nonzero_neurons": 2,
+  "max_step_s": 0.0005,
+  "rtol": 2e-06,
+  "atol": 5e-09,
+  "wall_seconds": 80.02711466699839,
+  "solver_steps": 96638,
+  "motor_rmse_hz": 10.59599129652254,
+  "motor_mean_absolute_error_hz": 1.5444763898849487,
+  "motor_max_absolute_error_hz": 204.58045959472656,
+  "motor_over_1hz_0p5_2s": 440,
+  "saved_motor_over_1hz_0p5_2s": 450,
+  "refined_six_E1_sustained": 0,
+  "refined_E1_rhythms": [
+    {
+      "mean_hz": 4.705182612637491,
+      "amplitude_hz": 90.4175407663135,
+      "peaks": 1,
+      "period_cv": null,
+      "frequency_hz": null,
+      "first_third_amplitude_hz": 13.669215725264888,
+      "last_third_amplitude_hz": 3.807857236737794e-08,
+      "diagnostic_sustained_rhythm": false
+    },
+    {
+      "mean_hz": 0.3545467726610718,
+      "amplitude_hz": 4.9605127232088435,
+      "peaks": 3,
+      "period_cv": 0.16666666666666669,
+      "frequency_hz": 8.333333333333332,
+      "first_third_amplitude_hz": 4.960290408566347,
+      "last_third_amplitude_hz": 3.2110903734900905e-15,
+      "diagnostic_sustained_rhythm": false
+    },
+    {
+      "mean_hz": 1.1719929697417613,
+      "amplitude_hz": 21.348813808275303,
+      "peaks": 3,
+      "period_cv": 0.696969696969697,
+      "frequency_hz": 3.0303030303030303,
+      "first_third_amplitude_hz": 8.883178489981924,
+      "last_third_amplitude_hz": 0.0016846822610713686,
+      "diagnostic_sustained_rhythm": false
+    },
+    {
+      "mean_hz": 0.9938282245179171,
+      "amplitude_hz": 13.341987462745895,
+      "peaks": 3,
+      "period_cv": 0.08333333333333336,
+      "frequency_hz": 4.166666666666667,
+      "first_third_amplitude_hz": 5.17432128956699,
+      "last_third_amplitude_hz": 3.251218562118203e-11,
+      "diagnostic_sustained_rhythm": false
+    },
+    {
+      "mean_hz": 8.531980162761842,
+      "amplitude_hz": 44.63611392230901,
+      "peaks": 3,
+      "period_cv": 0.02222222222222224,
+      "frequency_hz": 4.444444444444445,
+      "first_third_amplitude_hz": 7.711222605163768,
+      "last_third_amplitude_hz": 7.26408858341653,
+      "diagnostic_sustained_rhythm": false
+    },
+    {
+      "mean_hz": 3.8120897529343547,
+      "amplitude_hz": 35.78237673147134,
+      "peaks": 5,
+      "period_cv": 0.6214390629844218,
+      "frequency_hz": 4.25531914893617,
+      "first_third_amplitude_hz": 17.517118714020178,
+      "last_third_amplitude_hz": 9.001851863281336,
+      "diagnostic_sustained_rhythm": false
+    }
+  ],
+  "all_rates_finite": true
+}

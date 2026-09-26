@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-24",
+  "checked_body_trials": 6,
+  "reintegrated_full_manc_trials": 5,
+  "maximum_neural_terminal_error_hz": 9.026523848376655e-07,
+  "same_initial_body_and_neural_state_for_freeze": true,
+  "body_and_neural_traces_match_report": true,
+  "passed": true,
+  "goal_complete": false
+}

@@ -1,0 +1,650 @@
+{
+  "date": "2026-09-24",
+  "scope": "training-derived descending speed command plus bounded 80 ms causal history and DAgger recovery",
+  "runtime_contract": {
+    "inputs": "desired forward speed plus latest 80 ms qpos without global xy, qvel, six claw contacts, previous actually applied controls",
+    "forbidden": [
+      "reference frame",
+      "teacher force",
+      "frame index",
+      "gait phase",
+      "root force",
+      "external force",
+      "position servo"
+    ]
+  },
+  "architecture": {
+    "input_size": 246,
+    "hidden": 96,
+    "output_size": 56,
+    "history_frames": 64,
+    "history_ms": 80.0
+  },
+  "command": {
+    "training_speed_range_mm_s": [
+      7.6507308885409016,
+      29.155600924743624
+    ],
+    "evaluation_command_mm_s": 18.335456087096567,
+    "evaluation_command_source": "training split median only"
+  },
+  "training": {
+    "seed": 20260928,
+    "behavior_cloning_loss": [
+      {
+        "step": 1,
+        "loss": 0.3978002071380615
+      },
+      {
+        "step": 50,
+        "loss": 0.1853850930929184
+      },
+      {
+        "step": 100,
+        "loss": 0.12591157853603363
+      },
+      {
+        "step": 150,
+        "loss": 0.06787926703691483
+      },
+      {
+        "step": 200,
+        "loss": 0.06289010494947433
+      },
+      {
+        "step": 250,
+        "loss": 0.058615636080503464
+      },
+      {
+        "step": 300,
+        "loss": 0.032483600080013275
+      },
+      {
+        "step": 350,
+        "loss": 0.03415173292160034
+      },
+      {
+        "step": 400,
+        "loss": 0.029775846749544144
+      },
+      {
+        "step": 450,
+        "loss": 0.020782435312867165
+      },
+      {
+        "step": 500,
+        "loss": 0.017922665923833847
+      },
+      {
+        "step": 550,
+        "loss": 0.02141615003347397
+      },
+      {
+        "step": 600,
+        "loss": 0.015124794095754623
+      },
+      {
+        "step": 650,
+        "loss": 0.022944437339901924
+      },
+      {
+        "step": 700,
+        "loss": 0.019417937844991684
+      },
+      {
+        "step": 750,
+        "loss": 0.012948086485266685
+      },
+      {
+        "step": 800,
+        "loss": 0.012338634580373764
+      },
+      {
+        "step": 850,
+        "loss": 0.016620293259620667
+      },
+      {
+        "step": 900,
+        "loss": 0.011060074903070927
+      },
+      {
+        "step": 950,
+        "loss": 0.011774064041674137
+      },
+      {
+        "step": 1000,
+        "loss": 0.010211522690951824
+      },
+      {
+        "step": 1050,
+        "loss": 0.011754549108445644
+      },
+      {
+        "step": 1100,
+        "loss": 0.016298213973641396
+      },
+      {
+        "step": 1150,
+        "loss": 0.0068534966558218
+      },
+      {
+        "step": 1200,
+        "loss": 0.009332639165222645
+      }
+    ],
+    "DAgger_betas": [
+      0.5,
+      0.2,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collection": [
+      {
+        "iteration": 1,
+        "beta": 0.5,
+        "noise": [
+          0.0,
+          0.0
+        ],
+        "finite_bouts": 12,
+        "mean_body_contact": 0.0013575605680868838
+      },
+      {
+        "iteration": 2,
+        "beta": 0.2,
+        "noise": [
+          0.004,
+          0.04
+        ],
+        "finite_bouts": 12,
+        "mean_body_contact": 0.0602308394681276
+      },
+      {
+        "iteration": 3,
+        "beta": 0.0,
+        "noise": [
+          0.008,
+          0.08
+        ],
+        "finite_bouts": 12,
+        "mean_body_contact": 0.3551067450589333
+      },
+      {
+        "iteration": 4,
+        "beta": 0.0,
+        "noise": [
+          0.006,
+          0.06
+        ],
+        "finite_bouts": 12,
+        "mean_body_contact": 0.3573424395412596
+      },
+      {
+        "iteration": 5,
+        "beta": 0.0,
+        "noise": [
+          0.003,
+          0.03
+        ],
+        "finite_bouts": 12,
+        "mean_body_contact": 0.04662133411887929
+      }
+    ],
+    "loss": [
+      {
+        "step": 1,
+        "loss": 0.10321804881095886,
+        "iteration": 1
+      },
+      {
+        "step": 50,
+        "loss": 0.05306055396795273,
+        "iteration": 1
+      },
+      {
+        "step": 100,
+        "loss": 0.04312126711010933,
+        "iteration": 1
+      },
+      {
+        "step": 150,
+        "loss": 0.05075111985206604,
+        "iteration": 1
+      },
+      {
+        "step": 200,
+        "loss": 0.03678591176867485,
+        "iteration": 1
+      },
+      {
+        "step": 250,
+        "loss": 0.035619765520095825,
+        "iteration": 1
+      },
+      {
+        "step": 300,
+        "loss": 0.04590603709220886,
+        "iteration": 1
+      },
+      {
+        "step": 350,
+        "loss": 0.033932555466890335,
+        "iteration": 1
+      },
+      {
+        "step": 1,
+        "loss": 0.22271957993507385,
+        "iteration": 2
+      },
+      {
+        "step": 50,
+        "loss": 0.18233856558799744,
+        "iteration": 2
+      },
+      {
+        "step": 100,
+        "loss": 0.12469470500946045,
+        "iteration": 2
+      },
+      {
+        "step": 150,
+        "loss": 0.11106159538030624,
+        "iteration": 2
+      },
+      {
+        "step": 200,
+        "loss": 0.1135161817073822,
+        "iteration": 2
+      },
+      {
+        "step": 250,
+        "loss": 0.12116722762584686,
+        "iteration": 2
+      },
+      {
+        "step": 300,
+        "loss": 0.10145501792430878,
+        "iteration": 2
+      },
+      {
+        "step": 350,
+        "loss": 0.1027628630399704,
+        "iteration": 2
+      },
+      {
+        "step": 1,
+        "loss": 1.9740428924560547,
+        "iteration": 3
+      },
+      {
+        "step": 50,
+        "loss": 1.6653467416763306,
+        "iteration": 3
+      },
+      {
+        "step": 100,
+        "loss": 1.3933446407318115,
+        "iteration": 3
+      },
+      {
+        "step": 150,
+        "loss": 1.1793110370635986,
+        "iteration": 3
+      },
+      {
+        "step": 200,
+        "loss": 1.4090869426727295,
+        "iteration": 3
+      },
+      {
+        "step": 250,
+        "loss": 1.5060123205184937,
+        "iteration": 3
+      },
+      {
+        "step": 300,
+        "loss": 1.1743723154067993,
+        "iteration": 3
+      },
+      {
+        "step": 350,
+        "loss": 1.2143338918685913,
+        "iteration": 3
+      },
+      {
+        "step": 1,
+        "loss": 2.2014315128326416,
+        "iteration": 4
+      },
+      {
+        "step": 50,
+        "loss": 2.1341121196746826,
+        "iteration": 4
+      },
+      {
+        "step": 100,
+        "loss": 2.119744062423706,
+        "iteration": 4
+      },
+      {
+        "step": 150,
+        "loss": 2.1297459602355957,
+        "iteration": 4
+      },
+      {
+        "step": 200,
+        "loss": 2.058319091796875,
+        "iteration": 4
+      },
+      {
+        "step": 250,
+        "loss": 1.958511471748352,
+        "iteration": 4
+      },
+      {
+        "step": 300,
+        "loss": 1.864630937576294,
+        "iteration": 4
+      },
+      {
+        "step": 350,
+        "loss": 1.6169500350952148,
+        "iteration": 4
+      },
+      {
+        "step": 1,
+        "loss": 1.3854954242706299,
+        "iteration": 5
+      },
+      {
+        "step": 50,
+        "loss": 1.0680913925170898,
+        "iteration": 5
+      },
+      {
+        "step": 100,
+        "loss": 1.0667505264282227,
+        "iteration": 5
+      },
+      {
+        "step": 150,
+        "loss": 1.079696536064148,
+        "iteration": 5
+      },
+      {
+        "step": 200,
+        "loss": 1.0679495334625244,
+        "iteration": 5
+      },
+      {
+        "step": 250,
+        "loss": 1.0129070281982422,
+        "iteration": 5
+      },
+      {
+        "step": 300,
+        "loss": 0.9014725685119629,
+        "iteration": 5
+      },
+      {
+        "step": 350,
+        "loss": 1.037076711654663,
+        "iteration": 5
+      }
+    ]
+  },
+  "selection": {
+    "data_used": "validation flies only",
+    "history": [
+      {
+        "iteration": 0,
+        "validation": {
+          "bouts": 3,
+          "finite_bouts": 3,
+          "median_forward_ratio": 0.04113257887132833,
+          "median_actual_forward_mm": 0.4470873715839674,
+          "minimum_cycles_per_leg_across_bouts": [
+            2,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "median_terminal_root_error_mm": 7.1905708270496955,
+          "median_terminal_joint_rms_error_rad": 0.5930324855154642,
+          "median_body_floor_contact_frame_fraction": 0.6784565916398714
+        },
+        "objective": 9.754426972315288
+      },
+      {
+        "iteration": 1,
+        "validation": {
+          "bouts": 3,
+          "finite_bouts": 3,
+          "median_forward_ratio": 0.09298343783258665,
+          "median_actual_forward_mm": 1.1959241926541155,
+          "minimum_cycles_per_leg_across_bouts": [
+            3,
+            2,
+            0,
+            1,
+            2,
+            1
+          ],
+          "median_terminal_root_error_mm": 4.7749828246185375,
+          "median_terminal_joint_rms_error_rad": 0.5603101250525396,
+          "median_body_floor_contact_frame_fraction": 0.5884244372990354
+        },
+        "objective": 8.272352605515662
+      },
+      {
+        "iteration": 2,
+        "validation": {
+          "bouts": 3,
+          "finite_bouts": 3,
+          "median_forward_ratio": 0.11973621080909144,
+          "median_actual_forward_mm": 2.0512481207151434,
+          "minimum_cycles_per_leg_across_bouts": [
+            1,
+            1,
+            2,
+            2,
+            1,
+            2
+          ],
+          "median_terminal_root_error_mm": 5.056041894957133,
+          "median_terminal_joint_rms_error_rad": 0.5433631567102619,
+          "median_body_floor_contact_frame_fraction": 0.41479099678456594
+        },
+        "objective": 7.182242935656474
+      },
+      {
+        "iteration": 3,
+        "validation": {
+          "bouts": 3,
+          "finite_bouts": 3,
+          "median_forward_ratio": 0.23144526400154583,
+          "median_actual_forward_mm": 1.0878794206737965,
+          "minimum_cycles_per_leg_across_bouts": [
+            2,
+            1,
+            5,
+            1,
+            7,
+            4
+          ],
+          "median_terminal_root_error_mm": 3.9004345509662013,
+          "median_terminal_joint_rms_error_rad": 0.2890022888641052,
+          "median_body_floor_contact_frame_fraction": 0.3408360128617363
+        },
+        "objective": 5.031166488154235
+      },
+      {
+        "iteration": 4,
+        "validation": {
+          "bouts": 3,
+          "finite_bouts": 3,
+          "median_forward_ratio": 0.36679197253948614,
+          "median_actual_forward_mm": 1.7240596402585717,
+          "minimum_cycles_per_leg_across_bouts": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "median_terminal_root_error_mm": 3.1245633914857396,
+          "median_terminal_joint_rms_error_rad": 0.20617791114644962,
+          "median_body_floor_contact_frame_fraction": 0.0
+        },
+        "objective": 3.78901026148991
+      },
+      {
+        "iteration": 5,
+        "validation": {
+          "bouts": 3,
+          "finite_bouts": 3,
+          "median_forward_ratio": 0.14813265336690187,
+          "median_actual_forward_mm": 1.9900376273183267,
+          "minimum_cycles_per_leg_across_bouts": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "median_terminal_root_error_mm": 4.029434151367855,
+          "median_terminal_joint_rms_error_rad": 0.27230642872903943,
+          "median_body_floor_contact_frame_fraction": 0.0
+        },
+        "objective": 4.352619653885199
+      }
+    ],
+    "selected_iteration": 4,
+    "selected_objective": 3.78901026148991
+  },
+  "test": {
+    "summary": {
+      "bouts": 3,
+      "finite_bouts": 3,
+      "median_forward_ratio": 0.21411643234927624,
+      "median_actual_forward_mm": 1.3078844012313842,
+      "minimum_cycles_per_leg_across_bouts": [
+        3,
+        3,
+        3,
+        5,
+        3,
+        2
+      ],
+      "median_terminal_root_error_mm": 6.383243413847181,
+      "median_terminal_joint_rms_error_rad": 0.3282575445984621,
+      "median_body_floor_contact_frame_fraction": 0.0
+    },
+    "by_bout": [
+      {
+        "bout_key": "bout_0209",
+        "split": "test",
+        "frames": 1325,
+        "duration_s": 1.655,
+        "reference_forward_mm": 11.33071578360666,
+        "actual_forward_mm": 1.0150351829207898,
+        "forward_ratio": 0.08958261793040014,
+        "cycles": [
+          4,
+          3,
+          10,
+          9,
+          3,
+          2
+        ],
+        "terminal_root_error_mm": 10.403433353383493,
+        "terminal_root_angle_error_rad": 3.0795380427705332,
+        "terminal_joint_rms_error_rad": 0.440107114850955,
+        "body_floor_contact_frame_fraction": 0.6316981132075472,
+        "any_claw_contact_frame_fraction": 0.699622641509434,
+        "finite": true
+      },
+      {
+        "bout_key": "bout_0325",
+        "split": "test",
+        "frames": 148,
+        "duration_s": 0.18375,
+        "reference_forward_mm": 5.178314034701917,
+        "actual_forward_mm": 1.3078844012313842,
+        "forward_ratio": 0.25256954145050625,
+        "cycles": [
+          3,
+          4,
+          3,
+          5,
+          7,
+          5
+        ],
+        "terminal_root_error_mm": 3.8801832256378423,
+        "terminal_root_angle_error_rad": 0.41208708699706614,
+        "terminal_joint_rms_error_rad": 0.3282575445984621,
+        "body_floor_contact_frame_fraction": 0.0,
+        "any_claw_contact_frame_fraction": 1.0,
+        "finite": true
+      },
+      {
+        "bout_key": "bout_1250",
+        "split": "test",
+        "frames": 416,
+        "duration_s": 0.51875,
+        "reference_forward_mm": 8.025998880411677,
+        "actual_forward_mm": 1.7184982463130338,
+        "forward_ratio": 0.21411643234927624,
+        "cycles": [
+          16,
+          7,
+          10,
+          10,
+          9,
+          11
+        ],
+        "terminal_root_error_mm": 6.383243413847181,
+        "terminal_root_angle_error_rad": 1.3083651056644445,
+        "terminal_joint_rms_error_rad": 0.18900833057517497,
+        "body_floor_contact_frame_fraction": 0.0,
+        "any_claw_contact_frame_fraction": 1.0,
+        "finite": true
+      }
+    ]
+  },
+  "gates": {
+    "heldout_teacher_free_direct_actuator_capacity": false
+  },
+  "artifacts": {
+    "checkpoint": "results/official-running-command-windowed-policy-20260924/checkpoint.pt",
+    "checkpoint_sha256": "9da08a3f4ecec2362c369af3c2650521805b57995e3a501a94424603077fd497",
+    "test_trajectories": "results/official-running-command-windowed-policy-20260924/test-rollouts.npz",
+    "test_trajectories_sha256": "122b231ca09a63c933946bd0509d5e7151f154077bf49c1865f6a2ba74ad28bd",
+    "figure": "results/official-running-command-windowed-policy-20260924/command-windowed-policy.png"
+  },
+  "checks": {
+    "whole_fly_split_12_3_3": true,
+    "causal_history_is_80ms": true,
+    "five_DAgger_iterations": true,
+    "last_three_collections_policy_only": true,
+    "all_60_collection_bouts_finite": true,
+    "validation_selects_checkpoint": true,
+    "test_not_used_for_selection": true,
+    "runtime_has_no_reference_teacher_frame_phase_or_position_servo": true,
+    "artifacts_saved": true,
+    "not_mislabelled_as_muscle_connectome_or_A3": true
+  },
+  "passed": true,
+  "classification": {
+    "A1_bounded_history_direct_actuator_policy": "incomplete",
+    "A1_source_aligned_six_leg_muscle_body": "incomplete",
+    "A2_connectome_motor_decoder": "incomplete",
+    "A3_autonomous_walking": "incomplete"
+  },
+  "goal_complete": false
+}

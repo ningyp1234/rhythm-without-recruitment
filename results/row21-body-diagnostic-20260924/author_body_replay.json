@@ -1,0 +1,97 @@
+{
+  "scope": "Author-saved run33195882, row21, 23532-neuron full-MANC rate trajectory drives two unchanged six-leg bodies; no feedback, so not autonomous",
+  "source_trace_sha256": "ed6a22e0123ea6d7e83f7e7516b480e5baf1d411fd94d3ee9cea53b5be8b29f2",
+  "neural_parameter_row": 21,
+  "model_duration_s": 2.0,
+  "hill_body": {
+    "scoring_version": "walking-kinematics-v3-rate-aware-contact-support",
+    "sample_dt_seconds": 0.010000000000000009,
+    "sustained_event_samples": 3,
+    "gates": {
+      "forward_distance_at_least_5mm": false,
+      "body_stays_upright": true,
+      "body_clear_of_ground": true,
+      "all_six_legs_complete_two_steps": false,
+      "stance_slip_below_2mm_s": true,
+      "feet_provide_support_without_body_drag": true
+    },
+    "walking_pass": false,
+    "foot_only_support_fraction": 1.0,
+    "forward_mm": 0.6475206379966966,
+    "lateral_mm": 0.34035417920565997,
+    "upright_fraction": 1.0,
+    "min_height": 0.8830264976111973,
+    "steps_per_leg": [
+      0,
+      3,
+      0,
+      0,
+      2,
+      0
+    ],
+    "median_stance_slip_mm_s": 0.010269592857203573,
+    "native_position_authority_zero": true,
+    "max_abs_applied_generalized_force": 0.0,
+    "max_abs_external_body_force": 0.0,
+    "warnings": 0
+  },
+  "torque_body": {
+    "scoring_version": "walking-kinematics-v3-rate-aware-contact-support",
+    "sample_dt_seconds": 0.010000000000000009,
+    "sustained_event_samples": 3,
+    "gates": {
+      "forward_distance_at_least_5mm": false,
+      "body_stays_upright": true,
+      "body_clear_of_ground": true,
+      "all_six_legs_complete_two_steps": false,
+      "stance_slip_below_2mm_s": true,
+      "feet_provide_support_without_body_drag": true
+    },
+    "walking_pass": false,
+    "foot_only_support_fraction": 1.0,
+    "forward_mm": 0.14211431439195832,
+    "lateral_mm": -0.12029440012313104,
+    "upright_fraction": 1.0,
+    "min_height": 0.8356648952146839,
+    "steps_per_leg": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "median_stance_slip_mm_s": 0.010116200929198578,
+    "mapped_motor_neurons": 239,
+    "max_abs_joint_torque": 6.848845500227536,
+    "coxa_torque_sign_changes_0p5_2s": [
+      1,
+      2,
+      1,
+      2,
+      2,
+      2
+    ],
+    "foot_contact_fraction": [
+      1.0,
+      1.0,
+      1.0,
+      0.91,
+      0.99,
+      1.0
+    ],
+    "max_abs_applied_generalized_force": 6.799126828160896,
+    "max_abs_external_body_force": 0.0,
+    "warnings": 0
+  },
+  "checks": {
+    "published_trace_crc_verified": true,
+    "source_motor_ids_match_graph": true,
+    "both_body_solvers_stable": true,
+    "body_inputs_derive_only_from_author_trace": true,
+    "published_condition_walking_passed": false
+  },
+  "integrity_passed": true,
+  "walking_achieved": false,
+  "brain_autonomous_walking_achieved": false
+}

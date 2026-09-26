@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-24",
+  "checks": {
+    "exact_source_86_tibia_cell_ids": true,
+    "all_86_named_cells_have_body_candidate_mapping": true,
+    "two_replayed_conditions": true,
+    "no_false_walking_claim": true,
+    "all_source_rates_reproduced_from_saved_afferents": true,
+    "all_pool_statistics_and_cell_ids_recomputed": true,
+    "feedback_margin_difference_recomputed": true,
+    "all_24_leg_pool_rows_present": true
+  },
+  "passed": true,
+  "goal_complete": false
+}

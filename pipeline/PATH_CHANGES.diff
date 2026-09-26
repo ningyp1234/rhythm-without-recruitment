@@ -1,0 +1,78 @@
+--- original/brain.py
++++ pipeline/brain.py
+@@ -10 +10 @@
+-ROOT=Path(__file__).resolve().parent
++ROOT=Path(__file__).resolve().parents[1]
+--- original/cpg_context_diagnostic.py
++++ pipeline/cpg_context_diagnostic.py
+@@ -20 +20 @@
+-ROOT = Path(__file__).resolve().parent
++ROOT = Path(__file__).resolve().parents[1]
+--- original/derive_official_running_inverse_dynamics.py
++++ pipeline/derive_official_running_inverse_dynamics.py
+@@ -21,2 +21,2 @@
+-ROOT = Path(__file__).resolve().parent
+-WORKSPACE = ROOT.parents[1]
++ROOT = Path(__file__).resolve().parents[1]
++WORKSPACE = ROOT / "external"
+--- original/estimate_official_running_contact_forces.py
++++ pipeline/estimate_official_running_contact_forces.py
+@@ -19,2 +19,2 @@
+-ROOT = Path(__file__).resolve().parent
+-WORKSPACE = ROOT.parents[1]
++ROOT = Path(__file__).resolve().parents[1]
++WORKSPACE = ROOT / "external"
+--- original/evaluate_official_running_dynamic_replay.py
++++ pipeline/evaluate_official_running_dynamic_replay.py
+@@ -24,2 +24,2 @@
+-ROOT = Path(__file__).resolve().parent
+-WORKSPACE = ROOT.parents[1]
++ROOT = Path(__file__).resolve().parents[1]
++WORKSPACE = ROOT / "external"
+--- original/extract_official_running_subset.py
++++ pipeline/extract_official_running_subset.py
+@@ -19 +19 @@
+-ROOT = Path(__file__).resolve().parent
++ROOT = Path(__file__).resolve().parents[1]
+--- original/fetch_pugliese_fullmanc_subset.py
++++ pipeline/fetch_pugliese_fullmanc_subset.py
+@@ -25 +25 @@
+-ROOT = Path(__file__).resolve().parent
++ROOT = Path(__file__).resolve().parents[1]
+--- original/fetch_pugliese_zenodo_subset.py
++++ pipeline/fetch_pugliese_zenodo_subset.py
+@@ -32 +32 @@
+-ROOT = Path(__file__).resolve().parent
++ROOT = Path(__file__).resolve().parents[1]
+--- original/homologous_hill_body.py
++++ pipeline/homologous_hill_body.py
+@@ -20 +20 @@
+-ROOT=Path(__file__).resolve().parent
++ROOT=Path(__file__).resolve().parents[1]
+--- original/muscle_body.py
++++ pipeline/muscle_body.py
+@@ -11 +11 @@
+-ROOT=Path(__file__).resolve().parent
++ROOT=Path(__file__).resolve().parents[1]
+--- original/source_calibration.py
++++ pipeline/source_calibration.py
+@@ -18,2 +18,2 @@
+-ROOT = Path(__file__).resolve().parent
+-WORKSPACE = ROOT.parents[1]
++ROOT = Path(__file__).resolve().parents[1]
++WORKSPACE = ROOT / "external"
+--- original/source_dng100_diffrax_exact.py
++++ pipeline/source_dng100_diffrax_exact.py
+@@ -16 +16 @@
+-ROOT = Path(__file__).resolve().parent
++ROOT = Path(__file__).resolve().parents[1]
+--- original/vision_bridge.py
++++ pipeline/vision_bridge.py
+@@ -10 +10 @@
+-ROOT=Path(__file__).resolve().parent
++ROOT=Path(__file__).resolve().parents[1]
+--- original/walking_feedback.py
++++ pipeline/walking_feedback.py
+@@ -9 +9 @@
+-  a=pd.read_csv(Path(__file__).resolve().parent/'data/proprioception/annotations.csv').fillna('') if annotations is None else annotations.fillna('');lookup={int(i):k for k,i in enumerate(neurons.bodyId)};self.groups=[];self.mapping=[]
++  a=pd.read_csv(Path(__file__).resolve().parents[1]/'data/proprioception/annotations.csv').fillna('') if annotations is None else annotations.fillna('');lookup={int(i):k for k,i in enumerate(neurons.bodyId)};self.groups=[];self.mapping=[]

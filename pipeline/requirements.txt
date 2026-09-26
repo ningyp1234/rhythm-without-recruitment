@@ -1,0 +1,14 @@
+# Simulation pipeline (Python >= 3.11). Pinned versions are those recorded in
+# the original result files; unpinned packages were not recorded.
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.5
+h5py
+matplotlib
+numba
+mujoco==3.9.0
+torch==2.14.0
+gymnasium==1.3.0
+jax
+diffrax
+# FlyGym 2.1.0 is installed from source by setup_external.sh (commit 38c8ec61).

@@ -1,0 +1,633 @@
+{
+  "date": "2026-09-24",
+  "scope": "autonomous engineering neural CPG distilled from an official real-running closed cycle",
+  "runtime_contract": {
+    "inputs": "internal two-neuron oscillator state, current proprioception, claw contact, previous applied control, descending speed command",
+    "forbidden": [
+      "external frame clock",
+      "running trajectory",
+      "teacher force",
+      "root force",
+      "external force",
+      "position servo"
+    ]
+  },
+  "source_cycle": {
+    "bout_key": "bout_1008",
+    "start": 80,
+    "period_frames": 72,
+    "period_ms": 90.0,
+    "closure_error": 0.030464446847467408,
+    "cycle_mm": 2.0614009642682625,
+    "recovery_teacher": {
+      "mean_joint_rms_error_rad": 0.038361794697572185,
+      "p95_joint_rms_error_rad": 0.04421429741133912,
+      "mean_root_error_mm": 2.8776284458081944,
+      "reference_forward_mm": 45.79555146996302,
+      "actual_forward_mm": 40.19273148897173,
+      "forward_ratio": 0.8776558027766924,
+      "body_floor_contact_fraction": 0.0,
+      "control_clip_fraction": 0.0,
+      "finite": true
+    }
+  },
+  "training": {
+    "seed": 20261004,
+    "initial_expert_episodes": 5,
+    "betas": [
+      0.75,
+      0.5,
+      0.25,
+      0.1,
+      0.0,
+      0.0
+    ],
+    "collections": [
+      {
+        "iteration": 1,
+        "beta": 0.75,
+        "episodes": 5,
+        "finite": 5,
+        "mean_body_contact": 0.0,
+        "standard_runtime": {
+          "bout_key": "bout_1008_canonical",
+          "split": "training-derived standard start",
+          "phase_initializer": "internal CPG phase zero",
+          "distance_2s_mm": 5.9996918704202775,
+          "body_contact_fraction": 0.8332292317301686,
+          "first_body_contact_s": 0.33375,
+          "cycles": [
+            6,
+            7,
+            8,
+            8,
+            6,
+            4
+          ],
+          "finite": true
+        },
+        "selection_score": 16.514592337842867
+      },
+      {
+        "iteration": 2,
+        "beta": 0.5,
+        "episodes": 5,
+        "finite": 5,
+        "mean_body_contact": 0.0,
+        "standard_runtime": {
+          "bout_key": "bout_1008_canonical",
+          "split": "training-derived standard start",
+          "phase_initializer": "internal CPG phase zero",
+          "distance_2s_mm": 10.163800689928246,
+          "body_contact_fraction": 0.5852592129918801,
+          "first_body_contact_s": 0.78625,
+          "cycles": [
+            11,
+            9,
+            16,
+            10,
+            16,
+            7
+          ],
+          "finite": true
+        },
+        "selection_score": 11.451089242589395
+      },
+      {
+        "iteration": 3,
+        "beta": 0.25,
+        "episodes": 5,
+        "finite": 5,
+        "mean_body_contact": 0.0,
+        "standard_runtime": {
+          "bout_key": "bout_1008_canonical",
+          "split": "training-derived standard start",
+          "phase_initializer": "internal CPG phase zero",
+          "distance_2s_mm": 14.418775861978903,
+          "body_contact_fraction": 0.42848219862585885,
+          "first_body_contact_s": 1.13875,
+          "cycles": [
+            15,
+            14,
+            14,
+            14,
+            10,
+            9
+          ],
+          "finite": true
+        },
+        "selection_score": 8.209174575967705
+      },
+      {
+        "iteration": 4,
+        "beta": 0.1,
+        "episodes": 5,
+        "finite": 5,
+        "mean_body_contact": 0.0,
+        "standard_runtime": {
+          "bout_key": "bout_1008_canonical",
+          "split": "training-derived standard start",
+          "phase_initializer": "internal CPG phase zero",
+          "distance_2s_mm": 27.1532391960314,
+          "body_contact_fraction": 0.18238600874453467,
+          "first_body_contact_s": 1.53875,
+          "cycles": [
+            23,
+            15,
+            18,
+            19,
+            23,
+            19
+          ],
+          "finite": true
+        },
+        "selection_score": 2.9688891949899086
+      },
+      {
+        "iteration": 5,
+        "beta": 0.0,
+        "episodes": 5,
+        "finite": 5,
+        "mean_body_contact": 0.1296689569019363,
+        "standard_runtime": {
+          "bout_key": "bout_1008_canonical",
+          "split": "training-derived standard start",
+          "phase_initializer": "internal CPG phase zero",
+          "distance_2s_mm": 15.634632743083955,
+          "body_contact_fraction": 0.580262336039975,
+          "first_body_contact_s": 0.84,
+          "cycles": [
+            18,
+            19,
+            20,
+            21,
+            23,
+            14
+          ],
+          "finite": true
+        },
+        "selection_score": 11.2143809022224
+      },
+      {
+        "iteration": 6,
+        "beta": 0.0,
+        "episodes": 5,
+        "finite": 5,
+        "mean_body_contact": 0.560899437851343,
+        "standard_runtime": {
+          "bout_key": "bout_1008_canonical",
+          "split": "training-derived standard start",
+          "phase_initializer": "internal CPG phase zero",
+          "distance_2s_mm": 22.28987127530345,
+          "body_contact_fraction": 0.27108057464084945,
+          "first_body_contact_s": 1.14625,
+          "cycles": [
+            19,
+            21,
+            16,
+            20,
+            17,
+            13
+          ],
+          "finite": true
+        },
+        "selection_score": 4.864364710934403
+      }
+    ],
+    "selected_iteration": 4,
+    "selection_score": 2.9688891949899086,
+    "loss": [
+      {
+        "step": 1,
+        "loss": 0.981383740901947,
+        "iteration": 0
+      },
+      {
+        "step": 100,
+        "loss": 0.03503434360027313,
+        "iteration": 0
+      },
+      {
+        "step": 200,
+        "loss": 0.01911919377744198,
+        "iteration": 0
+      },
+      {
+        "step": 300,
+        "loss": 0.0062533277086913586,
+        "iteration": 0
+      },
+      {
+        "step": 400,
+        "loss": 0.002800815273076296,
+        "iteration": 0
+      },
+      {
+        "step": 500,
+        "loss": 0.0018556093564257026,
+        "iteration": 0
+      },
+      {
+        "step": 600,
+        "loss": 0.001286539831198752,
+        "iteration": 0
+      },
+      {
+        "step": 700,
+        "loss": 0.0010592981707304716,
+        "iteration": 0
+      },
+      {
+        "step": 800,
+        "loss": 0.000702739111147821,
+        "iteration": 0
+      },
+      {
+        "step": 900,
+        "loss": 0.0007158574881032109,
+        "iteration": 0
+      },
+      {
+        "step": 1000,
+        "loss": 0.0005180206499062479,
+        "iteration": 0
+      },
+      {
+        "step": 1100,
+        "loss": 0.0003971008991356939,
+        "iteration": 0
+      },
+      {
+        "step": 1200,
+        "loss": 0.00046015167026780546,
+        "iteration": 0
+      },
+      {
+        "step": 1300,
+        "loss": 0.000487975514261052,
+        "iteration": 0
+      },
+      {
+        "step": 1400,
+        "loss": 0.0003202951338607818,
+        "iteration": 0
+      },
+      {
+        "step": 1,
+        "loss": 0.0008800322539173067,
+        "iteration": 1
+      },
+      {
+        "step": 100,
+        "loss": 0.00038217907422222197,
+        "iteration": 1
+      },
+      {
+        "step": 200,
+        "loss": 0.00027573411352932453,
+        "iteration": 1
+      },
+      {
+        "step": 300,
+        "loss": 0.0003513550036586821,
+        "iteration": 1
+      },
+      {
+        "step": 400,
+        "loss": 0.000349825102603063,
+        "iteration": 1
+      },
+      {
+        "step": 500,
+        "loss": 0.00018299977818969637,
+        "iteration": 1
+      },
+      {
+        "step": 600,
+        "loss": 0.0002045429719146341,
+        "iteration": 1
+      },
+      {
+        "step": 700,
+        "loss": 0.0001862704666564241,
+        "iteration": 1
+      },
+      {
+        "step": 1,
+        "loss": 0.0001669337070779875,
+        "iteration": 2
+      },
+      {
+        "step": 100,
+        "loss": 0.00022490658739116043,
+        "iteration": 2
+      },
+      {
+        "step": 200,
+        "loss": 0.00021927971101831645,
+        "iteration": 2
+      },
+      {
+        "step": 300,
+        "loss": 0.00019758900452870876,
+        "iteration": 2
+      },
+      {
+        "step": 400,
+        "loss": 0.00021893267694395036,
+        "iteration": 2
+      },
+      {
+        "step": 500,
+        "loss": 0.00016043937648646533,
+        "iteration": 2
+      },
+      {
+        "step": 600,
+        "loss": 0.00014075894432608038,
+        "iteration": 2
+      },
+      {
+        "step": 700,
+        "loss": 0.00014503848797176033,
+        "iteration": 2
+      },
+      {
+        "step": 1,
+        "loss": 0.0005061092670075595,
+        "iteration": 3
+      },
+      {
+        "step": 100,
+        "loss": 0.00038259761640802026,
+        "iteration": 3
+      },
+      {
+        "step": 200,
+        "loss": 0.00024375792418140918,
+        "iteration": 3
+      },
+      {
+        "step": 300,
+        "loss": 0.00030024859006516635,
+        "iteration": 3
+      },
+      {
+        "step": 400,
+        "loss": 0.0004155942879151553,
+        "iteration": 3
+      },
+      {
+        "step": 500,
+        "loss": 0.0003297847288195044,
+        "iteration": 3
+      },
+      {
+        "step": 600,
+        "loss": 0.00022008853557053953,
+        "iteration": 3
+      },
+      {
+        "step": 700,
+        "loss": 0.00016901102208066732,
+        "iteration": 3
+      },
+      {
+        "step": 1,
+        "loss": 0.0009971874533221126,
+        "iteration": 4
+      },
+      {
+        "step": 100,
+        "loss": 0.0006352808559313416,
+        "iteration": 4
+      },
+      {
+        "step": 200,
+        "loss": 0.0006652888259850442,
+        "iteration": 4
+      },
+      {
+        "step": 300,
+        "loss": 0.00060183898312971,
+        "iteration": 4
+      },
+      {
+        "step": 400,
+        "loss": 0.00047695208922959864,
+        "iteration": 4
+      },
+      {
+        "step": 500,
+        "loss": 0.00046030242810957134,
+        "iteration": 4
+      },
+      {
+        "step": 600,
+        "loss": 0.0004912654403597116,
+        "iteration": 4
+      },
+      {
+        "step": 700,
+        "loss": 0.0004966026172041893,
+        "iteration": 4
+      },
+      {
+        "step": 1,
+        "loss": 0.3783337473869324,
+        "iteration": 5
+      },
+      {
+        "step": 100,
+        "loss": 0.14700333774089813,
+        "iteration": 5
+      },
+      {
+        "step": 200,
+        "loss": 0.09371249377727509,
+        "iteration": 5
+      },
+      {
+        "step": 300,
+        "loss": 0.090586356818676,
+        "iteration": 5
+      },
+      {
+        "step": 400,
+        "loss": 0.0709238201379776,
+        "iteration": 5
+      },
+      {
+        "step": 500,
+        "loss": 0.08051468431949615,
+        "iteration": 5
+      },
+      {
+        "step": 600,
+        "loss": 0.04961071163415909,
+        "iteration": 5
+      },
+      {
+        "step": 700,
+        "loss": 0.047087978571653366,
+        "iteration": 5
+      },
+      {
+        "step": 1,
+        "loss": 1.237805724143982,
+        "iteration": 6
+      },
+      {
+        "step": 100,
+        "loss": 0.2419753521680832,
+        "iteration": 6
+      },
+      {
+        "step": 200,
+        "loss": 0.22222115099430084,
+        "iteration": 6
+      },
+      {
+        "step": 300,
+        "loss": 0.17509672045707703,
+        "iteration": 6
+      },
+      {
+        "step": 400,
+        "loss": 0.17043545842170715,
+        "iteration": 6
+      },
+      {
+        "step": 500,
+        "loss": 0.1559978574514389,
+        "iteration": 6
+      },
+      {
+        "step": 600,
+        "loss": 0.14218704402446747,
+        "iteration": 6
+      },
+      {
+        "step": 700,
+        "loss": 0.1415259838104248,
+        "iteration": 6
+      }
+    ]
+  },
+  "standard_start": {
+    "result": {
+      "bout_key": "bout_1008_canonical",
+      "split": "training-derived standard start",
+      "phase_initializer": "internal CPG phase zero",
+      "distance_2s_mm": 27.1532391960314,
+      "body_contact_fraction": 0.18238600874453467,
+      "first_body_contact_s": 1.53875,
+      "cycles": [
+        23,
+        15,
+        18,
+        19,
+        23,
+        19
+      ],
+      "finite": true
+    },
+    "gate_pass": false
+  },
+  "heldout_initial_state_generalization": {
+    "summary": {
+      "bouts": 3,
+      "finite_bouts": 3,
+      "minimum_distance_2s_mm": -0.0687296279094876,
+      "median_distance_2s_mm": 0.2194414662185845,
+      "maximum_body_contact_fraction": 0.9712679575265459,
+      "minimum_cycles_per_leg": [
+        5,
+        3,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    "by_bout": [
+      {
+        "bout_key": "bout_0209",
+        "split": "test",
+        "phase_initializer": "one-time proprioceptive nearest CPG state",
+        "distance_2s_mm": -0.0687296279094876,
+        "body_contact_fraction": 0.7520299812617114,
+        "first_body_contact_s": 0.49625,
+        "cycles": [
+          7,
+          8,
+          5,
+          5,
+          4,
+          4
+        ],
+        "finite": true
+      },
+      {
+        "bout_key": "bout_0325",
+        "split": "test",
+        "phase_initializer": "one-time proprioceptive nearest CPG state",
+        "distance_2s_mm": 0.2194414662185845,
+        "body_contact_fraction": 0.9712679575265459,
+        "first_body_contact_s": 0.0575,
+        "cycles": [
+          7,
+          3,
+          2,
+          3,
+          1,
+          1
+        ],
+        "finite": true
+      },
+      {
+        "bout_key": "bout_1250",
+        "split": "test",
+        "phase_initializer": "one-time proprioceptive nearest CPG state",
+        "distance_2s_mm": 5.0706856866750964,
+        "body_contact_fraction": 0.9169269206745784,
+        "first_body_contact_s": 0.16625,
+        "cycles": [
+          5,
+          5,
+          4,
+          2,
+          6,
+          2
+        ],
+        "finite": true
+      }
+    ]
+  },
+  "artifacts": {
+    "checkpoint": "results/official-running-cpg-policy-20260924/checkpoint.pt",
+    "checkpoint_sha256": "3c2a985714c851b3d9cce9731db4a82a7b29f72b7c93b477f3f7d34ec8990306",
+    "trajectories": "results/official-running-cpg-policy-20260924/rollouts.npz",
+    "trajectories_sha256": "406e5f504fb48400914b6eb3510ea9cf898adc19d8928be37afdb42137d63a53",
+    "figure": "results/official-running-cpg-policy-20260924/cpg-policy.png"
+  },
+  "checks": {
+    "canonical_cycle_selected_from_training_only": true,
+    "cycle_teacher_zero_body_contact": true,
+    "six_DAgger_iterations": true,
+    "last_two_policy_only": true,
+    "runtime_phase_is_internal_autonomous_state": true,
+    "runtime_has_no_trajectory_frame_teacher_root_force_or_position_servo": true,
+    "heldout_test_not_used_for_training": true,
+    "artifacts_saved": true,
+    "not_mislabelled_as_connectome_derived": true
+  },
+  "passed": true,
+  "classification": {
+    "A1_engineering_CPG_standard_start": "incomplete",
+    "A1_heldout_initial_state_robustness": "incomplete",
+    "A2_connectome_motor_decoder": "incomplete",
+    "A3_autonomous_walking": "incomplete"
+  },
+  "goal_complete": false
+}

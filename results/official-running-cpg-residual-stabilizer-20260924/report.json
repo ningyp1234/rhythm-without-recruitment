@@ -1,0 +1,1213 @@
+{
+  "date": "2026-09-24",
+  "scope": "frozen engineering CPG plus separately trained proprioceptive posture residual",
+  "runtime_contract": {
+    "inputs": "internal oscillator, current proprioception/contact, previous applied control, speed command",
+    "forbidden": [
+      "running trajectory",
+      "teacher force",
+      "root force",
+      "external force",
+      "position servo"
+    ]
+  },
+  "training": {
+    "seed": 20261007,
+    "betas": [
+      1.0,
+      0.75,
+      0.5,
+      0.25,
+      0.0,
+      0.0
+    ],
+    "cap_fraction": 0.15,
+    "collections": [
+      {
+        "iteration": 1,
+        "beta": 1.0,
+        "finite_bouts": 24,
+        "mean_body_contact": 0.0,
+        "maximum_tilt": 0.021435195580124855,
+        "sampled_frames": {
+          "bout_0242": [
+            0,
+            53
+          ],
+          "bout_0412": [
+            0,
+            518
+          ],
+          "bout_0558": [
+            0,
+            138
+          ],
+          "bout_0571": [
+            0,
+            102
+          ],
+          "bout_0778": [
+            0,
+            103
+          ],
+          "bout_0874": [
+            0,
+            34
+          ],
+          "bout_0941": [
+            0,
+            42
+          ],
+          "bout_0973": [
+            0,
+            142
+          ],
+          "bout_1008": [
+            0,
+            76
+          ],
+          "bout_1389": [
+            0,
+            166
+          ],
+          "bout_1525": [
+            0,
+            194
+          ],
+          "bout_2130": [
+            0,
+            118
+          ]
+        }
+      },
+      {
+        "iteration": 2,
+        "beta": 0.75,
+        "finite_bouts": 24,
+        "mean_body_contact": 0.0,
+        "maximum_tilt": 0.02890096604824066,
+        "sampled_frames": {
+          "bout_0242": [
+            0,
+            254
+          ],
+          "bout_0412": [
+            0,
+            266
+          ],
+          "bout_0558": [
+            0,
+            16
+          ],
+          "bout_0571": [
+            0,
+            58
+          ],
+          "bout_0778": [
+            0,
+            54
+          ],
+          "bout_0874": [
+            0,
+            138
+          ],
+          "bout_0941": [
+            0,
+            35
+          ],
+          "bout_0973": [
+            0,
+            127
+          ],
+          "bout_1008": [
+            0,
+            284
+          ],
+          "bout_1389": [
+            0,
+            180
+          ],
+          "bout_1525": [
+            0,
+            160
+          ],
+          "bout_2130": [
+            0,
+            40
+          ]
+        }
+      },
+      {
+        "iteration": 3,
+        "beta": 0.5,
+        "finite_bouts": 24,
+        "mean_body_contact": 0.0,
+        "maximum_tilt": 0.02192365936934948,
+        "sampled_frames": {
+          "bout_0242": [
+            0,
+            197
+          ],
+          "bout_0412": [
+            0,
+            629
+          ],
+          "bout_0558": [
+            0,
+            65
+          ],
+          "bout_0571": [
+            0,
+            47
+          ],
+          "bout_0778": [
+            0,
+            168
+          ],
+          "bout_0874": [
+            0,
+            27
+          ],
+          "bout_0941": [
+            0,
+            30
+          ],
+          "bout_0973": [
+            0,
+            142
+          ],
+          "bout_1008": [
+            0,
+            3
+          ],
+          "bout_1389": [
+            0,
+            176
+          ],
+          "bout_1525": [
+            0,
+            54
+          ],
+          "bout_2130": [
+            0,
+            314
+          ]
+        }
+      },
+      {
+        "iteration": 4,
+        "beta": 0.25,
+        "finite_bouts": 24,
+        "mean_body_contact": 0.0,
+        "maximum_tilt": 0.05148928984999657,
+        "sampled_frames": {
+          "bout_0242": [
+            0,
+            122
+          ],
+          "bout_0412": [
+            0,
+            781
+          ],
+          "bout_0558": [
+            0,
+            96
+          ],
+          "bout_0571": [
+            0,
+            23
+          ],
+          "bout_0778": [
+            0,
+            0
+          ],
+          "bout_0874": [
+            0,
+            61
+          ],
+          "bout_0941": [
+            0,
+            126
+          ],
+          "bout_0973": [
+            0,
+            144
+          ],
+          "bout_1008": [
+            0,
+            582
+          ],
+          "bout_1389": [
+            0,
+            118
+          ],
+          "bout_1525": [
+            0,
+            74
+          ],
+          "bout_2130": [
+            0,
+            191
+          ]
+        }
+      },
+      {
+        "iteration": 5,
+        "beta": 0.0,
+        "finite_bouts": 24,
+        "mean_body_contact": 0.0870029148448886,
+        "maximum_tilt": 1.9999313354492188,
+        "sampled_frames": {
+          "bout_0242": [
+            0,
+            126
+          ],
+          "bout_0412": [
+            0,
+            483
+          ],
+          "bout_0558": [
+            0,
+            80
+          ],
+          "bout_0571": [
+            0,
+            47
+          ],
+          "bout_0778": [
+            0,
+            135
+          ],
+          "bout_0874": [
+            0,
+            47
+          ],
+          "bout_0941": [
+            0,
+            60
+          ],
+          "bout_0973": [
+            0,
+            8
+          ],
+          "bout_1008": [
+            0,
+            509
+          ],
+          "bout_1389": [
+            0,
+            24
+          ],
+          "bout_1525": [
+            0,
+            225
+          ],
+          "bout_2130": [
+            0,
+            78
+          ]
+        }
+      },
+      {
+        "iteration": 6,
+        "beta": 0.0,
+        "finite_bouts": 24,
+        "mean_body_contact": 0.0625130127003956,
+        "maximum_tilt": 1.9602097272872925,
+        "sampled_frames": {
+          "bout_0242": [
+            0,
+            27
+          ],
+          "bout_0412": [
+            0,
+            221
+          ],
+          "bout_0558": [
+            0,
+            118
+          ],
+          "bout_0571": [
+            0,
+            2
+          ],
+          "bout_0778": [
+            0,
+            151
+          ],
+          "bout_0874": [
+            0,
+            167
+          ],
+          "bout_0941": [
+            0,
+            143
+          ],
+          "bout_0973": [
+            0,
+            233
+          ],
+          "bout_1008": [
+            0,
+            156
+          ],
+          "bout_1389": [
+            0,
+            141
+          ],
+          "bout_1525": [
+            0,
+            217
+          ],
+          "bout_2130": [
+            0,
+            362
+          ]
+        }
+      }
+    ],
+    "loss": [
+      {
+        "step": 1,
+        "loss": 0.0006623797817155719,
+        "iteration": 1
+      },
+      {
+        "step": 100,
+        "loss": 0.00021284773538354784,
+        "iteration": 1
+      },
+      {
+        "step": 200,
+        "loss": 0.00016128311108332127,
+        "iteration": 1
+      },
+      {
+        "step": 300,
+        "loss": 0.00014278145681601018,
+        "iteration": 1
+      },
+      {
+        "step": 400,
+        "loss": 7.217527308966964e-05,
+        "iteration": 1
+      },
+      {
+        "step": 500,
+        "loss": 0.00010028376709669828,
+        "iteration": 1
+      },
+      {
+        "step": 600,
+        "loss": 7.523757813032717e-05,
+        "iteration": 1
+      },
+      {
+        "step": 1,
+        "loss": 7.401988841593266e-05,
+        "iteration": 2
+      },
+      {
+        "step": 100,
+        "loss": 9.538987069390714e-05,
+        "iteration": 2
+      },
+      {
+        "step": 200,
+        "loss": 8.22153888293542e-05,
+        "iteration": 2
+      },
+      {
+        "step": 300,
+        "loss": 5.171265729586594e-05,
+        "iteration": 2
+      },
+      {
+        "step": 400,
+        "loss": 6.578807369805872e-05,
+        "iteration": 2
+      },
+      {
+        "step": 500,
+        "loss": 4.558753062156029e-05,
+        "iteration": 2
+      },
+      {
+        "step": 600,
+        "loss": 0.00012987683294340968,
+        "iteration": 2
+      },
+      {
+        "step": 1,
+        "loss": 4.8082620196510106e-05,
+        "iteration": 3
+      },
+      {
+        "step": 100,
+        "loss": 9.033654350787401e-05,
+        "iteration": 3
+      },
+      {
+        "step": 200,
+        "loss": 6.79701697663404e-05,
+        "iteration": 3
+      },
+      {
+        "step": 300,
+        "loss": 5.807563866255805e-05,
+        "iteration": 3
+      },
+      {
+        "step": 400,
+        "loss": 6.583143840543926e-05,
+        "iteration": 3
+      },
+      {
+        "step": 500,
+        "loss": 3.6291679862188175e-05,
+        "iteration": 3
+      },
+      {
+        "step": 600,
+        "loss": 5.1707618695218116e-05,
+        "iteration": 3
+      },
+      {
+        "step": 1,
+        "loss": 0.0001314955297857523,
+        "iteration": 4
+      },
+      {
+        "step": 100,
+        "loss": 0.00012488239735830575,
+        "iteration": 4
+      },
+      {
+        "step": 200,
+        "loss": 0.00014459590602200478,
+        "iteration": 4
+      },
+      {
+        "step": 300,
+        "loss": 6.583783397218212e-05,
+        "iteration": 4
+      },
+      {
+        "step": 400,
+        "loss": 7.267078763106838e-05,
+        "iteration": 4
+      },
+      {
+        "step": 500,
+        "loss": 6.107683293521404e-05,
+        "iteration": 4
+      },
+      {
+        "step": 600,
+        "loss": 8.358179911738262e-05,
+        "iteration": 4
+      },
+      {
+        "step": 1,
+        "loss": 0.001486144494265318,
+        "iteration": 5
+      },
+      {
+        "step": 100,
+        "loss": 0.0007583947153761983,
+        "iteration": 5
+      },
+      {
+        "step": 200,
+        "loss": 0.0006845321622677147,
+        "iteration": 5
+      },
+      {
+        "step": 300,
+        "loss": 0.0006041611195541918,
+        "iteration": 5
+      },
+      {
+        "step": 400,
+        "loss": 0.00046290832688100636,
+        "iteration": 5
+      },
+      {
+        "step": 500,
+        "loss": 0.0005989468190819025,
+        "iteration": 5
+      },
+      {
+        "step": 600,
+        "loss": 0.0004960302612744272,
+        "iteration": 5
+      },
+      {
+        "step": 1,
+        "loss": 0.0014426993438974023,
+        "iteration": 6
+      },
+      {
+        "step": 100,
+        "loss": 0.0011020265519618988,
+        "iteration": 6
+      },
+      {
+        "step": 200,
+        "loss": 0.000879678875207901,
+        "iteration": 6
+      },
+      {
+        "step": 300,
+        "loss": 0.0007473952719010413,
+        "iteration": 6
+      },
+      {
+        "step": 400,
+        "loss": 0.0007557207136414945,
+        "iteration": 6
+      },
+      {
+        "step": 500,
+        "loss": 0.0006570526747964323,
+        "iteration": 6
+      },
+      {
+        "step": 600,
+        "loss": 0.0007054114830680192,
+        "iteration": 6
+      }
+    ]
+  },
+  "selection": {
+    "source": "validation flies only",
+    "history": [
+      {
+        "iteration": 0,
+        "validation": {
+          "bouts": 3,
+          "finite_bouts": 3,
+          "minimum_distance_2s_mm": 1.5246836437434816,
+          "median_distance_2s_mm": 3.670698835175635,
+          "maximum_body_contact_fraction": 0.9637726420986883,
+          "minimum_cycles_per_leg": [
+            7,
+            17,
+            16,
+            13,
+            4,
+            14
+          ]
+        },
+        "by_bout": [
+          {
+            "bout_key": "bout_0050",
+            "split": "validation",
+            "distance_2s_mm": 1.5246836437434816,
+            "body_contact_fraction": 0.749531542785759,
+            "first_body_contact_s": 0.49875,
+            "maximum_tilt": 1.990200400352478,
+            "cycles": [
+              22,
+              17,
+              17,
+              22,
+              12,
+              17
+            ],
+            "finite": true
+          },
+          {
+            "bout_key": "bout_0144",
+            "split": "validation",
+            "distance_2s_mm": 5.6257815098415005,
+            "body_contact_fraction": 0.6727045596502186,
+            "first_body_contact_s": 0.655,
+            "maximum_tilt": 1.9996683597564697,
+            "cycles": [
+              7,
+              20,
+              16,
+              23,
+              8,
+              18
+            ],
+            "finite": true
+          },
+          {
+            "bout_key": "bout_1205",
+            "split": "validation",
+            "distance_2s_mm": 3.670698835175635,
+            "body_contact_fraction": 0.9637726420986883,
+            "first_body_contact_s": 0.0725,
+            "maximum_tilt": 1.9999479055404663,
+            "cycles": [
+              18,
+              23,
+              22,
+              13,
+              4,
+              14
+            ],
+            "finite": true
+          }
+        ],
+        "objective": 108.73859915471398
+      },
+      {
+        "iteration": 1,
+        "validation": {
+          "bouts": 3,
+          "finite_bouts": 3,
+          "minimum_distance_2s_mm": -1.8939497013364914,
+          "median_distance_2s_mm": 4.644808130135048,
+          "maximum_body_contact_fraction": 0.8850718301061836,
+          "minimum_cycles_per_leg": [
+            2,
+            13,
+            13,
+            21,
+            14,
+            16
+          ]
+        },
+        "by_bout": [
+          {
+            "bout_key": "bout_0050",
+            "split": "validation",
+            "distance_2s_mm": 14.923377632863522,
+            "body_contact_fraction": 0.41536539662710803,
+            "first_body_contact_s": 0.865,
+            "maximum_tilt": 1.9997546672821045,
+            "cycles": [
+              17,
+              13,
+              13,
+              22,
+              14,
+              16
+            ],
+            "finite": true
+          },
+          {
+            "bout_key": "bout_0144",
+            "split": "validation",
+            "distance_2s_mm": -1.8939497013364914,
+            "body_contact_fraction": 0.8657089319175515,
+            "first_body_contact_s": 0.26625,
+            "maximum_tilt": 1.9999810457229614,
+            "cycles": [
+              4,
+              21,
+              20,
+              24,
+              19,
+              23
+            ],
+            "finite": true
+          },
+          {
+            "bout_key": "bout_1205",
+            "split": "validation",
+            "distance_2s_mm": 4.644808130135048,
+            "body_contact_fraction": 0.8850718301061836,
+            "first_body_contact_s": 0.23,
+            "maximum_tilt": 1.9998130798339844,
+            "cycles": [
+              2,
+              22,
+              21,
+              21,
+              19,
+              20
+            ],
+            "finite": true
+          }
+        ],
+        "objective": 117.97693151730081
+      },
+      {
+        "iteration": 2,
+        "validation": {
+          "bouts": 3,
+          "finite_bouts": 3,
+          "minimum_distance_2s_mm": -0.3414541879349528,
+          "median_distance_2s_mm": 6.71576735331139,
+          "maximum_body_contact_fraction": 0.7332916926920675,
+          "minimum_cycles_per_leg": [
+            2,
+            19,
+            21,
+            21,
+            16,
+            5
+          ]
+        },
+        "by_bout": [
+          {
+            "bout_key": "bout_0050",
+            "split": "validation",
+            "distance_2s_mm": 27.903204179783838,
+            "body_contact_fraction": 0.1830106183635228,
+            "first_body_contact_s": 1.63375,
+            "maximum_tilt": 1.9938302040100098,
+            "cycles": [
+              14,
+              19,
+              21,
+              22,
+              17,
+              5
+            ],
+            "finite": true
+          },
+          {
+            "bout_key": "bout_0144",
+            "split": "validation",
+            "distance_2s_mm": -0.3414541879349528,
+            "body_contact_fraction": 0.7332916926920675,
+            "first_body_contact_s": 0.53375,
+            "maximum_tilt": 1.9999576807022095,
+            "cycles": [
+              6,
+              22,
+              21,
+              32,
+              16,
+              17
+            ],
+            "finite": true
+          },
+          {
+            "bout_key": "bout_1205",
+            "split": "validation",
+            "distance_2s_mm": 6.71576735331139,
+            "body_contact_fraction": 0.730793254216115,
+            "first_body_contact_s": 0.53,
+            "maximum_tilt": 1.9999752044677734,
+            "cycles": [
+              2,
+              22,
+              23,
+              21,
+              23,
+              14
+            ],
+            "finite": true
+          }
+        ],
+        "objective": 95.03644020888152
+      },
+      {
+        "iteration": 3,
+        "validation": {
+          "bouts": 3,
+          "finite_bouts": 3,
+          "minimum_distance_2s_mm": -2.950978205049797,
+          "median_distance_2s_mm": 1.9395638318956188,
+          "maximum_body_contact_fraction": 0.8288569643972518,
+          "minimum_cycles_per_leg": [
+            5,
+            4,
+            20,
+            14,
+            14,
+            3
+          ]
+        },
+        "by_bout": [
+          {
+            "bout_key": "bout_0050",
+            "split": "validation",
+            "distance_2s_mm": 25.585078630978153,
+            "body_contact_fraction": 0.0,
+            "first_body_contact_s": null,
+            "maximum_tilt": 0.034951578825712204,
+            "cycles": [
+              22,
+              23,
+              22,
+              22,
+              22,
+              22
+            ],
+            "finite": true
+          },
+          {
+            "bout_key": "bout_0144",
+            "split": "validation",
+            "distance_2s_mm": 1.9395638318956188,
+            "body_contact_fraction": 0.8288569643972518,
+            "first_body_contact_s": 0.3425,
+            "maximum_tilt": 1.2279576063156128,
+            "cycles": [
+              5,
+              4,
+              20,
+              14,
+              14,
+              3
+            ],
+            "finite": true
+          },
+          {
+            "bout_key": "bout_1205",
+            "split": "validation",
+            "distance_2s_mm": -2.950978205049797,
+            "body_contact_fraction": 0.0,
+            "first_body_contact_s": null,
+            "maximum_tilt": 0.08302117139101028,
+            "cycles": [
+              23,
+              22,
+              24,
+              22,
+              23,
+              23
+            ],
+            "finite": true
+          }
+        ],
+        "objective": 117.64058746497415
+      },
+      {
+        "iteration": 4,
+        "validation": {
+          "bouts": 3,
+          "finite_bouts": 3,
+          "minimum_distance_2s_mm": 3.8569474126512993,
+          "median_distance_2s_mm": 28.41777438245753,
+          "maximum_body_contact_fraction": 0.0,
+          "minimum_cycles_per_leg": [
+            22,
+            22,
+            22,
+            21,
+            22,
+            22
+          ]
+        },
+        "by_bout": [
+          {
+            "bout_key": "bout_0050",
+            "split": "validation",
+            "distance_2s_mm": 28.41777438245753,
+            "body_contact_fraction": 0.0,
+            "first_body_contact_s": null,
+            "maximum_tilt": 0.04454079642891884,
+            "cycles": [
+              22,
+              23,
+              22,
+              22,
+              22,
+              23
+            ],
+            "finite": true
+          },
+          {
+            "bout_key": "bout_0144",
+            "split": "validation",
+            "distance_2s_mm": 31.778049889277344,
+            "body_contact_fraction": 0.0,
+            "first_body_contact_s": null,
+            "maximum_tilt": 0.044554583728313446,
+            "cycles": [
+              22,
+              22,
+              23,
+              21,
+              22,
+              22
+            ],
+            "finite": true
+          },
+          {
+            "bout_key": "bout_1205",
+            "split": "validation",
+            "distance_2s_mm": 3.8569474126512993,
+            "body_contact_fraction": 0.0,
+            "first_body_contact_s": null,
+            "maximum_tilt": 0.03797231987118721,
+            "cycles": [
+              22,
+              22,
+              23,
+              22,
+              22,
+              22
+            ],
+            "finite": true
+          }
+        ],
+        "objective": 5.67669346261699
+      },
+      {
+        "iteration": 5,
+        "validation": {
+          "bouts": 3,
+          "finite_bouts": 3,
+          "minimum_distance_2s_mm": 13.029449159427841,
+          "median_distance_2s_mm": 20.04878470510727,
+          "maximum_body_contact_fraction": 0.07995003123048094,
+          "minimum_cycles_per_leg": [
+            22,
+            22,
+            22,
+            22,
+            22,
+            21
+          ]
+        },
+        "by_bout": [
+          {
+            "bout_key": "bout_0050",
+            "split": "validation",
+            "distance_2s_mm": 20.04878470510727,
+            "body_contact_fraction": 0.03560274828232355,
+            "first_body_contact_s": 0.1075,
+            "maximum_tilt": 0.0332891047000885,
+            "cycles": [
+              22,
+              22,
+              22,
+              22,
+              24,
+              21
+            ],
+            "finite": true
+          },
+          {
+            "bout_key": "bout_0144",
+            "split": "validation",
+            "distance_2s_mm": 13.029449159427841,
+            "body_contact_fraction": 0.07995003123048094,
+            "first_body_contact_s": 0.15875,
+            "maximum_tilt": 0.05877166613936424,
+            "cycles": [
+              23,
+              22,
+              22,
+              22,
+              22,
+              22
+            ],
+            "finite": true
+          },
+          {
+            "bout_key": "bout_1205",
+            "split": "validation",
+            "distance_2s_mm": 32.28812856732038,
+            "body_contact_fraction": 0.0037476577139287947,
+            "first_body_contact_s": 0.20375,
+            "maximum_tilt": 0.031359266489744186,
+            "cycles": [
+              22,
+              22,
+              23,
+              22,
+              23,
+              22
+            ],
+            "finite": true
+          }
+        ],
+        "objective": 2.8647086314538157
+      },
+      {
+        "iteration": 6,
+        "validation": {
+          "bouts": 3,
+          "finite_bouts": 3,
+          "minimum_distance_2s_mm": 3.1368017825774217,
+          "median_distance_2s_mm": 3.395277979428737,
+          "maximum_body_contact_fraction": 0.2948157401623985,
+          "minimum_cycles_per_leg": [
+            21,
+            15,
+            13,
+            14,
+            5,
+            8
+          ]
+        },
+        "by_bout": [
+          {
+            "bout_key": "bout_0050",
+            "split": "validation",
+            "distance_2s_mm": 3.1368017825774217,
+            "body_contact_fraction": 0.0,
+            "first_body_contact_s": null,
+            "maximum_tilt": 0.20525522530078888,
+            "cycles": [
+              22,
+              22,
+              22,
+              28,
+              14,
+              21
+            ],
+            "finite": true
+          },
+          {
+            "bout_key": "bout_0144",
+            "split": "validation",
+            "distance_2s_mm": 7.859742168129415,
+            "body_contact_fraction": 0.014366021236727046,
+            "first_body_contact_s": 0.24625,
+            "maximum_tilt": 0.23509494960308075,
+            "cycles": [
+              23,
+              22,
+              17,
+              32,
+              24,
+              32
+            ],
+            "finite": true
+          },
+          {
+            "bout_key": "bout_1205",
+            "split": "validation",
+            "distance_2s_mm": 3.395277979428737,
+            "body_contact_fraction": 0.2948157401623985,
+            "first_body_contact_s": 0.39,
+            "maximum_tilt": 1.9675666093826294,
+            "cycles": [
+              21,
+              15,
+              13,
+              14,
+              5,
+              8
+            ],
+            "finite": true
+          }
+        ],
+        "objective": 33.76619708552696
+      }
+    ],
+    "selected_iteration": 5,
+    "objective": 2.8647086314538157
+  },
+  "standard_start": {
+    "result": {
+      "bout_key": "bout_1008_canonical",
+      "split": "training-derived standard start",
+      "distance_2s_mm": 37.92770931830185,
+      "body_contact_fraction": 0.0,
+      "first_body_contact_s": null,
+      "maximum_tilt": 0.021435419097542763,
+      "cycles": [
+        22,
+        22,
+        22,
+        22,
+        23,
+        22
+      ],
+      "finite": true
+    },
+    "gate_pass": true
+  },
+  "test": {
+    "summary": {
+      "bouts": 3,
+      "finite_bouts": 3,
+      "minimum_distance_2s_mm": 11.532065564754625,
+      "median_distance_2s_mm": 31.377530422542,
+      "maximum_body_contact_fraction": 0.022485946283572766,
+      "minimum_cycles_per_leg": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ]
+    },
+    "by_bout": [
+      {
+        "bout_key": "bout_0209",
+        "split": "test",
+        "distance_2s_mm": 33.910282081079515,
+        "body_contact_fraction": 0.0,
+        "first_body_contact_s": null,
+        "maximum_tilt": 0.04638003930449486,
+        "cycles": [
+          22,
+          23,
+          23,
+          22,
+          22,
+          22
+        ],
+        "finite": true
+      },
+      {
+        "bout_key": "bout_0325",
+        "split": "test",
+        "distance_2s_mm": 11.532065564754625,
+        "body_contact_fraction": 0.022485946283572766,
+        "first_body_contact_s": 0.24875,
+        "maximum_tilt": 0.019399594515562057,
+        "cycles": [
+          22,
+          22,
+          22,
+          22,
+          23,
+          22
+        ],
+        "finite": true
+      },
+      {
+        "bout_key": "bout_1250",
+        "split": "test",
+        "distance_2s_mm": 31.377530422542,
+        "body_contact_fraction": 0.0,
+        "first_body_contact_s": null,
+        "maximum_tilt": 0.02808561734855175,
+        "cycles": [
+          22,
+          22,
+          22,
+          22,
+          22,
+          22
+        ],
+        "finite": true
+      }
+    ],
+    "gate_pass": true
+  },
+  "artifacts": {
+    "checkpoint": "results/official-running-cpg-residual-stabilizer-20260924/checkpoint.pt",
+    "checkpoint_sha256": "05aa5fc2788c9cf1f54211141432594dfc3edbb7734d81839d2371d785df4d3f",
+    "trajectories": "results/official-running-cpg-residual-stabilizer-20260924/test-rollouts.npz",
+    "trajectories_sha256": "62a325f0959beed2b212b60f95410a305e5a60991cc65a6f8071d98ac1a96b2f",
+    "figure": "results/official-running-cpg-residual-stabilizer-20260924/residual-stabilizer.png"
+  },
+  "checks": {
+    "base_CPG_is_frozen": true,
+    "whole_fly_split_12_3_3": true,
+    "two_training_starts_per_bout": true,
+    "six_residual_DAgger_iterations": true,
+    "last_two_policy_only": true,
+    "all_144_collection_bouts_finite": true,
+    "nominal_zero_residual_anchor": true,
+    "validation_selects_checkpoint": true,
+    "test_not_used_for_training_or_selection": true,
+    "runtime_has_no_teacher_trajectory_root_force_or_position_servo": true,
+    "artifacts_saved": true,
+    "not_mislabelled_as_connectome_or_A3": true
+  },
+  "passed": true,
+  "classification": {
+    "A1_engineering_CPG_standard_start": "pass",
+    "A1_heldout_initial_state_robustness": "pass",
+    "A2_connectome_motor_decoder": "incomplete",
+    "A3_autonomous_walking": "incomplete"
+  },
+  "goal_complete": false
+}

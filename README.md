@@ -17,7 +17,7 @@ The study asks whether the published firing-rate model of the full male adult ne
 - The ensemble splits into a low-activity rhythmic regime and a hyperactive recruiting regime.
 - The paper also documents four pitfalls that produced false positives or negatives during the project: phase-replay equivalence, fixed-step integration, kinematic gait gates, and rhythm-detector resolution.
 
-This repository lets anyone re-derive every number and figure in the paper from the saved result files. **It does not claim connectome-driven walking.**
+This repository lets anyone re-derive every number and figure in the paper from the saved result files, and re-run the simulations that produced those files. **It does not claim connectome-driven walking.**
 
 ## Quick start
 
@@ -48,6 +48,8 @@ python paper/scripts/fullmanc_integrator_convergence.py summary     # E1 rhythm 
 
 Timings were measured on a laptop CPU. No GPU is needed.
 
+To re-run the simulations that produced `results/`, see [`pipeline/README.md`](pipeline/README.md). It needs Python ≥ 3.11 and `pip install -r pipeline/requirements.txt`. Run `bash pipeline/setup_external.sh` first; it pins FlyGym and the `fruitfly_v1` body. Then run the `pipeline/fetch_*.py` scripts, which download the authors' archive members.
+
 ## Layout
 
 | Path | Contents |
@@ -55,12 +57,14 @@ Timings were measured on a laptop CPU. No GPU is needed.
 | `paper/` | `main.tex`, `references.bib`, compiled PDF, figures (PDF/PNG) and `figure_source_numbers.json` |
 | `paper/scripts/` | The analysis and verification scripts used for the paper (see Quick start) |
 | `paper/verification/` | Their outputs: re-analysis JSON, integrator traces (`conv_*.npy`) and the 53-item number check (`manuscript_number_check.csv`) |
-| `results/` | The saved result files read by the scripts, with the same directory names as in the original project |
-| `data/` | Small inputs: MANC neuron table and signed weights (2025-10-06 export), parameters and configuration of author run 33195882, and provenance manifests with hashes |
+| `pipeline/` | The simulation pipeline that produced `results/`: 69 files, unchanged except for path definitions (see [`pipeline/README.md`](pipeline/README.md) and [`pipeline/VERIFICATION.md`](pipeline/VERIFICATION.md)) |
+| `results/` | The outputs of the pipeline scripts used in the paper, and the hybrid walker's training data and controllers. Directory names are the same as in the original project |
+| `external/` | Three input files from the Pugliese et al. code repository (MIT). `pipeline/setup_external.sh` clones FlyGym and `3d_tracking_ik` into `external/work/` |
+| `data/` | Inputs: MANC neuron tables and signed weights (2025-10-06 and 2026-05-22 exports); author parameters and configuration (run 33195882 and the DNg100 T1 checkpoints); the FlyMimic musculoskeletal model; provenance manifests with hashes. The large archives are downloaded by `pipeline/fetch_*.py` |
 
 ## Provenance and scope
 
-- **Where the result files come from.** The files in `results/` were produced by the author's original simulation pipeline. That pipeline also covers MuJoCo body models and experiments outside the scope of this paper, and it is not included in this repository. It is available from the corresponding author upon reasonable request. [`PROVENANCE.md`](PROVENANCE.md) lists, for each result directory, the procedure and the original scripts that produced it.
+- **Where the result files come from.** The files in `results/` were produced by the simulation pipeline in [`pipeline/`](pipeline/). It contains the scripts that produced the paper's results and the modules they import, unchanged except for path definitions. [`PROVENANCE.md`](PROVENANCE.md) lists, for each result directory, the procedure and the scripts that produced it. [`pipeline/VERIFICATION.md`](pipeline/VERIFICATION.md) lists what was re-run for this release. The rest of the original project, including experiments outside the scope of this paper, is not included.
 - **What you can reproduce here.** Every number and figure in the paper can be re-derived with `paper/scripts/` from the files in this repository.
 - **Integrator comparison.** `paper/scripts/fullmanc_integrator_convergence.py` re-integrates the full MANC network from the included parameters and weights, so Control 2b is reproduced from scratch rather than from saved results.
 - **Path cleaning.** Absolute local paths have been removed from all text files.

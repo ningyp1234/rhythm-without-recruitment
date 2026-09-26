@@ -1,0 +1,5493 @@
+{
+  "source": "https://zenodo.org/records/22260924",
+  "member": "run_id=33195882/ckpt/DNg100_Stim_fullManc_Rs.npz",
+  "scope": "All 32 author-saved full-MANC rate trajectories; six E1 and anatomically annotated motor pools; no local solver or body",
+  "predeclared_motor_gate": "After .5 s, each tibia flexor and extensor pool needs >=1 neuron above 1 Hz and mean-pool range >=.5 Hz; six E1 sustained additionally required for joint gate",
+  "rows": [
+    {
+      "parameter_row": 0,
+      "sustained_E1_count": 3,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.2465391606092453,
+            "range_hz": 0.29725396633148193
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.5928664803504944,
+            "range_hz": 1.214341402053833
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 1.150240421295166,
+            "range_hz": 1.8755563497543335
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 1,
+      "sustained_E1_count": 1,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 2,
+            "mean_hz": 0.5593830943107605,
+            "range_hz": 0.7403430342674255
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 2.0476464491006596e-13,
+            "range_hz": 1.2423032220987285e-11
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.402069091796875,
+            "range_hz": 1.0486689805984497
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.00012834614608436823,
+            "range_hz": 0.0036257163155823946
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 1.288779616355896,
+            "range_hz": 2.6456077098846436
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.014828477054834366,
+            "range_hz": 0.15112878382205963
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 0.9459607005119324,
+            "range_hz": 2.446774959564209
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 2,
+      "sustained_E1_count": 3,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.07644269615411758,
+            "range_hz": 0.21053723990917206
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.008648151531815529,
+            "range_hz": 0.06267078965902328
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 5.860324924037439e-15,
+            "range_hz": 3.9009043933425913e-13
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.8061866760253906,
+            "range_hz": 1.9998975992202759
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.03573749586939812,
+            "range_hz": 0.27335476875305176
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 1.5692553520202637,
+            "range_hz": 2.7444522380828857
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 3,
+      "sustained_E1_count": 3,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.062270019203424454,
+            "range_hz": 0.1777506172657013
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.05903669074177742,
+            "range_hz": 0.25964653491973877
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 2,
+            "mean_hz": 1.690379023551941,
+            "range_hz": 3.363553762435913
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.014536756090819836,
+            "range_hz": 0.09096138924360275
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 0.6336262226104736,
+            "range_hz": 1.3318253755569458
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 4,
+      "sustained_E1_count": 0,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.18043643236160278,
+            "range_hz": 0.32773199677467346
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.6496149897575378,
+            "range_hz": 1.3984345197677612
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 1.7697635889053345,
+            "range_hz": 1.7376911640167236
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 5,
+      "sustained_E1_count": 4,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.2999037802219391,
+            "range_hz": 0.4529808461666107
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.3776601254940033,
+            "range_hz": 0.7831443548202515
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0664435476064682,
+            "range_hz": 0.19444116950035095
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0014590698992833495,
+            "range_hz": 0.011652362532913685
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 2,
+            "mean_hz": 3.744849681854248,
+            "range_hz": 5.389079570770264
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.3014717400074005,
+            "range_hz": 0.7576498985290527
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 1.5317795276641846,
+            "range_hz": 2.209991216659546
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 6,
+      "sustained_E1_count": 5,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.33504220843315125,
+            "range_hz": 0.6165319681167603
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.1398659646511078,
+            "range_hz": 0.6695243716239929
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.00036424509016796947,
+            "range_hz": 0.017224146053195
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.00019473441352602094,
+            "range_hz": 0.0058947280049324036
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 1.1241823434829712,
+            "range_hz": 2.568822145462036
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0023128376342356205,
+            "range_hz": 0.033077094703912735
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 0.6032619476318359,
+            "range_hz": 1.4572829008102417
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 7,
+      "sustained_E1_count": 1,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.30893734097480774,
+            "range_hz": 0.09538537263870239
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.10410599410533905,
+            "range_hz": 0.5793589353561401
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.010571720078587532,
+            "range_hz": 0.07559459656476974
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 2,
+            "mean_hz": 4.7586588859558105,
+            "range_hz": 6.4544243812561035
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.05161032825708389,
+            "range_hz": 0.5438318252563477
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 2.713477373123169,
+            "range_hz": 3.126615285873413
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 8,
+      "sustained_E1_count": 0,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 3,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 9,
+            "mean_hz": 4.355846405029297,
+            "range_hz": 29.67622184753418
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.00014080277469474822,
+            "range_hz": 0.0074627585709095
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 3,
+            "mean_hz": 6.455922603607178,
+            "range_hz": 37.11581039428711
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.07125384360551834,
+            "range_hz": 2.1918907165527344
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 2,
+            "mean_hz": 1.1273740530014038,
+            "range_hz": 4.007747650146484
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.07130448520183563,
+            "range_hz": 1.8636598587036133
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 2,
+            "mean_hz": 66.65257263183594,
+            "range_hz": 105.6461410522461
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 3,
+            "mean_hz": 0.3081105649471283,
+            "range_hz": 9.819381713867188
+          },
+          "both_tibia_pools_variable": true
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 8,
+            "mean_hz": 42.05369567871094,
+            "range_hz": 11.89394760131836
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 3.0967751172283897e-06,
+            "range_hz": 0.00018780626123771071
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 1,
+            "mean_hz": 19.098737716674805,
+            "range_hz": 34.559043884277344
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 6,
+            "mean_hz": 67.9856185913086,
+            "range_hz": 68.72837829589844
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.06479192525148392,
+            "range_hz": 1.0276461839675903
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 2,
+            "mean_hz": 167.698974609375,
+            "range_hz": 37.794525146484375
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 3,
+            "mean_hz": 32.98163604736328,
+            "range_hz": 36.89196014404297
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 2,
+            "mean_hz": 7.501667499542236,
+            "range_hz": 32.033077239990234
+          },
+          "both_tibia_pools_variable": true
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 6,
+            "mean_hz": 9.317728042602539,
+            "range_hz": 42.554630279541016
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 2,
+            "mean_hz": 2.8880341053009033,
+            "range_hz": 46.47257995605469
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 1,
+            "mean_hz": 12.340950012207031,
+            "range_hz": 39.32221603393555
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 5,
+            "mean_hz": 21.43585205078125,
+            "range_hz": 78.48357391357422
+          },
+          "both_tibia_pools_variable": true
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 8,
+            "mean_hz": 104.44623565673828,
+            "range_hz": 40.21996307373047
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 5.596181654254906e-05,
+            "range_hz": 0.0029559044633060694
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 1,
+            "mean_hz": 57.692726135253906,
+            "range_hz": 46.082603454589844
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 6,
+            "mean_hz": 164.6312713623047,
+            "range_hz": 54.74383544921875
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 9,
+      "sustained_E1_count": 4,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.2057460993528366,
+            "range_hz": 0.3487130403518677
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.025629805400967598,
+            "range_hz": 0.057631753385066986
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.020506728440523148,
+            "range_hz": 0.35731974244117737
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 2,
+            "mean_hz": 3.7464866638183594,
+            "range_hz": 3.7420268058776855
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.04595082253217697,
+            "range_hz": 0.20875412225723267
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 1.5518343448638916,
+            "range_hz": 1.9186985492706299
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 10,
+      "sustained_E1_count": 3,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.13134098052978516,
+            "range_hz": 0.1858191341161728
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0011170933721587062,
+            "range_hz": 0.00869795959442854
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.33416688442230225,
+            "range_hz": 0.9643711447715759
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.040600236505270004,
+            "range_hz": 0.16719555854797363
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 0.9660557508468628,
+            "range_hz": 1.9046738147735596
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 11,
+      "sustained_E1_count": 3,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.018558068200945854,
+            "range_hz": 0.07680179178714752
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 2,
+            "mean_hz": 1.0748142004013062,
+            "range_hz": 1.856529712677002
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.000374237191863358,
+            "range_hz": 0.013290786184370518
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 1.0162020921707153,
+            "range_hz": 1.1912988424301147
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 12,
+      "sustained_E1_count": 5,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.17628492414951324,
+            "range_hz": 0.4454459846019745
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.1153271421790123,
+            "range_hz": 0.32678478956222534
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.012767353095114231,
+            "range_hz": 0.03429042175412178
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.625551164150238,
+            "range_hz": 1.1508656740188599
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.011106247082352638,
+            "range_hz": 0.03733854740858078
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 1.1871763467788696,
+            "range_hz": 2.024622917175293
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 13,
+      "sustained_E1_count": 3,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.3049737811088562,
+            "range_hz": 0.6408252120018005
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.13997280597686768,
+            "range_hz": 0.44939863681793213
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.4830503761768341,
+            "range_hz": 1.1192964315414429
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 0.7114970684051514,
+            "range_hz": 1.3006937503814697
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 14,
+      "sustained_E1_count": 3,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.16511613130569458,
+            "range_hz": 0.5041200518608093
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 1.1088795872638002e-06,
+            "range_hz": 6.541392940562218e-05
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.85526442527771,
+            "range_hz": 2.0752289295196533
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 1.086656093597412,
+            "range_hz": 1.9241232872009277
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 15,
+      "sustained_E1_count": 5,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 2,
+            "mean_hz": 0.45041269063949585,
+            "range_hz": 0.529297947883606
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.1508493274450302,
+            "range_hz": 0.5632634162902832
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.03512844070792198,
+            "range_hz": 0.15764334797859192
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0014371603028848767,
+            "range_hz": 0.013512620702385902
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.9789294600486755,
+            "range_hz": 2.1783080101013184
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.044300347566604614,
+            "range_hz": 0.324143648147583
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 1.001811146736145,
+            "range_hz": 2.4685423374176025
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 16,
+      "sustained_E1_count": 0,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 17,
+      "sustained_E1_count": 3,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.14149458706378937,
+            "range_hz": 0.2088284194469452
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.003373931860551238,
+            "range_hz": 0.03421047702431679
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.04416206106543541,
+            "range_hz": 0.28904592990875244
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 1.0416754484176636,
+            "range_hz": 2.1733922958374023
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.023568907752633095,
+            "range_hz": 0.20122002065181732
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 1.0940221548080444,
+            "range_hz": 2.4954888820648193
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 18,
+      "sustained_E1_count": 2,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.09646706283092499,
+            "range_hz": 0.21905501186847687
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 3.5019381058182253e-12,
+            "range_hz": 2.1469297173393187e-10
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.5113643407821655,
+            "range_hz": 1.3842582702636719
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 1.0478154420852661,
+            "range_hz": 1.508658528327942
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 19,
+      "sustained_E1_count": 3,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.5136783123016357,
+            "range_hz": 1.1932841539382935
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 0.8598135709762573,
+            "range_hz": 1.7166032791137695
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 20,
+      "sustained_E1_count": 4,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.13137851655483246,
+            "range_hz": 0.3300948739051819
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.13164621591567993,
+            "range_hz": 0.37306222319602966
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.2015162855386734,
+            "range_hz": 0.5153745412826538
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 0.7255152463912964,
+            "range_hz": 1.3181232213974
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 21,
+      "sustained_E1_count": 0,
+      "left_front_tibia_both": true,
+      "six_leg_tibia_both_count": 6,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 11,
+            "mean_hz": 11.080348014831543,
+            "range_hz": 55.761417388916016
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.9071730971336365,
+            "range_hz": 11.265212059020996
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 5,
+            "mean_hz": 3.357348918914795,
+            "range_hz": 36.86088943481445
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.05030496418476105,
+            "range_hz": 1.0179253816604614
+          },
+          "both_tibia_pools_variable": true
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 7,
+            "mean_hz": 2.723562002182007,
+            "range_hz": 20.33894920349121
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 2,
+            "mean_hz": 46.400718688964844,
+            "range_hz": 117.0599365234375
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 2,
+            "mean_hz": 1.2116941213607788,
+            "range_hz": 20.827272415161133
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 6,
+            "mean_hz": 6.775605201721191,
+            "range_hz": 32.905521392822266
+          },
+          "both_tibia_pools_variable": true
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 10,
+            "mean_hz": 21.970508575439453,
+            "range_hz": 47.98115158081055
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.058489199727773666,
+            "range_hz": 1.0050872564315796
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 3,
+            "mean_hz": 30.707242965698242,
+            "range_hz": 119.97337341308594
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 6,
+            "mean_hz": 32.907432556152344,
+            "range_hz": 63.399417877197266
+          },
+          "both_tibia_pools_variable": true
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 1,
+            "mean_hz": 1.0660104751586914,
+            "range_hz": 3.8151309490203857
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 2,
+            "mean_hz": 122.81568145751953,
+            "range_hz": 195.77633666992188
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 4,
+            "mean_hz": 25.28110694885254,
+            "range_hz": 65.61975860595703
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 10.781265258789062,
+            "range_hz": 32.45475769042969
+          },
+          "both_tibia_pools_variable": true
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 2,
+            "mean_hz": 1.5980957746505737,
+            "range_hz": 12.238241195678711
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 2,
+            "mean_hz": 23.429166793823242,
+            "range_hz": 130.91033935546875
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 2,
+            "mean_hz": 3.9005000591278076,
+            "range_hz": 47.52915954589844
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 7,
+            "mean_hz": 20.409475326538086,
+            "range_hz": 81.13774871826172
+          },
+          "both_tibia_pools_variable": true
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 8,
+            "mean_hz": 52.08903503417969,
+            "range_hz": 114.94288635253906
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 2,
+            "mean_hz": 0.7292631268501282,
+            "range_hz": 7.331743240356445
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 3,
+            "mean_hz": 57.087100982666016,
+            "range_hz": 129.3966827392578
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 6,
+            "mean_hz": 55.62644958496094,
+            "range_hz": 146.20248413085938
+          },
+          "both_tibia_pools_variable": true
+        }
+      }
+    },
+    {
+      "parameter_row": 22,
+      "sustained_E1_count": 5,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.36011436581611633,
+            "range_hz": 0.5061101913452148
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.27172720432281494,
+            "range_hz": 0.823325514793396
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.09169840067625046,
+            "range_hz": 0.5359873175621033
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 1.0972919464111328,
+            "range_hz": 2.228231906890869
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0472540445625782,
+            "range_hz": 0.18730980157852173
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 0.7019630670547485,
+            "range_hz": 1.4964280128479004
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 23,
+      "sustained_E1_count": 0,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.041322171688079834,
+            "range_hz": 0.11361417174339294
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 2.748203267806024e-15,
+            "range_hz": 1.8174571819306456e-13
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.01912681572139263,
+            "range_hz": 0.10100843757390976
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.3146263659000397,
+            "range_hz": 0.9616304039955139
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 0.5602620840072632,
+            "range_hz": 1.4033303260803223
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 24,
+      "sustained_E1_count": 0,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 25,
+      "sustained_E1_count": 2,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.07773265987634659,
+            "range_hz": 0.1925297975540161
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0007589166634716094,
+            "range_hz": 0.004481682553887367
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.039025649428367615,
+            "range_hz": 0.16602830588817596
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.29814624786376953,
+            "range_hz": 0.8223821520805359
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 26,
+      "sustained_E1_count": 3,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 2,
+            "mean_hz": 0.44968381524086,
+            "range_hz": 0.753052294254303
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.661531388759613,
+            "range_hz": 1.1218845844268799
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.01821867749094963,
+            "range_hz": 0.3473336398601532
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0007254285737872124,
+            "range_hz": 0.018556568771600723
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.5832587480545044,
+            "range_hz": 1.6591851711273193
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.050154801458120346,
+            "range_hz": 0.33479225635528564
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 1.0003842115402222,
+            "range_hz": 2.6045775413513184
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 27,
+      "sustained_E1_count": 4,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.1403723806142807,
+            "range_hz": 0.35559672117233276
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.004874561447650194,
+            "range_hz": 0.0444348081946373
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.19266828894615173,
+            "range_hz": 0.711479127407074
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.15106678009033203,
+            "range_hz": 0.408931165933609
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 0.5463398098945618,
+            "range_hz": 1.3322457075119019
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 28,
+      "sustained_E1_count": 0,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.022157253697514534,
+            "range_hz": 0.07593117654323578
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 2.1113929289835742e-13,
+            "range_hz": 1.3709536110517728e-11
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.9686517715454102,
+            "range_hz": 2.561648368835449
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.1851157397031784,
+            "range_hz": 0.6528768539428711
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 0.7895156741142273,
+            "range_hz": 1.4875746965408325
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 29,
+      "sustained_E1_count": 5,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.26032036542892456,
+            "range_hz": 0.4820493459701538
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.008546525612473488,
+            "range_hz": 0.1156083345413208
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.00238665915094316,
+            "range_hz": 0.06791878491640091
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 3.1047462777794577e-13,
+            "range_hz": 1.967108767542136e-11
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 2,
+            "mean_hz": 1.9430582523345947,
+            "range_hz": 3.6597087383270264
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.18680907785892487,
+            "range_hz": 0.5552047491073608
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 1.246816873550415,
+            "range_hz": 2.295417070388794
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 30,
+      "sustained_E1_count": 3,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.34003308415412903,
+            "range_hz": 0.513184666633606
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.1557360291481018,
+            "range_hz": 0.6748085021972656
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 3.293077345100509e-13,
+            "range_hz": 2.0367979872149e-11
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.003261728212237358,
+            "range_hz": 0.04837150126695633
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 2,
+            "mean_hz": 4.115616798400879,
+            "range_hz": 5.887816429138184
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.03225572779774666,
+            "range_hz": 0.643862783908844
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 1.3453965187072754,
+            "range_hz": 2.6611945629119873
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    },
+    {
+      "parameter_row": 31,
+      "sustained_E1_count": 4,
+      "left_front_tibia_both": false,
+      "six_leg_tibia_both_count": 0,
+      "all_six_E1_and_left_tibia": false,
+      "legs": {
+        "lf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.12798355519771576,
+            "range_hz": 0.34399494528770447
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lm": {
+          "tibia_flex": {
+            "size": 12,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "lh": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rf": {
+          "tibia_flex": {
+            "size": 15,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rm": {
+          "tibia_flex": {
+            "size": 11,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 7,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "both_tibia_pools_variable": false
+        },
+        "rh": {
+          "tibia_flex": {
+            "size": 10,
+            "ever_over_1hz": 0,
+            "mean_hz": 2.235527084629152e-12,
+            "range_hz": 1.2867677756656093e-10
+          },
+          "tibia_extend": {
+            "size": 2,
+            "ever_over_1hz": 1,
+            "mean_hz": 0.38758397102355957,
+            "range_hz": 1.0395601987838745
+          },
+          "coxa_swing": {
+            "size": 3,
+            "ever_over_1hz": 0,
+            "mean_hz": 0.0,
+            "range_hz": 0.0
+          },
+          "coxa_stance": {
+            "size": 6,
+            "ever_over_1hz": 3,
+            "mean_hz": 1.4411442279815674,
+            "range_hz": 1.9087941646575928
+          },
+          "both_tibia_pools_variable": false
+        }
+      }
+    }
+  ],
+  "rows_with_six_E1": [],
+  "rows_with_left_tibia_both": [
+    21
+  ],
+  "rows_with_joint_gate": [],
+  "checks": {
+    "all_32_source_rows_extracted": true,
+    "published_shape_verified": true,
+    "selected_738_source_cell_ids": true,
+    "selected_trace_finite": true
+  },
+  "passed": true,
+  "brain_autonomous_walking_achieved": false
+}

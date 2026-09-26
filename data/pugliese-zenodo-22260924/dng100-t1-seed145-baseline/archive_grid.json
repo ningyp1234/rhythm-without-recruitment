@@ -1,0 +1,938 @@
+{
+  "record": "https://zenodo.org/records/22260924",
+  "archive": "DNg100_Stim__edf2_a.zip",
+  "archive_size_bytes": 32693216567,
+  "archive_md5": "bc5eae95a262f03c87e2a3bd72753ddb",
+  "experiment_run_id": "33258130",
+  "published_checkpoint_count": 116,
+  "entries": [
+    {
+      "excitatory_multiplier": 0.01333,
+      "glutamate_multiplier": 0.01333,
+      "inhibitory_multiplier": 0.01333,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.01333,neuron_params.glutamateMultiplier=0.01333,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "member_bytes": 13404776,
+      "member_crc32": "02e961d8"
+    },
+    {
+      "excitatory_multiplier": 0.01333,
+      "glutamate_multiplier": 0.01333,
+      "inhibitory_multiplier": 0.02,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.01333,neuron_params.glutamateMultiplier=0.01333,neuron_params.inhibitoryMultiplier=0.02/ckpt/neuron_params.h5",
+      "member_bytes": 13481124,
+      "member_crc32": "b4838a8c"
+    },
+    {
+      "excitatory_multiplier": 0.01333,
+      "glutamate_multiplier": 0.01333,
+      "inhibitory_multiplier": 0.03,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.01333,neuron_params.glutamateMultiplier=0.01333,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "member_bytes": 13480674,
+      "member_crc32": "9e57ccd1"
+    },
+    {
+      "excitatory_multiplier": 0.01333,
+      "glutamate_multiplier": 0.01333,
+      "inhibitory_multiplier": 0.045,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.01333,neuron_params.glutamateMultiplier=0.01333,neuron_params.inhibitoryMultiplier=0.045/ckpt/neuron_params.h5",
+      "member_bytes": 13482763,
+      "member_crc32": "2dd01219"
+    },
+    {
+      "excitatory_multiplier": 0.01333,
+      "glutamate_multiplier": 0.01333,
+      "inhibitory_multiplier": 0.0675,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.01333,neuron_params.glutamateMultiplier=0.01333,neuron_params.inhibitoryMultiplier=0.0675/ckpt/neuron_params.h5",
+      "member_bytes": 13485168,
+      "member_crc32": "8379076f"
+    },
+    {
+      "excitatory_multiplier": 0.01333,
+      "glutamate_multiplier": 0.02,
+      "inhibitory_multiplier": 0.01333,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.01333,neuron_params.glutamateMultiplier=0.02,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "member_bytes": 13473151,
+      "member_crc32": "88250e21"
+    },
+    {
+      "excitatory_multiplier": 0.01333,
+      "glutamate_multiplier": 0.02,
+      "inhibitory_multiplier": 0.02,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.01333,neuron_params.glutamateMultiplier=0.02,neuron_params.inhibitoryMultiplier=0.02/ckpt/neuron_params.h5",
+      "member_bytes": 13404776,
+      "member_crc32": "02e961d8"
+    },
+    {
+      "excitatory_multiplier": 0.01333,
+      "glutamate_multiplier": 0.02,
+      "inhibitory_multiplier": 0.03,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.01333,neuron_params.glutamateMultiplier=0.02,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "member_bytes": 13445984,
+      "member_crc32": "8b0de92d"
+    },
+    {
+      "excitatory_multiplier": 0.01333,
+      "glutamate_multiplier": 0.02,
+      "inhibitory_multiplier": 0.045,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.01333,neuron_params.glutamateMultiplier=0.02,neuron_params.inhibitoryMultiplier=0.045/ckpt/neuron_params.h5",
+      "member_bytes": 13465505,
+      "member_crc32": "bb62d8bd"
+    },
+    {
+      "excitatory_multiplier": 0.01333,
+      "glutamate_multiplier": 0.02,
+      "inhibitory_multiplier": 0.0675,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.01333,neuron_params.glutamateMultiplier=0.02,neuron_params.inhibitoryMultiplier=0.0675/ckpt/neuron_params.h5",
+      "member_bytes": 13477094,
+      "member_crc32": "7a84d267"
+    },
+    {
+      "excitatory_multiplier": 0.01333,
+      "glutamate_multiplier": 0.03,
+      "inhibitory_multiplier": 0.01333,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.01333,neuron_params.glutamateMultiplier=0.03,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "member_bytes": 13479295,
+      "member_crc32": "b2c8ca8b"
+    },
+    {
+      "excitatory_multiplier": 0.01333,
+      "glutamate_multiplier": 0.03,
+      "inhibitory_multiplier": 0.02,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.01333,neuron_params.glutamateMultiplier=0.03,neuron_params.inhibitoryMultiplier=0.02/ckpt/neuron_params.h5",
+      "member_bytes": 13420704,
+      "member_crc32": "91c0837d"
+    },
+    {
+      "excitatory_multiplier": 0.01333,
+      "glutamate_multiplier": 0.03,
+      "inhibitory_multiplier": 0.03,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.01333,neuron_params.glutamateMultiplier=0.03,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "member_bytes": 13404776,
+      "member_crc32": "02e961d8"
+    },
+    {
+      "excitatory_multiplier": 0.01333,
+      "glutamate_multiplier": 0.03,
+      "inhibitory_multiplier": 0.045,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.01333,neuron_params.glutamateMultiplier=0.03,neuron_params.inhibitoryMultiplier=0.045/ckpt/neuron_params.h5",
+      "member_bytes": 13445984,
+      "member_crc32": "8b0de92d"
+    },
+    {
+      "excitatory_multiplier": 0.01333,
+      "glutamate_multiplier": 0.03,
+      "inhibitory_multiplier": 0.0675,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.01333,neuron_params.glutamateMultiplier=0.03,neuron_params.inhibitoryMultiplier=0.0675/ckpt/neuron_params.h5",
+      "member_bytes": 13465505,
+      "member_crc32": "bb62d8bd"
+    },
+    {
+      "excitatory_multiplier": 0.01333,
+      "glutamate_multiplier": 0.045,
+      "inhibitory_multiplier": 0.01333,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.01333,neuron_params.glutamateMultiplier=0.045,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "member_bytes": 13482615,
+      "member_crc32": "1d770f31"
+    },
+    {
+      "excitatory_multiplier": 0.01333,
+      "glutamate_multiplier": 0.045,
+      "inhibitory_multiplier": 0.02,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.01333,neuron_params.glutamateMultiplier=0.045,neuron_params.inhibitoryMultiplier=0.02/ckpt/neuron_params.h5",
+      "member_bytes": 13428307,
+      "member_crc32": "669b7396"
+    },
+    {
+      "excitatory_multiplier": 0.01333,
+      "glutamate_multiplier": 0.045,
+      "inhibitory_multiplier": 0.03,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.01333,neuron_params.glutamateMultiplier=0.045,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "member_bytes": 13420704,
+      "member_crc32": "91c0837d"
+    },
+    {
+      "excitatory_multiplier": 0.01333,
+      "glutamate_multiplier": 0.045,
+      "inhibitory_multiplier": 0.045,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.01333,neuron_params.glutamateMultiplier=0.045,neuron_params.inhibitoryMultiplier=0.045/ckpt/neuron_params.h5",
+      "member_bytes": 13404776,
+      "member_crc32": "02e961d8"
+    },
+    {
+      "excitatory_multiplier": 0.01333,
+      "glutamate_multiplier": 0.045,
+      "inhibitory_multiplier": 0.0675,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.01333,neuron_params.glutamateMultiplier=0.045,neuron_params.inhibitoryMultiplier=0.0675/ckpt/neuron_params.h5",
+      "member_bytes": 13445984,
+      "member_crc32": "8b0de92d"
+    },
+    {
+      "excitatory_multiplier": 0.01333,
+      "glutamate_multiplier": 0.0675,
+      "inhibitory_multiplier": 0.01333,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.01333,neuron_params.glutamateMultiplier=0.0675,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "member_bytes": 13483910,
+      "member_crc32": "c7113ca1"
+    },
+    {
+      "excitatory_multiplier": 0.01333,
+      "glutamate_multiplier": 0.0675,
+      "inhibitory_multiplier": 0.02,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.01333,neuron_params.glutamateMultiplier=0.0675,neuron_params.inhibitoryMultiplier=0.02/ckpt/neuron_params.h5",
+      "member_bytes": 13436694,
+      "member_crc32": "26ffe301"
+    },
+    {
+      "excitatory_multiplier": 0.01333,
+      "glutamate_multiplier": 0.0675,
+      "inhibitory_multiplier": 0.03,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.01333,neuron_params.glutamateMultiplier=0.0675,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "member_bytes": 13428307,
+      "member_crc32": "669b7396"
+    },
+    {
+      "excitatory_multiplier": 0.01333,
+      "glutamate_multiplier": 0.0675,
+      "inhibitory_multiplier": 0.045,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.01333,neuron_params.glutamateMultiplier=0.0675,neuron_params.inhibitoryMultiplier=0.045/ckpt/neuron_params.h5",
+      "member_bytes": 13420704,
+      "member_crc32": "91c0837d"
+    },
+    {
+      "excitatory_multiplier": 0.01333,
+      "glutamate_multiplier": 0.0675,
+      "inhibitory_multiplier": 0.0675,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.01333,neuron_params.glutamateMultiplier=0.0675,neuron_params.inhibitoryMultiplier=0.0675/ckpt/neuron_params.h5",
+      "member_bytes": 13404776,
+      "member_crc32": "02e961d8"
+    },
+    {
+      "excitatory_multiplier": 0.02,
+      "glutamate_multiplier": 0.01333,
+      "inhibitory_multiplier": 0.01333,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.02,neuron_params.glutamateMultiplier=0.01333,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "member_bytes": 13404776,
+      "member_crc32": "02e961d8"
+    },
+    {
+      "excitatory_multiplier": 0.02,
+      "glutamate_multiplier": 0.01333,
+      "inhibitory_multiplier": 0.02,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.02,neuron_params.glutamateMultiplier=0.01333,neuron_params.inhibitoryMultiplier=0.02/ckpt/neuron_params.h5",
+      "member_bytes": 13481124,
+      "member_crc32": "b4838a8c"
+    },
+    {
+      "excitatory_multiplier": 0.02,
+      "glutamate_multiplier": 0.01333,
+      "inhibitory_multiplier": 0.03,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.02,neuron_params.glutamateMultiplier=0.01333,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "member_bytes": 13480674,
+      "member_crc32": "9e57ccd1"
+    },
+    {
+      "excitatory_multiplier": 0.02,
+      "glutamate_multiplier": 0.01333,
+      "inhibitory_multiplier": 0.045,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.02,neuron_params.glutamateMultiplier=0.01333,neuron_params.inhibitoryMultiplier=0.045/ckpt/neuron_params.h5",
+      "member_bytes": 13482763,
+      "member_crc32": "2dd01219"
+    },
+    {
+      "excitatory_multiplier": 0.02,
+      "glutamate_multiplier": 0.01333,
+      "inhibitory_multiplier": 0.0675,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.02,neuron_params.glutamateMultiplier=0.01333,neuron_params.inhibitoryMultiplier=0.0675/ckpt/neuron_params.h5",
+      "member_bytes": 13485168,
+      "member_crc32": "8379076f"
+    },
+    {
+      "excitatory_multiplier": 0.02,
+      "glutamate_multiplier": 0.02,
+      "inhibitory_multiplier": 0.01333,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.02,neuron_params.glutamateMultiplier=0.02,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "member_bytes": 13473151,
+      "member_crc32": "88250e21"
+    },
+    {
+      "excitatory_multiplier": 0.02,
+      "glutamate_multiplier": 0.02,
+      "inhibitory_multiplier": 0.02,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.02,neuron_params.glutamateMultiplier=0.02,neuron_params.inhibitoryMultiplier=0.02/ckpt/neuron_params.h5",
+      "member_bytes": 13404776,
+      "member_crc32": "02e961d8"
+    },
+    {
+      "excitatory_multiplier": 0.02,
+      "glutamate_multiplier": 0.02,
+      "inhibitory_multiplier": 0.03,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.02,neuron_params.glutamateMultiplier=0.02,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "member_bytes": 13445984,
+      "member_crc32": "8b0de92d"
+    },
+    {
+      "excitatory_multiplier": 0.02,
+      "glutamate_multiplier": 0.02,
+      "inhibitory_multiplier": 0.045,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.02,neuron_params.glutamateMultiplier=0.02,neuron_params.inhibitoryMultiplier=0.045/ckpt/neuron_params.h5",
+      "member_bytes": 13465505,
+      "member_crc32": "bb62d8bd"
+    },
+    {
+      "excitatory_multiplier": 0.02,
+      "glutamate_multiplier": 0.02,
+      "inhibitory_multiplier": 0.0675,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.02,neuron_params.glutamateMultiplier=0.02,neuron_params.inhibitoryMultiplier=0.0675/ckpt/neuron_params.h5",
+      "member_bytes": 13477094,
+      "member_crc32": "7a84d267"
+    },
+    {
+      "excitatory_multiplier": 0.02,
+      "glutamate_multiplier": 0.03,
+      "inhibitory_multiplier": 0.01333,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.02,neuron_params.glutamateMultiplier=0.03,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "member_bytes": 13479295,
+      "member_crc32": "b2c8ca8b"
+    },
+    {
+      "excitatory_multiplier": 0.02,
+      "glutamate_multiplier": 0.03,
+      "inhibitory_multiplier": 0.02,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.02,neuron_params.glutamateMultiplier=0.03,neuron_params.inhibitoryMultiplier=0.02/ckpt/neuron_params.h5",
+      "member_bytes": 13420704,
+      "member_crc32": "91c0837d"
+    },
+    {
+      "excitatory_multiplier": 0.02,
+      "glutamate_multiplier": 0.03,
+      "inhibitory_multiplier": 0.03,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.02,neuron_params.glutamateMultiplier=0.03,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "member_bytes": 13404776,
+      "member_crc32": "02e961d8"
+    },
+    {
+      "excitatory_multiplier": 0.02,
+      "glutamate_multiplier": 0.03,
+      "inhibitory_multiplier": 0.045,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.02,neuron_params.glutamateMultiplier=0.03,neuron_params.inhibitoryMultiplier=0.045/ckpt/neuron_params.h5",
+      "member_bytes": 13445984,
+      "member_crc32": "8b0de92d"
+    },
+    {
+      "excitatory_multiplier": 0.02,
+      "glutamate_multiplier": 0.03,
+      "inhibitory_multiplier": 0.0675,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.02,neuron_params.glutamateMultiplier=0.03,neuron_params.inhibitoryMultiplier=0.0675/ckpt/neuron_params.h5",
+      "member_bytes": 13465505,
+      "member_crc32": "bb62d8bd"
+    },
+    {
+      "excitatory_multiplier": 0.02,
+      "glutamate_multiplier": 0.045,
+      "inhibitory_multiplier": 0.01333,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.02,neuron_params.glutamateMultiplier=0.045,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "member_bytes": 13482615,
+      "member_crc32": "1d770f31"
+    },
+    {
+      "excitatory_multiplier": 0.02,
+      "glutamate_multiplier": 0.045,
+      "inhibitory_multiplier": 0.02,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.02,neuron_params.glutamateMultiplier=0.045,neuron_params.inhibitoryMultiplier=0.02/ckpt/neuron_params.h5",
+      "member_bytes": 13428307,
+      "member_crc32": "669b7396"
+    },
+    {
+      "excitatory_multiplier": 0.02,
+      "glutamate_multiplier": 0.045,
+      "inhibitory_multiplier": 0.03,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.02,neuron_params.glutamateMultiplier=0.045,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "member_bytes": 13420704,
+      "member_crc32": "91c0837d"
+    },
+    {
+      "excitatory_multiplier": 0.02,
+      "glutamate_multiplier": 0.045,
+      "inhibitory_multiplier": 0.045,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.02,neuron_params.glutamateMultiplier=0.045,neuron_params.inhibitoryMultiplier=0.045/ckpt/neuron_params.h5",
+      "member_bytes": 13404776,
+      "member_crc32": "02e961d8"
+    },
+    {
+      "excitatory_multiplier": 0.02,
+      "glutamate_multiplier": 0.045,
+      "inhibitory_multiplier": 0.0675,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.02,neuron_params.glutamateMultiplier=0.045,neuron_params.inhibitoryMultiplier=0.0675/ckpt/neuron_params.h5",
+      "member_bytes": 13445984,
+      "member_crc32": "8b0de92d"
+    },
+    {
+      "excitatory_multiplier": 0.02,
+      "glutamate_multiplier": 0.0675,
+      "inhibitory_multiplier": 0.01333,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.02,neuron_params.glutamateMultiplier=0.0675,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "member_bytes": 13483910,
+      "member_crc32": "c7113ca1"
+    },
+    {
+      "excitatory_multiplier": 0.02,
+      "glutamate_multiplier": 0.0675,
+      "inhibitory_multiplier": 0.02,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.02,neuron_params.glutamateMultiplier=0.0675,neuron_params.inhibitoryMultiplier=0.02/ckpt/neuron_params.h5",
+      "member_bytes": 13436694,
+      "member_crc32": "26ffe301"
+    },
+    {
+      "excitatory_multiplier": 0.02,
+      "glutamate_multiplier": 0.0675,
+      "inhibitory_multiplier": 0.03,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.02,neuron_params.glutamateMultiplier=0.0675,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "member_bytes": 13428307,
+      "member_crc32": "669b7396"
+    },
+    {
+      "excitatory_multiplier": 0.02,
+      "glutamate_multiplier": 0.0675,
+      "inhibitory_multiplier": 0.045,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.02,neuron_params.glutamateMultiplier=0.0675,neuron_params.inhibitoryMultiplier=0.045/ckpt/neuron_params.h5",
+      "member_bytes": 13420704,
+      "member_crc32": "91c0837d"
+    },
+    {
+      "excitatory_multiplier": 0.02,
+      "glutamate_multiplier": 0.0675,
+      "inhibitory_multiplier": 0.0675,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.02,neuron_params.glutamateMultiplier=0.0675,neuron_params.inhibitoryMultiplier=0.0675/ckpt/neuron_params.h5",
+      "member_bytes": 13404776,
+      "member_crc32": "02e961d8"
+    },
+    {
+      "excitatory_multiplier": 0.03,
+      "glutamate_multiplier": 0.01333,
+      "inhibitory_multiplier": 0.01333,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.01333,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "member_bytes": 13404776,
+      "member_crc32": "02e961d8"
+    },
+    {
+      "excitatory_multiplier": 0.03,
+      "glutamate_multiplier": 0.01333,
+      "inhibitory_multiplier": 0.02,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.01333,neuron_params.inhibitoryMultiplier=0.02/ckpt/neuron_params.h5",
+      "member_bytes": 13481124,
+      "member_crc32": "b4838a8c"
+    },
+    {
+      "excitatory_multiplier": 0.03,
+      "glutamate_multiplier": 0.01333,
+      "inhibitory_multiplier": 0.03,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.01333,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "member_bytes": 13480674,
+      "member_crc32": "9e57ccd1"
+    },
+    {
+      "excitatory_multiplier": 0.03,
+      "glutamate_multiplier": 0.01333,
+      "inhibitory_multiplier": 0.045,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.01333,neuron_params.inhibitoryMultiplier=0.045/ckpt/neuron_params.h5",
+      "member_bytes": 13482763,
+      "member_crc32": "2dd01219"
+    },
+    {
+      "excitatory_multiplier": 0.03,
+      "glutamate_multiplier": 0.01333,
+      "inhibitory_multiplier": 0.0675,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.01333,neuron_params.inhibitoryMultiplier=0.0675/ckpt/neuron_params.h5",
+      "member_bytes": 13485168,
+      "member_crc32": "8379076f"
+    },
+    {
+      "excitatory_multiplier": 0.03,
+      "glutamate_multiplier": 0.02,
+      "inhibitory_multiplier": 0.01333,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.02,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "member_bytes": 13473151,
+      "member_crc32": "88250e21"
+    },
+    {
+      "excitatory_multiplier": 0.03,
+      "glutamate_multiplier": 0.02,
+      "inhibitory_multiplier": 0.02,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.02,neuron_params.inhibitoryMultiplier=0.02/ckpt/neuron_params.h5",
+      "member_bytes": 13404776,
+      "member_crc32": "02e961d8"
+    },
+    {
+      "excitatory_multiplier": 0.03,
+      "glutamate_multiplier": 0.02,
+      "inhibitory_multiplier": 0.03,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.02,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "member_bytes": 13445984,
+      "member_crc32": "8b0de92d"
+    },
+    {
+      "excitatory_multiplier": 0.03,
+      "glutamate_multiplier": 0.02,
+      "inhibitory_multiplier": 0.045,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.02,neuron_params.inhibitoryMultiplier=0.045/ckpt/neuron_params.h5",
+      "member_bytes": 13465505,
+      "member_crc32": "bb62d8bd"
+    },
+    {
+      "excitatory_multiplier": 0.03,
+      "glutamate_multiplier": 0.02,
+      "inhibitory_multiplier": 0.0675,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.02,neuron_params.inhibitoryMultiplier=0.0675/ckpt/neuron_params.h5",
+      "member_bytes": 13477094,
+      "member_crc32": "7a84d267"
+    },
+    {
+      "excitatory_multiplier": 0.03,
+      "glutamate_multiplier": 0.03,
+      "inhibitory_multiplier": 0.01333,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.03,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "member_bytes": 13479295,
+      "member_crc32": "b2c8ca8b"
+    },
+    {
+      "excitatory_multiplier": 0.03,
+      "glutamate_multiplier": 0.03,
+      "inhibitory_multiplier": 0.02,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.03,neuron_params.inhibitoryMultiplier=0.02/ckpt/neuron_params.h5",
+      "member_bytes": 13420704,
+      "member_crc32": "91c0837d"
+    },
+    {
+      "excitatory_multiplier": 0.03,
+      "glutamate_multiplier": 0.03,
+      "inhibitory_multiplier": 0.03,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.03,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "member_bytes": 13404776,
+      "member_crc32": "02e961d8"
+    },
+    {
+      "excitatory_multiplier": 0.03,
+      "glutamate_multiplier": 0.03,
+      "inhibitory_multiplier": 0.045,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.03,neuron_params.inhibitoryMultiplier=0.045/ckpt/neuron_params.h5",
+      "member_bytes": 13445984,
+      "member_crc32": "8b0de92d"
+    },
+    {
+      "excitatory_multiplier": 0.03,
+      "glutamate_multiplier": 0.03,
+      "inhibitory_multiplier": 0.0675,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.03,neuron_params.inhibitoryMultiplier=0.0675/ckpt/neuron_params.h5",
+      "member_bytes": 13465505,
+      "member_crc32": "bb62d8bd"
+    },
+    {
+      "excitatory_multiplier": 0.03,
+      "glutamate_multiplier": 0.045,
+      "inhibitory_multiplier": 0.01333,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.045,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "member_bytes": 13482615,
+      "member_crc32": "1d770f31"
+    },
+    {
+      "excitatory_multiplier": 0.03,
+      "glutamate_multiplier": 0.045,
+      "inhibitory_multiplier": 0.02,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.045,neuron_params.inhibitoryMultiplier=0.02/ckpt/neuron_params.h5",
+      "member_bytes": 13428307,
+      "member_crc32": "669b7396"
+    },
+    {
+      "excitatory_multiplier": 0.03,
+      "glutamate_multiplier": 0.045,
+      "inhibitory_multiplier": 0.03,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.045,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "member_bytes": 13420704,
+      "member_crc32": "91c0837d"
+    },
+    {
+      "excitatory_multiplier": 0.03,
+      "glutamate_multiplier": 0.045,
+      "inhibitory_multiplier": 0.045,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.045,neuron_params.inhibitoryMultiplier=0.045/ckpt/neuron_params.h5",
+      "member_bytes": 13404776,
+      "member_crc32": "02e961d8"
+    },
+    {
+      "excitatory_multiplier": 0.03,
+      "glutamate_multiplier": 0.045,
+      "inhibitory_multiplier": 0.0675,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.045,neuron_params.inhibitoryMultiplier=0.0675/ckpt/neuron_params.h5",
+      "member_bytes": 13445984,
+      "member_crc32": "8b0de92d"
+    },
+    {
+      "excitatory_multiplier": 0.03,
+      "glutamate_multiplier": 0.0675,
+      "inhibitory_multiplier": 0.01333,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.0675,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "member_bytes": 13483910,
+      "member_crc32": "c7113ca1"
+    },
+    {
+      "excitatory_multiplier": 0.03,
+      "glutamate_multiplier": 0.0675,
+      "inhibitory_multiplier": 0.02,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.0675,neuron_params.inhibitoryMultiplier=0.02/ckpt/neuron_params.h5",
+      "member_bytes": 13436694,
+      "member_crc32": "26ffe301"
+    },
+    {
+      "excitatory_multiplier": 0.03,
+      "glutamate_multiplier": 0.0675,
+      "inhibitory_multiplier": 0.03,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.0675,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "member_bytes": 13428307,
+      "member_crc32": "669b7396"
+    },
+    {
+      "excitatory_multiplier": 0.03,
+      "glutamate_multiplier": 0.0675,
+      "inhibitory_multiplier": 0.045,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.0675,neuron_params.inhibitoryMultiplier=0.045/ckpt/neuron_params.h5",
+      "member_bytes": 13420704,
+      "member_crc32": "91c0837d"
+    },
+    {
+      "excitatory_multiplier": 0.03,
+      "glutamate_multiplier": 0.0675,
+      "inhibitory_multiplier": 0.0675,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.03,neuron_params.glutamateMultiplier=0.0675,neuron_params.inhibitoryMultiplier=0.0675/ckpt/neuron_params.h5",
+      "member_bytes": 13404776,
+      "member_crc32": "02e961d8"
+    },
+    {
+      "excitatory_multiplier": 0.045,
+      "glutamate_multiplier": 0.01333,
+      "inhibitory_multiplier": 0.01333,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.01333,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "member_bytes": 13404776,
+      "member_crc32": "02e961d8"
+    },
+    {
+      "excitatory_multiplier": 0.045,
+      "glutamate_multiplier": 0.01333,
+      "inhibitory_multiplier": 0.02,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.01333,neuron_params.inhibitoryMultiplier=0.02/ckpt/neuron_params.h5",
+      "member_bytes": 13481124,
+      "member_crc32": "b4838a8c"
+    },
+    {
+      "excitatory_multiplier": 0.045,
+      "glutamate_multiplier": 0.01333,
+      "inhibitory_multiplier": 0.03,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.01333,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "member_bytes": 13480674,
+      "member_crc32": "9e57ccd1"
+    },
+    {
+      "excitatory_multiplier": 0.045,
+      "glutamate_multiplier": 0.01333,
+      "inhibitory_multiplier": 0.045,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.01333,neuron_params.inhibitoryMultiplier=0.045/ckpt/neuron_params.h5",
+      "member_bytes": 13482763,
+      "member_crc32": "2dd01219"
+    },
+    {
+      "excitatory_multiplier": 0.045,
+      "glutamate_multiplier": 0.01333,
+      "inhibitory_multiplier": 0.0675,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.01333,neuron_params.inhibitoryMultiplier=0.0675/ckpt/neuron_params.h5",
+      "member_bytes": 13485168,
+      "member_crc32": "8379076f"
+    },
+    {
+      "excitatory_multiplier": 0.045,
+      "glutamate_multiplier": 0.02,
+      "inhibitory_multiplier": 0.01333,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.02,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "member_bytes": 13473151,
+      "member_crc32": "88250e21"
+    },
+    {
+      "excitatory_multiplier": 0.045,
+      "glutamate_multiplier": 0.02,
+      "inhibitory_multiplier": 0.02,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.02,neuron_params.inhibitoryMultiplier=0.02/ckpt/neuron_params.h5",
+      "member_bytes": 13404776,
+      "member_crc32": "02e961d8"
+    },
+    {
+      "excitatory_multiplier": 0.045,
+      "glutamate_multiplier": 0.02,
+      "inhibitory_multiplier": 0.03,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.02,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "member_bytes": 13445984,
+      "member_crc32": "8b0de92d"
+    },
+    {
+      "excitatory_multiplier": 0.045,
+      "glutamate_multiplier": 0.02,
+      "inhibitory_multiplier": 0.045,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.02,neuron_params.inhibitoryMultiplier=0.045/ckpt/neuron_params.h5",
+      "member_bytes": 13465505,
+      "member_crc32": "bb62d8bd"
+    },
+    {
+      "excitatory_multiplier": 0.045,
+      "glutamate_multiplier": 0.02,
+      "inhibitory_multiplier": 0.0675,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.02,neuron_params.inhibitoryMultiplier=0.0675/ckpt/neuron_params.h5",
+      "member_bytes": 13477094,
+      "member_crc32": "7a84d267"
+    },
+    {
+      "excitatory_multiplier": 0.045,
+      "glutamate_multiplier": 0.03,
+      "inhibitory_multiplier": 0.01333,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.03,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "member_bytes": 13479295,
+      "member_crc32": "b2c8ca8b"
+    },
+    {
+      "excitatory_multiplier": 0.045,
+      "glutamate_multiplier": 0.03,
+      "inhibitory_multiplier": 0.02,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.03,neuron_params.inhibitoryMultiplier=0.02/ckpt/neuron_params.h5",
+      "member_bytes": 13420704,
+      "member_crc32": "91c0837d"
+    },
+    {
+      "excitatory_multiplier": 0.045,
+      "glutamate_multiplier": 0.03,
+      "inhibitory_multiplier": 0.03,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.03,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "member_bytes": 13404776,
+      "member_crc32": "02e961d8"
+    },
+    {
+      "excitatory_multiplier": 0.045,
+      "glutamate_multiplier": 0.03,
+      "inhibitory_multiplier": 0.045,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.03,neuron_params.inhibitoryMultiplier=0.045/ckpt/neuron_params.h5",
+      "member_bytes": 13445984,
+      "member_crc32": "8b0de92d"
+    },
+    {
+      "excitatory_multiplier": 0.045,
+      "glutamate_multiplier": 0.03,
+      "inhibitory_multiplier": 0.0675,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.03,neuron_params.inhibitoryMultiplier=0.0675/ckpt/neuron_params.h5",
+      "member_bytes": 13465505,
+      "member_crc32": "bb62d8bd"
+    },
+    {
+      "excitatory_multiplier": 0.045,
+      "glutamate_multiplier": 0.045,
+      "inhibitory_multiplier": 0.01333,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.045,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "member_bytes": 13482615,
+      "member_crc32": "1d770f31"
+    },
+    {
+      "excitatory_multiplier": 0.045,
+      "glutamate_multiplier": 0.045,
+      "inhibitory_multiplier": 0.02,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.045,neuron_params.inhibitoryMultiplier=0.02/ckpt/neuron_params.h5",
+      "member_bytes": 13428307,
+      "member_crc32": "669b7396"
+    },
+    {
+      "excitatory_multiplier": 0.045,
+      "glutamate_multiplier": 0.045,
+      "inhibitory_multiplier": 0.03,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.045,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "member_bytes": 13420704,
+      "member_crc32": "91c0837d"
+    },
+    {
+      "excitatory_multiplier": 0.045,
+      "glutamate_multiplier": 0.045,
+      "inhibitory_multiplier": 0.045,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.045,neuron_params.inhibitoryMultiplier=0.045/ckpt/neuron_params.h5",
+      "member_bytes": 13404776,
+      "member_crc32": "02e961d8"
+    },
+    {
+      "excitatory_multiplier": 0.045,
+      "glutamate_multiplier": 0.045,
+      "inhibitory_multiplier": 0.0675,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.045,neuron_params.inhibitoryMultiplier=0.0675/ckpt/neuron_params.h5",
+      "member_bytes": 13445984,
+      "member_crc32": "8b0de92d"
+    },
+    {
+      "excitatory_multiplier": 0.045,
+      "glutamate_multiplier": 0.0675,
+      "inhibitory_multiplier": 0.01333,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.0675,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "member_bytes": 13483910,
+      "member_crc32": "c7113ca1"
+    },
+    {
+      "excitatory_multiplier": 0.045,
+      "glutamate_multiplier": 0.0675,
+      "inhibitory_multiplier": 0.02,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.0675,neuron_params.inhibitoryMultiplier=0.02/ckpt/neuron_params.h5",
+      "member_bytes": 13436694,
+      "member_crc32": "26ffe301"
+    },
+    {
+      "excitatory_multiplier": 0.045,
+      "glutamate_multiplier": 0.0675,
+      "inhibitory_multiplier": 0.03,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.0675,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "member_bytes": 13428307,
+      "member_crc32": "669b7396"
+    },
+    {
+      "excitatory_multiplier": 0.045,
+      "glutamate_multiplier": 0.0675,
+      "inhibitory_multiplier": 0.045,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.0675,neuron_params.inhibitoryMultiplier=0.045/ckpt/neuron_params.h5",
+      "member_bytes": 13420704,
+      "member_crc32": "91c0837d"
+    },
+    {
+      "excitatory_multiplier": 0.045,
+      "glutamate_multiplier": 0.0675,
+      "inhibitory_multiplier": 0.0675,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.045,neuron_params.glutamateMultiplier=0.0675,neuron_params.inhibitoryMultiplier=0.0675/ckpt/neuron_params.h5",
+      "member_bytes": 13404776,
+      "member_crc32": "02e961d8"
+    },
+    {
+      "excitatory_multiplier": 0.0675,
+      "glutamate_multiplier": 0.01333,
+      "inhibitory_multiplier": 0.01333,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.0675,neuron_params.glutamateMultiplier=0.01333,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "member_bytes": 13404776,
+      "member_crc32": "02e961d8"
+    },
+    {
+      "excitatory_multiplier": 0.0675,
+      "glutamate_multiplier": 0.01333,
+      "inhibitory_multiplier": 0.02,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.0675,neuron_params.glutamateMultiplier=0.01333,neuron_params.inhibitoryMultiplier=0.02/ckpt/neuron_params.h5",
+      "member_bytes": 13481124,
+      "member_crc32": "b4838a8c"
+    },
+    {
+      "excitatory_multiplier": 0.0675,
+      "glutamate_multiplier": 0.01333,
+      "inhibitory_multiplier": 0.03,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.0675,neuron_params.glutamateMultiplier=0.01333,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "member_bytes": 13480674,
+      "member_crc32": "9e57ccd1"
+    },
+    {
+      "excitatory_multiplier": 0.0675,
+      "glutamate_multiplier": 0.01333,
+      "inhibitory_multiplier": 0.045,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.0675,neuron_params.glutamateMultiplier=0.01333,neuron_params.inhibitoryMultiplier=0.045/ckpt/neuron_params.h5",
+      "member_bytes": 13482763,
+      "member_crc32": "2dd01219"
+    },
+    {
+      "excitatory_multiplier": 0.0675,
+      "glutamate_multiplier": 0.02,
+      "inhibitory_multiplier": 0.01333,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.0675,neuron_params.glutamateMultiplier=0.02,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "member_bytes": 13473151,
+      "member_crc32": "88250e21"
+    },
+    {
+      "excitatory_multiplier": 0.0675,
+      "glutamate_multiplier": 0.02,
+      "inhibitory_multiplier": 0.02,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.0675,neuron_params.glutamateMultiplier=0.02,neuron_params.inhibitoryMultiplier=0.02/ckpt/neuron_params.h5",
+      "member_bytes": 13404776,
+      "member_crc32": "02e961d8"
+    },
+    {
+      "excitatory_multiplier": 0.0675,
+      "glutamate_multiplier": 0.02,
+      "inhibitory_multiplier": 0.03,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.0675,neuron_params.glutamateMultiplier=0.02,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "member_bytes": 13445984,
+      "member_crc32": "8b0de92d"
+    },
+    {
+      "excitatory_multiplier": 0.0675,
+      "glutamate_multiplier": 0.03,
+      "inhibitory_multiplier": 0.01333,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.0675,neuron_params.glutamateMultiplier=0.03,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "member_bytes": 13479295,
+      "member_crc32": "b2c8ca8b"
+    },
+    {
+      "excitatory_multiplier": 0.0675,
+      "glutamate_multiplier": 0.03,
+      "inhibitory_multiplier": 0.02,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.0675,neuron_params.glutamateMultiplier=0.03,neuron_params.inhibitoryMultiplier=0.02/ckpt/neuron_params.h5",
+      "member_bytes": 13420704,
+      "member_crc32": "91c0837d"
+    },
+    {
+      "excitatory_multiplier": 0.0675,
+      "glutamate_multiplier": 0.03,
+      "inhibitory_multiplier": 0.03,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.0675,neuron_params.glutamateMultiplier=0.03,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "member_bytes": 13404776,
+      "member_crc32": "02e961d8"
+    },
+    {
+      "excitatory_multiplier": 0.0675,
+      "glutamate_multiplier": 0.045,
+      "inhibitory_multiplier": 0.01333,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.0675,neuron_params.glutamateMultiplier=0.045,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "member_bytes": 13482615,
+      "member_crc32": "1d770f31"
+    },
+    {
+      "excitatory_multiplier": 0.0675,
+      "glutamate_multiplier": 0.045,
+      "inhibitory_multiplier": 0.02,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.0675,neuron_params.glutamateMultiplier=0.045,neuron_params.inhibitoryMultiplier=0.02/ckpt/neuron_params.h5",
+      "member_bytes": 13428307,
+      "member_crc32": "669b7396"
+    },
+    {
+      "excitatory_multiplier": 0.0675,
+      "glutamate_multiplier": 0.045,
+      "inhibitory_multiplier": 0.03,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.0675,neuron_params.glutamateMultiplier=0.045,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "member_bytes": 13420704,
+      "member_crc32": "91c0837d"
+    },
+    {
+      "excitatory_multiplier": 0.0675,
+      "glutamate_multiplier": 0.0675,
+      "inhibitory_multiplier": 0.01333,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.0675,neuron_params.glutamateMultiplier=0.0675,neuron_params.inhibitoryMultiplier=0.01333/ckpt/neuron_params.h5",
+      "member_bytes": 13483910,
+      "member_crc32": "c7113ca1"
+    },
+    {
+      "excitatory_multiplier": 0.0675,
+      "glutamate_multiplier": 0.0675,
+      "inhibitory_multiplier": 0.02,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.0675,neuron_params.glutamateMultiplier=0.0675,neuron_params.inhibitoryMultiplier=0.02/ckpt/neuron_params.h5",
+      "member_bytes": 13436694,
+      "member_crc32": "26ffe301"
+    },
+    {
+      "excitatory_multiplier": 0.0675,
+      "glutamate_multiplier": 0.0675,
+      "inhibitory_multiplier": 0.03,
+      "archive_member": "simulations/DNg100_Stim/hyak/run_id=33258130/experiment.seed=145,neuron_params.excitatoryMultiplier=0.0675,neuron_params.glutamateMultiplier=0.0675,neuron_params.inhibitoryMultiplier=0.03/ckpt/neuron_params.h5",
+      "member_bytes": 13428307,
+      "member_crc32": "669b7396"
+    }
+  ]
+}

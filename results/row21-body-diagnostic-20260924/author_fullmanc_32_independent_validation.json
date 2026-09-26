@@ -1,0 +1,22 @@
+{
+  "scope": "Original ZIP member CRC, sparse-coordinate sample, author input, 32-row neural and physical outcome independent delivery audit",
+  "checks": {
+    "published_member_byte_length": true,
+    "published_member_crc32": true,
+    "published_tensor_shape": true,
+    "100_original_sparse_samples_match_extracted_rates": true,
+    "all_32_neural_and_body_rows_present": true,
+    "source_two_DNg100_inputs_380": true,
+    "no_six_E1_row": true,
+    "row21_only_six_tibia_row": true,
+    "no_joint_neural_gate": true,
+    "all_32_no_5mm_in_both_bodies": true,
+    "all_32_no_walking_in_both_bodies": true,
+    "fresh_row21_reproduced": true,
+    "source_row21_motor_matches_32row_subset": true
+  },
+  "checks_passed": 13,
+  "checks_total": 13,
+  "passed": true,
+  "goal_complete": false
+}

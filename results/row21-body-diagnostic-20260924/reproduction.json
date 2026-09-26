@@ -1,0 +1,62 @@
+{
+  "scope": "Frozen exact full-MANC row21 motor output to real free Hill body, same full call chain, two deterministic repeats",
+  "runs": [
+    {
+      "trial": 0,
+      "forward_mm": 0.7068030244311231,
+      "steps_per_leg": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      "walking_pass": false,
+      "muscle_count": 78,
+      "max_muscle_excitation": 0.8796178698539734,
+      "max_muscle_force": 330.45421999574563,
+      "contact_fraction_by_leg": [
+        0.995,
+        0.68,
+        0.99,
+        0.595,
+        0.875,
+        0.955
+      ]
+    },
+    {
+      "trial": 1,
+      "forward_mm": 0.7068030244311231,
+      "steps_per_leg": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      "walking_pass": false,
+      "muscle_count": 78,
+      "max_muscle_excitation": 0.8796178698539734,
+      "max_muscle_force": 330.45421999574563,
+      "contact_fraction_by_leg": [
+        0.995,
+        0.68,
+        0.99,
+        0.595,
+        0.875,
+        0.955
+      ]
+    }
+  ],
+  "checks": {
+    "source_732_motor_ids_exact": true,
+    "actual_failure_reproduced_twice": true,
+    "old_forward_mm_reproduced": true,
+    "old_step_counts_reproduced": true,
+    "two_runs_identical": true,
+    "actual_muscle_force_nonzero": true
+  },
+  "passed": true
+}

@@ -1,0 +1,703 @@
+{
+  "date": "2026-09-23",
+  "scope": "Inverse-dynamics teacher from real official 800 Hz running kinematics on the pinned official v1 body; not a muscle model, ground-force measurement, motor-neuron controller, or autonomous simulation.",
+  "source": {
+    "paper": "https://www.biorxiv.org/content/10.64898/2026.05.03.722293v2",
+    "dataset_folder": "https://drive.google.com/drive/folders/1flBiyFmJYWPA6EIN4Xoh_2Lc5VT2_AoV?usp=sharing",
+    "subset_file": "data/official-3d-kinematics-20260916/running-reference-subset.h5",
+    "subset_sha256": "817f46cec0121c5fe07bad6bfcf0919e0630a854817937752c179bbc98858815",
+    "model_file": "work/upstream-20260923/3d_tracking_ik/model/fruitfly_v1/fruitfly_v1_free.xml",
+    "model_commit": "defdb66932a17e41c8852f3b4c5056bee74046eb"
+  },
+  "method": {
+    "sampling_hz": 800.0,
+    "filter": {
+      "kind": "cubic Savitzky-Golay on qpos, quaternion normalization, MuJoCo central manifold difference, second Savitzky-Golay on qvel and derivative",
+      "window_frames": 9,
+      "window_ms": 11.25,
+      "polyorder": 3,
+      "discarded_edge_frames_per_side": 8
+    },
+    "inverse_equation": "qfrc_inverse = M(q) qacc + qfrc_bias - qfrc_passive - qfrc_constraint",
+    "projection": "orthogonal least-squares projection of generalized inverse force onto actuator moment columns",
+    "bounded_projection": "same actuator force clipped through the source XML ctrlrange and gainprm",
+    "root_wrench_interpretation": "required unmeasured environment wrench in a floorless IK model; not an identified ground-reaction force",
+    "collision_policy": "all source collision geoms disabled in the inverse-dynamics analysis copy because the source XML explicitly says they are overlap detectors for forward-kinematics IK and are not inert in dynamics",
+    "units": "native source MuJoCo units; length model unit is 0.1 mm according to the source geometry scaling"
+  },
+  "teacher": {
+    "file": "results/official-running-inverse-dynamics-20260923/teacher.npz",
+    "sha256": "95da0df2fdae0e46e21678210b79ca359a06f0565d7d40ee01666efd7cb43189",
+    "source_bouts": 18,
+    "source_frames": 6863,
+    "teacher_frames": 6575,
+    "discarded_edge_frames": 288,
+    "nq": 93,
+    "nv": 92,
+    "nu": 56,
+    "leg_actuators": 48,
+    "leg_dofs_touched": 66,
+    "leg_actuator_rank": 48,
+    "root_actuator_columns": []
+  },
+  "results": {
+    "leg_projection": {
+      "target_rms_native": 0.08675435636967826,
+      "residual_rms_native": 0.005497475013471146,
+      "relative_residual_l2": 0.06336828769779891,
+      "norm_coverage": 0.9366317123022011,
+      "energy_explained_fraction": 0.995984460114249
+    },
+    "bounded_leg_projection": {
+      "target_rms_native": 0.08675435636967826,
+      "residual_rms_native": 0.00788450600392949,
+      "relative_residual_l2": 0.09088311335435396,
+      "norm_coverage": 0.909116886645646,
+      "energy_explained_fraction": 0.9917402597070196
+    },
+    "leg_control_clip_fraction": 0.0008681875792141951,
+    "per_leg_actuator_clip_fraction": {
+      "coxa_abduct_T1_left": 0.0,
+      "coxa_twist_T1_left": 0.0,
+      "coxa_T1_left": 0.0,
+      "femur_T1_left": 0.0,
+      "femur_twist_T1_left": 0.0,
+      "tibia_T1_left": 0.0,
+      "tarsus_T1_left": 0.0,
+      "tarsus2_T1_left": 0.0,
+      "coxa_abduct_T1_right": 0.0,
+      "coxa_twist_T1_right": 0.0,
+      "coxa_T1_right": 0.0,
+      "femur_T1_right": 0.0,
+      "femur_twist_T1_right": 0.0,
+      "tibia_T1_right": 0.0,
+      "tarsus_T1_right": 0.0,
+      "tarsus2_T1_right": 0.0,
+      "coxa_abduct_T2_left": 0.0,
+      "coxa_twist_T2_left": 0.0,
+      "coxa_T2_left": 0.0,
+      "femur_T2_left": 0.0,
+      "femur_twist_T2_left": 0.0,
+      "tibia_T2_left": 0.0,
+      "tarsus_T2_left": 0.0,
+      "tarsus2_T2_left": 0.0,
+      "coxa_abduct_T2_right": 0.0,
+      "coxa_twist_T2_right": 0.0,
+      "coxa_T2_right": 0.0,
+      "femur_T2_right": 0.0,
+      "femur_twist_T2_right": 0.0,
+      "tibia_T2_right": 0.0,
+      "tarsus_T2_right": 0.0,
+      "tarsus2_T2_right": 0.0,
+      "coxa_abduct_T3_left": 0.0,
+      "coxa_twist_T3_left": 0.0,
+      "coxa_T3_left": 0.0,
+      "femur_T3_left": 0.02114068441064639,
+      "femur_twist_T3_left": 0.0,
+      "tibia_T3_left": 0.0,
+      "tarsus_T3_left": 0.0,
+      "tarsus2_T3_left": 0.0,
+      "coxa_abduct_T3_right": 0.0,
+      "coxa_twist_T3_right": 0.0,
+      "coxa_T3_right": 0.0,
+      "femur_T3_right": 0.02053231939163498,
+      "femur_twist_T3_right": 0.0,
+      "tibia_T3_right": 0.0,
+      "tarsus_T3_right": 0.0,
+      "tarsus2_T3_right": 0.0
+    },
+    "root_required_wrench_rms_native": 0.40608386419838866,
+    "root_required_wrench_peak_abs_native": 1.3798740789412887,
+    "filtered_pose_body_error_mm": {
+      "rms": 0.008410088133944867,
+      "p95": 0.016537473748997823,
+      "maximum": 0.2160951121592899
+    },
+    "maximum_constraint_force_native": 0.8448512197808151,
+    "maximum_simultaneous_constraints": 3,
+    "maximum_contacts": 0,
+    "constraint_type_counts": {
+      "3": 8795
+    },
+    "native_ik_collision_audit": {
+      "source_collision_geoms": 17,
+      "teacher_frames_audited": 6575,
+      "frames_with_self_contact": 6575,
+      "self_contact_frame_fraction": 1.0,
+      "maximum_simultaneous_contacts": 21,
+      "inverse_force_delta_rms_native": 217.72477395011109,
+      "inverse_force_delta_peak_abs_native": 2002.3194116154925,
+      "top_contact_pairs": {
+        "abdomen_collision | wing_left_membrane_collision": 6575,
+        "abdomen_2_collision | wing_left_membrane_collision": 6575,
+        "abdomen_3_collision | wing_left_membrane_collision": 6575,
+        "abdomen_collision | wing_right_membrane_collision": 6575,
+        "abdomen_2_collision | wing_right_brown_collision": 6575,
+        "abdomen_2_collision | wing_right_membrane_collision": 6575,
+        "abdomen_3_collision | wing_right_membrane_collision": 6575,
+        "abdomen_2_collision | wing_left_brown_collision": 6562,
+        "abdomen_4_collision | wing_left_membrane_collision": 6533,
+        "abdomen_4_collision | wing_right_membrane_collision": 6482,
+        "abdomen_3_collision | wing_left_brown_collision": 6464,
+        "abdomen_3_collision | wing_right_brown_collision": 6319,
+        "abdomen_5_collision | wing_left_membrane_collision": 6211,
+        "abdomen_5_collision | wing_right_membrane_collision": 6036,
+        "abdomen_6_collision | wing_left_membrane_collision": 4399,
+        "abdomen_6_collision | wing_right_membrane_collision": 4155,
+        "abdomen_7_collision | wing_right_membrane_collision": 1912,
+        "abdomen_7_collision | wing_left_membrane_collision": 1744,
+        "abdomen_collision | wing_right_brown_collision": 642,
+        "abdomen_4_collision | wing_right_brown_collision": 457
+      },
+      "interpretation": "These are internal mesh/overlap-detector contacts in a model with no floor plane; using them as walking contact would corrupt the teacher."
+    },
+    "inverse_identity_max_abs_error": 2.220446049250313e-16,
+    "by_split": {
+      "train": {
+        "teacher_frames": 3708,
+        "source_flies": 12,
+        "leg_projection": {
+          "target_rms_native": 0.08983331308349067,
+          "residual_rms_native": 0.006192019414843924,
+          "relative_residual_l2": 0.06892787544292271,
+          "norm_coverage": 0.9310721245570773,
+          "energy_explained_fraction": 0.995248947986925
+        },
+        "bounded_leg_projection": {
+          "target_rms_native": 0.08983331308349067,
+          "residual_rms_native": 0.0075014823388883595,
+          "relative_residual_l2": 0.08350446044349401,
+          "norm_coverage": 0.916495539556506,
+          "energy_explained_fraction": 0.9930270050860409
+        }
+      },
+      "validation": {
+        "teacher_frames": 978,
+        "source_flies": 3,
+        "leg_projection": {
+          "target_rms_native": 0.11020784662060157,
+          "residual_rms_native": 0.005653044170990096,
+          "relative_residual_l2": 0.0512943891413749,
+          "norm_coverage": 0.9487056108586251,
+          "energy_explained_fraction": 0.9973688856426132
+        },
+        "bounded_leg_projection": {
+          "target_rms_native": 0.11020784662060157,
+          "residual_rms_native": 0.010917013510609473,
+          "relative_residual_l2": 0.0990584050534267,
+          "norm_coverage": 0.9009415949465733,
+          "energy_explained_fraction": 0.9901874323882712
+        }
+      },
+      "test": {
+        "teacher_frames": 1889,
+        "source_flies": 3,
+        "leg_projection": {
+          "target_rms_native": 0.06377622300752452,
+          "residual_rms_native": 0.003658858052972881,
+          "relative_residual_l2": 0.05737025305718085,
+          "norm_coverage": 0.9426297469428191,
+          "energy_explained_fraction": 0.996708654064155
+        },
+        "bounded_leg_projection": {
+          "target_rms_native": 0.06377622300752452,
+          "residual_rms_native": 0.006649394104581943,
+          "relative_residual_l2": 0.10426133425614478,
+          "norm_coverage": 0.8957386657438552,
+          "energy_explained_fraction": 0.9891295741791285
+        }
+      }
+    },
+    "by_bout": [
+      {
+        "bout_key": "bout_0050",
+        "split": "validation",
+        "source_frames": 494,
+        "teacher_frames": 478,
+        "leg_projection": {
+          "target_rms_native": 0.1297661599965456,
+          "residual_rms_native": 0.006323213529210949,
+          "relative_residual_l2": 0.048727754056830185,
+          "norm_coverage": 0.9512722459431698,
+          "energy_explained_fraction": 0.9976256059845771
+        },
+        "bounded_leg_projection": {
+          "target_rms_native": 0.1297661599965456,
+          "residual_rms_native": 0.012573246316784838,
+          "relative_residual_l2": 0.09689156492817189,
+          "norm_coverage": 0.9031084350718281,
+          "energy_explained_fraction": 0.9906120246457698
+        },
+        "leg_control_clip_fraction": 0.004053347280334728
+      },
+      {
+        "bout_key": "bout_0144",
+        "split": "validation",
+        "source_frames": 205,
+        "teacher_frames": 189,
+        "leg_projection": {
+          "target_rms_native": 0.11334254935520983,
+          "residual_rms_native": 0.007029495584057398,
+          "relative_residual_l2": 0.06201991771005004,
+          "norm_coverage": 0.93798008228995,
+          "energy_explained_fraction": 0.9961535298072386
+        },
+        "bounded_leg_projection": {
+          "target_rms_native": 0.11334254935520983,
+          "residual_rms_native": 0.014215105113098297,
+          "relative_residual_l2": 0.12541719940098467,
+          "norm_coverage": 0.8745828005990153,
+          "energy_explained_fraction": 0.9842705260944137
+        },
+        "leg_control_clip_fraction": 0.002976190476190476
+      },
+      {
+        "bout_key": "bout_0209",
+        "split": "test",
+        "source_frames": 1341,
+        "teacher_frames": 1325,
+        "leg_projection": {
+          "target_rms_native": 0.040407517164637634,
+          "residual_rms_native": 0.0020491153587187372,
+          "relative_residual_l2": 0.05071124143484883,
+          "norm_coverage": 0.9492887585651512,
+          "energy_explained_fraction": 0.9974283699921365
+        },
+        "bounded_leg_projection": {
+          "target_rms_native": 0.040407517164637634,
+          "residual_rms_native": 0.0020491153587187372,
+          "relative_residual_l2": 0.05071124143484883,
+          "norm_coverage": 0.9492887585651512,
+          "energy_explained_fraction": 0.9974283699921365
+        },
+        "leg_control_clip_fraction": 0.0
+      },
+      {
+        "bout_key": "bout_0242",
+        "split": "train",
+        "source_frames": 284,
+        "teacher_frames": 268,
+        "leg_projection": {
+          "target_rms_native": 0.07499722235167937,
+          "residual_rms_native": 0.004322723568609688,
+          "relative_residual_l2": 0.0576384489060066,
+          "norm_coverage": 0.9423615510939934,
+          "energy_explained_fraction": 0.9966778092077097
+        },
+        "bounded_leg_projection": {
+          "target_rms_native": 0.07499722235167937,
+          "residual_rms_native": 0.004339413178981764,
+          "relative_residual_l2": 0.05786098528600498,
+          "norm_coverage": 0.942139014713995,
+          "energy_explained_fraction": 0.9966521063817327
+        },
+        "leg_control_clip_fraction": 0.0003109452736318408
+      },
+      {
+        "bout_key": "bout_0325",
+        "split": "test",
+        "source_frames": 164,
+        "teacher_frames": 148,
+        "leg_projection": {
+          "target_rms_native": 0.16167011859517502,
+          "residual_rms_native": 0.010462301944873053,
+          "relative_residual_l2": 0.0647138879824221,
+          "norm_coverage": 0.9352861120175779,
+          "energy_explained_fraction": 0.9958121127021985
+        },
+        "bounded_leg_projection": {
+          "target_rms_native": 0.16167011859517502,
+          "residual_rms_native": 0.022425947962575122,
+          "relative_residual_l2": 0.13871424204698032,
+          "norm_coverage": 0.8612857579530196,
+          "energy_explained_fraction": 0.9807583590533318
+        },
+        "leg_control_clip_fraction": 0.005349099099099099
+      },
+      {
+        "bout_key": "bout_0412",
+        "split": "train",
+        "source_frames": 814,
+        "teacher_frames": 798,
+        "leg_projection": {
+          "target_rms_native": 0.05734992473383498,
+          "residual_rms_native": 0.002767627045689773,
+          "relative_residual_l2": 0.04825859944079307,
+          "norm_coverage": 0.951741400559207,
+          "energy_explained_fraction": 0.9976711075800131
+        },
+        "bounded_leg_projection": {
+          "target_rms_native": 0.05734992473383498,
+          "residual_rms_native": 0.0027994007050124643,
+          "relative_residual_l2": 0.04881263084484729,
+          "norm_coverage": 0.9511873691551527,
+          "energy_explained_fraction": 0.9976173270700046
+        },
+        "leg_control_clip_fraction": 0.00010442773600668337
+      },
+      {
+        "bout_key": "bout_0558",
+        "split": "train",
+        "source_frames": 184,
+        "teacher_frames": 168,
+        "leg_projection": {
+          "target_rms_native": 0.1101892546233484,
+          "residual_rms_native": 0.007773859505643077,
+          "relative_residual_l2": 0.07055006889933028,
+          "norm_coverage": 0.9294499311006698,
+          "energy_explained_fraction": 0.9950226877782997
+        },
+        "bounded_leg_projection": {
+          "target_rms_native": 0.1101892546233484,
+          "residual_rms_native": 0.0077892090653288865,
+          "relative_residual_l2": 0.07068937068277802,
+          "norm_coverage": 0.929310629317222,
+          "energy_explained_fraction": 0.9950030128724728
+        },
+        "leg_control_clip_fraction": 0.000248015873015873
+      },
+      {
+        "bout_key": "bout_0571",
+        "split": "train",
+        "source_frames": 147,
+        "teacher_frames": 131,
+        "leg_projection": {
+          "target_rms_native": 0.09104640714841106,
+          "residual_rms_native": 0.010140026908414881,
+          "relative_residual_l2": 0.11137207085927109,
+          "norm_coverage": 0.8886279291407289,
+          "energy_explained_fraction": 0.9875962618325175
+        },
+        "bounded_leg_projection": {
+          "target_rms_native": 0.09104640714841106,
+          "residual_rms_native": 0.010140026908414881,
+          "relative_residual_l2": 0.11137207085927109,
+          "norm_coverage": 0.8886279291407289,
+          "energy_explained_fraction": 0.9875962618325175
+        },
+        "leg_control_clip_fraction": 0.0
+      },
+      {
+        "bout_key": "bout_0778",
+        "split": "train",
+        "source_frames": 217,
+        "teacher_frames": 201,
+        "leg_projection": {
+          "target_rms_native": 0.08713131257148862,
+          "residual_rms_native": 0.004194112311784759,
+          "relative_residual_l2": 0.048135534608681765,
+          "norm_coverage": 0.9518644653913182,
+          "energy_explained_fraction": 0.9976829703079364
+        },
+        "bounded_leg_projection": {
+          "target_rms_native": 0.08713131257148862,
+          "residual_rms_native": 0.005156274462781468,
+          "relative_residual_l2": 0.05917820253827692,
+          "norm_coverage": 0.9408217974617231,
+          "energy_explained_fraction": 0.9964979403443387
+        },
+        "leg_control_clip_fraction": 0.0005182421227197347
+      },
+      {
+        "bout_key": "bout_0874",
+        "split": "train",
+        "source_frames": 208,
+        "teacher_frames": 192,
+        "leg_projection": {
+          "target_rms_native": 0.1570909956315982,
+          "residual_rms_native": 0.013901946909891006,
+          "relative_residual_l2": 0.08849614106777415,
+          "norm_coverage": 0.9115038589322259,
+          "energy_explained_fraction": 0.9921684330161126
+        },
+        "bounded_leg_projection": {
+          "target_rms_native": 0.1570909956315982,
+          "residual_rms_native": 0.019199054702595073,
+          "relative_residual_l2": 0.12221613737568841,
+          "norm_coverage": 0.8777838626243116,
+          "energy_explained_fraction": 0.9850632157649668
+        },
+        "leg_control_clip_fraction": 0.0037977430555555555
+      },
+      {
+        "bout_key": "bout_0941",
+        "split": "train",
+        "source_frames": 200,
+        "teacher_frames": 184,
+        "leg_projection": {
+          "target_rms_native": 0.12833705961887112,
+          "residual_rms_native": 0.008665702236774635,
+          "relative_residual_l2": 0.06752299189734903,
+          "norm_coverage": 0.932477008102651,
+          "energy_explained_fraction": 0.9954406455652305
+        },
+        "bounded_leg_projection": {
+          "target_rms_native": 0.12833705961887112,
+          "residual_rms_native": 0.01330711858633144,
+          "relative_residual_l2": 0.10368882243250892,
+          "norm_coverage": 0.8963111775674911,
+          "energy_explained_fraction": 0.9892486281025596
+        },
+        "leg_control_clip_fraction": 0.0038496376811594205
+      },
+      {
+        "bout_key": "bout_0973",
+        "split": "train",
+        "source_frames": 256,
+        "teacher_frames": 240,
+        "leg_projection": {
+          "target_rms_native": 0.08609518365481375,
+          "residual_rms_native": 0.00592369610899048,
+          "relative_residual_l2": 0.06880403592308584,
+          "norm_coverage": 0.9311959640769142,
+          "energy_explained_fraction": 0.9952660046406947
+        },
+        "bounded_leg_projection": {
+          "target_rms_native": 0.08609518365481375,
+          "residual_rms_native": 0.00792459722103896,
+          "relative_residual_l2": 0.09204460557063786,
+          "norm_coverage": 0.9079553944293621,
+          "energy_explained_fraction": 0.9915277905853457
+        },
+        "leg_control_clip_fraction": 0.0008680555555555555
+      },
+      {
+        "bout_key": "bout_1008",
+        "split": "train",
+        "source_frames": 606,
+        "teacher_frames": 590,
+        "leg_projection": {
+          "target_rms_native": 0.09250747131180381,
+          "residual_rms_native": 0.004933316258881164,
+          "relative_residual_l2": 0.05332884132410264,
+          "norm_coverage": 0.9466711586758974,
+          "energy_explained_fraction": 0.9971560346830287
+        },
+        "bounded_leg_projection": {
+          "target_rms_native": 0.09250747131180381,
+          "residual_rms_native": 0.004933316258881164,
+          "relative_residual_l2": 0.05332884132410264,
+          "norm_coverage": 0.9466711586758974,
+          "energy_explained_fraction": 0.9971560346830287
+        },
+        "leg_control_clip_fraction": 0.0
+      },
+      {
+        "bout_key": "bout_1205",
+        "split": "validation",
+        "source_frames": 327,
+        "teacher_frames": 311,
+        "leg_projection": {
+          "target_rms_native": 0.06712763665057203,
+          "residual_rms_native": 0.00300201360523437,
+          "relative_residual_l2": 0.04472097864641252,
+          "norm_coverage": 0.9552790213535874,
+          "energy_explained_fraction": 0.9980000340689071
+        },
+        "bounded_leg_projection": {
+          "target_rms_native": 0.06712763665057203,
+          "residual_rms_native": 0.00300201360523437,
+          "relative_residual_l2": 0.04472097864641252,
+          "norm_coverage": 0.9552790213535874,
+          "energy_explained_fraction": 0.9980000340689071
+        },
+        "leg_control_clip_fraction": 0.0
+      },
+      {
+        "bout_key": "bout_1250",
+        "split": "test",
+        "source_frames": 432,
+        "teacher_frames": 416,
+        "leg_projection": {
+          "target_rms_native": 0.0630095500289108,
+          "residual_rms_native": 0.0029109161740947915,
+          "relative_residual_l2": 0.046198015582704054,
+          "norm_coverage": 0.9538019844172959,
+          "energy_explained_fraction": 0.9978657433562202
+        },
+        "bounded_leg_projection": {
+          "target_rms_native": 0.0630095500289108,
+          "residual_rms_native": 0.0029109161740947915,
+          "relative_residual_l2": 0.046198015582704054,
+          "norm_coverage": 0.9538019844172959,
+          "energy_explained_fraction": 0.9978657433562202
+        },
+        "leg_control_clip_fraction": 0.0
+      },
+      {
+        "bout_key": "bout_1389",
+        "split": "train",
+        "source_frames": 219,
+        "teacher_frames": 203,
+        "leg_projection": {
+          "target_rms_native": 0.06502578651590574,
+          "residual_rms_native": 0.003721021761986379,
+          "relative_residual_l2": 0.05722378707524271,
+          "norm_coverage": 0.9427762129247573,
+          "energy_explained_fraction": 0.9967254381927673
+        },
+        "bounded_leg_projection": {
+          "target_rms_native": 0.06502578651590574,
+          "residual_rms_native": 0.003721021761986379,
+          "relative_residual_l2": 0.05722378707524271,
+          "norm_coverage": 0.9427762129247573,
+          "energy_explained_fraction": 0.9967254381927673
+        },
+        "leg_control_clip_fraction": 0.0
+      },
+      {
+        "bout_key": "bout_1525",
+        "split": "train",
+        "source_frames": 254,
+        "teacher_frames": 238,
+        "leg_projection": {
+          "target_rms_native": 0.0850594771238608,
+          "residual_rms_native": 0.004067812835418938,
+          "relative_residual_l2": 0.047823158253083586,
+          "norm_coverage": 0.9521768417469164,
+          "energy_explained_fraction": 0.9977129455347005
+        },
+        "bounded_leg_projection": {
+          "target_rms_native": 0.0850594771238608,
+          "residual_rms_native": 0.004067812835418938,
+          "relative_residual_l2": 0.047823158253083586,
+          "norm_coverage": 0.9521768417469164,
+          "energy_explained_fraction": 0.9977129455347005
+        },
+        "leg_control_clip_fraction": 0.0
+      },
+      {
+        "bout_key": "bout_2130",
+        "split": "train",
+        "source_frames": 511,
+        "teacher_frames": 495,
+        "leg_projection": {
+          "target_rms_native": 0.0894766818805458,
+          "residual_rms_native": 0.006880915318652526,
+          "relative_residual_l2": 0.07690177121050114,
+          "norm_coverage": 0.9230982287894989,
+          "energy_explained_fraction": 0.9940861175846878
+        },
+        "bounded_leg_projection": {
+          "target_rms_native": 0.0894766818805458,
+          "residual_rms_native": 0.007629877793367876,
+          "relative_residual_l2": 0.08527224784166677,
+          "norm_coverage": 0.9147277521583332,
+          "energy_explained_fraction": 0.9927286437480294
+        },
+        "leg_control_clip_fraction": 0.000925925925925926
+      }
+    ],
+    "filter_sensitivity": [
+      {
+        "split": "validation",
+        "bout_key": "bout_0050",
+        "window_frames": 7,
+        "window_ms": 8.75,
+        "leg_force_rms_native": 0.15408279750857828,
+        "correlation_with_9_frame_teacher": 0.9967594422164088
+      },
+      {
+        "split": "validation",
+        "bout_key": "bout_0050",
+        "window_frames": 9,
+        "window_ms": 11.25,
+        "leg_force_rms_native": 0.151555966139597,
+        "correlation_with_9_frame_teacher": 1.0
+      },
+      {
+        "split": "validation",
+        "bout_key": "bout_0050",
+        "window_frames": 13,
+        "window_ms": 16.25,
+        "leg_force_rms_native": 0.1466959941910323,
+        "correlation_with_9_frame_teacher": 0.9917372734237012
+      },
+      {
+        "split": "test",
+        "bout_key": "bout_0209",
+        "window_frames": 7,
+        "window_ms": 8.75,
+        "leg_force_rms_native": 0.04785801108523922,
+        "correlation_with_9_frame_teacher": 0.9958581665222402
+      },
+      {
+        "split": "test",
+        "bout_key": "bout_0209",
+        "window_frames": 9,
+        "window_ms": 11.25,
+        "leg_force_rms_native": 0.047116238220590495,
+        "correlation_with_9_frame_teacher": 0.9999999999999999
+      },
+      {
+        "split": "test",
+        "bout_key": "bout_0209",
+        "window_frames": 13,
+        "window_ms": 16.25,
+        "leg_force_rms_native": 0.04603383060782601,
+        "correlation_with_9_frame_teacher": 0.9922821589350953
+      },
+      {
+        "split": "train",
+        "bout_key": "bout_0242",
+        "window_frames": 7,
+        "window_ms": 8.75,
+        "leg_force_rms_native": 0.088902411095342,
+        "correlation_with_9_frame_teacher": 0.9955591866367106
+      },
+      {
+        "split": "train",
+        "bout_key": "bout_0242",
+        "window_frames": 9,
+        "window_ms": 11.25,
+        "leg_force_rms_native": 0.0873742299673536,
+        "correlation_with_9_frame_teacher": 1.0
+      },
+      {
+        "split": "train",
+        "bout_key": "bout_0242",
+        "window_frames": 13,
+        "window_ms": 16.25,
+        "leg_force_rms_native": 0.08529084854308601,
+        "correlation_with_9_frame_teacher": 0.9905743019706077
+      }
+    ]
+  },
+  "checks": {
+    "all_teacher_arrays_finite": true,
+    "real_source_subset_hash_matches_manifest": true,
+    "all_18_real_bouts_contribute": true,
+    "whole_fly_splits_preserved": true,
+    "source_body_actuator_rank_56": true,
+    "leg_actuator_rank_48": true,
+    "no_actuator_has_root_authority": true,
+    "actuator_columns_are_orthogonal": true,
+    "actuator_moment_constant_on_source_poses": true,
+    "no_hidden_applied_or_external_force": true,
+    "analysis_copy_disables_ik_only_collisions": true,
+    "analysis_has_no_contacts": true,
+    "native_ik_collision_audit_detects_self_overlap": true,
+    "joint_limit_constraint_is_explicitly_saved": true,
+    "inverse_equation_reconstructs": true,
+    "filtered_pose_remains_source_close": true,
+    "unbounded_leg_projection_relative_residual_below_10pct": true,
+    "bounded_leg_projection_relative_residual_below_20pct": true
+  },
+  "passed": true,
+  "classification": {
+    "A0_real_kinematic_reference": "pass",
+    "A0_source_body_inverse_dynamics_teacher": "pass",
+    "A1_source_aligned_six_leg_muscle_body": "incomplete",
+    "A2_motor_neuron_to_muscle_recruitment": "incomplete",
+    "A3_autonomous_walking": "incomplete"
+  },
+  "limits": [
+    "The public running file supplies kinematics, not measured leg muscle activation, motor-neuron recruitment, or force-plate contact forces.",
+    "The pinned public v1 body has direct joint/tendon actuators, no muscle activation states, and no floor geom.",
+    "The native IK XML generates internal self-contacts in dynamics even though its own comment says contact was inert during IK; the teacher disables those detector collisions and records a separate contamination audit.",
+    "Source joint-limit constraints can be active; their generalized force is saved separately and is not labelled as a ground reaction.",
+    "Root wrench is retained only as a missing-environment diagnostic and is never exported as an allowable locomotion actuator.",
+    "The 48 leg controls are teacher targets for the next muscle and neural mapping stage; replaying them would be imitation, not autonomy."
+  ],
+  "goal_complete": false
+}

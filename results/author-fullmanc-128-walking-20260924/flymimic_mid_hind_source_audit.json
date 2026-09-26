@@ -1,0 +1,78 @@
+{
+  "paper": "https://gizemozd.github.io/assets/pdf/2026_ozdil_ning_ICLR.pdf",
+  "paper_sha256": "a136ef38a227eae78ab896846d57a2076734d42412ea9f4ea0e37f525fedd4b8",
+  "supplement_pdf_page_1based": 16,
+  "code": "https://github.com/gizemozd/FlyMimic",
+  "code_commit": "9ea1131626cd76f7203b74076ef8f0e9cab30bef",
+  "code_tree_sha256": "85d5d82a8af6b903fa58b8feb72905e7a553ecfb2f281e85ea2e14a144954e48",
+  "source_license": "Apache-2.0 for the code repository; paper redistribution rights not asserted",
+  "published_anatomical_MTU_per_middle_leg": 7,
+  "published_anatomical_MTU_per_hind_leg": 8,
+  "middle_hind_force_parameters_and_biomechanical_validation_in_this_release": false,
+  "official_OpenSim_paths": [
+    "flymimic/assets/models/opensim/best_combined.osim",
+    "flymimic/assets/models/opensim/best_combined_full.osim"
+  ],
+  "models": [
+    {
+      "file": "flymimic-ICLR2026-best_combined.osim",
+      "sha256": "091a173b9cfb26a64228935c6f6ebfc93c26a9425a0b5e5c1bb463c644cb89de",
+      "active_muscle_names": [
+        "LFC_tergopleural_promotor_a",
+        "LFC_tergopleural_promotor_b",
+        "LFC_pleural_remotor_and_abductor",
+        "LFC_pleural_promotor",
+        "LFC_sternal_anterior_rotator",
+        "LFC_sternal_posterior_rotator",
+        "LFC_sternal_adductor",
+        "LFF_trochanter_flexor_b",
+        "LFF_sterno-tergo-trochanter_extensor_a",
+        "LFF_sterno-tergo-trochanter_extensor_b",
+        "LFF_accesory_trochanter_flexor",
+        "LFF_trochanter_extensor",
+        "LFF_trochanter_flexor_a",
+        "LFTibia_flex_93434",
+        "LFTibia_extensor_93932"
+      ],
+      "active_muscle_count": 15,
+      "left_front_names": 15,
+      "middle_or_hind_names": 0
+    },
+    {
+      "file": "flymimic-ICLR2026-best_combined_full.osim",
+      "sha256": "35cf098309a88c20cf3339dc7d7c83facc615cbac2ee75af71112db472e54707",
+      "active_muscle_names": [
+        "LFC_tergopleural_promotor_a",
+        "LFC_tergopleural_promotor_b",
+        "LFC_pleural_remotor_and_abductor",
+        "LFC_pleural_promotor",
+        "LFC_sternal_anterior_rotator",
+        "LFC_sternal_posterior_rotator",
+        "LFC_sternal_adductor",
+        "LFF_trochanter_flexor_b",
+        "LFF_sterno-tergo-trochanter_extensor_a",
+        "LFF_sterno-tergo-trochanter_extensor_b",
+        "LFF_accesory_trochanter_flexor",
+        "LFF_trochanter_extensor",
+        "LFF_trochanter_flexor_a",
+        "LFTibia_flex_93434",
+        "LFTibia_extensor_93932"
+      ],
+      "active_muscle_count": 15,
+      "left_front_names": 15,
+      "middle_or_hind_names": 0
+    }
+  ],
+  "conclusion": "The paper reports unoptimized mid/hind anatomical MTUs, but the complete official code tree's two OpenSim model files expose only 15 active left-front muscles. It does not provide a ready full-six-leg calibrated muscle body.",
+  "checks": {
+    "supplement_A1_mid_and_hind_anatomy": true,
+    "seven_MTU_each_middle_leg": true,
+    "eight_MTU_each_hind_leg": true,
+    "not_optimized_for_motor_behavior": true,
+    "github_tree_exact_commit_and_not_truncated": true,
+    "official_tree_has_two_OpenSim_models": true,
+    "released_OpenSim_models_each_only_15_front_muscles": true,
+    "released_OpenSim_models_have_no_mid_hind_active_muscles": true
+  },
+  "passed": true
+}

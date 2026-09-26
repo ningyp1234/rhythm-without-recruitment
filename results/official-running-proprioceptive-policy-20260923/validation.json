@@ -1,0 +1,40 @@
+{
+  "passed": 13,
+  "total": 13,
+  "all_checks_pass": true,
+  "checks": {
+    "report_integrity_passes": true,
+    "checkpoint_hash_matches": true,
+    "trajectory_hash_matches": true,
+    "checkpoint_dimensions_match_report": true,
+    "checkpoint_contains_GRU_and_readout": true,
+    "whole_fly_split_is_12_3_3": true,
+    "runtime_prohibitions_explicit": true,
+    "heldout_offline_imitation_is_high": true,
+    "three_test_trajectories_saved_and_finite": true,
+    "closed_loop_covariate_shift_exposed": true,
+    "six_leg_cycle_gate_fails": true,
+    "direct_actuator_capacity_remains_incomplete": true,
+    "muscle_connectome_and_A3_not_claimed": true
+  },
+  "recomputed": {
+    "test_trajectory_bouts": [
+      "bout_0209",
+      "bout_0325",
+      "bout_1250"
+    ],
+    "test_offline_correlation": 0.9454954340432907,
+    "test_median_forward_ratio": 0.14134668306790693,
+    "test_median_body_floor_contact_fraction": 0.8890566037735849,
+    "minimum_cycles_per_leg": [
+      1,
+      1,
+      1,
+      2,
+      1,
+      1
+    ]
+  },
+  "classification": "offline imitation passes; teacher-free physical closed loop fails",
+  "goal_complete": false
+}
